@@ -1,0 +1,159 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Forms</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2> Customer Form </h2>
+                
+                <div class="mb-3">
+                    <label class="form-label"> Name:</label>
+                    <input type="text" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"> Address: </label>
+                    <textarea class="form-control"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Select Option:</label>
+                    <a class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"> Select Option</a>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="#"> Electonics </a></li>
+                            <li><a class="dropdown-item" href="#"> Books </a></li>
+                            <li><a class="dropdown-item" href="#"> Home Appliances </a></li>
+                            <li><a class="dropdown-item disabled" href="#"> Laptops </a></li>
+                            <li><a class="dropdown-item" href="#"> Mobiles </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"> Select City :</label>
+                    <select class="form-select">
+                        <option> Pune </option>
+                        <option> Mumbai </option>
+                        <option> Delhi </option>
+                        <option> Noida </option>
+                        <option> Chennai </option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"> Email ID:</label>
+                    <div class="input-group">
+                        <span class="input-group-text">@@</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                    
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"> Select OS:</label>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" />
+                        <label class="form-check-label"> Windows</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" />
+                        <label class="form-check-label"> Linux</label>
+                    </div>
+                    <input type="checkbox" class="form-check-input" />
+                    <label class="form-check-label"> Unix</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label"> Gender:</label>
+                    <div class="form-check">
+                        <input type="radio" name="rd" class="form-check-input" />
+                        <label class="form-check-label"> Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="rd" class="form-check-input" />
+                        <label class="form-check-label"> Female</label>
+                    </div>
+                    
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"> Is Active:</label>
+                    <div class="form-check form-switch">
+                         <input type="checkbox" class="form-check-input" />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"> Range:</label>
+                    <input type="range" class="form-range" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"> Mobile No:</label>
+                    <input type="text" class="form-control" />
+                </div>
+
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </div>
+
+        <div class="row">
+            <h2> Emp Form </h2>
+                <div class="mb-3 row text-end">
+                    <label class="form-label col-md-2"> Name:</label>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" />
+                    </div>
+                </div>
+            <div class="row text-end mb-3">
+                <label class="form-label col-md-2">Dept Name:</label>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <div class="row mb-3 text-end">
+                <label class="form-label col-md-2">Salary:</label>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Save" class="btn btn-danger" />
+            </div>
+        </div>
+
+        <div class="row">
+            <h2> Inline Form </h2>
+            <form>
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <label>Name:</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="col-auto">
+                        <label>Email:</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="col-auto">
+                        <label>Password:</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="col-auto">
+                         <input type="submit" value="Save" class="btn btn-danger" />
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+        <br />
+        <br />
+    </div>
+
+</body>
+</html>

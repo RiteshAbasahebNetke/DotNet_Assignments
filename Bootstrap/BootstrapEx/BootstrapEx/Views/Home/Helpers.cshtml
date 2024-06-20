@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Helpers</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-12">
+                 @Html.ActionLink("Go to Index", "Index", "Home",new {@class="btn btn-danger" }) <br />
+                Enter Name:@Html.TextBox("Name",null,new {@class="form-control"}) <br />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

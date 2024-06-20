@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cards</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="container">  
+        <div class="row">
+             <div class="col-md-12">
+                 <a href="#dv" data-bs-toggle="collapse"> Hide/Show</a>
+                 <button data-bs-target="#dv" data-bs-toggle="collapse"> click </button>
+                 <div id="dv" class="collapse">
+                     This is content of div used to demo<br />
+                     This is content of div used to demo<br />
+                     This is content of div used to demo<br />
+                     This is content of div used to demo<br />
+                 </div>
+             </div>
+        </div>
+         <div class="row">
+             <div class="col-md-12">
+                  <h2> Cards </h2>
+
+                  <div class="card">
+                      <div class="card-header bg-success">
+                           <h2> Card Heading</h2>
+
+                      </div>
+                      <div class="card-body">
+                          This is card content<br />
+                          This is card content<br />
+                          This is card content<br />
+                          This is card content<br />
+                      </div>
+                      <div class="card-footer bg-danger text-light">
+                           This is footer
+                      </div>
+                  </div>
+             </div>
+         </div>
+    </div>
+</body>
+</html>
