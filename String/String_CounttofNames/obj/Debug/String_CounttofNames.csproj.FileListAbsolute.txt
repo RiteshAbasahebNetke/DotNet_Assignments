@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\String_CounttofNames\bin\Debug\String_CounttofNames.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\String_CounttofNames\bin\Debug\String_CounttofNames.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\String_CounttofNames\bin\Debug\String_CounttofNames.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\String_CounttofNames\obj\Debug\String_CounttofNames.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\String_CounttofNames\obj\Debug\String_CounttofNames.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\String_CounttofNames\obj\Debug\String_CounttofNames.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\String_CounttofNames\obj\Debug\String_CounttofNames.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\String_CounttofNames\obj\Debug\String_CounttofNames.pdb

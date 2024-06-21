@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\String1\bin\Debug\String1.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\String1\bin\Debug\String1.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\String1\bin\Debug\String1.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\String1\obj\Debug\String1.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\String1\obj\Debug\String1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\String1\obj\Debug\String1.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\String1\obj\Debug\String1.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\String1\obj\Debug\String1.pdb

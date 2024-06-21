@@ -1,0 +1,16 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\String\bin\Debug\String.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\String\bin\Debug\String.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\String\bin\Debug\String.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\String\obj\Debug\String.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\String\obj\Debug\String.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\String\obj\Debug\String.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\String\obj\Debug\String.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\String\obj\Debug\String.pdb
+C:\Users\Ritesh\source\String_Examples\String\bin\Debug\String.exe.config
+C:\Users\Ritesh\source\String_Examples\String\bin\Debug\String.exe
+C:\Users\Ritesh\source\String_Examples\String\bin\Debug\String.pdb
+C:\Users\Ritesh\source\String_Examples\String\obj\Debug\String.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\String_Examples\String\obj\Debug\String.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\String_Examples\String\obj\Debug\String.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\String_Examples\String\obj\Debug\String.exe
+C:\Users\Ritesh\source\String_Examples\String\obj\Debug\String.pdb
