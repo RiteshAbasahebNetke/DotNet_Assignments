@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Events</title>
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            //$("#btn1").click(function () {
+            //    alert("Function Executed..!");
+            //});
+
+            //$("#btn2").click(function () {
+            //    alert("Second button Executed...!");
+            //});
+
+            $(":button").click(function () {
+                alert("Common for all button...!");
+            });
+
+            //$("div").mouseout(function () {
+            //    $(this).css("background-color", "yellow");
+            //});
+
+
+            $("div").mouseover(function () {
+                //$(this).css("background-color", "tomato");
+                $("div").css("background-color", "tomato");
+            })
+
+        });
+    </script>
+</head>
+<body>
+    <div style="background-color:blue;width:100px;height:50px;"> 
+    </div>
+    <input type="button" value="click" id="btn1" />
+    <input type="button" value="second" id="btn2" />
+    <input type="button" value="third" id="btn3" />
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DomMani1</title>
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            $("#btn1").click(function () {
+
+                //var v = $("div").attr('style');
+                //alert(v);
+
+                //$("div").attr("style", "background-color:skyblue;width:100px;height:200px");
+
+                var v = $("div").prop("style");
+                //alert(JSON.stringify(v));
+                //alert(v.backgroundColor);
+                alert(v.width);
+                alert(v.height);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div style="background-color:red;width:100px;height:100px;">
+        Welcome To Div
+    </div>
+    <input type="button" value="Click" id="btn1" />
+</body>
+</html>
