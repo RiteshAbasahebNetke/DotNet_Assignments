@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\Universal_Collection\bin\Debug\Universal_Collection.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\Universal_Collection\bin\Debug\Universal_Collection.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Universal_Collection\bin\Debug\Universal_Collection.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\Universal_Collection\obj\Debug\Universal_Collection.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Universal_Collection\obj\Debug\Universal_Collection.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Universal_Collection\obj\Debug\Universal_Collection.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Universal_Collection\obj\Debug\Universal_Collection.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Universal_Collection\obj\Debug\Universal_Collection.pdb

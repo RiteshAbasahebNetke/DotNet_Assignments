@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\GenericMultipleTypeEX\bin\Debug\GenericMultipleTypeEX.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\GenericMultipleTypeEX\bin\Debug\GenericMultipleTypeEX.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\GenericMultipleTypeEX\bin\Debug\GenericMultipleTypeEX.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\GenericMultipleTypeEX\obj\Debug\GenericMultipleTypeEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\GenericMultipleTypeEX\obj\Debug\GenericMultipleTypeEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\GenericMultipleTypeEX\obj\Debug\GenericMultipleTypeEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\GenericMultipleTypeEX\obj\Debug\GenericMultipleTypeEX.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\GenericMultipleTypeEX\obj\Debug\GenericMultipleTypeEX.pdb
