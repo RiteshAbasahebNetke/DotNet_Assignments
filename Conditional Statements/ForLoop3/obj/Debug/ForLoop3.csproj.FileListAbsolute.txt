@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\ForLoop3\obj\Debug\ForLoop3.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\ForLoop3\obj\Debug\ForLoop3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\ForLoop3\obj\Debug\ForLoop3.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\ForLoop3\bin\Debug\ForLoop3.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\ForLoop3\bin\Debug\ForLoop3.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\ForLoop3\bin\Debug\ForLoop3.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\ForLoop3\obj\Debug\ForLoop3.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\ForLoop3\obj\Debug\ForLoop3.pdb

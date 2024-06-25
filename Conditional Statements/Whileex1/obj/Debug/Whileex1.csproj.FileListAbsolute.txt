@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\Whileex1\bin\Debug\Whileex1.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\Whileex1\bin\Debug\Whileex1.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Whileex1\bin\Debug\Whileex1.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\Whileex1\obj\Debug\Whileex1.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Whileex1\obj\Debug\Whileex1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Whileex1\obj\Debug\Whileex1.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Whileex1\obj\Debug\Whileex1.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Whileex1\obj\Debug\Whileex1.pdb
