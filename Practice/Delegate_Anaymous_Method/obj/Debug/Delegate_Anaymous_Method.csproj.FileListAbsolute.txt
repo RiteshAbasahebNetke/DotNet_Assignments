@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\Delegate_Anaymous_Method\bin\Debug\Delegate_Anaymous_Method.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\Delegate_Anaymous_Method\bin\Debug\Delegate_Anaymous_Method.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Delegate_Anaymous_Method\bin\Debug\Delegate_Anaymous_Method.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\Delegate_Anaymous_Method\obj\Debug\Delegate_Anaymous_Method.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Delegate_Anaymous_Method\obj\Debug\Delegate_Anaymous_Method.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Delegate_Anaymous_Method\obj\Debug\Delegate_Anaymous_Method.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Delegate_Anaymous_Method\obj\Debug\Delegate_Anaymous_Method.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Delegate_Anaymous_Method\obj\Debug\Delegate_Anaymous_Method.pdb

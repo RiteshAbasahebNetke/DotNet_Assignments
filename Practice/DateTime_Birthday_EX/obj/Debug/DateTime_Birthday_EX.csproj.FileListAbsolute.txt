@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\DateTime_Birthday_EX\bin\Debug\DateTime_Birthday_EX.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\DateTime_Birthday_EX\bin\Debug\DateTime_Birthday_EX.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\DateTime_Birthday_EX\bin\Debug\DateTime_Birthday_EX.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\DateTime_Birthday_EX\obj\Debug\DateTime_Birthday_EX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\DateTime_Birthday_EX\obj\Debug\DateTime_Birthday_EX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\DateTime_Birthday_EX\obj\Debug\DateTime_Birthday_EX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\DateTime_Birthday_EX\obj\Debug\DateTime_Birthday_EX.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\DateTime_Birthday_EX\obj\Debug\DateTime_Birthday_EX.pdb

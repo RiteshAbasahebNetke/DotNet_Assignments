@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\DelegateEX\bin\Debug\DelegateEX.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\DelegateEX\bin\Debug\DelegateEX.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\DelegateEX\bin\Debug\DelegateEX.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\DelegateEX\obj\Debug\DelegateEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\DelegateEX\obj\Debug\DelegateEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\DelegateEX\obj\Debug\DelegateEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\DelegateEX\obj\Debug\DelegateEX.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\DelegateEX\obj\Debug\DelegateEX.pdb
