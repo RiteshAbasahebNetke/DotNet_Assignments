@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\Exception_Handling\bin\Debug\Exception_Handling.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\Exception_Handling\bin\Debug\Exception_Handling.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Exception_Handling\bin\Debug\Exception_Handling.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\Exception_Handling\obj\Debug\Exception_Handling.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Exception_Handling\obj\Debug\Exception_Handling.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Exception_Handling\obj\Debug\Exception_Handling.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Exception_Handling\obj\Debug\Exception_Handling.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Exception_Handling\obj\Debug\Exception_Handling.pdb
