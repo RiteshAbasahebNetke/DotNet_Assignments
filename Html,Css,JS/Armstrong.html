@@ -1,0 +1,23 @@
+<html>
+<head>
+      <title> Armstrong </title>
+</head>
+<body>
+      <script type="text/javascript">
+      var num,dig,sum;
+      for(var a=10;a<=500;a++)
+      {
+       num=a;
+       sum=0;
+       while(num>0)
+       {
+         dig=num%10;
+         sum=sum+(dig*dig*dig);
+         num=parseInt(num/10);
+       }
+        if(sum==a)
+        alert("Armstrong Number is:"+a);
+      }
+</script>
+</body>
+</html>
