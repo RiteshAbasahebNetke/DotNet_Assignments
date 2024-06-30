@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\InterfaceEX\InterfaceEX\obj\Debug\InterfaceEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\InterfaceEX\InterfaceEX\obj\Debug\InterfaceEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\InterfaceEX\InterfaceEX\obj\Debug\InterfaceEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\InterfaceEX\InterfaceEX\bin\Debug\InterfaceEX.exe.config
+C:\Users\Ritesh\source\Practice\InterfaceEX\InterfaceEX\bin\Debug\InterfaceEX.exe
+C:\Users\Ritesh\source\Practice\InterfaceEX\InterfaceEX\bin\Debug\InterfaceEX.pdb
+C:\Users\Ritesh\source\Practice\InterfaceEX\InterfaceEX\obj\Debug\InterfaceEX.exe
+C:\Users\Ritesh\source\Practice\InterfaceEX\InterfaceEX\obj\Debug\InterfaceEX.pdb
