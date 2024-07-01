@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutEX", "LayoutEX.csproj", "{AFFC6025-572A-43EF-92E3-0030EF1EA8D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFFC6025-572A-43EF-92E3-0030EF1EA8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFC6025-572A-43EF-92E3-0030EF1EA8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFC6025-572A-43EF-92E3-0030EF1EA8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFC6025-572A-43EF-92E3-0030EF1EA8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {120B3EDA-E8DE-42F0-AE99-D99EC0BDF15F}
+	EndGlobalSection
+EndGlobal

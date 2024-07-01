@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @RenderSection("head",false)
+</head>
+<body>
+       <table style="Width:700px;">
+           <tr>
+               <td style="background-color:yellow;color-white;">
+                   <table>
+                       <tr>
+                           
+                           <td> <h1 style="color:red;"> RI_TESH</h1></td>
+                       </tr>
+                   </table>
+               </td>
+           </tr>
+           <tr>
+               <td style="background-color:skyblue; color:white;">
+                   <a style="padding:2px;border:2px solid black; background-color:white;color:red;" href="/test/index"> Index </a>
+                   <a style="padding:2px;border:2px solid black; background-color:white;color:red;" href="/test/about"> About </a>
+                   <a style="padding:2px;border:2px solid black; background-color:white;color:red;" href="/test/contact"> Contact </a>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   @RenderSection("news", false)
+               </td>
+           </tr>
+           <tr>
+               <td style="background-color:lightgray">
+                   <hr />
+                   @RenderBody()
+                   <hr />
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   @RenderSection("footer",false)
+               </td>
+           </tr>
+           <tr>
+               <td styel="background-color:tomato;color:white;">
+                   &copy; All rights are  reserverd to RI_TESH
+               </td>
+           </tr>
+       </table>   
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>StandardHelpers</title>
+</head>
+<body>
+       @{ 
+           List<SelectListItem> lst = new List<SelectListItem>();
+           lst.Add(new SelectListItem() { Text = "Pune", Value = "1" });
+           lst.Add(new SelectListItem() { Text = "Mumbai,", Value = "2" });
+           lst.Add(new SelectListItem() { Text = "Hydrabad", Value = "3" });
+           lst.Add(new SelectListItem() { Text = "Banglore", Value = "4" });
+           lst.Add(new SelectListItem() { Text = "Delhi", Value = "5" });
+       }
+    <h2> Standard Helpers </h2>
+    <div> 
+        Enter Name:@Html.TextBox("EName","Raj") <br />
+        Address:@Html.TextArea("Address", "Sample Address...") <br />
+        Password:@Html.Password("Password","Default Value") <br />
+        Hidden:@Html.Hidden("hd", "abc@hotmail.com")  <br />
+        Radio:@Html.RadioButton("rd","Windows") Windows 
+              @Html.RadioButton("rd","Mac") Mac
+              @Html.RadioButton("rd","Linux") Linux <br />
+        CheckBox:@Html.CheckBox("Angular") Angular
+                 @Html.CheckBox("React",true) React 
+                 @Html.CheckBox("Vue") Vue <br />
+
+        Select City:@Html.DropDownList("ct", lst,"Select City") <br />
+        Select Tech:@Html.DropDownList("tech",new SelectList(new string[] {"Angular","Vue","React","Js","Knockout"})) <br />
+        Seleect City:@Html.ListBox("ct",lst) <br />
+        Select State:@Html.ListBox("st",new MultiSelectList(new string[] {"Goa","Gujrat","Kerla","Telengana","Tamilnadu"})) <br />
+    </div>
+</body>
+</html>

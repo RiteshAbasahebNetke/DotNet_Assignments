@@ -1,0 +1,22 @@
+﻿@model HelperExample.Models.Customer
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>StronglyTypedHelpers</title>
+</head>
+<body>
+    <div> 
+        CustomerId:@Html.TextBoxFor(r=>r.CustomerId) <br />
+        CustomerName:@Html.TextBoxFor(r=>r.CustomerName) <br />
+        Address:@Html.TextAreaFor(r=>r.Address) <br/>
+        MobileNo:@Html.TextBoxFor(r=>r.MobileNo) <br />
+        City Name:@Html.DropDownListFor(r => r.City, new SelectList(new string[] { "Nagar", "Pune", "Beed", "Mumbai" })) <br />
+    </div>
+</body>
+</html>

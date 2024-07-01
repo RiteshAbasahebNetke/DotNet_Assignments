@@ -1,0 +1,19 @@
+﻿@model HelperExample.Models.Customer
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TemplateHelper</title>
+</head>
+<body>
+    <div> 
+        Customer Name:@Html.DisplayFor(p=>p.CustomerName) <br />
+        Customer Name:@Html.EditorFor(p=>p.CustomerName) <br />
+    </div>
+</body>
+</html>
