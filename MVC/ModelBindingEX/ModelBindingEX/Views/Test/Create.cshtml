@@ -1,0 +1,37 @@
+﻿@model ModelBindingEX.Models.Customer
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <div>
+        <h2> Customer Form </h2>
+      <!-- <form action="/test/index" method="Get">
+            CustomerId:<input type="text" name="CustomerId" /> <br />
+            CustomerName:<input type="text" name="CustomerName" /> <br />
+            Address:<input type="text" name="Address" /> <br />
+            EmailId:<input type="text" name="EmailId" /> <br />
+            CreditLimit:<input type="text" name="CreditLimit" /> <br />
+            <input type="Submit" value="Submit" />
+        </form> -->
+
+        @using (Html.BeginForm())
+            {
+            
+                @:CustomerId:@Html.TextBox("CustomerId") <br />
+                @:CustomerName:@Html.TextBox("CustomerName") <br />
+                @:Address:@Html.TextArea("Address") <br />
+                @:EmailId:@Html.TextBox("EmailId") <br />
+                @:CreditLimit:@Html.TextBox("CreditLimit") <br />
+                <input type="Submit" value="Submit" />
+            }
+    </div>
+</body>
+</html>

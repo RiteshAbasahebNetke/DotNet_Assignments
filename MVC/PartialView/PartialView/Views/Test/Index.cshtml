@@ -1,0 +1,30 @@
+﻿@model PartialView.Models.Emp
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h2> Call Sample </h2>
+        @Html.Partial("_Sample")
+
+        <h2> Call Sample </h2>
+        @Html.Partial("_Sample")
+
+        <h2> Call Emp </h2>
+        @Html.Partial("_Emp",Model)
+
+        <h2> Call Emp </h2>
+        @{ 
+            Html.RenderPartial("_Emp", Model);
+        }
+    </div>
+</body>
+</html>

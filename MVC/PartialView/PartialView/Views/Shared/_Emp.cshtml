@@ -1,0 +1,23 @@
+﻿@model PartialView.Models.Emp
+    <table border="1">
+        <tr>
+            <td> @Html.LabelFor(p=>p.EmpID) </td>
+            <td> @Html.DisplayFor(p=>p.EmpID) </td>
+        </tr>
+        <tr>
+            <td> @Html.LabelFor(p=>p.EmpName) </td>
+            <td> @Html.DisplayFor(p=>p.EmpName)</td>
+        </tr>
+        <tr>
+            <td> @Html.LabelFor(p => p.DeptName) </td>
+            <td> @Html.DisplayFor(p=>p.DeptName) </td>
+        </tr>
+        <tr>
+            <td> @Html.LabelFor(p=>p.MobileNo) </td>
+            <td> @Html.DisplayFor(p=>p.MobileNo) </td>
+        </tr>
+        <tr>
+            <td> @Html.LabelFor(p=>p.Salary) </td>
+            <td> @Html.DisplayFor(p=>p.Salary) </td>
+        </tr>
+    </table>
