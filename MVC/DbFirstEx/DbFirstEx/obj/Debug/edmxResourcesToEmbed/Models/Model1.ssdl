@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EMPModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'EMP.dbo.Emp' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Emp">
+          <Property Name="EmpId" Type="bigint" />
+          <Property Name="EmpName" Type="varchar" MaxLength="50" />
+          <Property Name="DeptName" Type="varchar" MaxLength="50" />
+          <Property Name="EmailId" Type="varchar" MaxLength="50" />
+          <Property Name="Salary" Type="decimal" Precision="20" Scale="0" />
+        </EntityType>-->
+  <EntityType Name="Product_T">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="ProductName" Type="varchar" MaxLength="50" />
+    <Property Name="MfgName" Type="varchar" MaxLength="50" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityContainer Name="EMPModelStoreContainer">
+    <EntitySet Name="Product_T" EntityType="Self.Product_T" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
