@@ -1,0 +1,39 @@
+﻿@model IEnumerable<CURD_UsingDB_First.Models.EmpSummary>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetSummary</title>
+</head>
+<body>
+    <h2> EMP Summary </h2>
+    <div> 
+        <table border="1">
+            <tr>
+                <td> @Html.DisplayNameFor(p=>p.DeptName)</td>
+                <td> @Html.DisplayNameFor(p=>p.TotalSalary)</td>
+                <td> @Html.DisplayNameFor(p=>p.MaxSalary)</td>
+                <td> @Html.DisplayNameFor(p=>p.MinSalary) </td>
+                <td> @Html.DisplayNameFor(p=>p.AvgSalary)</td>
+                <td> @Html.DisplayNameFor(p=>p.CountOfEmp)</td>
+            </tr>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p=>temp.DeptName)</td>
+                    <td> @Html.DisplayFor(p=>temp.TotalSalary)</td>
+                    <td> @Html.DisplayFor(p=>temp.MaxSalary)</td>
+                    <td> @Html.DisplayFor(p=>temp.MinSalary)</td>
+                    <td> @Html.DisplayFor(p=>temp.AvgSalary)</td>
+                    <td> @Html.DisplayFor(p=>temp.CountOfEmp)</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

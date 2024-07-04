@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86c838c613884382b83e78648fe56a9f" Name="Diagram1" ZoomLevel="129">
+        <EntityTypeShape EntityType="CommonModel.AreaTbl" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommonModel.DeptTbl" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommonModel.EmpTbl" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="CommonModel.FK_AreaTbl_DeptTbl" ManuallyRouted="false" />
+        <AssociationConnector Association="CommonModel.FK_DeptTbl_EmpTbl" ManuallyRouted="false" />
+        <AssociationConnector Association="CommonModel.FK_EmpTbl_DeptTbl" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
