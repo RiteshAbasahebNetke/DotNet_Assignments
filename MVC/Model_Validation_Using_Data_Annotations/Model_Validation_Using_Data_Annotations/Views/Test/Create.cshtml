@@ -1,0 +1,73 @@
+﻿@model Model_Validation_Using_Data_Annotations.Models.Customer
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <h2> Customer Validation </h2>
+    <div> 
+        @using (Html.BeginForm())
+         {
+            <div>
+                @Html.ValidationSummary()
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.CustomerId)
+                <div>
+                    @Html.EditorFor(p=>p.CustomerId)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.CustomerName)
+                <div>
+                    @Html.EditorFor(p => p.CustomerName)
+                    @Html.ValidationMessageFor(p =>p.CustomerName)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.EmailId)
+                <div>
+                    @Html.EditorFor(p=>p.EmailId)
+                    @Html.ValidationMessageFor(p=>p.EmailId)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.MobileNo)
+                <div>
+                    @Html.EditorFor(p=>p.MobileNo)
+                    @Html.ValidationMessageFor(p=>p.MobileNo)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.CreditLimit)
+                <div>
+                    @Html.EditorFor(p=>p.CreditLimit)
+                    @Html.ValidationMessageFor(p=>p.CreditLimit)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.Password)
+                <div>
+                    @Html.EditorFor(p=>p.Password)
+                    @Html.ValidationMessageFor(p=>p.Password)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.ConfirmPassword)
+                <div>
+                    @Html.EditorFor(p=>p.ConfirmPassword)
+                    @Html.ValidationMessageFor(p=>p.ConfirmPassword)
+                </div>
+            </div>
+            <input type="submit" value="Save" />
+         }
+    </div>
+</body>
+</html>
