@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CodeFirst_CURD.Models.Product>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2> Product List </h2>
+    <div> 
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> @Html.DisplayNameFor(p => p.ProductId) </th>
+                    <th> @Html.DisplayNameFor(p=>p.ProductName) </th>
+                    <th> @Html.DisplayNameFor(p=>p.MfgName) </th>
+                    <th> @Html.DisplayNameFor(p=>p.Price) </th>
+                    <th> @Html.DisplayNameFor(p=>p.Category.CategoryName) </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p=>temp.ProductId) </td>
+                    <td> @Html.DisplayFor(p=>temp.ProductName) </td>
+                    <td> @Html.DisplayFor(p=>temp.MfgName) </td>
+                    <td> @Html.DisplayFor(p=>temp.Price) </td>
+                    <td> @Html.DisplayFor(p=>temp.Category.CategoryName) </td>
+                    <td> @Html.ActionLink("Edit","Edit",new {id=temp.ProductId}) </td>
+                    <td> @Html.ActionLink("Delete", "Delete", new {id=temp.ProductId}) </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
