@@ -1,0 +1,43 @@
+﻿@model CusAutFiltersEX.Models.LoginVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SignIn</title>
+</head>
+<body>
+    <h2> Sign In </h2>
+    <div> 
+        @using (Html.BeginForm())
+            {
+            <div>
+                @Html.ValidationSummary(true)
+            </div>
+                <div>
+                    @Html.LabelFor(p=>p.EmailID)
+                    <div>
+                        @Html.EditorFor(p=>p.EmailID)
+                        @Html.ValidationMessageFor(p=>p.EmailID)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.Password)
+                    <div>
+                        @Html.EditorFor(p=>p.Password)
+                        @Html.ValidationMessageFor(p=>p.Password)
+                    </div>
+                </div>
+                <br />
+                <div>
+                    <input type="submit" value="SignIn" />
+                    @Html.ActionLink("Click here to SignUp","SignUp","ManageUser")
+                </div>
+            }
+    </div>
+</body>
+</html>
