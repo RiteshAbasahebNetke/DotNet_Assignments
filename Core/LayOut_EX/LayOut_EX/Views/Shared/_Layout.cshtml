@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
+    @RenderSection("head",false)
+</head>
+<body>
+    <div class="container">
+        <div class="row alert alert-info">
+            <div class="col-md-2">
+                Logo
+            </div>
+            <div class="col-md-10">
+                <h2 class="text-danger"> Ri-Tech </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                @RenderSection("news",false)
+            </div>
+        </div>
+        <div class="row alert alert-warning">
+            <div class="col-md-12">
+                <div class="btn-group">
+                    <a class="btn btn-primary" href="/Home/Index"> Index </a>
+                    <a class="btn btn-secondary" href="/Home/About"> About </a>
+                    <a class="btn btn-warning" href="/Home/Contact"> Contact </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr />
+                @RenderBody()
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                @RenderSection("footer",false)
+            </div>
+        </div>
+        <div class="row alert alert-info">
+            <div class="col-md-12">
+                &copy; All rights are reserverd to Ri-Tech 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
