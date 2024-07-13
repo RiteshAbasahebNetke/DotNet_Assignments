@@ -1,0 +1,30 @@
+﻿@model IEnumerable<RepoEX.Models.Product>
+<html>
+    <head>
+        <title> Product </title>
+    </head>
+    <body>
+        <div>
+            <h2> Product List </h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th> @Html.DisplayNameFor(p=>p.ProductID) </th>
+                        <th> @Html.DisplayNameFor(p=>p.ProductName) </th>
+                        <th> @Html.DisplayNameFor(p=>p.MfgName) </th>
+                        <th> @Html.DisplayNameFor(p=>p.Price) </th>
+                    </tr>
+                </thead>
+                @foreach(var temp in Model)
+                {
+                    <tr>
+                        <td> @Html.DisplayFor(p=>temp.ProductID) </td>
+                        <td> @Html.DisplayFor(p=>temp.ProductName) </td>
+                        <td> @Html.DisplayFor(p=>temp.MfgName) </td>
+                        <td> @Html.DisplayFor(p=>temp.Price) </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </body>
+</html>

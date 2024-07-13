@@ -1,0 +1,60 @@
+﻿@model Customer
+
+<html>
+<head>
+    <title> Customer </title>
+</head>
+<body>
+    <form asp-controller="ABC" asp-action="Save" method="post">
+        <div>
+            <label asp-for="CustomerName"></label>
+           <div>
+            <input asp-for="CustomerName" />
+           </div>
+        </div>
+
+        <div>
+            <label asp-for="Address"></label>
+            <div>
+               <textarea asp-for="Address"></textarea>
+            </div>
+        </div>
+        
+        <div>
+            <label asp-for="EmailID"></label>
+        <div>
+            <input asp-for="EmailID" />
+        </div>
+        </div>
+
+        <div>
+            <label asp-for="MobileNo"></label>
+           <div>
+            <input asp-for="MobileNo" />
+           </div>
+        </div>
+
+        <div>
+            <label> Select City </label>
+            <div>
+                <select asp-for="CityID" asp-items="@ViewBag.ct"> 
+                    <options> Select City </options>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <label> Customer Category </label>
+            <div>
+                <select asp-for="CustomerCategory" asp-items="@Html.GetEnumSelectList<CusCategoryENum>()">
+                    <option> Select Category </option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+           <input type="submit" value="Submit" />
+        </div>
+    </form>
+</body>
+</html>

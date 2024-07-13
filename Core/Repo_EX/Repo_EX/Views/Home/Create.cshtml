@@ -1,0 +1,36 @@
+﻿@model Repo_EX.Models.Product
+
+<html>
+    <head>
+        <title> Product Form </title>
+    </head>
+    <body>
+        <h2> Product Form </h2>
+        <div>
+        @using(Html.BeginForm())
+        {
+            <div>
+                @Html.LabelFor(p=>p.ProductName)
+                <div>
+                    @Html.EditorFor(p=>p.ProductName)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.MfgName)
+                <div>
+                    @Html.EditorFor(p=>p.MfgName)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.Price)
+                <div>
+                    @Html.EditorFor(p=>p.Price)
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        }
+        </div>  
+    </body>
+</html>

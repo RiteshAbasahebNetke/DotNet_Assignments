@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BddWXEFZGw4M+EFB6oRmWv9AT8gvEVOXgfPxsR+49ZkoXarf8iyDvZ47yMhMQ7mrPALX04QLgMiT1kh5fPb9ug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ritesh\\source\\Core\\Repo_EX\\Repo_EX\\Repo_EX.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ritesh\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
