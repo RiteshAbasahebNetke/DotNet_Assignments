@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Product>
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+    <head>
+        <title> Home Index </title>
+    </head>
+    <body>
+        <h2> Product List </h2>
+        <a asp-action="Create"> Create New </a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td colspan="3">
+                        <form asp-action="SearchByCategory">
+                            Select Category:
+                        <select name="CatId" asp-items="@ViewBag.ProductCategories">
+                                <option value="0"> Select Category </option>
+                            </select>
+                            <input type="submit" value="Search" />
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th> ProductID </th>
+                    <th> ProductName </th>
+                    <th> MfgName </th>
+                    <th> Price </th>
+                    <th> ProductCategory Name </th>
+                </tr>
+            </thead>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @temp.ProductID </td>
+                    <td> @temp.ProductName </td>
+                    <td> @temp.MfgName </td>
+                    <td> @temp.Price </td>
+                    <td> @temp.ProductCategory.ProductCategoryName </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@temp.ProductID">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@temp.ProductID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </body>
+</html>

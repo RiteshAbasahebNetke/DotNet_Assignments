@@ -1,0 +1,56 @@
+﻿@model Product 
+<html>
+    <head>
+        <title> Form </title>
+    </head>
+    <body>
+        <div>
+            <h2> Product Form </h2>
+        <form asp-action="Create" method="post">
+            <div>
+                <label asp-for="ProductName"></label>
+                <div>
+                    <input asp-for="ProductName" />
+                    <span asp-validation-for="ProductName"></span>
+                </div>
+            </div>
+            <div>
+                <label asp-for="MfgName"></label>
+                <div>
+                    <input asp-for="MfgName" />
+                    <span asp-validation-for="MfgName"></span>
+                </div>
+            </div>
+            <div>
+                <label asp-for="Price"></label>
+                <div>
+                    <input asp-for="Price" />
+                    <span asp-validation-for="Price"></span>
+                </div>
+            </div>
+            <div>
+                <label asp-for="ProductCategory.ProductCategoryName"></label>
+                <div>
+                    <select asp-for="ProductCategoryID" asp-items="@ViewBag.ProductCategoryID">
+                    <option> Select Product Category </option>
+                </select>
+                <span asp-validation-for="ProductCategoryID"></span>
+                </div>
+            </div>
+            <div>
+                <label asp-for="ProductColor"></label>
+                <div>
+                    <select asp-for="ProductColor" asp-items="@Html.GetEnumSelectList<ColorEnum>()">
+                        <option> Select Color </option>
+                    </select>
+                    <span asp-validation-for="ProductColor"></span>
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="Save"/>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

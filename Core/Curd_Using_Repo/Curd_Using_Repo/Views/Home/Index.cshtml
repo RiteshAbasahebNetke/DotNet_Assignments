@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Course>
+<html>
+    <head>
+        <title> Home Index </title>
+    </head>
+     <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+     <script src="~/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <body>
+    <div class="container">
+        <div class="col-md-12">
+        <h2> Course List </h2>
+            <a asp-action="Create" class="btn btn-primary">Create New </a> <br />
+            <form asp-action="SearchByCat" method="post">
+                <table>
+                    <tr>
+                        <td> Select Category </td>
+                        <td>
+                            <select name="CatID" asp-items="@ViewBag.CourseCategories">
+                                <option value="0"> All </option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="submit" value="Search" class="btn btn-secondary" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <table>
+                <thead>
+                    <tr">
+                        <th> CourseID </th>
+                        <th> CourseName </th>
+                        <th> CourseDesc </th>
+                        <th> DurationInMonths </th>
+                        <th> CourseName </th>
+                        <th> Actions </th>
+                    </tr>
+                </thead>
+                @foreach(var temp in Model)
+                {
+                <tr align="center">
+                        <td> @temp.CourseID </td>
+                        <td> @temp.CourseName </td>
+                        <td> @temp.CourseDesc </td>
+                        <td> @temp.DurationInMonths </td>
+                        <td> @temp.CourseCategory.CourseCategoryName </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id=@temp.CourseID class="btn btn-primary">Edit</a>
+                            <a asp-action="Delete" asp-route-id=@temp.CourseID class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+            </div>
+        </div>
+    </body>
+</html>

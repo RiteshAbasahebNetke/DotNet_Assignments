@@ -1,0 +1,51 @@
+﻿@model Product
+<html>
+    <head>
+        <title> Edit </title>
+    </head>
+    <body>
+        <div>
+            <h2> Update Details </h2>
+          <form asp-action="Edit" method="post">
+              <input type="hidden" asp-for="ProductID" />
+              <div>
+                  <label asp-for="ProductName"></label>
+                  <div>
+                      <input asp-for="ProductName" />
+                  </div>
+              </div>
+              <div>
+                  <label asp-for="MfgName"></label>
+                  <div>
+                      <input asp-for="MfgName" />
+                  </div>
+              </div>
+              <div>
+                  <label asp-for="Price"></label>
+                  <div>
+                    <input asp-for="Price" />
+                  </div>
+              </div>
+              <div>
+                  <label asp-for="ProductCategory.ProductCategoryName"></label>
+                  <div>
+                      <select asp-for="ProductCategoryID" asp-items="@ViewBag.ProductCategoryID">
+                          <option> Select Product Category </option>
+                      </select>
+                  </div>
+              </div>
+              <div>
+                  <label asp-for="ProductColor"></label>
+                  <div>
+                      <select asp-for="ProductColor" asp-items="@Html.GetEnumSelectList<ColorEnum>()">
+                          <option> Select Color </option>
+                      </select>
+                  </div>
+              </div>
+              <div>
+                  <input type="submit" value="Update" />
+              </div>
+          </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+﻿@model Emp
+<html>
+    <head>
+        <title> Home-Create </title>
+    </head>
+    <body>
+        <form asp-action="Create" method="post">
+            <div>
+                <label asp-for="EmpName"></label>
+                <div>
+                    <input asp-for="EmpName"/>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="EmailID"></label>
+                <div>
+                    <input asp-for="EmailID"/>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Address"></label>
+                <div>
+                    <input asp-for="Address"/>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Salary"></label>
+                <div>
+                    <input asp-for="Salary"/>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Department.DeptName"></label>
+                <div>
+                    <select asp-for="DeptID" asp-items="@ViewBag.Department">
+                        <option> Select DeptName </option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="Save" />
+                <a asp-action="Index"> Back </a>
+            </div>
+        </form>
+    </body>
+</html>
