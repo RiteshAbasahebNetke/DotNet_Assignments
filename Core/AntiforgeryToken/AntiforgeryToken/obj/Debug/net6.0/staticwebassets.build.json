@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NXlqaz+a10fxKuCawhRRrdWzhCurf9pNZ8U+Yt1i/GY=",
+  "Source": "AntiforgeryToken",
+  "BasePath": "_content/AntiforgeryToken",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

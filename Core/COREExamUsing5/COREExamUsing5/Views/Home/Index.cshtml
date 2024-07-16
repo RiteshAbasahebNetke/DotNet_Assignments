@@ -1,0 +1,38 @@
+﻿@model IEnumerable<COREExamUsing5.Models.Emp>
+<html>
+    <head>
+        <title> Home-Index </title>
+    </head>
+    <body>
+        <div>
+            <h2> Emp Details </h2>
+            <div>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th align="center"> Sr. No</th>
+                        <th align="center"> Emp Full Name </th>
+                        <th align="center"> Basic Amount </th>
+                        <th align="center"> Total Deduction </th>
+                        <th align="center"> Total Addtions </th>
+                        <th align="center"> Total Salary </th>
+                        </tr>
+                    </thead>
+                    @foreach(var temp in Model)
+                    {
+                        <tr>
+                        <td align="center"> @temp.EmpID </td>
+                        <td align="center"> @temp.FirstName @temp.LastName </td>
+                        <td align="center"> @temp.EmpSalary.BasicSalary </td>
+                        <td align="center"> @temp.SalaryDeduction.DeductionAmount </td>
+                        <td align="center"> @temp.SalaryAddtion.AdditionAmount </td>
+                        <td align="center">
+                         
+                        </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

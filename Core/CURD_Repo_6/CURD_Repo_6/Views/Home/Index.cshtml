@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Book>
+<html>
+    <head>
+        <title> Home-Index </title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/bootstrap/js/bootstrap.bundle.js"></script>
+    </head>
+     <body>
+        <div class="container">
+            <h2> Book  List </h2>
+            <div class="row">
+                <a asp-action="Create"class="btn btn-info w-auto"> Create New </a>
+                <hr /> <br />
+            <form asp-action="SearchBySub" method="post">
+                <table>
+                    <thead>
+                        <tr>
+                            <td> Select Subject </td>
+                            <td>
+                                <select name="SID" asp-items="@ViewBag.SubjectID">
+                                    <option value="0"> All </option>
+                                </select>
+                            </td>
+                            <td>
+                                <input type="submit" value="Search" />
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+                </form>
+                <table>
+                    <thead>
+                        <tr class="text-center">
+                            <th> BookdID </th>
+                        <th> BookName </th>
+                        <th> AuthorName </th>
+                        <th> SubjectName </th>
+                        <th> Price </th>
+                        <th> Actions </th>
+                        </tr>
+                    </thead>
+                    @foreach(var temp in Model)
+                    {
+                        <tr>
+                            <td align="center"> @temp.BookID </td>
+                        <td align="center"> @temp.BookName </td>
+                        <td align="center"> @temp.AuthorName </td>
+                        <td align="center"> @temp.Subject.SubjectName </td>
+                        <td align="center"> @temp.Price </td>
+                        <td align="center">
+                            <a asp-action="Edit" asp-route-id="@temp.BookID" class="btn btn-primary"> Edit </a>
+                            <a asp-action="Delete" asp-route-id="@temp.BookID"class="btn btn-secondary"> Delete </a>
+                        </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

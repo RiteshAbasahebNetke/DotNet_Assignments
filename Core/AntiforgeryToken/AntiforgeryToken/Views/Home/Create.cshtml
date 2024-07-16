@@ -1,0 +1,33 @@
+﻿@model Product
+<html>
+    <head> 
+        <title> Home-Create </title>
+    </head>
+    <body>
+        <form asp-action="Create" method="post">
+            <div>
+                <label asp-for="ProductName"></label>
+                <div>
+                    <input asp-for="ProductName" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="MfgName"></label>
+                <div>
+                    <input asp-for="MfgName"/>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Price"></label>
+                <div>
+                    <input asp-for="Price"/>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Save"/>
+            </div>
+        </form>
+    </body>
+</html>
