@@ -1,0 +1,18 @@
+﻿<html>
+    <head>
+        <title> Home-Index </title>
+    </head>
+    <body>
+        <div>
+            <h2> Home Controller Index Action </h2>
+            <hr />
+            @await Component.InvokeAsync("DemoVC")
+            <hr />
+             @await Component.InvokeAsync("BookVC") 
+             <hr />
+            @await Component.InvokeAsync("ProductVC")
+            <hr />
+          @await Component.InvokeAsync("EmpVC")
+        </div>
+    </body>
+</html>

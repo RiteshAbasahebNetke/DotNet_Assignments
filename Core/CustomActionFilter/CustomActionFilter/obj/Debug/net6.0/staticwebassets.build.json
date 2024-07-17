@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MwHvN2CdE8AhkKew2qmXm5RgwB7BeO3oriNEK2cn8sA=",
+  "Source": "CustomActionFilter",
+  "BasePath": "_content/CustomActionFilter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,17 @@
+﻿@model Emp
+<html>
+    <head>
+        <title> Home-Index </title>
+    </head>
+    <body>
+        <div>
+            <h2> Home Controller Index Action Called </h2>     
+            <hr />
+            <partial name="boxPartial"/>
+            <hr />
+            <partial name="boxPartial" />
+            <hr />
+            <partial name="_EmpPartial" model="@Model">
+        </div>
+    </body>
+</html>

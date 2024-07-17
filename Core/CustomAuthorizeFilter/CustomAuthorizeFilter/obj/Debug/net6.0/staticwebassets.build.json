@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cpnjhACjxjpKQb+6xVwG71iCNJ6igwwIs4+HDRU2R8U=",
+  "Source": "CustomAuthorizeFilter",
+  "BasePath": "_content/CustomAuthorizeFilter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

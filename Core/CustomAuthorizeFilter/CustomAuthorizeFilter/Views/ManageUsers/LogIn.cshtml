@@ -1,0 +1,36 @@
+﻿@model LoginVM
+<html>
+    <head>
+        <title> ManageUser-LogIn </title>
+    </head>
+    <body>
+        <div>
+            <h2> LogIn </h2>
+            <div>
+            <form asp-action="Login" method="post">
+                <div asp-validation-summary="ModelOnly"></div>
+                <div>
+                    <label asp-for="EmailID"></label>
+                    <div>
+                        <input asp-for="EmailID"/>
+                        <span asp-validation-for="EmailID"></span>
+                    </div>
+                </div>
+
+                <div>
+                    <label asp-for="Password"></label>
+                    <div>
+                        <input asp-for="Password"/>
+                        <span asp-validation-for="Password"></span>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="LogIn" />
+                </div>
+                <hr />
+                <a asp-action="Register">New Registration</a>
+            </form>
+            </div>
+        </div>
+    </body>
+</html>
