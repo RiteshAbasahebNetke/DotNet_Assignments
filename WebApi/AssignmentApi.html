@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Emp</title>
+       <script src="jquery-3.7.1.js" type="text/javascript"></script>
+</head>
+<body>
+    <table border="1">
+        <h2> Emp List </h2>
+         <thead>
+            <tr>
+                <th> Emp ID </th>
+                <th> Emp Name </th>
+                <th> Dept Name </th>
+                <th> Salary </th>
+            </tr>
+         </thead>
+         <tbody id="tb">
+         </tbody>
+    </table>
+    <script>
+        //var apiurl="http://localhost:3397/api/home";
+        $(function(){
+                $.ajax({
+                    url:"http://localhost:3397/api/Home",
+                    type:"Get",
+                    contentType:"application/json",
+                    success:function(result)
+                    {
+                        alert(JSON.stringify(result));
+                           $("#tb").empty();
+                        var str="";
+                        for(var i=0;i<result.length;i++)
+                        {
+                            str="<tr><td>"+ result[i].empID + "</td>";
+                            str +="<td>"+ result[i].empName + "</td>";
+                            str +="<td>"+ result[i].deptName + "</td>";
+                            str +="<td>"+ result[i].salary + "</td></tr>";
+                            $("#tb").append(str);
+                        }
+                    }
+                });
+            
+        });
+    </script>
+</body>
+</html>
