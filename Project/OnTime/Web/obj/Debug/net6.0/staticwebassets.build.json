@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "2DHdyU+qFAcLasoKAkM5J4i2w45s0oHgoFcdX729A34=",
+  "Source": "Web",
+  "BasePath": "_content/Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Web\\wwwroot",
+      "Source": "Web",
+      "ContentRoot": "C:\\Users\\Ritesh\\source\\Project\\OnTime\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
