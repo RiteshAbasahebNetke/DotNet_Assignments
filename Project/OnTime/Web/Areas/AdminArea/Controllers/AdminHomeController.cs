@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Web.Areas.AdminArea.Controllers
 {
+    [Area("AdminArea")]
     public class AdminHomeController : Controller
     {
         IAdminRepo ar;

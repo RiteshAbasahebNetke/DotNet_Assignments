@@ -18,5 +18,10 @@ builder.Services.AddScoped<IAdminRepo, AdminRepo>();
 
 var app = builder.Build();
 app.UseSession();
+app.UseStaticFiles();
 app.MapDefaultControllerRoute();
+app.MapControllerRoute(
+           name: "areas",
+           pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+         );
 app.Run();
