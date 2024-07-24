@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="~/adminassets/vendors/css/vendor.bundle.base.css">
     <link rel="stylesheet" href="~/adminassets/css/style.css">
     <link rel="shortcut icon" href="~/adminassets/images/favicon.ico">
-  <style type="text/css">/* Chart.js */></style>
+  <style type="text/css"></style>
 </head>
+
   <body>
     <div class="container-scroller">
       <div class="row p-0 m-0 proBanner d-flex" id="proBanner">
@@ -60,11 +61,11 @@
                 </div>
               </a>
               <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
-                <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" asp-action="ChangePassword" method="post">
                   <i class="mdi mdi-cached me-2 text-success"></i> Changepassword </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-logout me-2 text-primary"></i> Signout </a>
+                <a class="dropdown-item" asp-action="Logout" asp-controller="ManageAdmin" asp-area="">
+                  <i class="mdi mdi-logout me-2 text-primary"></i> LogOut </a>
               </div>
             </li>
             <li class="nav-item d-none d-lg-block full-screen-link">
@@ -198,19 +199,30 @@
                 <i class="mdi mdi-home menu-icon"></i>
               </a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                <span class="menu-title">Basic UI Elements</span>
+                <span class="menu-title"> Configure </span>
                 <i class="menu-arrow"></i>
                 <i class="mdi mdi-crosshairs-gps menu-icon"></i>
               </a>
-              <div class="collapse" id="ui-basic">
+               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                  <li class="nav-item"> 
+                      <a class="nav-link" asp-action="Index" asp-controller="CountryAdmin" asp-area="AdminArea">Country</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" asp-action="Index" asp-controller="StateAdmin" asp-area="AdminArea">State</a>
+                   </li>
+
+                   <li class="nav-item"> 
+                        <a class="nav-link" asp-action="Index" asp-controller="CityAdmin" asp-area="AdminArea">City</a>
+                    </li>
                 </ul>
               </div>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="pages/icons/mdi.html">
                 <span class="menu-title">Icons</span>

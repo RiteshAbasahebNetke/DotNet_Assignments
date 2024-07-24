@@ -30,7 +30,7 @@ namespace Web.Controllers
                     HttpContext.Session.SetString("AdminID",res.LoggedInID.ToString());
                     HttpContext.Session.SetString("FirstName", res.LoggedInName);
 
-                    return RedirectToAction("Index", "AdminHome", new { area = "AdminArea" });
+                    return RedirectToAction("Index", "AdminHome", new {area= "AdminArea" });
                 }
                 ModelState.AddModelError("", "Invalid EmailID or Password");
             }

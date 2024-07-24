@@ -2,10 +2,12 @@
 using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Web.CustAuthFilters;
 
 namespace Web.Areas.AdminArea.Controllers
 {
     [Area("AdminArea")]
+    [AdminAuth]
     public class AdminHomeController : Controller
     {
         IAdminRepo ar;

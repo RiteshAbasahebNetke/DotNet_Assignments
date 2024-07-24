@@ -1,0 +1,26 @@
+﻿@model State
+<div class="card">
+
+    <form asp-action="Create" method="post">
+        <div class="card-body">
+            <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                <label asp-for="StateName"> State Name  </label>
+                <input type="text" class="form-control" asp-for="StateName">
+                <span asp-validation-for="StateName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Country"> Country Name </label>
+                <select class="form-select" asp-for="CountryID" asp-items="@ViewBag.CountryID">
+                    <option> Select Country </option>
+                </select>
+                <span asp-validation-for="CountryID"></span>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-gradient-primary me-2"> Create </button>
+            </div>
+        </div>
+    </form>
+
+</div>

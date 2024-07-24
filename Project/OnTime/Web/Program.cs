@@ -15,13 +15,17 @@ builder.Services.AddDbContextPool<CompanyContext>(
     );
 
 builder.Services.AddScoped<IAdminRepo, AdminRepo>();
+builder.Services.AddScoped<ICountryRepo, CountryRepo>();
+builder.Services.AddScoped<IStateRepo, StateRepo>();
+builder.Services.AddScoped<ICityRepo, CityRepo>();
 
 var app = builder.Build();
 app.UseSession();
 app.UseStaticFiles();
-app.MapDefaultControllerRoute();
+
 app.MapControllerRoute(
            name: "areas",
            pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
          );
+app.MapDefaultControllerRoute();
 app.Run();

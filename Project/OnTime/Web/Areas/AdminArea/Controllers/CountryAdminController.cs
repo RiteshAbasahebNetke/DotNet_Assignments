@@ -2,9 +2,12 @@
 using Entity.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Web.CustAuthFilters;
 
 namespace Web.Areas.AdminArea.Controllers
 {
+    [Area("AdminArea")]
+    [AdminAuth]
     public class CountryAdminController : Controller
     {
         ICountryRepo crepo;
@@ -27,7 +30,7 @@ namespace Web.Areas.AdminArea.Controllers
         [HttpPost]
         public IActionResult Create(Country rec)
         {
-            ViewBag.MainCategories = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
+
             if (ModelState.IsValid)
             {
                 this.crepo.Add(rec);
@@ -45,7 +48,6 @@ namespace Web.Areas.AdminArea.Controllers
         [HttpPost]
         public IActionResult Edit(Country rec)
         {
-            ViewBag.MainCategories = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
             if (ModelState.IsValid)
             {
                 this.crepo.Add(rec);
