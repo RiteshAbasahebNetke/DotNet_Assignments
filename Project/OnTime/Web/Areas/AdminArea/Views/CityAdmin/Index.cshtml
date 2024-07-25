@@ -8,7 +8,6 @@
                     <h2 class="card-title">City List</h2>
                     <a asp-action="Create" class="btn btn-primary"> Create New </a>
                     <hr />
-
                     <table class="table">
                         <thead>
                             <tr>
@@ -33,6 +32,7 @@
                                         <a asp-action="Delete" asp-route-id="@temp.CityID" class="btn btn-info"> Delete </a>
                                     </td>
                                 </tr>
+                                srno++;
                             }
                         </tbody>
                     </table>

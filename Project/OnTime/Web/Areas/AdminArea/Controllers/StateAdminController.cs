@@ -27,6 +27,7 @@ namespace Web.Areas.AdminArea.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
             return View();
         }
 
@@ -43,9 +44,11 @@ namespace Web.Areas.AdminArea.Controllers
         }
 
         [HttpGet]
-        public IActionResult Edit()
+        public IActionResult Edit(Int64 id)
         {
-            return View();
+            ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
+            var rec = this.srepo.GetByID(id);
+            return View(rec);
         }
 
         [HttpPost]
@@ -54,7 +57,7 @@ namespace Web.Areas.AdminArea.Controllers
             ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
             if (ModelState.IsValid)
             {
-                this.srepo.Add(rec);
+                this.srepo.Edit(rec);
                 return RedirectToAction("Index");
             }
             return View(rec);

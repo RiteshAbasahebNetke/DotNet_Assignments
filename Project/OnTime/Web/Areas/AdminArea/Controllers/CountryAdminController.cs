@@ -40,9 +40,10 @@ namespace Web.Areas.AdminArea.Controllers
         }
 
         [HttpGet]
-        public IActionResult Edit()
+        public IActionResult Edit(Int64 id)
         {
-            return View();
+            var rec = this.crepo.GetByID(id);
+            return View(rec);
         }
 
         [HttpPost]
@@ -50,7 +51,7 @@ namespace Web.Areas.AdminArea.Controllers
         {
             if (ModelState.IsValid)
             {
-                this.crepo.Add(rec);
+                this.crepo.Edit(rec);
                 return RedirectToAction("Index");
             }
             return View(rec);

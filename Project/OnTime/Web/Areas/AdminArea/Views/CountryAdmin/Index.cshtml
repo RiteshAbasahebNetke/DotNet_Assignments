@@ -22,7 +22,7 @@
                             int srno = 1;
                       }
              @foreach(var temp in Model)
-             {
+               {
                  <tr>
                      <td> @srno </td>
                      <td> @temp.CountryName</td>
@@ -31,7 +31,8 @@
                          <a asp-action="Delete" asp-route-id="@temp.CountryID" class="btn btn-Danger"> Delete </a>
                      </td>
                  </tr>
-             }
+                                srno++;
+               }
             </tbody>
             </table>
              </div>
