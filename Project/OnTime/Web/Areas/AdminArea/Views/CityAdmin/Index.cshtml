@@ -5,12 +5,12 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
-                    <h2 class="card-title">City List</h2>
+                    <h2 class="title">City List</h2>
                     <a asp-action="Create" class="btn btn-primary"> Create New </a>
                     <hr />
                     <table class="table">
                         <thead>
-                            <tr>
+                            <tr align="center">
                                 <th> Sr.No </th>
                                 <th> CityName </th>
                                 <th> State Name </th>
@@ -24,12 +24,12 @@
                             @foreach (var temp in Model)
                             {
                                 <tr>
-                                    <td> @srno </td>
-                                    <td> @temp.CityName</td>
-                                    <td> @temp.States </td>
-                                    <td>
+                                    <td align="center"> @srno </td>
+                                    <td align="center"> @temp.CityName</td>
+                                    <td align="center"> @temp.States.StateName </td>
+                                    <td align="center">
                                         <a asp-action="Edit" asp-route-id="@temp.CityID" class="btn btn-info"> Edit </a>
-                                        <a asp-action="Delete" asp-route-id="@temp.CityID" class="btn btn-info"> Delete </a>
+                                        <a asp-action="Delete" asp-route-id="@temp.CityID" class="btn btn-Danger"> Delete </a>
                                     </td>
                                 </tr>
                                 srno++;

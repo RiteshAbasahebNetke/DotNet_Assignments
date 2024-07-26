@@ -8,14 +8,11 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    [Table("CityTbl")]
-    public class City
+    [Table("SpecilityTbl")]
+    public class Specility
     {
         [Key]
-        public Int64 CityID { get; set; }
-        public string CityName { get; set; }
-        [ForeignKey("States")]
-        public Int64 StateID { get; set; }
-        public virtual State States { get; set; }
+        public Int64 SpecilityID { get; set; }
+        public string SpecilityName { get; set; }
     }
 }

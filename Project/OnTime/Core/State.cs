@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Core
 {
+    [Table("StateTbl")]
     public class State
     {
         [Key]
