@@ -18,6 +18,9 @@ builder.Services.AddScoped<IAdminRepo, AdminRepo>();
 builder.Services.AddScoped<ICountryRepo, CountryRepo>();
 builder.Services.AddScoped<IStateRepo, StateRepo>();
 builder.Services.AddScoped<ICityRepo, CityRepo>();
+builder.Services.AddScoped<IAreaRepo, AreaRepo>();
+builder.Services.AddScoped<ISpecilityRepo, SpecilityRepo>();
+builder.Services.AddScoped<IDocSpecialityRepo,DocSpecialityRepo>();
 
 var app = builder.Build();
 app.UseSession();

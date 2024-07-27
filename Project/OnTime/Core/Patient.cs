@@ -23,5 +23,6 @@ namespace Core
         [ForeignKey("User")]
         public Int64 UserID { get; set; }
         public virtual User User { get; set; }
+        public virtual List<BookedAppointments> BookedAppointments { get; set; }
     }
 }

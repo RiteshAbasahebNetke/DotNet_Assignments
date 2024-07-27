@@ -25,5 +25,6 @@ namespace Core
         [ForeignKey("OPDSession")]
         public Int64 OpdSessionID { get; set; }
         public virtual OPDSession OPDSession { get; set; }
+        public virtual List<BookedAppointments> BookedAppointments { get; set; }
     }
 }

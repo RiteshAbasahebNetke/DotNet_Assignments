@@ -20,5 +20,6 @@ namespace Core
         [ForeignKey("Country")]
         public Int64 CountryID { get; set; }
         public virtual Country Country { get; set; }
+        public virtual List<Patient> Patients { get; set; }
     }
 }

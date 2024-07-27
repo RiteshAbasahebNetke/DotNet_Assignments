@@ -17,5 +17,6 @@ namespace Core
         [ForeignKey("Clinic")]
         public Int64 ClinicID { get; set; }
         public virtual Clinic Clinic { get; set; }
+        public virtual List<DoctorClinicSession> DoctorClinicSessions { get; set; }
     }
 }

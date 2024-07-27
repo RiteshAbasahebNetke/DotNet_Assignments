@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Area>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="title">Area List</h2>
+                    <a asp-action="Create" class="btn btn-primary"> Create New </a>
+                    <hr />
+                    <table class="table">
+                        <thead>
+                            <tr align="center">
+                                <th> Sr.No </th>
+                                <th> Area Name </th>
+                                <th> City Name </th>
+                                <th> Actions </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int srno = 1;
+                            }
+                            @foreach (var temp in Model)
+                            {
+                                <tr>
+                                    <td align="center"> @srno </td>
+                                    <td align="center"> @temp.AreaName</td>
+                                    <td align="center"> @temp.City.CityName </td>
+                                    <td align="center">
+                                        <a asp-action="Edit" asp-route-id="@temp.AreaID" class="btn btn-info"> Edit </a>
+                                        <a asp-action="Delete" asp-route-id="@temp.AreaID" class="btn btn-Danger"> Delete </a>
+                                    </td>
+                                </tr>
+                                srno++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

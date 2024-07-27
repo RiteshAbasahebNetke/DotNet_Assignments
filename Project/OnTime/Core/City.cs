@@ -17,5 +17,7 @@ namespace Core
         [ForeignKey("States")]
         public Int64 StateID { get; set; }
         public virtual State States { get; set; }
+        public virtual List<Area> Area { get; set; }
+        public virtual List<Clinic> Clinic { get; set; }    
     }
 }

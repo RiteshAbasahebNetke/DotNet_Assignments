@@ -11,8 +11,6 @@ namespace Core
     [Table("DoctorTbl")]
     public class Doctor
     {
-        public class Patient
-        {
             [Key]
             public Int64 DoctorID { get; set; }
             public string FirstName { get; set; }
@@ -28,6 +26,9 @@ namespace Core
             [ForeignKey("Area")]
             public Int64 AreaID { get; set; }
             public virtual Area Area { get; set; }
-        }
+            public virtual List<DoctorRating> DoctorRatings { get; set; }
+            public virtual List<DoctorSpeciality> DoctorSpecialities { get; set; }
+            public virtual List<DoctorClinicSession> DoctorClinicSessions { get; set; }
+       
     }
 }

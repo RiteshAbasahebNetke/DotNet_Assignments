@@ -17,5 +17,6 @@ namespace Core
         [ForeignKey("City")]
         public Int64 CityID { get; set; }
         public virtual City City { get; set; }
+        public virtual List<Doctor> Doctors { get; set; }
     }
 }

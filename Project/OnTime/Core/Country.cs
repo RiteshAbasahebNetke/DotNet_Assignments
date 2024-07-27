@@ -15,5 +15,6 @@ namespace Core
         public Int64 CountryID { get; set; }
         public string CountryName { get; set; }
         public virtual List<State> States { get; set; }
+        public virtual List<User> Users { get; set; }
     }
 }

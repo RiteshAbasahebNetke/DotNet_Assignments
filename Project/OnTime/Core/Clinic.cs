@@ -23,5 +23,10 @@ namespace Core
         [ForeignKey("City")]
         public Int64 CityID { get; set; }
         public virtual City City { get; set; }
+        public virtual List<ClinicFacility> ClinicFacilities { get; set; }
+        public virtual List<OPDSession> OPDSessions { get; set; }
+        public virtual List<ClinicRating> ClinicRatings { get; set; }
+        public virtual List<ClinicCertificate> ClinicCertificates { get; set; }
+        public virtual List<DoctorClinicSession> DoctorClinicSessions { get; set; }
     }
 }

@@ -14,5 +14,6 @@ namespace Core
         [Key]
         public Int64 SpecilityID { get; set; }
         public string SpecilityName { get; set; }
+        public virtual List<DoctorSpeciality> DoctorSpecialities { get; set; }
     }
 }

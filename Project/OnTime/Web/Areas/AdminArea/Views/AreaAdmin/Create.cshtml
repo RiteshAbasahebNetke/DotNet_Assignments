@@ -1,0 +1,26 @@
+﻿@model Area
+
+<div class="card">
+    <form asp-action="Create" method="post">
+        <div class="card-body">
+            <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                <label asp-for="AreaName"> Area Name  </label>
+                <input type="text" class="form-control" asp-for="AreaName">
+                <span asp-validation-for="AreaName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="City"> City Name </label>
+                <select class="form-select" asp-for="CityID" asp-items="@ViewBag.CityID">
+                    <option> Select City </option>
+                </select>
+                <span asp-validation-for="CityID"></span>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-gradient-primary me-2"> Create </button>
+            </div>
+        </div>
+    </form>
+</div>
+
