@@ -12,7 +12,6 @@ namespace Web.Areas.AdminArea.Controllers
             this.dsrepo = dsrepo;
             this.sprepo = sprepo;
         }
-
         public IActionResult Index()
         {
             return View(this.dsrepo.GetAll());

@@ -10,6 +10,14 @@ namespace Core
         public Int64 AdminID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        [NotMapped]
+        public string FullName
+        {
+            get
+            {
+                return LastName + " " + FirstName;
+            }
+        }
         public string EmailID { get; set; }
         public string Password { get; set; }
     }

@@ -8,7 +8,6 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 
-
 string st = builder.Configuration.GetConnectionString("scon");
 builder.Services.AddDbContextPool<CompanyContext>(
     opt=>opt.UseLazyLoadingProxies().UseSqlServer(st)
@@ -21,6 +20,7 @@ builder.Services.AddScoped<ICityRepo, CityRepo>();
 builder.Services.AddScoped<IAreaRepo, AreaRepo>();
 builder.Services.AddScoped<ISpecilityRepo, SpecilityRepo>();
 builder.Services.AddScoped<IDocSpecialityRepo,DocSpecialityRepo>();
+builder.Services.AddScoped<IClinicRepo, ClinicRepo>();
 
 var app = builder.Build();
 app.UseSession();
@@ -30,5 +30,6 @@ app.MapControllerRoute(
            name: "areas",
            pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
          );
+
 app.MapDefaultControllerRoute();
 app.Run();

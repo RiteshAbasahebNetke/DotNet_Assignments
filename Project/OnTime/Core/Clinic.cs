@@ -20,6 +20,7 @@ namespace Core
         public string ContactPersonName { get; set; }
         public string LandLineNo { get; set; }
         public string WebsiteUrl { get; set; }
+        public string Password { get; set; }
         [ForeignKey("City")]
         public Int64 CityID { get; set; }
         public virtual City City { get; set; }

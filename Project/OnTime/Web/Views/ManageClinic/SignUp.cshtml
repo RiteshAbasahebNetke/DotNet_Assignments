@@ -1,0 +1,57 @@
+﻿@model ClinicVM
+
+<div class="card-body">
+    <h4 class="card-title">Sign Up Form</h4>
+    <form class="forms-sample" asp-action="SignUp" method="post">
+        <div class="form-group">
+            <label asp-for="ClinicName"> ClinicName </label>
+            <input type="text" class="form-control"  placeholder="ClinicName">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Address"> Address </label>
+            <textarea class="form-control" rows="2"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="EmailID"> Email Address </label>
+            <input type="email" class="form-control"  placeholder="Email">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MobileNo"> MobileNo </label>
+            <input type="text" class="form-control" placeholder="MobileNo">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ContactPersonName"> ContactPersonName </label>
+            <input type="text" class="form-control" placeholder="ContactPersonName">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LandLineNo"> LandLineNo </label>
+            <input type="text" class="form-control" placeholder="LandLineNo">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="WebsiteUrl"> WebsiteUrl </label>
+            <input type="text" class="form-control" placeholder="WebsiteUrl">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password"> Password </label>
+            <input type="password" class="form-control"  placeholder="Password">
+        </div>
+                
+        <div class="form-group">
+            <label asp-for="CityID"> City Name </label>
+            <select class="form-select" asp-for="CityID" asp-items="@ViewBag.CityID">
+                <option> Select City </option>
+            </select>
+            <span asp-validation-for="CityID"></span>
+        </div>
+        
+        <button type="submit" class="btn btn-gradient-primary me-2"> Submit </button>
+        <button class="btn btn-light"> Reset </button>
+    </form>
+</div>

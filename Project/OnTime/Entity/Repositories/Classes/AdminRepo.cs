@@ -51,7 +51,7 @@ namespace Entity.Repositories.Classes
             {
                 re.IsLoggedIn = true;
                 re.LoggedInID = arec.AdminID;
-                re.LoggedInName = arec.FirstName;
+                re.LoggedInName = arec.FullName;
             }
             else
             {
