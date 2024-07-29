@@ -9,9 +9,10 @@ namespace Web.Controllers
     {
         IClinicRepo crepo;
         ICityRepo ctrepo;
-        public ManageClinicController(IClinicRepo crepo)
+        public ManageClinicController(IClinicRepo crepo,ICityRepo ctrepo)
         {
             this.crepo = crepo;
+            this.ctrepo = ctrepo;
         }
         public IActionResult Index()
         {
@@ -42,6 +43,7 @@ namespace Web.Controllers
         [HttpGet]
         public IActionResult SignUp()
         {
+            ViewBag.CityID = new SelectList(this.ctrepo.GetAll(), "CityID", "CityName");
             return View();
         }
         [HttpPost]
@@ -56,7 +58,7 @@ namespace Web.Controllers
                 }
                 ModelState.AddModelError("", res.Message);
             }
-            //ViewBag.CityID = new SelectList(this.ctrepo.GetAll(), "CityID", "CityName");
+            ViewBag.CityID = new SelectList(this.ctrepo.GetAll(), "CityID", "CityName");
             return View(rec);
         }
 

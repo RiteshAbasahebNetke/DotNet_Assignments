@@ -1,57 +1,99 @@
 ﻿@model ClinicVM
 
-<div class="card-body">
-    <h4 class="card-title">Sign Up Form</h4>
-    <form class="forms-sample" asp-action="SignUp" method="post">
-        <div class="form-group">
-            <label asp-for="ClinicName"> ClinicName </label>
-            <input type="text" class="form-control"  placeholder="ClinicName">
-        </div>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Purple Admin</title>
 
-        <div class="form-group">
-            <label asp-for="Address"> Address </label>
-            <textarea class="form-control" rows="2"></textarea>
-        </div>
+    <link rel="stylesheet" href="~/adminassets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/adminassets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/adminassets/css/style.css">
+    <link rel="shortcut icon" href="~/adminassets/images/favicon.ico">
+</head>
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth">
+                <div class="row flex-grow">
+                    <div class="col-lg-4 mx-auto">
+                        <div class="auth-form-light text-left p-5">
+                            <div class="brand-logo">
+                                <img src="~/adminassets/images/logo.svg">
+                            </div>
 
-        <div class="form-group">
-            <label asp-for="EmailID"> Email Address </label>
-            <input type="email" class="form-control"  placeholder="Email">
-        </div>
+                            <h4>New here?</h4>
+                            <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
+                            <form class="forms-sample " asp-action="SignUp" method="post">
 
-        <div class="form-group">
-            <label asp-for="MobileNo"> MobileNo </label>
-            <input type="text" class="form-control" placeholder="MobileNo">
-        </div>
+                                <div class="form-group"> 
+                                    <label asp-for="ClinicName"> ClinicName </label>
+                                    <div class="col-md-4 col-lg-4"></div>
+                                    <input type="text" class="form-control" placeholder="ClinicName">
+                                </div>
 
-        <div class="form-group">
-            <label asp-for="ContactPersonName"> ContactPersonName </label>
-            <input type="text" class="form-control" placeholder="ContactPersonName">
-        </div>
+                                <div class="form-group">
+                                    <label asp-for="Address"> Address </label>
+                                    <textarea class="form-control" rows="2"></textarea>
+                                </div>
 
-        <div class="form-group">
-            <label asp-for="LandLineNo"> LandLineNo </label>
-            <input type="text" class="form-control" placeholder="LandLineNo">
-        </div>
+                                <div class="form-group">
+                                    <label asp-for="EmailID"> Email Address </label>
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
 
-        <div class="form-group">
-            <label asp-for="WebsiteUrl"> WebsiteUrl </label>
-            <input type="text" class="form-control" placeholder="WebsiteUrl">
-        </div>
+                                <div class="form-group">
+                                    <label asp-for="MobileNo"> MobileNo </label>
+                                    <input type="text" class="form-control" placeholder="MobileNo">
+                                </div>
 
-        <div class="form-group">
-            <label asp-for="Password"> Password </label>
-            <input type="password" class="form-control"  placeholder="Password">
+                                <div class="form-group">
+                                    <label asp-for="ContactPersonName"> ContactPersonName </label>
+                                    <input type="text" class="form-control" placeholder="ContactPersonName">
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="LandLineNo"> LandLineNo </label>
+                                    <input type="text" class="form-control" placeholder="LandLineNo">
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="WebsiteUrl"> WebsiteUrl </label>
+                                    <input type="text" class="form-control" placeholder="WebsiteUrl">
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="Password"> Password </label>
+                                    <input type="password" class="form-control" placeholder="Password">
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="CityID"> City Name </label>
+                                    <select class="form-select" asp-for="CityID" asp-items="@ViewBag.CityID">
+                                        <option> Select City </option>
+                                    </select>
+                                    <span asp-validation-for="CityID"></span>
+                                </div>
+
+                                <button type="submit" class="btn btn-gradient-primary me-2"> Submit </button>
+                                <button class="btn btn-light"> Reset </button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
         </div>
-                
-        <div class="form-group">
-            <label asp-for="CityID"> City Name </label>
-            <select class="form-select" asp-for="CityID" asp-items="@ViewBag.CityID">
-                <option> Select City </option>
-            </select>
-            <span asp-validation-for="CityID"></span>
-        </div>
-        
-        <button type="submit" class="btn btn-gradient-primary me-2"> Submit </button>
-        <button class="btn btn-light"> Reset </button>
-    </form>
-</div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <script src="~/adminassets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="~/adminassets/js/off-canvas.js"></script>
+    <script src="~/adminassets/js/hoverable-collapse.js"></script>
+    <script src="~/adminassets/js/misc.js"></script>
+   
+</body>
+</html>
+
+
+

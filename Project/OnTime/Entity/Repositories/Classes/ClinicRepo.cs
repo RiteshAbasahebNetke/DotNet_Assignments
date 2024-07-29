@@ -55,10 +55,10 @@ namespace Entity.Repositories.Classes
                 res.IsSuccess= true;
                 res.Message = "Sign Up for Clinic is Successful";
             }
-            catch
+            catch(Exception ex)
             {
                 res.IsSuccess= false;
-                res.Message = "Sign Up failed please try again";
+                res.Message = ex.Message;
             }
             return res;
         }

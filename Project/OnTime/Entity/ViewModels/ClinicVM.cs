@@ -30,7 +30,7 @@ namespace Entity.ViewModels
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
-        [Required]
         public Int64 CityID { get; set; }
+        public string CityName { get; set; }
     }
 }

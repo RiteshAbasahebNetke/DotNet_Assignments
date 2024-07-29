@@ -95,6 +95,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/ClinicHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xDbGluaWNIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/Shared/_ClinicLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xTaGFyZWRcX0NsaW5pY0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ritesh/source/Project/OnTime/Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
