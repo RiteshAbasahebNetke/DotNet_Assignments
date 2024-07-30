@@ -34,12 +34,13 @@ namespace Web.Controllers
                     HttpContext.Session.SetString("ClinicID", res.LoggedInID.ToString());
                     HttpContext.Session.SetString("ClinicName", res.LoggedInName);
 
-                    return RedirectToAction("Index", "ManageClinic");
+                    return RedirectToAction("Index", "ClinicHome", new {area="ClinicArea"});
                 }
                 ModelState.AddModelError("", "Invalid EmailID or Password");
             }
             return View(rec);
         }
+
         [HttpGet]
         public IActionResult SignUp()
         {

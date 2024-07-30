@@ -95,8 +95,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/ClinicFacility/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xDbGluaWNGYWNpbGl0eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/ClinicFacility/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xDbGluaWNGYWNpbGl0eVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/ClinicFacility/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xDbGluaWNGYWNpbGl0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/ClinicHome/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xDbGluaWNIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/OPDSession/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xPUERTZXNzaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/OPDSession/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xPUERTZXNzaW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/OPDSession/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpbmljQXJlYVxWaWV3c1xPUERTZXNzaW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ritesh/source/Project/OnTime/Web/Areas/ClinicArea/Views/Shared/_ClinicLayout.cshtml]
@@ -125,6 +149,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Ritesh/source/Project/OnTime/Web/Views/ManageClinic/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlQ2xpbmljXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Views/ManageClinic/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlQ2xpbmljXExvZ291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ritesh/source/Project/OnTime/Web/Views/ManageClinic/SignIn.cshtml]

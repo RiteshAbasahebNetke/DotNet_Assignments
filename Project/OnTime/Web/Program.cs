@@ -21,6 +21,8 @@ builder.Services.AddScoped<IAreaRepo, AreaRepo>();
 builder.Services.AddScoped<ISpecilityRepo, SpecilityRepo>();
 builder.Services.AddScoped<IDocSpecialityRepo,DocSpecialityRepo>();
 builder.Services.AddScoped<IClinicRepo, ClinicRepo>();
+builder.Services.AddScoped<IOPDSessionRepo, OPDSessionRepo>();
+builder.Services.AddScoped<IClinicFacilityRepo, ClinicFacilityRepo>();
 
 var app = builder.Build();
 app.UseSession();

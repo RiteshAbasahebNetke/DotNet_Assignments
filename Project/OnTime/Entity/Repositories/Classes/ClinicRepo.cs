@@ -17,6 +17,11 @@ namespace Entity.Repositories.Classes
             this.cc = cc;
         }
 
+        public List<Clinic> GetAll()
+        {
+            return this.cc.Clinics.ToList();
+        }
+
         public LoginResultVM SignIn(LoginVM rec)
         {
             LoginResultVM re = new LoginResultVM();
@@ -48,6 +53,7 @@ namespace Entity.Repositories.Classes
                 crec.ContactPersonName = rec.ContactPersonName;
                 crec.LandLineNo = rec.LandLineNo;
                 crec.WebsiteUrl = rec.WebsiteUrl;
+                crec.Password = rec.Password;
                 crec.CityID = rec.CityID;
 
                 this.cc.Clinics.Add(crec);
