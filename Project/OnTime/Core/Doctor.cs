@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace Core
 {
@@ -15,10 +16,20 @@ namespace Core
             public Int64 DoctorID { get; set; }
             public string FirstName { get; set; }
             public string LastName { get; set; }
-            public string MobileNo { get; set; }
+            [NotMapped]
+            public string FullName
+            {
+                  get
+                  {
+                       return FirstName + " " + LastName;
+                  }
+            }
+           public string MobileNo { get; set; }
             public bool IsAvailable { get; set; }
             public string Address { get; set; }
             public string DoctorExperience { get; set; }
+            [NotMapped]
+            public IFormFile DoctorPhoto { get; set; }
             public string PhotoPath { get; set; }
             public string DoctorQualification { get; set; }
             public string Password { get; set; }

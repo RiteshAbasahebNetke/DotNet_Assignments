@@ -16,30 +16,5 @@ namespace Entity.Repositories.Classes
         {
             this.cc = cc;
         }
-
-        public void AddDoctor(DoctorVM rec)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeleteDoctor(long id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void EditDoctor(DoctorVM rec)
-        {
-            throw new NotImplementedException();
-        }
-
-        public DoctorVM GetByDoctorID(long id)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<DoctorVM> IDoctorRepo.GetAll()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

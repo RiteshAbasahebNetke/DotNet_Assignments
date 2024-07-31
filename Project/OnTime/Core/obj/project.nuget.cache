@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qN3PD1DVzp/54aSivD+Eh/kW9Lryil4XnRNRAeg4Islvyu51Xb9bOuEdwiSUkU7EBPuUxbhONc7Vli3qK4YMng==",
+  "dgSpecHash": "THiXO6zK/adumtBQOtUdL4xdVstYQf1WqN50rwKYnViyUKPbL1+YNfknDXDjeKp/ml5UkeVWghSIU0qZyb95lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ritesh\\source\\Project\\OnTime\\Core\\Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ritesh\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Ritesh\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Ritesh\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
