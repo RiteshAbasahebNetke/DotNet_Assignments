@@ -18,20 +18,22 @@ namespace Web.Areas.ClinicArea.Controllers
 
         public IActionResult Index()
         {
-            return View(this.cfrepo.GetAll());
+            var id = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            return View(this.cfrepo.GetByCID(id));
         }
 
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.ClinicID = new SelectList(this.crepo.GetAll(), "ClinicID", "ClinicName");
+            Int64 id = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            ViewBag.ClinicID = id;
             return View();
         }
 
         [HttpPost]
         public IActionResult Create(ClinicFacility rec)
         {
-            ViewBag.ClinicID = new SelectList(this.crepo.GetAll(), "ClinicID", "ClinicName");
+            
             if (ModelState.IsValid)
             {
                 this.cfrepo.Add(rec);
@@ -43,7 +45,8 @@ namespace Web.Areas.ClinicArea.Controllers
         [HttpGet]
         public IActionResult Edit(Int64 id)
         {
-            ViewBag.ClinicID = new SelectList(this.crepo.GetAll(), "ClinicID", "ClinicName");
+            Int64 cid = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            ViewBag.ClinicID = cid;
             var rec = this.cfrepo.GetByID(id);
             return View(rec);
         }
@@ -51,7 +54,7 @@ namespace Web.Areas.ClinicArea.Controllers
         [HttpPost]
         public IActionResult Edit(ClinicFacility rec)
         {
-            ViewBag.ClinicID = new SelectList(this.crepo.GetAll(), "ClinicID", "ClinicName");
+            
             if (ModelState.IsValid)
             {
                 this.cfrepo.Edit(rec);

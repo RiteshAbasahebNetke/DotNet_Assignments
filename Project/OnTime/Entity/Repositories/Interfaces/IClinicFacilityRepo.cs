@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Entity.Repositories.Interfaces
 {
-    public interface IClinicFacilityRepo : IGenericRepo<ClinicFacility> { }
+    public interface IClinicFacilityRepo : IGenericRepo<ClinicFacility> 
+    {
+        List<ClinicFacility> GetByCID(Int64 id);
+    }
     
 }

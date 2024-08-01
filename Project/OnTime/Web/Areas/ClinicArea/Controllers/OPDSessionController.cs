@@ -18,20 +18,22 @@ namespace Web.Areas.ClinicArea.Controllers
 
         public IActionResult Index()
         {
-            return View(this.orepo.GetAll());
+            var id = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            return View(this.orepo.GetByOID(id));
         }
 
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.ClinicID = new SelectList(this.crepo.GetAll(), "ClinicID", "ClinicName");
+            Int64 id = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            ViewBag.ClinicID = id;
             return View();
         }
 
         [HttpPost]
         public IActionResult Create(OPDSession rec)
         {
-            ViewBag.ClinicID = new SelectList(this.crepo.GetAll(), "ClinicID", "ClinicName");
+            
             if (ModelState.IsValid)
             {
                 this.orepo.Add(rec);
@@ -43,7 +45,8 @@ namespace Web.Areas.ClinicArea.Controllers
         [HttpGet]
         public IActionResult Edit(Int64 id)
         {
-            ViewBag.ClinicID = new SelectList(this.crepo.GetAll(), "ClinicID", "ClinicName");
+            Int64 oid = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            ViewBag.ClinicID = oid;
             var rec = this.orepo.GetByID(id);
             return View(rec);
         }

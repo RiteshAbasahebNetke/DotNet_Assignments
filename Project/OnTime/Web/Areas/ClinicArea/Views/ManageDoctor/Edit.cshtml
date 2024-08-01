@@ -1,0 +1,84 @@
+﻿@model DocSpecilityVM
+
+<h2> Update Doctor Info </h2>
+<div class="card">
+
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="DoctorID" />
+        <div class="card-body">
+            <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+            <div class="form-group">
+                <label asp-for="FirstName"> First Name  </label>
+                <input type="text" class="form-control" asp-for="FirstName">
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LastName"> Last Name  </label>
+                <input type="text" class="form-control" asp-for="LastName">
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MobileNo"> MobileNo  </label>
+                <input type="text" class="form-control" asp-for="MobileNo">
+                <span asp-validation-for="MobileNo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="IsAvailable"> Is Available  </label>
+                <input type="checkbox" class="form-check-input" asp-for="IsAvailable">
+                <span asp-validation-for="IsAvailable" class="form-check-input"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Address"> Address  </label>
+                <input type="text" class="form-control" asp-for="Address">
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DoctorExperience"> Doctor Experience  </label>
+                <input type="text" class="form-control" asp-for="DoctorExperience">
+                <span asp-validation-for="DoctorExperience" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PhotoPath" class="form-label"> Upload Photo </label>
+                <input type="file" class="form-control" asp-for="PhotoPath" />
+                <span asp-validation-for="PhotoPath" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DoctorQualification"> Doctor Qualification </label>
+                <input type="text" class="form-control" asp-for="DoctorQualification">
+                <span asp-validation-for="DoctorQualification" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password"> Password </label>
+                <input type="text" class="form-control" asp-for="Password">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AreaID"> Area Name </label>
+                <select class="form-select" asp-for="AreaID" asp-items="@ViewBag.AreaID">
+                    <option> Select Country </option>
+                </select>
+                <span asp-validation-for="AreaID"></span>
+            </div>
+
+            <div class="col-12">
+                <label asp-for="SpecilityID" class="form-label">Select Specility: </label>
+                @await Component.InvokeAsync("SpecilityCheckBoxListVC")
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-gradient-primary me-2"> Edit </button>
+            </div>
+        </div>
+    </form>
+
+</div>

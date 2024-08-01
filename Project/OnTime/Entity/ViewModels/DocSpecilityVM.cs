@@ -23,8 +23,9 @@ namespace Entity.ViewModels
         public string DoctorQualification { get; set; }
         public string Password { get; set; }
         public Int64 SpecilityID { get; set; }
-        public string SpecilityName { get; set; }   
         public Int64 AreaID { get; set; }
         public string AreaName { get; set; }
+        public List<Int64> Specilities { get; set; }
+        public List<string> SpecilityString { get; set; }
     }
 }

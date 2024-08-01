@@ -10,6 +10,6 @@ namespace Entity.ViewModels
     {
         public Int64 Value { get; set; }
         public string Text { get; set; }
-        public Boolean IsChecked { get; set; }
+        public Boolean IsSelected { get; set; }
     }
 }

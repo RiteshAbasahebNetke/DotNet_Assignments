@@ -15,5 +15,15 @@ namespace Entity.Repositories.Classes
         {
             this.cc = cc;
         }
+
+            public List<OPDSession> GetByOID(long id)
+            {
+                var v = from t in this.cc.OPDSessions
+                        where
+                      (from t1 in this.cc.Clinics select t1.ClinicID)
+                      .Contains(id) && t.ClinicID == id
+                        select t;
+                return v.ToList();
+            }
     }
 }

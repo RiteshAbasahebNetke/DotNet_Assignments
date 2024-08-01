@@ -15,5 +15,14 @@ namespace Entity.Repositories.Classes
         {
             this.cc = cc;
         }
+
+        List<ClinicFacility> IClinicFacilityRepo.GetByCID(long id)
+        {
+            var v = from t in this.cc.ClinicFacilities
+                    where
+                  (from t1 in this.cc.Clinics select t1.ClinicID)
+                  .Contains(id) && t.ClinicID == id select t;
+            return v.ToList();
+        }
     }
 }

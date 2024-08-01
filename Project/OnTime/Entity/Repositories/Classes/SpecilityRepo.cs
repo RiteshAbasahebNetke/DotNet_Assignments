@@ -26,7 +26,7 @@ namespace Entity.Repositories.Classes
                     {
                         Text = t.SpecilityName,
                         Value = t.SpecilityID,
-                        IsChecked = docsp.Any(p => p.SpecilityID == t.SpecilityID) ? true : false
+                        IsSelected = docsp.Any(p => p.SpecilityID == t.SpecilityID) ? true : false
                     };
             return v.ToList();
         }

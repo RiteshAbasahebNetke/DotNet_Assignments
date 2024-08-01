@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Entity.Repositories.Interfaces
 {
-    public interface IOPDSessionRepo : IGenericRepo<OPDSession> { }
+    public interface IOPDSessionRepo : IGenericRepo<OPDSession> 
+    {
+        List<OPDSession> GetByOID(Int64 id);
+    }
     
 }

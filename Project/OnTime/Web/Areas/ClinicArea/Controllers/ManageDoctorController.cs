@@ -3,6 +3,7 @@ using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Identity.Client;
 
 namespace Web.Areas.ClinicArea.Controllers
 {
@@ -55,10 +56,17 @@ namespace Web.Areas.ClinicArea.Controllers
 
                     }
                 }
-                this.dsrepo.Add(rec);
+                this.drepo.Add(rec);
                 return RedirectToAction("Index");
+
             }
             return View(rec);
+        }
+
+        [HttpGet]
+        public IActionResult Edit(Int64 id)
+        {
+            return View();
         }
     }
 }

@@ -1,0 +1,16 @@
+﻿@model IEnumerable<CheckBoxVM>
+<div>
+    @foreach (var temp in Model)
+    {
+        if (temp.IsSelected)
+        {
+            <input name="Specilities" class="form-check-input" type="checkbox" checked="checked" value="@temp.Value">
+
+            @temp.Text <br />
+        }
+        else
+        {
+            <input name="Specilities" class="form-check-input" type="checkbox" value="@temp.Value">  @temp.Text <br />
+        }
+    }
+</div>

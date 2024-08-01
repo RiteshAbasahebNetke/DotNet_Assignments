@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace Entity.Repositories.Interfaces
 {
-    public interface IDoctorRepo : IGenericRepo<Doctor> { }
+    public interface IDoctorRepo : IGenericRepo<Doctor> 
+    {
+        void Add(DocSpecilityVM rec);
+    }
        
 }
