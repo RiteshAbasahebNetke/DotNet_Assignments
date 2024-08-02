@@ -40,6 +40,10 @@ namespace Core
             public virtual List<DoctorRating> DoctorRatings { get; set; }
             public virtual List<DoctorSpeciality> DoctorSpecialities { get; set; }
             public virtual List<DoctorClinicSession> DoctorClinicSessions { get; set; }
-       
+        public Doctor()
+        {
+            this.DoctorSpecialities = new List<DoctorSpeciality>();
+        }
+
     }
 }

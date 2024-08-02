@@ -42,5 +42,90 @@ namespace Entity.Repositories.Classes
             this.cc.SaveChanges();
         }
 
+        public void DeleteDoc(long id)
+        {
+            var docsp = this.cc.DoctorSpecialities.Where(p => p.DoctorID == id);
+            foreach (var temp in docsp)
+            {
+                this.cc.DoctorSpecialities.Remove(temp);
+            }
+
+            var prod = this.cc.Doctors.Find(id);
+            this.cc.Doctors.Remove(prod);
+            this.cc.SaveChanges();
+        }
+
+        public void EditDoc(DocSpecilityVM rec)
+        {
+            var oldrec = this.cc.Doctors.Find(rec.DoctorID);
+            oldrec.FirstName = rec.FirstName;
+            oldrec.LastName = rec.LastName;
+            oldrec.MobileNo = rec.MobileNo;
+            oldrec.IsAvailable = rec.IsAvailable;
+            oldrec.Address = rec.Address;
+            oldrec.DoctorExperience = rec.DoctorExperience;
+            oldrec.AreaID = rec.AreaID;
+            oldrec.DoctorPhoto = rec.DoctorPhoto;
+            oldrec.DoctorQualification = rec.DoctorQualification;
+            oldrec.Password = rec.Password;
+            var oldSpecility = this.cc.DoctorSpecialities.Where(p => p.DoctorID == rec.DoctorID);
+
+            foreach (var temp in oldSpecility)
+            {
+                this.cc.DoctorSpecialities.Remove(temp);
+            }
+
+            foreach (var temp in rec.Specilities)
+            {
+                DoctorSpeciality ds = new DoctorSpeciality();
+                ds.SpecilityID = temp;
+                oldrec.DoctorSpecialities.Add(ds);
+            }
+
+            this.cc.SaveChanges();
+        }
+
+        public List<DocSpecilityVM> GetAllDoc()
+        {
+            var v = from t in this.cc.Doctors
+                    select new DocSpecilityVM
+                    {
+                        DoctorID = t.DoctorID,
+                        FirstName = t.FirstName,
+                        LastName = t.LastName,
+                        MobileNo = t.MobileNo,
+                        IsAvailable = t.IsAvailable,
+                        Address = t.Address,
+                        DoctorExperience = t.DoctorExperience,
+                        AreaID = t.AreaID,
+                        SpecilityString = (from t1 in t.DoctorSpecialities
+                                           select t1.Specility.SpecilityName).ToList(),
+                        DoctorQualification = t.DoctorQualification
+                    };
+
+            return v.ToList();
+        }
+
+        public DocSpecilityVM GetByDocID(long id)
+        {
+            var res = from t in this.cc.Doctors
+                      where t.DoctorID == id
+                      select new DocSpecilityVM
+                      {
+                          DoctorID = id,
+                          FirstName = t.FirstName,
+                          LastName = t.LastName,
+                          MobileNo = t.MobileNo,
+                          IsAvailable = t.IsAvailable,
+                          Address = t.Address,
+                          DoctorExperience = t.DoctorExperience,
+                          DoctorPhoto = t.DoctorPhoto,
+                          DoctorQualification = t.DoctorQualification,
+                          Password = t.Password,
+                          AreaID = t.AreaID
+                      };
+
+            return res.FirstOrDefault();
+        }
     }
 }

@@ -8,13 +8,5 @@ using System.Threading.Tasks;
 
 namespace Entity.Repositories.Interfaces
 {
-    public interface IDocSpecilityRepo:IGenericRepo<DoctorSpeciality>
-    {
-        List<DocSpecilityVM> GetAllDoc();
-        DocSpecilityVM GetByDocID(Int64 id);
-        
-        void EditDoc(DocSpecilityVM rec);
-        void DeleteDoc(Int64 id);
-
-    }
+    public interface IDocSpecilityRepo:IGenericRepo<DoctorSpeciality> {  }
 }

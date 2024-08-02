@@ -11,6 +11,10 @@ namespace Entity.Repositories.Interfaces
     public interface IDoctorRepo : IGenericRepo<Doctor> 
     {
         void Add(DocSpecilityVM rec);
+        List<DocSpecilityVM> GetAllDoc();
+        DocSpecilityVM GetByDocID(Int64 id);
+        void EditDoc(DocSpecilityVM rec);
+        void DeleteDoc(Int64 id);
     }
        
 }

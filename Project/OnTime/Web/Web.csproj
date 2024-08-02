@@ -20,6 +20,9 @@
     <Folder Include="Areas\AdminArea\Models\" />
     <Folder Include="Areas\ClinicArea\Data\" />
     <Folder Include="Areas\ClinicArea\Models\" />
+    <Folder Include="Areas\UserArea\Controllers\" />
+    <Folder Include="Areas\UserArea\Data\" />
+    <Folder Include="Areas\UserArea\Models\" />
   </ItemGroup>
 
   <ItemGroup>
