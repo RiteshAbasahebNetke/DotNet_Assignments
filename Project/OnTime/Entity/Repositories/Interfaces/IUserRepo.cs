@@ -11,5 +11,8 @@ namespace Entity.Repositories.Interfaces
     {
         LoginResultVM Signin(LoginVM rec);
         ResultVM Signup(UserVM rec);
+        ResultVM ChangePassword(ChangePasswordVM rec, Int64 userid);
+        ResultVM EditProfile(EditProfileVM rec, Int64 userid);
+        EditProfileVM GetByID(Int64 userid);
     }
 }

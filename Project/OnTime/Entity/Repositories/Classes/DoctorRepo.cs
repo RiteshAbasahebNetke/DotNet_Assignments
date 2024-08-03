@@ -50,10 +50,23 @@ namespace Entity.Repositories.Classes
                 this.cc.DoctorSpecialities.Remove(temp);
             }
 
-            var prod = this.cc.Doctors.Find(id);
-            this.cc.Doctors.Remove(prod);
+            var doc = this.cc.Doctors.Find(id);
+            this.cc.Doctors.Remove(doc);
             this.cc.SaveChanges();
         }
+
+        //public void DetailsDoc(long id)
+        //{
+        //    var docsp = this.cc.DoctorSpecialities.Where(p => p.DoctorID == id);
+        //    foreach (var temp in docsp)
+        //    {
+        //        this.cc.DoctorSpecialities.Remove(temp);
+        //    }
+
+        //    var doc = this.cc.Doctors.Find(id);
+        //    this.cc.Doctors.Remove(doc);
+        //    this.cc.SaveChanges();
+        //}
 
         public void EditDoc(DocSpecilityVM rec)
         {

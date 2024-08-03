@@ -100,5 +100,12 @@ namespace Web.Areas.ClinicArea.Controllers
             this.drepo.DeleteDoc(id);
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public IActionResult Details(Int64 id)
+        {
+            this.drepo.DeleteDoc(id);
+            return RedirectToAction("Index");
+        }
     }
 }

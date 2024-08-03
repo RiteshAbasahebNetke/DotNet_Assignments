@@ -25,7 +25,6 @@ namespace Entity.ViewModels
         [DataType(DataType.Password)]
         public string Password { get; set; }
         public Int64 CountryID { get; set; }
-        [Required(ErrorMessage ="Please select Country")]
-        public string CountryName { get; set; }
+        
     }
 }

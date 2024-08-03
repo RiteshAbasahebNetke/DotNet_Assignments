@@ -17,6 +17,71 @@ namespace Entity.Repositories.Classes
             this.cc = cc;
         }
 
+        public ResultVM ChangePassword(ChangePasswordVM rec, long userid)
+        {
+            ResultVM res = new ResultVM();
+            var urec = this.cc.Users.Find(userid);
+            if (urec != null)
+            {
+                if (urec.Password == rec.OldPassword)
+                {
+                    urec.Password = rec.NewPassword;
+                    this.cc.SaveChanges();
+                    res.IsSuccess = true;
+                    res.Message = "Password Changed Successfully!!!";
+                }
+                else
+                {
+                    res.IsSuccess = false;
+                    res.Message = "Invalid Old Password!";
+                }
+            }
+            else
+            {
+                res.IsSuccess = false;
+                res.Message = "Invalid User!";
+            }
+
+            return res;
+        }
+
+        public ResultVM EditProfile(EditProfileVM rec, Int64 userid)
+        {
+            ResultVM res = new ResultVM();
+            try
+            {
+                var oldrec = this.cc.Users.Find(userid);
+                oldrec.LastName = rec.LastName;
+                oldrec.Address = rec.Address;
+                oldrec.MobileNo = rec.MobileNo;
+                this.cc.SaveChanges();
+                res.IsSuccess = true;
+                res.Message = "Profile Updated Changed!";
+            }
+            catch (Exception ex)
+            {
+                res.Message = ex.Message.ToString();
+            }
+
+            return res;
+        }
+
+        public EditProfileVM GetByID(long userid)
+        {
+            var v = from t in this.cc.Users
+                    where t.UserID == userid
+                    select new EditProfileVM
+                    {
+                        Address = t.Address,
+                        FirstName = t.FirstName,
+                        LastName = t.LastName,
+                        MobileNo = t.MobileNo,
+                        EmailID = t.EmailID
+                    };
+
+            return v.FirstOrDefault();
+        }
+
         public LoginResultVM Signin(LoginVM rec)
         {
             LoginResultVM result = new LoginResultVM();

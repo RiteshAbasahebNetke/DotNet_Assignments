@@ -15,6 +15,7 @@ namespace Entity.Repositories.Interfaces
         DocSpecilityVM GetByDocID(Int64 id);
         void EditDoc(DocSpecilityVM rec);
         void DeleteDoc(Int64 id);
+        //void DetailsDoc(Int64 id);
     }
        
 }

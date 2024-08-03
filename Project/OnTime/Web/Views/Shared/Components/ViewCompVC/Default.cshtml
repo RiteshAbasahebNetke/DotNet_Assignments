@@ -1,0 +1,38 @@
+﻿@model ViewCompVM
+
+<html>
+    <head>
+        <title> ViewComp </title>
+    </head>
+    <body>
+        <div style="display:flex; justify-content:space-around;">
+            <div style="margin-right:8px;">
+                <select asp-for="CountryID" asp-items="ViewBag.CountryID" style="width:500px important; padding:18px;">
+                    <option value="0"> Select Country </option>
+                </select>
+            </div>
+
+        <div style="margin-right:8px;">
+        <select asp-for="StateID" asp-items="ViewBag.StateID">
+            <option value="0"> Select State </option>
+        </select>
+        </div>
+
+        <div style="margin-right:8px;">
+        <select asp-for="CityID" asp-items="ViewBag.CityID">
+            <option value="0"> Select City </option>
+        </select>
+        </div>
+
+        <div style="margin-right:8px;">
+        <select asp-for="SpecilityID" asp-items="ViewBag.SpecilityID">
+            <option value="0"> Select Specility </option>
+        </select>
+        </div>
+
+        <div style="margin-right:8px;">
+            <input type="submit" value="SEARCH" /> 
+        </div>
+    </div>
+    </body>
+</html>

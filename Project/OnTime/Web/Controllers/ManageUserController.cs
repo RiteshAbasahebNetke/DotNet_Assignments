@@ -64,5 +64,12 @@ namespace Web.Controllers
 
             return View(rec);
         }
+
+        [HttpGet]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return View();
+        }
     }
 }

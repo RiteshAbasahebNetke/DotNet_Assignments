@@ -1,0 +1,48 @@
+﻿@model EditProfileVM
+
+<div class="card">
+    <div class="container">
+    <div>
+        <h3> Edit Profile </h3>
+    </div>
+    <div class="row">
+    <form class="forms-sample " asp-action="SignUp" method="post">
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+        <div class="form-group">
+            <label asp-for="FirstName"> First Name </label>
+            <div class="col-md-4 col-lg-4"></div>
+            <input type="text" asp-for="FirstName" class="form-control" placeholder="FirstName">
+            <span asp-validation-for="FirstName"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName"> Last Name </label>
+            <div class="col-md-4 col-lg-4"></div>
+            <input type="text" asp-for="LastName" class="form-control" placeholder="LastName">
+            <span asp-validation-for="LastName"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Address"> Address </label>
+            <textarea asp-for="Address" class="form-control" rows="2"></textarea>
+            <span asp-validation-for="Address"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="EmailID"> Email Address </label>
+            <input type="email" asp-for="EmailID" class="form-control" placeholder="Email">
+            <span asp-validation-for="EmailID"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MobileNo"> MobileNo </label>
+            <input type="text" asp-for="MobileNo" class="form-control" placeholder="MobileNo">
+            <span asp-validation-for="MobileNo"></span>
+        </div>
+
+        <button type="submit" class="btn btn-gradient-primary me-2"> Submit </button>
+    </form>
+    </div>
+    </div>
+</div>         
