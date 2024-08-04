@@ -1,6 +1,7 @@
 ﻿using Core;
 using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,18 +56,39 @@ namespace Entity.Repositories.Classes
             this.cc.SaveChanges();
         }
 
-        //public void DetailsDoc(long id)
-        //{
-        //    var docsp = this.cc.DoctorSpecialities.Where(p => p.DoctorID == id);
-        //    foreach (var temp in docsp)
-        //    {
-        //        this.cc.DoctorSpecialities.Remove(temp);
-        //    }
+        public void DetailsDoc(long id)
+        {
+            var v = from t in this.cc.Specilities
+                    join
+                   t1 in this.cc.DoctorSpecialities on
+                   t.SpecilityID equals t1.DoctorSpecilityID
+                    select new
+                    {
+                        t.SpecilityID,
+                        t1.DoctorSpecilityID,
+                        t1.DoctorID,
+                        t1.Doctor.FirstName,
+                        t1.Doctor.LastName,
+                        t1.Doctor.MobileNo,
+                        t1.Doctor.Address,
+                        t1.Doctor.IsAvailable,
+                        t1.Doctor.DoctorPhoto,
+                        t1.Doctor.DoctorQualification,
+                        t1.Doctor.Password,
+                        t1.Doctor.Area.AreaID
+                    };
+            this.cc.Doctors.SingleOrDefault();
+            this.cc.SaveChanges();
+            //var docsp = this.cc.DoctorSpecialities.Where(p => p.DoctorID == id);
+            //foreach (var temp in docsp)
+            //{
+            //    this.cc.DoctorSpecialities.Remove(temp);
+            //}
 
-        //    var doc = this.cc.Doctors.Find(id);
-        //    this.cc.Doctors.Remove(doc);
-        //    this.cc.SaveChanges();
-        //}
+            //var doc = this.cc.Doctors.Find(id);
+            //this.cc.Doctors.Remove(doc);
+            //this.cc.SaveChanges();
+        }
 
         public void EditDoc(DocSpecilityVM rec)
         {
@@ -140,5 +162,10 @@ namespace Entity.Repositories.Classes
 
             return res.FirstOrDefault();
         }
+
+        //List<DocSpecilityVM> IDoctorRepo.GetByID(long id)
+        //{
+        //    var v=from m in this.cc.Doctors t1. 
+        //}
     }
 }
