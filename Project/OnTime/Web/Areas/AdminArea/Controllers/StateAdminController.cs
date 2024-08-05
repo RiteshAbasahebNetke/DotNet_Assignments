@@ -69,5 +69,6 @@ namespace Web.Areas.AdminArea.Controllers
             this.srepo.Delete(id);
             return RedirectToAction("Index");
         }
+
     }
 }

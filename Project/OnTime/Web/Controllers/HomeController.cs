@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Entity.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Web.Controllers
 {
@@ -8,5 +9,6 @@ namespace Web.Controllers
         {
             return View();
         }
+       
     }
 }

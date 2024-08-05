@@ -104,7 +104,7 @@ namespace Web.Areas.ClinicArea.Controllers
         [HttpGet]
         public IActionResult Details(Int64 id)
         {
-            this.drepo.DeleteDoc(id);
+            this.drepo.(id);
             return RedirectToAction("Index");
         }
     }

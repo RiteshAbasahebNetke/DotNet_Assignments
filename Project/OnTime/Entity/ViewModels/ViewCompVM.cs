@@ -16,5 +16,6 @@ namespace Entity.ViewModels
         public string CityName { get; set; }
         public Int64 SpecilityID { get; set; }
         public string SpecilityName { get; set; }
+           
     }
 }

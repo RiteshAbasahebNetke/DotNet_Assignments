@@ -68,5 +68,6 @@ namespace Web.Areas.AdminArea.Controllers
             this.ctrepo.Delete(id);
             return RedirectToAction("Index");
         }
+
     }
 }

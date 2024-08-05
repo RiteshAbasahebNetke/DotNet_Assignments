@@ -5,9 +5,9 @@
         <title> ViewComp </title>
     </head>
     <body>
-        <div style="display:flex; justify-content:space-around;">
+    <div style="display:flex; justify-content:space-around;">
             <div style="margin-right:8px;">
-                <select asp-for="CountryID" asp-items="ViewBag.CountryID" style="width:500px important; padding:18px;">
+                <select asp-for="CountryID" asp-items="ViewBag.CountryID" style="width:500px important; padding:18px;" id="country">
                     <option value="0"> Select Country </option>
                 </select>
             </div>
@@ -31,8 +31,15 @@
         </div>
 
         <div style="margin-right:8px;">
-            <input type="submit" value="SEARCH" /> 
+            <input type="submit" value="SEARCH" class="btn btn-success"/> 
         </div>
+
+        <script type="text/javascript">
+           if (this.crepo.GetByID() && this.sprepo.GetByID()) 
+           {
+
+           }
+        </script>
     </div>
     </body>
 </html>

@@ -1,5 +1,6 @@
 ﻿using Core;
 using Entity.Repositories.Interfaces;
+using Entity.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
