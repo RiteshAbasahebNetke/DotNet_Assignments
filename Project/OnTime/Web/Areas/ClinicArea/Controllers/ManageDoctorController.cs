@@ -101,11 +101,12 @@ namespace Web.Areas.ClinicArea.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpGet]
-        public IActionResult Details(Int64 id)
-        {
-            this.drepo.(id);
-            return RedirectToAction("Index");
-        }
+        //[HttpGet]
+        //public IActionResult Details(Int64 id)
+        //{
+        //    this.drepo.(id);
+        //    return RedirectToAction("Index");
+        //}
+        
     }
 }
