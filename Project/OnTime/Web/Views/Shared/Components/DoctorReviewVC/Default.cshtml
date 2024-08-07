@@ -1,0 +1,66 @@
+﻿@model IEnumerable<RatingVM>
+
+<html>
+    <head>
+        <title> Doctor Rating </title>
+    </head>
+    <body>
+        <form> 
+         <div class="form-control">
+             <label> Rating </label>
+             <select>
+                 <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+             </select>
+         </div>
+
+		<div class="form-control">
+			<input type="text" name="first_name" placeholder="Enter Review" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required="" class="single-input">
+		</div>
+
+        <input type="submit" value="Save" />
+        </form>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="title">ClinicFacility List</h2>
+                    <a asp-action="Create" class="btn btn-primary"> Create New </a>
+                    <hr />
+                    <table class="table">
+                        <thead>
+                            <tr align="center">
+                                <th> Sr.No </th>
+                                <th> First Name </th>
+                                <th> Remark </th>
+                                <th> Rating </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int srno = 1;
+                            }
+                            @foreach (var temp in Model)
+                            {
+                                <tr>
+                                    <td align="center"> @srno </td>
+                                    <td align="center"> @temp.FirstName</td>
+                                    <td align="center"> @temp.Remark</td>
+                                        <td align="center"> @temp.Rating</td>
+                                </tr>
+                                srno++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </body>
+</html>

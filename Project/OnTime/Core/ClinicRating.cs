@@ -14,8 +14,14 @@ namespace Core
         [Key]
         public Int64 ClinicRatingID { get; set; }
         public int Rating { get; set; }
+        public string Review { get; set; }
+        
         [ForeignKey("Clinic")]
         public Int64 ClinicID { get; set; }
         public virtual Clinic Clinic { get; set; }
+
+        [ForeignKey("User")]
+        public Int64 UserID { get; set; }
+        public virtual User User { get; set; }
     }
 }

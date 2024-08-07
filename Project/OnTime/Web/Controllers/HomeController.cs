@@ -25,7 +25,7 @@ namespace Web.Controllers
         {
             return View();
         }
-        public IActionResult Search(Int64 cname, Int64 spname,Int64 sname,Int64 ctname)
+        public IActionResult Search(Int64 cname, Int64 spname)
         {
 
             if (cname != 0 && spname != 0)
@@ -33,22 +33,19 @@ namespace Web.Controllers
                 ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
                 ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
 
-                //var v = this.crepo.GetAll().Where(p => p.CountryID == cname)
-                //      this.sprepo.GetAll().Where(p => p.SpecilityID == spname);
-                return View(this.drepo.GetAll());
+                return View(this.crepo.GetCountry(cname,spname));
             }
-            else if(sname != 0 && spname != 0)
-            {
-                ViewBag.StateID = new SelectList(this.srepo.GetAll(), "StateID", "StateName");
-                ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
+            //else if(sname != 0 && spname != 0)
+            //{
+            //    ViewBag.StateID = new SelectList(this.srepo.GetAll(), "StateID", "StateName");
+            //    ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
 
-            }
-            else if (ctname != 0 && spname != 0)
-            {
-                ViewBag.CityID = new SelectList(this.ctrepo.GetAll(), "CityID", "CityName");
-                ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
-
-            }
+            //}
+            //else if (ctname != 0 && spname != 0)
+            //{
+            //    ViewBag.CityID = new SelectList(this.ctrepo.GetAll(), "CityID", "CityName");
+            //    ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
+            //}
                 return View();
         }
     }

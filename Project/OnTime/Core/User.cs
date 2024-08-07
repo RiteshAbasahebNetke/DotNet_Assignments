@@ -21,5 +21,7 @@ namespace Core
         public Int64 CountryID { get; set; }
         public virtual Country Country { get; set; }
         public virtual List<Patient> Patients { get; set; }
+        public virtual List<ClinicRating> ClinicRatings { get; set; }
+        public virtual List<DoctorRating> DoctorRatings { get; set; }
     }
 }

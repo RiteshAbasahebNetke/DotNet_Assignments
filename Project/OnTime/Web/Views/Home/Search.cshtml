@@ -1,1 +1,53 @@
-﻿@model DocSpecilityVM
+﻿@model IEnumerable<Doctor>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="title">Specility List</h2>
+                    
+                    <hr />
+
+                    <table class="table">
+                        <thead>
+                            <tr align="center">
+                                <th> Sr.No </th>
+                                <th> First Name </th>
+                                <th> Last Name </th>
+                                <th> Mobile No </th>
+                                <th> Is Available </th>
+                                <th> Address </th>
+                                <th> Doctor Qualification </th>
+                                <th> Actions </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int srno = 1;
+                            }
+                            @foreach (var temp in Model)
+                            {
+                                <tr>
+                                    <td align="center"> @srno </td>
+                                    <td align="center"> @temp.FirstName</td>
+                                    <td align="center"> @temp.LastName</td>
+                                    <td align="center"> @temp.MobileNo</td>
+                                    <td align="center"> @temp.IsAvailable</td>
+                                    <td align="center"> @temp.Address</td>
+                                    <td align="center"> @temp.DoctorQualification</td>
+                                    <td align="center">
+                                        <a  class="btn btn-info"> Add Doctor Review </a>
+                                        <a  class="btn btn-Danger"> Clinic Details </a>
+                                        <a  class="btn btn-Danger"> Book an Apppointment </a>
+                                    </td>
+                                </tr>
+                                srno++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -165,7 +165,11 @@ namespace Entity.Repositories.Classes
 
         //List<DocSpecilityVM> IDoctorRepo.GetByID(long id)
         //{
-        //    var v=from m in this.cc.Doctors t1. 
+        //    var v = from t in this.cc.Doctors
+        //            join t1 in this.cc.Areas on t.AreaID equals t1.AreaID
+        //            join t2 in this.cc.Cities on t1.CityID equals t2.CityID
+        //            join t3 in this.cc.Clinics on t2.CityID equals t3.ClinicID
+        //            Si
         //}
     }
 }

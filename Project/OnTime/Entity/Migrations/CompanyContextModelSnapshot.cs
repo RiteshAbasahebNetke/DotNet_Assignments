@@ -262,9 +262,17 @@ namespace Entity.Migrations
                     b.Property<int>("Rating")
                         .HasColumnType("int");
 
+                    b.Property<string>("Review")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("UserID")
+                        .HasColumnType("bigint");
+
                     b.HasKey("ClinicRatingID");
 
                     b.HasIndex("ClinicID");
+
+                    b.HasIndex("UserID");
 
                     b.ToTable("ClinicRatingTbl");
                 });
@@ -381,9 +389,14 @@ namespace Entity.Migrations
                     b.Property<int>("Rating")
                         .HasColumnType("int");
 
+                    b.Property<long>("UserID")
+                        .HasColumnType("bigint");
+
                     b.HasKey("DoctorRatingID");
 
                     b.HasIndex("DoctorID");
+
+                    b.HasIndex("UserID");
 
                     b.ToTable("DoctorRatingTbl");
                 });
@@ -637,7 +650,15 @@ namespace Entity.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("Core.User", "User")
+                        .WithMany("ClinicRatings")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.Navigation("Clinic");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Core.Doctor", b =>
@@ -686,7 +707,15 @@ namespace Entity.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("Core.User", "User")
+                        .WithMany("DoctorRatings")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.Navigation("Doctor");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Core.DoctorSpeciality", b =>
@@ -825,6 +854,10 @@ namespace Entity.Migrations
 
             modelBuilder.Entity("Core.User", b =>
                 {
+                    b.Navigation("ClinicRatings");
+
+                    b.Navigation("DoctorRatings");
+
                     b.Navigation("Patients");
                 });
 #pragma warning restore 612, 618

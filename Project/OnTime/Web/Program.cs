@@ -1,3 +1,4 @@
+using Core;
 using Entity;
 using Entity.Repositories.Classes;
 using Entity.Repositories.Interfaces;
@@ -25,6 +26,8 @@ builder.Services.AddScoped<IOPDSessionRepo, OPDSessionRepo>();
 builder.Services.AddScoped<IClinicFacilityRepo, ClinicFacilityRepo>();
 builder.Services.AddScoped<IDoctorRepo, DoctorRepo>();
 builder.Services.AddScoped<IUserRepo, UserRepo>();
+builder.Services.AddScoped<IDoctorRatingRepo, DoctorRatingRepo>();
+builder.Services.AddScoped<IClinicRatingRepo, ClinicRatingRepo>();
 
 var app = builder.Build();
 app.UseSession();
