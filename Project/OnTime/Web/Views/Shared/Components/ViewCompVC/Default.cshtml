@@ -7,7 +7,7 @@
     <body>
     <div style="display:flex; justify-content:space-around;">
             <div style="margin-right:8px;">
-                <select asp-for="CountryID" asp-items="ViewBag.CountryID">
+            <select asp-for="CountryID" asp-items="ViewBag.CountryID" >
                     <option value="0"> Select Country </option>
                 </select>
             </div>
@@ -31,7 +31,7 @@
         </div>
 
         <div style="margin-right:8px;">
-            <input type="submit" value="SEARCH" asp-action="Search" asp-controller="Home" class="btn btn-success" />
+            <input type="submit" value="SEARCH" asp-route-CountryID="@ViewBag.CountryID" asp-action="Search" asp-controller="Home" class="btn btn-success" />
         </div>
 
         

@@ -22,7 +22,8 @@ namespace Web.Areas.ClinicArea.Controllers
 
         public IActionResult Index()
         {
-            return View(this.drepo.GetAll());
+            var id = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            return View(this.drepo.GetByDID(id));
         }
 
         [HttpGet]

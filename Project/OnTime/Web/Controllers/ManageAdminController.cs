@@ -28,7 +28,7 @@ namespace Web.Controllers
                 if(res.IsLoggedIn)
                 {
                     HttpContext.Session.SetString("AdminID",res.LoggedInID.ToString());
-                    HttpContext.Session.SetString("FullName", res.LoggedInName);
+                    HttpContext.Session.SetString("FirstName", res.LoggedInName);
 
                     return RedirectToAction("Index", "AdminHome", new {area= "AdminArea" });
                 }

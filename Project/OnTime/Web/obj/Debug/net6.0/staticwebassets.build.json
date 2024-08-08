@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ApB/M9vcvFySE7ur8iNvr9NL2igcFrYIfkJ0CEueQa4=",
+  "Hash": "N1xyFK2LR+//7KxsbUD0b8rjCELei28G1KVPspwzDMo=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -2174,6 +2174,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\adminassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Ritesh\\source\\Project\\OnTime\\Web\\wwwroot\\DoctorPhotos\\DO.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ritesh\\source\\Project\\OnTime\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "DoctorPhotos/DO.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DoctorPhotos\\DO.jpg"
     },
     {
       "Identity": "C:\\Users\\Ritesh\\source\\Project\\OnTime\\Web\\wwwroot\\DoctorPhotos\\dr.jpg",

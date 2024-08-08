@@ -12,12 +12,12 @@ namespace Web.Controllers
         IStateRepo srepo;
         ICityRepo ctrepo;
         ISpecilityRepo sprepo;
-        IDoctorRepo drepo;
-        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo, IDoctorRepo drepo,ICityRepo ctrepo,IStateRepo srepo)
+        //IDoctorRepo drepo;
+        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo, ICityRepo ctrepo, IStateRepo srepo)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
-            this.drepo = drepo;
+            //this.drepo = drepo;
             this.ctrepo = ctrepo;
             this.srepo = srepo;
         }
@@ -25,28 +25,47 @@ namespace Web.Controllers
         {
             return View();
         }
-        public IActionResult Search(Int64 cname, Int64 spname)
+
+        //    [HttpGet]
+        //    public IActionResult Search(Int64 cname=0, Int64 spname=0)
+        //    {
+        //        ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
+        //        ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
+
+        //        if (cname != 0 && spname != 0)
+        //        {
+        //            ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
+        //            ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
+
+        //            return View(this.crepo.GetCountry(cname,spname));
+        //        }
+        //        //else if(sname != 0 && spname != 0)
+        //        //{
+        //        //    ViewBag.StateID = new SelectList(this.srepo.GetAll(), "StateID", "StateName");
+        //        //    ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
+
+        //        //}
+        //        //else if (ctname != 0 && spname != 0)
+        //        //{
+        //        //    ViewBag.CityID = new SelectList(this.ctrepo.GetAll(), "CityID", "CityName");
+        //        //    ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
+        //        //}
+        //            return View();
+        //    }
+        //}
+
+        [HttpGet]
+        public IActionResult Search(Int64 CountryID)
         {
 
-            if (cname != 0 && spname != 0)
-            {
                 ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
                 ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
 
-                return View(this.crepo.GetCountry(cname,spname));
-            }
-            //else if(sname != 0 && spname != 0)
-            //{
-            //    ViewBag.StateID = new SelectList(this.srepo.GetAll(), "StateID", "StateName");
-            //    ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
-
-            //}
-            //else if (ctname != 0 && spname != 0)
-            //{
-            //    ViewBag.CityID = new SelectList(this.ctrepo.GetAll(), "CityID", "CityName");
-            //    ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
-            //}
-                return View();
+                return View(this.crepo.GetCountry(CountryID));
+         
         }
+            
     }
+
 }
+
