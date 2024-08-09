@@ -17,6 +17,48 @@ namespace Entity.Repositories.Classes
             this.cc = cc;
         }
 
+        public void ClinicDetails()
+        {
+            var v = from t in this.cc.Doctors
+                    join t1 in this.cc.Areas on t.AreaID equals t1.AreaID
+                    join t2 in this.cc.Cities on t1.CityID equals t2.CityID
+                    join t3 in this.cc.Clinics on t2.CityID equals t3.CityID
+                    select new
+                    {
+                        t3.ClinicName,
+                        t3.Address,
+                        t3.MobileNo,
+                        t3.EmailID,
+                        t3.ContactPersonName,
+                        t3.LandLineNo,
+                        t3.WebsiteUrl,
+                        t3.City.CityName,
+                        t3.ClinicFacilities
+                    };
+            this.cc.SaveChanges();
+
+            //var v = from t in this.cc.Clinics
+            //        select new
+            //        {
+            //            t.ClinicName,
+            //            t.Address,
+            //            t.MobileNo,
+            //            t.EmailID,
+            //            t.ContactPersonName,
+            //            t.LandLineNo,
+            //            t.WebsiteUrl,
+            //            t.City.CityName,
+            //            DoctorString = (from t1 in this.cc.Doctors
+            //                            join t2 in this.cc.Areas on t1.AreaID equals t2.AreaID
+            //                            join t3 in this.cc.Cities on t2.CityID equals t3.CityID
+            //                            join t4 in this.cc.Clinics on t3.CityID equals t4.CityID
+            //                            select
+            //                            t1.FullName).ToList()
+            //        };
+            //        v.ToList();
+
+        }
+
         public List<Clinic> GetAll()
         {
             return this.cc.Clinics.ToList();

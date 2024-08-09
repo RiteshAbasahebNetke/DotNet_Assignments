@@ -29,6 +29,7 @@ namespace Entity.Repositories.Classes
             d.DoctorExperience = rec.DoctorExperience;
             d.AreaID = rec.AreaID;
             d.PhotoPath = rec.PhotoPath;
+            d.DoctorPhoto= rec.DoctorPhoto;
             d.DoctorQualification = rec.DoctorQualification;
             d.Password = rec.Password;
 
@@ -58,8 +59,7 @@ namespace Entity.Repositories.Classes
 
         public void DetailsDoc(long id)
         {
-            var v = from t in this.cc.Specilities
-                    join
+            var v = from t in this.cc.Specilities join
                    t1 in this.cc.DoctorSpecialities on
                    t.SpecilityID equals t1.DoctorSpecilityID
                     select new

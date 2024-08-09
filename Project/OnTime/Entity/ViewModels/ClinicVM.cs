@@ -32,5 +32,6 @@ namespace Entity.ViewModels
         public string Password { get; set; }
         public Int64 CityID { get; set; }
         public string CityName { get; set; }
+        //public List<string> DoctorString { get; set; }
     }
 }

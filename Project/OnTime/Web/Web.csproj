@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Areas\ClinicArea\Views\ManageDoctor\Edit.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
     <ProjectReference Include="..\Entity\Entity.csproj" />
   </ItemGroup>
@@ -34,15 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <UpToDateCheckInput Remove="Areas\ClinicArea\Views\ManageDoctor\Edit.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Areas\ClinicArea\Views\ManageDoctor\Edit.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Areas\ClinicArea\Views\ManageDoctor\Edit.cshtml" />
     <None Include="wwwroot\portalassets\css\style.map" />
     <None Include="wwwroot\portalassets\css\theme-default.map" />
     <None Include="wwwroot\portalassets\fonts\fa-brands-400.svg" />

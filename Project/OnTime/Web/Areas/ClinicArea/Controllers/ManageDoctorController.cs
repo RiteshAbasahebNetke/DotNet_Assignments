@@ -88,7 +88,7 @@ namespace Web.Areas.ClinicArea.Controllers
 
                     }
                 }
-                this.drepo.Add(rec);
+                this.drepo.EditDoc(rec);
                 return RedirectToAction("Index");
 
             }
