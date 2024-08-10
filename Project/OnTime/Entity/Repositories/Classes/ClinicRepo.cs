@@ -68,7 +68,7 @@ namespace Entity.Repositories.Classes
         {
             LoginResultVM re = new LoginResultVM();
             var crec = this.cc.Clinics.SingleOrDefault(p => p.EmailID == rec.EmailID && p.Password == rec.Password);
-
+            
             if(crec!=null)
             {
                 re.IsLoggedIn = true;

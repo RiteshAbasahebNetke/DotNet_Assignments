@@ -1,0 +1,23 @@
+﻿@*@model IEnumerable<DocSpecilityVM>
+<html>
+    <head>
+        <title> ViewDoc </title>
+    </head>
+    <body>
+        @foreach(var temp in Model)
+        {
+        <div>
+            <label> Doctor Info </label>
+            @temp.DoctorPhoto
+            @temp.FirstName <br />
+            @temp.DoctorQualification <br />
+            @temp.DoctorExperience <br />
+            @temp.SpecilityString <br />
+            @temp.IsAvailable <br>
+            @{<input type="submit" value="Doctor Rating" />} 
+            @{<input type="submit" value="Clinic Rating" />} 
+            @{<input type="submit" value="Book Appointment" />} 
+        </div>
+        }
+    </body>
+</html>*@

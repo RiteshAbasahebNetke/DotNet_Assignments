@@ -36,6 +36,10 @@ namespace Web.Controllers
 
                     return RedirectToAction("Index", "ClinicHome", new {area="ClinicArea"});
                 }
+                else
+                {
+                    return RedirectToAction("SignIn", "ManageClinic");
+                }
                 ModelState.AddModelError("", "Invalid EmailID or Password");
             }
             return View(rec);

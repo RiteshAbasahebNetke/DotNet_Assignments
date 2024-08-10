@@ -9,62 +9,33 @@ namespace Web.Controllers
     public class HomeController : Controller
     {
         ICountryRepo crepo;
-        IStateRepo srepo;
-        ICityRepo ctrepo;
         ISpecilityRepo sprepo;
-        //IDoctorRepo drepo;
-        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo, ICityRepo ctrepo, IStateRepo srepo)
+        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
-            //this.drepo = drepo;
-            this.ctrepo = ctrepo;
-            this.srepo = srepo;
         }
+
         public IActionResult Index()
         {
             return View();
         }
 
-        //    [HttpGet]
-        //    public IActionResult Search(Int64 cname=0, Int64 spname=0)
-        //    {
-        //        ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
-        //        ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
-
-        //        if (cname != 0 && spname != 0)
-        //        {
-        //            ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
-        //            ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
-
-        //            return View(this.crepo.GetCountry(cname,spname));
-        //        }
-        //        //else if(sname != 0 && spname != 0)
-        //        //{
-        //        //    ViewBag.StateID = new SelectList(this.srepo.GetAll(), "StateID", "StateName");
-        //        //    ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
-
-        //        //}
-        //        //else if (ctname != 0 && spname != 0)
-        //        //{
-        //        //    ViewBag.CityID = new SelectList(this.ctrepo.GetAll(), "CityID", "CityName");
-        //        //    ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
-        //        //}
-        //            return View();
-        //    }
-        //}
-
         [HttpGet]
-        public IActionResult Search(Int64 CountryID)
+        public IActionResult Search(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
         {
 
-                ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
-                ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
+            ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
+            ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
 
+            if (CountryID > 0 || StateID > 0 || CityID > 0 || SpecilityID > 0)
+            {
                 return View(this.crepo.GetCountry(CountryID));
-         
+            }
+            return View();
+
         }
-            
+
     }
 
 }

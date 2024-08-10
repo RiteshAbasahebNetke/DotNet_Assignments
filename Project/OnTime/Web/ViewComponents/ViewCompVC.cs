@@ -22,7 +22,7 @@ namespace Web.ViewComponents
             this.drepo = drepo;
         }
 
-        public IViewComponentResult Invoke()
+        public IViewComponentResult Invoke(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
         {
             ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
             ViewBag.StateID = new SelectList(this.srepo.GetAll(), "StateID", "StateName");
