@@ -1,4 +1,5 @@
 ﻿using Core;
+using Entity.Repositories.Classes;
 using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -10,14 +11,22 @@ namespace Web.Controllers
     {
         ICountryRepo crepo;
         ISpecilityRepo sprepo;
-        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo)
+        IStateRepo srepo;
+        ICityRepo ctrepo;
+        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo,ICityRepo ctrepo)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
+            this.srepo = srepo;
+            this.ctrepo = ctrepo;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
         {
+            ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
+            ViewBag.StateID = new SelectList(this.srepo.GetAll(), "StateID", "StateName");
+            ViewBag.CityID = new SelectList(this.ctrepo.GetAll(), "CityID", "CityName");
+            ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
             return View();
         }
 
