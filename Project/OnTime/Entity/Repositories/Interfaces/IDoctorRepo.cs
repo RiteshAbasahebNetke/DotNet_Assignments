@@ -10,6 +10,8 @@ namespace Entity.Repositories.Interfaces
 {
     public interface IDoctorRepo : IGenericRepo<Doctor> 
     {
+
+        Doctor GetDoctor(Int64 did);
         List<Doctor> GetByDID(Int64 id);
         void Add(DocSpecilityVM rec);
         List<DocSpecilityVM> GetAllDoc();

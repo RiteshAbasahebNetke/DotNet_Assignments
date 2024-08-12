@@ -9,7 +9,7 @@ namespace Entity.Repositories.Interfaces
 {
     public interface ICountryRepo : IGenericRepo<Country> 
     {
-        List<Doctor> GetCountry(Int64 CountryID);
+        List<Doctor> GetCountry(Int64 CountryID, Int64 SpecilityID);
     }
     
 }

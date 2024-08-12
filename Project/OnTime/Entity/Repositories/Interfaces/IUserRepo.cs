@@ -1,4 +1,5 @@
-﻿using Entity.ViewModels;
+﻿using Core;
+using Entity.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,6 @@ namespace Entity.Repositories.Interfaces
         ResultVM ChangePassword(ChangePasswordVM rec, Int64 userid);
         ResultVM EditProfile(EditProfileVM rec, Int64 userid);
         EditProfileVM GetByID(Int64 userid);
+        User GetUserByID(Int64 uid);
     }
 }

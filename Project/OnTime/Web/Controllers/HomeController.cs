@@ -13,12 +13,16 @@ namespace Web.Controllers
         ISpecilityRepo sprepo;
         IStateRepo srepo;
         ICityRepo ctrepo;
-        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo,ICityRepo ctrepo)
+        IDoctorRepo drepo;
+        IDoctorRatingRepo drrepo;
+        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, IDoctorRepo drepo, IDoctorRatingRepo drrepo)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
             this.srepo = srepo;
             this.ctrepo = ctrepo;
+            this.drepo = drepo;
+            this.drrepo = drrepo;
         }
 
         public IActionResult Index(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
@@ -39,12 +43,23 @@ namespace Web.Controllers
 
             if (CountryID > 0 || StateID > 0 || CityID > 0 || SpecilityID > 0)
             {
-                return View(this.crepo.GetCountry(CountryID));
+                return View(this.crepo.GetCountry(CountryID,SpecilityID));
             }
             return View();
 
         }
+        [HttpGet]
+        public IActionResult AddDRating()
+        {
+            return View();
+        }
 
+        [HttpPost]
+        public IActionResult AddDRating(DoctorRating rate)
+        {
+            this.drrepo.Add(rate);
+            return RedirectToAction("Index");
+        }
     }
 
 }

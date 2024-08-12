@@ -82,6 +82,11 @@ namespace Entity.Repositories.Classes
             return v.FirstOrDefault();
         }
 
+        public User GetUserByID(long uid)
+        {
+            return this.cc.Users.Find(uid);
+        }
+
         public LoginResultVM Signin(LoginVM rec)
         {
             LoginResultVM result = new LoginResultVM();

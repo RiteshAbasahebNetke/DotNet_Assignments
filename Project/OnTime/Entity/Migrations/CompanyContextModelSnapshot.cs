@@ -389,6 +389,9 @@ namespace Entity.Migrations
                     b.Property<int>("Rating")
                         .HasColumnType("int");
 
+                    b.Property<string>("Review")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<long>("UserID")
                         .HasColumnType("bigint");
 

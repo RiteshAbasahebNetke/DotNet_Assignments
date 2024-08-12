@@ -14,6 +14,7 @@ namespace Core
         [Key]
         public Int64 DoctorRatingID { get; set; }
         public int Rating { get; set; }
+        public string Review { get; set; }
         [ForeignKey("Doctor")]
         public Int64 DoctorID { get; set; }
         public virtual Doctor Doctor { get; set; }

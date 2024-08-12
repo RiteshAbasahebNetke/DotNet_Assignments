@@ -16,7 +16,7 @@ namespace Entity.Repositories.Classes
         {
             this.cc = cc;
         }
-        public List<Doctor> GetCountry(long CountryID)
+        public List<Doctor> GetCountry(long CountryID, long SpecilityID)
         {
             var v = from t in this.cc.Doctors join
                     t1 in this.cc.Areas on t.AreaID equals t1.AreaID join

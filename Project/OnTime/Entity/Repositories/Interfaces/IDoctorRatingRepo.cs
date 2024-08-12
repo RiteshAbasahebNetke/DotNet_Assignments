@@ -7,5 +7,8 @@ using System.Threading.Tasks;
 
 namespace Entity.Repositories.Interfaces
 {
-    public interface IDoctorRatingRepo:IGenericRepo<DoctorRating> {  }
+    public interface IDoctorRatingRepo:IGenericRepo<DoctorRating> 
+    {
+        IEnumerable<DoctorRating> GetdrRatingID(Int64 drid);
+    }
 }

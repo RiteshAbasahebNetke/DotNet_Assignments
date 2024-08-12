@@ -163,6 +163,11 @@ namespace Entity.Repositories.Classes
             return res.FirstOrDefault();
         }
 
+        public Doctor GetDoctor(long did)
+        {
+            return this.cc.Doctors.Find(did);
+        }
+
         List<Doctor> IDoctorRepo.GetByDID(long id)
         {
             var v = from t in this.cc.Doctors

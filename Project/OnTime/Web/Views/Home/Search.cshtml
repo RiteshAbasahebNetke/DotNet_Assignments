@@ -7,17 +7,18 @@
         @foreach(var temp in Model)
         {
         <div>
-            <label> Doctor Info </label>
-            @temp.DoctorPhoto
-            @temp.FirstName <br />
-            @temp.DoctorQualification <br />
-            @temp.DoctorExperience <br />
-           @* @temp.SpecilityString <br />*@
-            @temp.IsAvailable <br>
+            <h4> Doctor Info </h4>
+            DoctorPhoto: @temp.DoctorPhoto <br>
+            Doctor Name: @temp.FirstName <br />
+            Doctor Qualification:@temp.DoctorQualification <br />
+            Doctor Exp:@temp.DoctorExperience <br />
+            @*@temp.DoctorSpecialities <br />*@
+            Is Available:@temp.IsAvailable <br>
             @{<input type="submit" value="Doctor Rating" />}
             @{<input type="submit" value="Clinic Rating" />}
             @{<input type="submit" value="Book Appointment" />}
-        </div>
+        </div> <br />
         }
+       <a asp-action="Index" asp-controller="Home" class="btn-info"> Home Page </a>
     </body>
 </html>

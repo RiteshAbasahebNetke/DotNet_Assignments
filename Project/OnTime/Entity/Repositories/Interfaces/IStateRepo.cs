@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace Entity.Repositories.Interfaces
 {
-    public interface IStateRepo : IGenericRepo<State> { }
+    public interface IStateRepo : IGenericRepo<State> 
+    {
+        List<Doctor> GetState(Int64 StateID, Int64 SpecilityID);
+    }
    
 }
