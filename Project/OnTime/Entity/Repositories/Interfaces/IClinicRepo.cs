@@ -14,5 +14,6 @@ namespace Entity.Repositories.Interfaces
         ResultVM SignUp(ClinicVM rec);
         List<Clinic> GetAll();
         void ClinicDetails();
+        Clinic GetClinic(Int64 aid);
     }
 }

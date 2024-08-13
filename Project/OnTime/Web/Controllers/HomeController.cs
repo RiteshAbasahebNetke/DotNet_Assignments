@@ -60,6 +60,17 @@ namespace Web.Controllers
             this.drrepo.Add(rate);
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public IActionResult ViewClinic()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult ViewClinic(Clinic rec)
+        {
+            return View();
+        }
     }
 
 }

@@ -18,12 +18,12 @@ namespace Web.ViewComponents
         public IViewComponentResult Invoke(Int64 id)
         {
             var doctor=this.drepo.GetDoctor(id);
-            var rating=this.drrepo.GetdrRatingID(id);
+            var ratings=this.drrepo.GetdrRatingID(id);
 
             var v = new DoctorRatingVM
             {
                 Doctor = doctor,
-                Ratings = rating,
+                Ratings = ratings,
             };
 
             return View(v);

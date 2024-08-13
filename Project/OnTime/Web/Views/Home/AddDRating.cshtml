@@ -1,0 +1,47 @@
+﻿@model IEnumerable<DoctorRatingVM>
+
+<html>
+    <head>
+        <title> Rating </title>
+    </head>
+    <body>
+    @await Component.InvokeAsync("DoctorRatingVC")
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="title">User's Rating List</h2>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                  <th> Sr. No </th>
+                                  <th> Full Name </th>
+                                  <th> Review </th>
+                                  <th> Rating </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                      int srno = 1;
+                                 }
+                               @foreach(var temp in Model)
+                               {
+                                    <tr>
+                                        <td> @temp.FullName </td>
+                                        <td> @temp.Review </td>
+                                        <td> @temp.Ratings </td>
+                                    </tr>
+                                    srno++;
+                               }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

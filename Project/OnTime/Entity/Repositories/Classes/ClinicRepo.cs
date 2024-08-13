@@ -1,6 +1,7 @@
 ﻿using Core;
 using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +63,12 @@ namespace Entity.Repositories.Classes
         public List<Clinic> GetAll()
         {
             return this.cc.Clinics.ToList();
+        }
+
+        public Clinic GetClinic(long aid)
+        {
+            var area=this.cc.Areas.Include(p=>p.CityID).FirstOrDefault(p=>p.AreaID==aid);
+            return this.cc.Clinics.FirstOrDefault(p=>p.CityID==area.CityID);
         }
 
         public LoginResultVM SignIn(LoginVM rec)

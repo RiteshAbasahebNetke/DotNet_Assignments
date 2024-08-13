@@ -1,6 +1,7 @@
 ﻿using Core;
 using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
@@ -161,6 +162,11 @@ namespace Entity.Repositories.Classes
                       };
 
             return res.FirstOrDefault();
+        }
+
+        public Doctor GetClinicByDoctor(long id)
+        {
+            return this.cc.Doctors.Include(p=>p.Area).FirstOrDefault(p=>p.DoctorID==id);
         }
 
         public Doctor GetDoctor(long did)

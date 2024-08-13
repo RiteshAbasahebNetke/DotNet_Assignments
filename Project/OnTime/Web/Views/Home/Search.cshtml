@@ -14,9 +14,15 @@
             Doctor Exp:@temp.DoctorExperience <br />
             @*@temp.DoctorSpecialities <br />*@
             Is Available:@temp.IsAvailable <br>
-            @{<input type="submit" value="Doctor Rating" />}
-            @{<input type="submit" value="Clinic Rating" />}
-            @{<input type="submit" value="Book Appointment" />}
+            @{
+                <a asp-action="AddDRating" asp-controller="Home" class="btn-info"> Doctor Rating </a>
+            }
+            @{
+                <a asp-action="ViewClinic" asp-controller="Home" class="btn-success"> View Clinic </a>
+            }
+            @{
+                <a asp-action="BookAppointment" asp-controller="Home" class="btn-warning"> Book Appointment </a>
+            }
         </div> <br />
         }
        <a asp-action="Index" asp-controller="Home" class="btn-info"> Home Page </a>
