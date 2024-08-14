@@ -1,15 +1,7 @@
 ﻿@model DoctorRatingVM
 
-@foreach(var rating in Model.Ratings)
-{
-    <div>
-        <p>@rating.Review</p>
-        <p>Rating:@rating.Rating</p>
-    </div>
-}
-
 <form asp-action="AddDRating" method="post">
-    <input type="hidden" asp-for="Doctor.DoctorID"/>
+
     <h2> Doctor Rating </h2>
     <div> 
         <h5> Rating: </h5>

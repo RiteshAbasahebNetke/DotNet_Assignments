@@ -15,15 +15,13 @@ namespace Web.ViewComponents
             this.drrepo = drrepo;
         }
 
-        public IViewComponentResult Invoke(Int64 id)
+        public IViewComponentResult Invoke(Int64 did)
         {
-            var doctor=this.drepo.GetDoctor(id);
-            var ratings=this.drrepo.GetdrRatingID(id);
+            var doctor=this.drepo.GetDoctor(did);
 
             var v = new DoctorRatingVM
             {
                 Doctor = doctor,
-                Ratings = ratings,
             };
 
             return View(v);

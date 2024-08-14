@@ -37,7 +37,6 @@ namespace Web.Controllers
         [HttpGet]
         public IActionResult Search(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
         {
-
             ViewBag.CountryID = new SelectList(this.crepo.GetAll(), "CountryID", "CountryName");
             ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
 
@@ -62,12 +61,12 @@ namespace Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult ViewClinic()
+        public IActionResult ClinicView()
         {
             return View();
         }
         [HttpPost]
-        public IActionResult ViewClinic(Clinic rec)
+        public IActionResult ClinicView(Clinic rec)
         {
             return View();
         }

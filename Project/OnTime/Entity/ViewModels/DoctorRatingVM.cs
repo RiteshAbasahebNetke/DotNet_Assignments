@@ -9,9 +9,10 @@ namespace Entity.ViewModels
 {
     public class DoctorRatingVM
     {
+        public Int64 DoctorID { get; set; }
         public Doctor Doctor { get; set; }
         public IEnumerable<DoctorRating> Ratings { get; set; }
-        public DoctorRating NewRating { get; set; }
+        //public DoctorRating NewRating { get; set; }
         public string Review { get; set; }
         public string FullName { get; set; }
     }

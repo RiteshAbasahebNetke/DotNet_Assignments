@@ -21,10 +21,5 @@ namespace Entity.Repositories.Classes
             this.cc.DoctorRatings.Add(rating);
             this.cc.SaveChanges();
         }
-
-        public IEnumerable<DoctorRating> GetdrRatingID(long drid)
-        {
-            return this.cc.DoctorRatings.Where(p => p.DoctorID == drid).ToList();
-        }
     }
 }
