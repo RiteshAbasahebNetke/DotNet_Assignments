@@ -48,7 +48,7 @@ namespace Web.Controllers
 
         }
         [HttpGet]
-        public IActionResult AddDRating()
+        public IActionResult AddDRating(Int64 id)
         {
             return View();
         }
