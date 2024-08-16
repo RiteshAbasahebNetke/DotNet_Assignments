@@ -1,5 +1,6 @@
 ﻿using Core;
 using Entity.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,12 @@ namespace Entity.Repositories.Classes
         {
             this.cc.DoctorRatings.Add(rating);
             this.cc.SaveChanges();
+        }
+
+        public IEnumerable<DoctorRating> GetRatingsByDoctorID(long id)
+        {
+            return this.cc.DoctorRatings.Where(p => p.DoctorID == id)
+                .Include(p => p.User).ToList();
         }
     }
 }

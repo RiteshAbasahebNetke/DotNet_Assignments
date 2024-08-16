@@ -15,7 +15,7 @@
             @*@temp.DoctorSpecialities <br />*@
             Is Available:@temp.IsAvailable <br>
             @{
-                <a asp-action="AddDRating" asp-controller="Home" asp-route-id="DoctorID" class="btn-info"> Doctor Rating </a>
+                <a asp-action="AddDRating" asp-controller="Home" asp-route-id="@temp.DoctorID" class="btn-info"> Doctor Rating </a>
             }
             @{
                 <a asp-action="ViewClinic" asp-controller="Home" class="btn-success"> View Clinic </a>

@@ -1,25 +1,65 @@
 ﻿@model DoctorRatingVM
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <form asp-action="AddDRating" method="post">
+                          <input type="hidden" asp-for="UserID" />
+                          <input type="hidden" asp-for="DoctorID" />
+                          <div>
+                            <div> Ratings:</div>
+                          <select> 
+                                <option> Select Rating </option>
+                                 <option value="1"> 1 </option>
+                                 <option value="2"> 2 </option>
+                                 <option value="3"> 3 </option>
+                                 <option value="4"> 4 </option>
+                                 <option value="5"> 5 </option>
+                          </select>
+                              
+                          </div>  <br /> <br />
 
-<form asp-action="AddDRating" method="post">
-
-    <h2> Doctor Rating </h2>
-    <div> 
-        <h5> Rating: </h5>
-            <select> 
-            <option> Select Rating </option>
-            <option value="1"> 1 </option>
-            <option value="2"> 2 </option>
-            <option value="3"> 3 </option>
-            <option value="4"> 4 </option>
-            <option value="5"> 5 </option>
-        </select>
-    </div> <br /> <br />
-
+                          <div>
+                           <label asp-for="Review"></label>
+                          <textarea asp-for="Review"></textarea>
+                          </div>
     <div>
-        <label asp-for="Review"></label>
-        <textarea asp-for="Review"></textarea>
+        <input type="submit" value="Save" asp-route-id="@Model.DoctorID" class="btn btn-outline-info" />
     </div>
-    <div>
-        <input type="submit" value="Save" class="btn btn-outline-info" />
+                    </form>
+
+                        <h2 class="title">Rating List</h2>
+                        <hr />
+                        <table class="table">
+                            <thead>
+                                <tr align="center">
+                                    <th> Sr.No </th>
+                                    <th> UserName </th>
+                                    <th> Rating </th>
+                                    <th> Review </th>
+                                </tr>
+                            </thead>
+                           @* <tbody>
+                                @{
+                                    int srno = 1;
+                                }
+                                @foreach (var rating in Model.Ratings)
+                                {
+                                    <tr>
+                                        <td align="center"> @srno </td>
+                                        <td align="center"> @rating.User.FullName</td>
+                                        <td align="center"> @rating.Rating </td>
+                                        <td align="center"> @rating.Review </td>
+                                    </tr>
+                                    srno++;
+                                }
+                            </tbody>*@
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</form>
+

@@ -11,7 +11,7 @@ namespace Entity.Repositories.Interfaces
     public interface IDoctorRepo : IGenericRepo<Doctor> 
     {
         Doctor GetClinicByDoctor(Int64 id);
-        Doctor GetDoctor(Int64 did);
+        Doctor GetDoctorForRate(Int64 did);
         List<Doctor> GetByDID(Int64 id);
         void Add(DocSpecilityVM rec);
         List<DocSpecilityVM> GetAllDoc();

@@ -169,9 +169,9 @@ namespace Entity.Repositories.Classes
             return this.cc.Doctors.Include(p=>p.Area).FirstOrDefault(p=>p.DoctorID==id);
         }
 
-        public Doctor GetDoctor(long did)
+        public Doctor GetDoctorForRate(long did)
         {
-            return this.cc.Doctors.Find(did);
+            return this.cc.Doctors.Where(p=>p.DoctorID==did).FirstOrDefault();
         }
 
         List<Doctor> IDoctorRepo.GetByDID(long id)

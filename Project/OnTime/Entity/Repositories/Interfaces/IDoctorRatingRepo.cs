@@ -9,5 +9,6 @@ namespace Entity.Repositories.Interfaces
 {
     public interface IDoctorRatingRepo:IGenericRepo<DoctorRating> 
     {
+        IEnumerable<DoctorRating> GetRatingsByDoctorID(Int64 id);
     }
 }

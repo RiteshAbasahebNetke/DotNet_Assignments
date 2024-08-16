@@ -4,6 +4,8 @@ using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis;
+using Web.CustAuthFilters;
 
 namespace Web.Controllers
 {
@@ -33,7 +35,7 @@ namespace Web.Controllers
             ViewBag.SpecilityID = new SelectList(this.sprepo.GetAll(), "SpecilityID", "SpecilityName");
             return View();
         }
-
+        
         [HttpGet]
         public IActionResult Search(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
         {
@@ -47,17 +49,32 @@ namespace Web.Controllers
             return View();
 
         }
+
         [HttpGet]
-        public IActionResult AddDRating(Int64 id)
+        public IActionResult AddDRating(Int64 did, Int64 uid)
         {
-            return View();
+            var rec=this.drepo.GetDoctorForRate(did);
+            var ratings=this.drrepo.GetRatingsByDoctorID(did);
+
+            var m = new DoctorRatingVM
+            {
+                Doctor = rec,
+                UserID = uid
+            };
+            return View(m);
         }
 
         [HttpPost]
-        public IActionResult AddDRating(DoctorRating rate)
+        public IActionResult AddDRating(Int64 did, Int64 uid,Int64 ddid)
         {
-            this.drrepo.Add(rate);
-            return RedirectToAction("Index");
+            var doctorRating = new DoctorRating
+            {
+                DoctorID = did,
+                UserID = uid,
+                //DoctorRatingID = ddid
+            };
+            this.drrepo.Add(doctorRating);
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpGet]
