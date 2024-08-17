@@ -44,7 +44,7 @@ namespace Web.Controllers
 
             if (CountryID > 0 || StateID > 0 || CityID > 0 || SpecilityID > 0)
             {
-                return View(this.crepo.GetCountry(CountryID,SpecilityID));
+                return View(this.drepo.GetDoctors(CountryID,StateID,CityID,SpecilityID));
             }
             return View();
 

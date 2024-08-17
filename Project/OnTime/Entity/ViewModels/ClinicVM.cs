@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
@@ -32,6 +33,7 @@ namespace Entity.ViewModels
         public string Password { get; set; }
         public Int64 CityID { get; set; }
         public string CityName { get; set; }
+        public List<ClinicFacility> ClinicFacilities { get; set; }
         //public List<string> DoctorString { get; set; }
     }
 }

@@ -174,6 +174,28 @@ namespace Entity.Repositories.Classes
             return this.cc.Doctors.Where(p=>p.DoctorID==did).FirstOrDefault();
         }
 
+        public IEnumerable<Doctor> GetDoctors(long? CountryID, long? StateID, long? CityID, long? SpecialityID)
+        {
+            var v = from t in this.cc.Doctors
+                    join t1
+                   in this.cc.Areas on t.AreaID equals t1.AreaID
+                    join
+                   t2 in this.cc.Cities on t1.CityID equals t2.CityID
+                    join
+                 t3 in this.cc.States on t2.StateID equals t3.StateID
+                    join
+                 t4 in this.cc.Countries on t3.CountryID equals t4.CountryID
+                    join
+                 t5 in this.cc.DoctorSpecialities on t.DoctorID equals t5.DoctorID
+                    join
+                 t6 in this.cc.Specilities on t5.SpecilityID equals t6.SpecilityID
+                    join
+                   t7 in this.cc.Clinics on t2.CityID equals t7.CityID
+                    select t;
+
+            return v.ToList();
+        }          
+
         List<Doctor> IDoctorRepo.GetByDID(long id)
         {
             var v = from t in this.cc.Doctors

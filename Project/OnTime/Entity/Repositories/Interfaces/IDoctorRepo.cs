@@ -19,6 +19,7 @@ namespace Entity.Repositories.Interfaces
         void EditDoc(DocSpecilityVM rec);
         void DeleteDoc(Int64 id);
         //void DetailsDoc(Int64 id);
+        IEnumerable<Doctor> GetDoctors(Int64? CountryID, Int64? StateID, Int64? CityID, Int64? SpecialityID);
     }
        
 }
