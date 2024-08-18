@@ -47,30 +47,31 @@ namespace Web.Controllers
                 return View(this.drepo.GetDoctors(CountryID,StateID,CityID,SpecilityID));
             }
             return View();
-
         }
 
         [HttpGet]
         public IActionResult AddDRating(Int64 did, Int64 uid)
         {
+            ViewBag.DoctorID = new SelectList(this.drepo.GetAll(), "DoctorID", "FullName");
             var rec=this.drepo.GetDoctorForRate(did);
             var ratings=this.drrepo.GetRatingsByDoctorID(did);
-
-            var m = new DoctorRatingVM
-            {
-                Doctor = rec,
-                UserID = uid
-            };
-            return View(m);
+            DoctorRatingVM dm = new DoctorRatingVM();
+            ViewBag.DoctorID = rec.DoctorID;
+            //var m = new DoctorRatingVM
+            //{
+            //    Doctor = rec,
+            //    UserID = uid
+            //};
+            return View(rec);
         }
 
         [HttpPost]
-        public IActionResult AddDRating(Int64 did, Int64 uid,Int64 ddid)
+        public IActionResult AddDRating(Int64 did)
         {
             var doctorRating = new DoctorRating
             {
                 DoctorID = did,
-                UserID = uid,
+                //UserID = uid,
                 //DoctorRatingID = ddid
             };
             this.drrepo.Add(doctorRating);

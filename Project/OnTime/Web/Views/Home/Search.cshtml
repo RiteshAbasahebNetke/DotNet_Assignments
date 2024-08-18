@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Doctor>
+﻿@model IEnumerable<GetDoctorsVM>
 <html>
     <head>
         <title> ViewDoc </title>
@@ -14,8 +14,9 @@
             Doctor Exp:@temp.DoctorExperience <br />
             @*@temp.DoctorSpecialities <br />*@
             Is Available:@temp.IsAvailable <br>
+            Clinic Name:@temp.ClinicName <br>
             @{
-                <a asp-action="AddDRating" asp-controller="Home" asp-route-id="@temp.DoctorID" class="btn-info"> Doctor Rating </a>
+                <a asp-action="AddDRating" asp-controller="Home" asp-route-did="@temp.DoctorID" class="btn-info"> Doctor Rating </a>
             }
             @{
                 <a asp-action="ViewClinic" asp-controller="Home" asp-route-id="" class="btn-success"> View Clinic </a>

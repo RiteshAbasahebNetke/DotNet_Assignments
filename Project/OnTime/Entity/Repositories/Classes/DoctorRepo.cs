@@ -174,7 +174,7 @@ namespace Entity.Repositories.Classes
             return this.cc.Doctors.Where(p=>p.DoctorID==did).FirstOrDefault();
         }
 
-        public IEnumerable<Doctor> GetDoctors(long? CountryID, long? StateID, long? CityID, long? SpecialityID)
+        public IEnumerable<GetDoctorsVM> GetDoctors(long? CountryID, long? StateID, long? CityID, long? SpecialityID)
         {
             var v = from t in this.cc.Doctors
                     join t1
@@ -191,7 +191,16 @@ namespace Entity.Repositories.Classes
                  t6 in this.cc.Specilities on t5.SpecilityID equals t6.SpecilityID
                     join
                    t7 in this.cc.Clinics on t2.CityID equals t7.CityID
-                    select t;
+                    select new GetDoctorsVM
+                    {
+                        DoctorID=t.DoctorID,
+                        DoctorPhoto=t.DoctorPhoto,
+                        FullName=t.FullName,
+                        DoctorQualification=t.DoctorQualification,
+                        DoctorExperience = t.DoctorExperience,
+                        ClinicName=t7.ClinicName
+
+                    };
 
             return v.ToList();
         }          

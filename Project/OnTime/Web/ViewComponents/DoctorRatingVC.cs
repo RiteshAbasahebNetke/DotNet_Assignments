@@ -2,6 +2,7 @@
 using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Web.ViewComponents
 {
@@ -19,6 +20,8 @@ namespace Web.ViewComponents
 
         public IViewComponentResult Invoke(Int64 did, Int64 uid)
         {
+            ViewBag.DoctorID = new SelectList(this.drepo.GetAll(), "DoctorID", "FullName");
+            ViewBag.DoctorID = did;
             var doctor = this.drepo.GetDoctorForRate(did);
             var ratings = this.drrepo.GetRatingsByDoctorID(did)
                             .Select(p => new DoctorRatingVM

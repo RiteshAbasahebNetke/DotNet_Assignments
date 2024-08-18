@@ -1,12 +1,12 @@
-﻿@model DoctorRatingVM
+﻿@*@model DoctorRatingVM*@
 
 <html>
     <head>
         <title> Rating </title>
     </head>
     <body>
-    @await Component.InvokeAsync("DoctorRatingVC")
-
+    @await Component.InvokeAsync("DoctorRatingVC",new {did=ViewBag.DoctorID})
+    
    @* <div class="container">
         <div class="row">
             <div class="col-md-12">
