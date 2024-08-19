@@ -17,5 +17,7 @@ namespace Entity.ViewModels
         public string DoctorQualification { get; set; }
         public Int64 ClinicID { get; set; }
         public string ClinicName { get; set; }
+        public Int64 SpecilityID { get; set; }
+        public string SpecilityName { get; set; }
     }
 }

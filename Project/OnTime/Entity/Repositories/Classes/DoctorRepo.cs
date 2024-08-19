@@ -198,8 +198,10 @@ namespace Entity.Repositories.Classes
                         FullName=t.FullName,
                         DoctorQualification=t.DoctorQualification,
                         DoctorExperience = t.DoctorExperience,
-                        ClinicName=t7.ClinicName
-
+                        IsAvailable=t.IsAvailable,
+                        SpecilityName=t6.SpecilityName,
+                        ClinicID=t7.ClinicID,
+                        ClinicName =t7.ClinicName
                     };
 
             return v.ToList();

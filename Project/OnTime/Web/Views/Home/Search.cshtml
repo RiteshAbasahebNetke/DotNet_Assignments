@@ -1,31 +1,58 @@
 ﻿@model IEnumerable<GetDoctorsVM>
+
 <html>
-    <head>
-        <title> ViewDoc </title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> ViewDco </title>
+
+    <link rel="stylesheet" href="~/adminassets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/adminassets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/adminassets/css/style.css">
+    <link rel="shortcut icon" href="~/adminassets/images/favicon.ico">
+</head>
     <body>
-        @foreach(var temp in Model)
-        {
-        <div>
-            <h4> Doctor Info </h4>
-            DoctorPhoto: @temp.DoctorPhoto <br>
-            Doctor Name: @temp.FullName <br />
-            Doctor Qualification:@temp.DoctorQualification <br />
-            Doctor Exp:@temp.DoctorExperience <br />
-            @*@temp.DoctorSpecialities <br />*@
-            Is Available:@temp.IsAvailable <br>
-            Clinic Name:@temp.ClinicName <br>
-            @{
-                <a asp-action="AddDRating" asp-controller="Home" asp-route-did="@temp.DoctorID" class="btn-info"> Doctor Rating </a>
-            }
-            @{
-                <a asp-action="ViewClinic" asp-controller="Home" asp-route-id="" class="btn-success"> View Clinic </a>
-            }
-            @{
-                <a asp-action="BookAppointment" asp-controller="Home" class="btn-warning"> Book Appointment </a>
-            }
-        </div> <br />
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth">
+                <div class="row flex-grow">
+                    <div class="col-lg-4 mx-auto">
+                        <div class="auth-form-light text-left p-5">
+                              @foreach(var temp in Model)
+                              {
+                             <div>
+                                  <h4> Doctor Info </h4>
+                                  DoctorPhoto: @temp.DoctorPhoto <br>
+                                  Doctor Name: @temp.FullName <br />
+                                  Doctor Qualification:@temp.DoctorQualification <br />
+                                  Doctor Exp:@temp.DoctorExperience <br />
+                                  Doctor Speciality:@temp.SpecilityName <br />
+                                  Is Available:@temp.IsAvailable <br />
+                                  Clinic Name:@temp.ClinicName <br />
+                              @{
+                                     <a asp-action="AddDRating" asp-controller="Home" 
+                                 asp-route-did="@temp.DoctorID" class="btn-info"> Doctor Rating </a>
+                               }
+                             @{
+                                     <a asp-action="ClinicView" asp-controller="Home" 
+                                 asp-route-cid="@temp.ClinicID" class="btn-success"> View Clinic </a>
+                              }
+                             @{
+                                     <a asp-action="BookAppointment" asp-controller="Home" 
+                                 class="btn-warning"> Book Appointment </a>
+                              }
+                             </div> <br />
         }
-       <a asp-action="Index" asp-controller="Home" class="btn-info"> Home Page </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="~/adminassets/vendors/js/vendor.bundle.base.js"></script>
+        <script src="~/adminassets/js/off-canvas.js"></script>
+        <script src="~/adminassets/js/hoverable-collapse.js"></script>
+        <script src="~/adminassets/js/misc.js"></script>
     </body>
 </html>

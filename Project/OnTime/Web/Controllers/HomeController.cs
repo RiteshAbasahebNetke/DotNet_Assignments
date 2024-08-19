@@ -17,7 +17,10 @@ namespace Web.Controllers
         ICityRepo ctrepo;
         IDoctorRepo drepo;
         IDoctorRatingRepo drrepo;
-        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, IDoctorRepo drepo, IDoctorRatingRepo drrepo)
+        IClinicRepo crrepo;
+        IClinicRatingRepo clrepo;
+        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, IDoctorRepo drepo, 
+            IDoctorRatingRepo drrepo,IClinicRepo crrepo,IClinicRatingRepo clrepo)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
@@ -25,6 +28,8 @@ namespace Web.Controllers
             this.ctrepo = ctrepo;
             this.drepo = drepo;
             this.drrepo = drrepo;
+            this.crrepo = crrepo;
+            this.clrepo = clrepo;
         }
 
         public IActionResult Index(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
@@ -79,15 +84,29 @@ namespace Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult ClinicView()
+        public IActionResult ClinicView(Int64 cid,ClinicVM rec)
+        {
+            ClinicVM cm=new ClinicVM();
+            ViewBag.ClinicID = cid;
+            this.crrepo.ClinicDetails(rec);
+            return View(rec);
+        }
+
+
+        [HttpGet]
+        public IActionResult AddClinicRating(Int64 cid)
         {
             return View();
         }
+
         [HttpPost]
-        public IActionResult ClinicView(Clinic rec)
+        public IActionResult AddClinicRating(ClinicRatingVM rec)
         {
+            //this.clrepo.Add(rec);
             return View();
         }
+
+
     }
 
 }

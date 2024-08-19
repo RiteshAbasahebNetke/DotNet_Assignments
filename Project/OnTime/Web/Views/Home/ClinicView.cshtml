@@ -1,26 +1,51 @@
 ﻿@model ClinicVM
 
 <html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> Clinic Details </title>
+
+    <link rel="stylesheet" href="~/adminassets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/adminassets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/adminassets/css/style.css">
+    <link rel="shortcut icon" href="~/adminassets/images/favicon.ico">
 </head>
 <body>
-    <div class="card">
-        <form asp-action="ClinicView" method="post">
-        <div class="card-body">
-            <div class="form-group">
-                <h2> Clinic Details </h2>
-                Clinic Name:
-                Address:
-                EmailID:
-                Mobile No:
-                LandLine No:
-                Website Url:
-                Contact PersonName:
-                Clinic Facilities:
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth">
+                <div class="row flex-grow">
+                    <div class="col-lg-4 mx-auto">
+                        <div class="auth-form-light text-left p-5">
+                           <div class="card">
+                              <form> 
+                                  <div class="card-body">
+                                     <div class="form-group">
+                                        <h2> Clinic Details </h2>
+                                        Clinic Name:@Model.ClinicName <br />
+                                        Address:@Model.Address <br />
+                                        EmailID:@Model.EmailID <br />
+                                        Mobile No:@Model.MobileNo <br />
+                                        LandLine No:@Model.LandLineNo <br />
+                                        Website Url:@Model.WebsiteUrl <br />
+                                        Contact PersonName:@Model.ContactPersonName <br />
+                                        Clinic Facilities:@Model.ClinicFacilities <br />
+                                       <a asp-action="AddClinicRating" asp-controller="Home"> AddClinicRating </a>
+                                     </div>
+                                  </div>
+                              </form>
+                           </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </form>
     </div>
+    <script src="~/adminassets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="~/adminassets/js/off-canvas.js"></script>
+    <script src="~/adminassets/js/hoverable-collapse.js"></script>
+    <script src="~/adminassets/js/misc.js"></script>
 </body>
 </html>
