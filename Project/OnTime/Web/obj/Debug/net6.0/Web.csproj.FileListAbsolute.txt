@@ -28,6 +28,7 @@ C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.DiaSymReade
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -36,6 +37,7 @@ C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Extensions.
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
@@ -58,6 +60,7 @@ C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.VisualStudi
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\NuGet.Common.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\NuGet.Configuration.dll
@@ -68,6 +71,7 @@ C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\NuGet.Packaging.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -82,6 +86,8 @@ C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Runtime.Cachin
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Windows.Extensions.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\af\Humanizer.resources.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\ar\Humanizer.resources.dll
@@ -234,6 +240,7 @@ C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\runtimes\win\lib\net6
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Core.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Entity.dll
@@ -245,6 +252,8 @@ C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.AssemblyInfoInput
 C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.AssemblyInfo.cs
 C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.csproj.CoreCompileInputs.cache
 C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.RazorAssemblyInfo.cache
+C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.RazorAssemblyInfo.cs
 C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\scopedcss\bundle\Web.styles.css
@@ -254,12 +263,3 @@ C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\refint\Web.dll
 C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.pdb
 C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.genruntimeconfig.cache
 C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\ref\Web.dll
-C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.RazorAssemblyInfo.cache
-C:\Users\Ritesh\source\Project\OnTime\Web\obj\Debug\net6.0\Web.RazorAssemblyInfo.cs
-C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\Mono.TextTemplating.dll
-C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.CodeDom.dll
-C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\System.Text.Json.dll
-C:\Users\Ritesh\source\Project\OnTime\Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

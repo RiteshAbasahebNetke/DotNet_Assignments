@@ -1,5 +1,6 @@
 ﻿using Core;
 using Entity.Repositories.Interfaces;
+using Entity.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,15 @@ namespace Entity.Repositories.Classes
             this.cc = cc;
         }
 
-        public void AddRating(DoctorRating rating)
+        public void Add(DoctorRatingVM rec)
         {
-            this.cc.DoctorRatings.Add(rating);
+            DoctorRating dr=new DoctorRating();
+            dr.Rating = rec.Rating;
+            dr.Review = rec.Review;
+            dr.UserID = rec.UserID;
+            dr.DoctorID=rec.DoctorID;
+
+            this.cc.DoctorRatings.Add(dr);
             this.cc.SaveChanges();
         }
 

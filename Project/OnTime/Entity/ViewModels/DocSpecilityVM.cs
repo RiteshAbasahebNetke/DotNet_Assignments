@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Core;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -36,5 +37,6 @@ namespace Entity.ViewModels
         public string AreaName { get; set; }
         public List<Int64> Specilities { get; set; }
         public List<string> SpecilityString { get; set; }
+        
     }
 }

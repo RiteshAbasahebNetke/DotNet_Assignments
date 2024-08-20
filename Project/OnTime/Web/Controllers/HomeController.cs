@@ -71,15 +71,16 @@ namespace Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddDRating(Int64 did)
+        public IActionResult AddDRating(DoctorRatingVM rec)
         {
-            var doctorRating = new DoctorRating
-            {
-                DoctorID = did,
-                //UserID = uid,
-                //DoctorRatingID = ddid
-            };
-            this.drrepo.Add(doctorRating);
+            ViewBag.DoctorID = new SelectList(this.drrepo.GetAll(), "DoctorID","FullName");
+            //var doctorRating = new DoctorRating
+            //{
+            //    DoctorID = did,
+            //    //UserID = uid,
+            //    //DoctorRatingID = ddid
+            //};
+            this.drrepo.Add(rec);
             return RedirectToAction("Index", "Home");
         }
 

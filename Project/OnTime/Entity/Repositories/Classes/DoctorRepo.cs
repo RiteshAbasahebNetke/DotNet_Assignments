@@ -41,6 +41,28 @@ namespace Entity.Repositories.Classes
                 d.DoctorSpecialities.Add(ds);
             }
 
+            //var res = from t in this.cc.Doctors
+            //          join t1
+            //         in this.cc.Areas on t.AreaID equals t1.AreaID
+            //          join
+            //         t2 in this.cc.Cities on t1.CityID equals t2.CityID
+            //          join
+            //         t3 in this.cc.Clinics on t2.CityID equals t3.CityID
+            //          join
+            //         t4 in this.cc.OPDSessions on t3.ClinicID equals t4.ClinicID
+            //          join
+            //         t5 in this.cc.DoctorClinicSessions on t4.OpdSessionID equals t5.OpdSessionID
+            //          select new DrClSessionVM
+            //          {
+            //              StartTime=t5.StartTime,
+            //              EndTime=t5.EndTime,
+            //              TimeInterval=t5.TimeInterval,
+            //              OpdSessionID=t4.OpdSessionID,
+            //              SessionName=t4.SessionName,
+            //              DoctorID=t.DoctorID,
+            //              ClinicID=t5.ClinicID
+            //          };
+          
             this.cc.Doctors.Add(d);
             this.cc.SaveChanges();
         }
