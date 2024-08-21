@@ -11,8 +11,9 @@ namespace Entity.ViewModels
 {
     public class ClinicVM
     {
-        [Required]
+        
         public Int64 ClinicID { get; set; }
+        [Required]
         public string ClinicName { get; set; }
         [Required]
         public string Address { get; set; }
@@ -42,5 +43,6 @@ namespace Entity.ViewModels
         public Int64 UserID { get; set; }
         public string Review { get; set; }
         public string FullName { get; set; }
+        public List<Clinic> Clinics { get; set; }
     }
 }

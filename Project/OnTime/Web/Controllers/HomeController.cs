@@ -87,7 +87,6 @@ namespace Web.Controllers
         [HttpGet]
         public IActionResult ClinicView(Int64 cid,ClinicVM rec)
         {
-            ClinicVM cm=new ClinicVM();
             ViewBag.ClinicID = cid;
             this.crrepo.ClinicDetails(rec);
             return View(rec);
@@ -106,7 +105,6 @@ namespace Web.Controllers
             //this.clrepo.Add(rec);
             return View();
         }
-
 
     }
 

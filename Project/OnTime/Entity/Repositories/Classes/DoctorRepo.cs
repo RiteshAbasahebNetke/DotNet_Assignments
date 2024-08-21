@@ -20,7 +20,6 @@ namespace Entity.Repositories.Classes
         }
         public void Add(DocSpecilityVM rec)
         {
-
             Doctor d = new Doctor();
             d.FirstName = rec.FirstName;
             d.LastName = rec.LastName;
@@ -100,7 +99,7 @@ namespace Entity.Repositories.Classes
                         t1.Doctor.Password,
                         t1.Doctor.Area.AreaID
                     };
-            this.cc.Doctors.SingleOrDefault();
+            this.cc.Doctors.Where(p => p.DoctorID == id);
             this.cc.SaveChanges();
             //var docsp = this.cc.DoctorSpecialities.Where(p => p.DoctorID == id);
             //foreach (var temp in docsp)

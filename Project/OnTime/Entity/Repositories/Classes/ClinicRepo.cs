@@ -24,19 +24,20 @@ namespace Entity.Repositories.Classes
                      join t1 in this.cc.Areas on t.AreaID equals t1.AreaID
                      join t2 in this.cc.Cities on t1.CityID equals t2.CityID
                      join t3 in this.cc.Clinics on t2.CityID equals t3.CityID
-                     select new
+                     select new ClinicVM
                      {
-                         t3.ClinicID,
-                         t3.ClinicName,
-                         t3.Address,
-                         t3.MobileNo,
-                         t3.EmailID,
-                         t3.ContactPersonName,
-                         t3.LandLineNo,
-                         t3.WebsiteUrl,
-                         t3.City.CityName,
-                         t3.ClinicFacilities
+                         ClinicID = t3.ClinicID,
+                         ClinicName = t3.ClinicName,
+                         Address = t3.Address,
+                         MobileNo = t3.MobileNo,
+                         EmailID = t3.EmailID,
+                         ContactPersonName = t3.ContactPersonName,
+                         LandLineNo = t3.LandLineNo,
+                         WebsiteUrl = t3.WebsiteUrl,
+                         CityName = t3.City.CityName,
+                         ClinicFacilities = t3.ClinicFacilities
                      });
+
             this.cc.SaveChanges();
         }
 

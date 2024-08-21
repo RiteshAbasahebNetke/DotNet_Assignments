@@ -20,8 +20,9 @@
                     <div class="col-lg-4 mx-auto">
                         <div class="auth-form-light text-left p-5">
                            <div class="card">
-                              <form> 
-                                  <div class="card-body">
+                                <form asp-action="ClinicView" post="get">
+                                    <input type="hidden" asp-for="ClinicID" />
+                                    <div class="card-body">
                                      <div class="form-group">
                                         <h2> Clinic Details </h2>
                                         Clinic Name:@Model.ClinicName <br />
