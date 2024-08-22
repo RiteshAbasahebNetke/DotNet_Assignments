@@ -9,7 +9,7 @@ namespace Web.CustAuthFilters
         {
             if (context.HttpContext.Session.GetString("UserID") == null)
             {
-                context.Result = new RedirectToActionResult("Login", "ManageUser", new { area = "" });
+                context.Result = new RedirectToActionResult("SignIn", "ManageUser", new { area = "" });
             }
         }
     }

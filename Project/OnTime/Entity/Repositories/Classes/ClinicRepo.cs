@@ -24,6 +24,7 @@ namespace Entity.Repositories.Classes
                      join t1 in this.cc.Areas on t.AreaID equals t1.AreaID
                      join t2 in this.cc.Cities on t1.CityID equals t2.CityID
                      join t3 in this.cc.Clinics on t2.CityID equals t3.CityID
+                     where t3.ClinicID==rec.ClinicID 
                      select new ClinicVM
                      {
                          ClinicID = t3.ClinicID,

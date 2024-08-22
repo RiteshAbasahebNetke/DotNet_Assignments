@@ -1,4 +1,5 @@
 ﻿using Core;
+using Entity.Migrations;
 using Entity.Repositories.Classes;
 using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
@@ -19,8 +20,9 @@ namespace Web.Controllers
         IDoctorRatingRepo drrepo;
         IClinicRepo crrepo;
         IClinicRatingRepo clrepo;
+        IUserRepo urepo;
         public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, IDoctorRepo drepo, 
-            IDoctorRatingRepo drrepo,IClinicRepo crrepo,IClinicRatingRepo clrepo)
+            IDoctorRatingRepo drrepo,IClinicRepo crrepo,IClinicRatingRepo clrepo,IUserRepo urepo)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
@@ -30,6 +32,7 @@ namespace Web.Controllers
             this.drrepo = drrepo;
             this.crrepo = crrepo;
             this.clrepo = clrepo;
+            this.urepo = urepo;
         }
 
         public IActionResult Index(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
@@ -54,49 +57,64 @@ namespace Web.Controllers
             return View();
         }
 
+        [UserAuth]
         [HttpGet]
         public IActionResult AddDRating(Int64 did, Int64 uid)
         {
-            ViewBag.DoctorID = new SelectList(this.drepo.GetAll(), "DoctorID", "FullName");
-            var rec=this.drepo.GetDoctorForRate(did);
-            var ratings=this.drrepo.GetRatingsByDoctorID(did);
-            DoctorRatingVM dm = new DoctorRatingVM();
-            ViewBag.DoctorID = rec.DoctorID;
-            //var m = new DoctorRatingVM
-            //{
-            //    Doctor = rec,
-            //    UserID = uid
-            //};
-            return View(rec);
+            var doctor = drepo.GetDoctorForRate(did);
+            var ratings = drrepo.GetRatingsByDoctorID(did);
+            var user = urepo.GetUserByID(uid);
+
+            var drvm = new DoctorRatingVM()
+            {
+                Doctor = doctor,
+                DoctorID = did,
+                UserID = uid,
+                FullName=user.FirstName,
+                //Ratings=ratings
+            };
+            return View(drvm);
         }
 
         [HttpPost]
         public IActionResult AddDRating(DoctorRatingVM rec)
         {
-            ViewBag.DoctorID = new SelectList(this.drrepo.GetAll(), "DoctorID","FullName");
-            //var doctorRating = new DoctorRating
-            //{
-            //    DoctorID = did,
-            //    //UserID = uid,
-            //    //DoctorRatingID = ddid
-            //};
-            this.drrepo.Add(rec);
-            return RedirectToAction("Index", "Home");
-        }
-
-        [HttpGet]
-        public IActionResult ClinicView(Int64 cid,ClinicVM rec)
-        {
-            ViewBag.ClinicID = cid;
-            this.crrepo.ClinicDetails(rec);
+            if (ModelState.IsValid)
+            {
+                drrepo.Add(rec);
+                return RedirectToAction("AddDRating", new { did = rec.DoctorID, uid = rec.UserID });
+            }
+            var doctor = drepo.GetDoctorForRate(rec.DoctorID);
+            var ratings = drrepo.GetRatingsByDoctorID(rec.DoctorID);
+            rec.Doctor = doctor;
+            rec.Ratings = ratings;
             return View(rec);
         }
 
+        [HttpGet]
+        public IActionResult ClinicView(Int64 cid)
+        {
+            var cvm = new ClinicVM { ClinicID = cid };
+            this.crrepo.ClinicDetails(cvm);
+            return View(cvm);
+        }
 
+        [UserAuth]
         [HttpGet]
         public IActionResult AddClinicRating(Int64 cid)
         {
-            return View();
+            var crvm = new ClinicRatingVM
+            {
+                ClinicID = cid,
+                Ratings = this.clrepo.GetRatingsByClinicID(cid),
+                FullName = HttpContext.Session.GetString("FirstName")
+            };
+
+            if (HttpContext.Session.GetString("UserID") == null)
+            {
+                return RedirectToAction("Login", "ManageUser");
+            }
+            return View(crvm);
         }
 
         [HttpPost]

@@ -16,11 +16,11 @@ namespace Entity.Repositories.Classes
         {
             this.cc = cc;
         }
-        public void AddClinicRating(ClinicRating rating)
-        {
-            this.cc.ClinicRatings.Add(rating);
-            this.cc.SaveChanges();
-        }
+        //public void AddClinicRating(ClinicRating rating)
+        //{
+        //    this.cc.ClinicRatings.Add(rating);
+        //    this.cc.SaveChanges();
+        //}
 
         public IEnumerable<ClinicRating> GetRatingsByClinicID(long id)
         {
