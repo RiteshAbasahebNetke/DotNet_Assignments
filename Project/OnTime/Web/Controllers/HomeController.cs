@@ -57,7 +57,7 @@ namespace Web.Controllers
             return View();
         }
 
-        [UserAuth]
+        //[UserAuth]
         [HttpGet]
         public IActionResult AddDRating(Int64 did, Int64 uid)
         {
@@ -99,7 +99,7 @@ namespace Web.Controllers
             return View(cvm);
         }
 
-        [UserAuth]
+        //[UserAuth]
         [HttpGet]
         public IActionResult AddClinicRating(Int64 cid)
         {
@@ -123,6 +123,12 @@ namespace Web.Controllers
             //this.clrepo.Add(rec);
             return View();
         }
+
+        //[HttpGet]
+        //public IActionResult BookAppointment()
+        //{
+        //    return View();
+        //}
 
     }
 

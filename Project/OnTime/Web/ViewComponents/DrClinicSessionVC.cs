@@ -19,6 +19,12 @@ namespace Web.ViewComponents
         public IViewComponentResult Invoke(DrClSessionVM rec)
         {
             ViewBag.OpdSessionID = new SelectList(this.orepo.GetAll(), "OpdSessionID", "SessionName");
+
+
+            for(int i=0; i<2; i++)
+            {
+
+            }    
             return View();
         }
     }

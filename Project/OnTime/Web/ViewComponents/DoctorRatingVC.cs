@@ -26,7 +26,7 @@ namespace Web.ViewComponents
             var ratings = this.drrepo.GetRatingsByDoctorID(did)
                             .Select(p => new DoctorRatingVM
                             {
-                                FullName = this.urepo.GetUserByID(p.UserID).FullName,
+                                FullName = this.urepo.GetUserByID(p.UserID).FirstName,
                                 //Rating = p.Rating
                             }).ToList();
                      

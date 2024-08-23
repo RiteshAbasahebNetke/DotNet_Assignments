@@ -53,6 +53,7 @@ namespace Web.Areas.ClinicArea.Controllers
 
                     }
                 }
+                
                 this.drepo.Add(rec);
                 return RedirectToAction("Index");
 
