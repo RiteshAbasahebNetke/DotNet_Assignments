@@ -6,6 +6,7 @@ using Entity.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis;
+using System.Security.Cryptography;
 using Web.CustAuthFilters;
 
 namespace Web.Controllers
@@ -57,49 +58,36 @@ namespace Web.Controllers
             return View();
         }
 
-        //[UserAuth]
+        [UserAuth]
         [HttpGet]
         public IActionResult AddDRating(Int64 did, Int64 uid)
         {
-            var doctor = drepo.GetDoctorForRate(did);
-            var ratings = drrepo.GetRatingsByDoctorID(did);
-            var user = urepo.GetUserByID(uid);
-
-            var drvm = new DoctorRatingVM()
-            {
-                Doctor = doctor,
-                DoctorID = did,
-                UserID = uid,
-                FullName=user.FirstName,
-                //Ratings=ratings
-            };
-            return View(drvm);
+            ViewBag.did = did;
+            ViewBag.uid= Convert.ToInt64(HttpContext.Session.GetString("UserID"));
+            return View();
         }
 
         [HttpPost]
-        public IActionResult AddDRating(DoctorRatingVM rec)
+        public IActionResult AddDRating(DoctorRating rec)
         {
+            ViewBag.did = rec.DoctorID;
+            ViewBag.uid = rec.UserID;
             if (ModelState.IsValid)
             {
                 drrepo.Add(rec);
-                return RedirectToAction("AddDRating", new { did = rec.DoctorID, uid = rec.UserID });
+                return RedirectToAction("AddDRating");
             }
-            var doctor = drepo.GetDoctorForRate(rec.DoctorID);
-            var ratings = drrepo.GetRatingsByDoctorID(rec.DoctorID);
-            rec.Doctor = doctor;
-            rec.Ratings = ratings;
             return View(rec);
         }
 
         [HttpGet]
         public IActionResult ClinicView(Int64 cid)
         {
-            var cvm = new ClinicVM { ClinicID = cid };
-            this.crrepo.ClinicDetails(cvm);
-            return View(cvm);
+            var rec=this.crrepo.ClinicDetails(cid);
+            return View(rec);
         }
 
-        //[UserAuth]
+        [UserAuth]
         [HttpGet]
         public IActionResult AddClinicRating(Int64 cid)
         {
@@ -124,11 +112,11 @@ namespace Web.Controllers
             return View();
         }
 
-        //[HttpGet]
-        //public IActionResult BookAppointment()
-        //{
-        //    return View();
-        //}
+        [HttpGet]
+        public IActionResult BookAppointment()
+        {
+            return View();
+        }
 
     }
 

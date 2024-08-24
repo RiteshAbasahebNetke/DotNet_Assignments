@@ -15,6 +15,6 @@ namespace Entity.ViewModels
         public int Rating { get; set; }
         public Int64 UserID { get; set; }
         public string Review { get; set; }
-        public string FullName { get; set; }
+        public string FirstName { get; set; }
     }
 }

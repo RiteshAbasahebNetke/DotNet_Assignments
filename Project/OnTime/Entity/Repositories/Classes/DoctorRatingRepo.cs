@@ -30,10 +30,25 @@ namespace Entity.Repositories.Classes
             this.cc.SaveChanges();
         }
 
-        public IEnumerable<DoctorRating> GetRatingsByDoctorID(long id)
+        public List<DoctorRatingVM> GetRatingsByDoctorID(long id)
         {
-            return this.cc.DoctorRatings.Where(p => p.DoctorID == id)
-                .Include(p => p.User).ToList();
+            //var rec = this.cc.DoctorRatings.Where(p => p.UserID == id).ToList();
+
+            ////return this.cc.DoctorRatings.Where(p => p.UserID == id).ToList();
+            //return rec;
+
+
+            var rec = from t in this.cc.DoctorRatings
+                      where t.UserID == id
+                      select new DoctorRatingVM
+                      {
+                          DoctorID = t.DoctorID,
+                          UserID = t.UserID,
+                          Rating = t.Rating,
+                          Review = t.Review,
+                          FirstName=t.User.FirstName
+                      };
+            return rec.ToList();
         }
     }
 }

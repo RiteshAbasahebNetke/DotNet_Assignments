@@ -11,6 +11,6 @@ namespace Entity.Repositories.Interfaces
     public interface IDoctorRatingRepo:IGenericRepo<DoctorRating> 
     {
         void Add(DoctorRatingVM rec);
-        IEnumerable<DoctorRating> GetRatingsByDoctorID(Int64 id);
+        List<DoctorRatingVM> GetRatingsByDoctorID(Int64 id);
     }
 }

@@ -13,7 +13,7 @@ namespace Entity.Repositories.Interfaces
         LoginResultVM SignIn(LoginVM rec);
         ResultVM SignUp(ClinicVM rec);
         List<Clinic> GetAll();
-        void ClinicDetails(ClinicVM rec);
+        ClinicVM ClinicDetails(Int64 cid);
         Clinic GetClinic(Int64 aid);
     }
 }

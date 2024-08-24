@@ -13,10 +13,12 @@ namespace Web.Areas.ClinicArea.Controllers
         IDoctorRepo drepo;
         IAreaRepo arepo;
         IWebHostEnvironment env;
-        public ManageDoctorController(IDoctorRepo drepo,IAreaRepo arepo, IWebHostEnvironment env)
+        IOPDSessionRepo orepo;
+        public ManageDoctorController(IOPDSessionRepo orepo,IDoctorRepo drepo,IAreaRepo arepo, IWebHostEnvironment env)
         {
             this.drepo = drepo;
             this.arepo = arepo;
+            this.orepo = orepo;
             this.env = env;
         }
 
@@ -30,6 +32,7 @@ namespace Web.Areas.ClinicArea.Controllers
         public IActionResult Create()
         {
             ViewBag.AreaID = new SelectList(this.arepo.GetAll(), "AreaID", "AreaName");
+            ViewBag.OpdSessionID = new SelectList(this.orepo.GetAll(), "OpdSessionID", "SessionName");
             return View();
         }
 
@@ -53,7 +56,7 @@ namespace Web.Areas.ClinicArea.Controllers
 
                     }
                 }
-                
+
                 this.drepo.Add(rec);
                 return RedirectToAction("Index");
 

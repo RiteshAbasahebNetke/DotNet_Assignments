@@ -18,13 +18,13 @@ namespace Entity.Repositories.Classes
             this.cc = cc;
         }
 
-        public void ClinicDetails(ClinicVM rec)
+        public ClinicVM ClinicDetails(Int64 cid)
         {
             var v = (from t in this.cc.Doctors
                      join t1 in this.cc.Areas on t.AreaID equals t1.AreaID
                      join t2 in this.cc.Cities on t1.CityID equals t2.CityID
                      join t3 in this.cc.Clinics on t2.CityID equals t3.CityID
-                     where t3.ClinicID==rec.ClinicID 
+                     where t3.ClinicID==cid 
                      select new ClinicVM
                      {
                          ClinicID = t3.ClinicID,
@@ -39,7 +39,7 @@ namespace Entity.Repositories.Classes
                          ClinicFacilities = t3.ClinicFacilities
                      });
 
-            this.cc.SaveChanges();
+            return v.FirstOrDefault();
         }
 
         public List<Clinic> GetAll()

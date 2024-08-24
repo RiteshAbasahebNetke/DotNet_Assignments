@@ -39,7 +39,7 @@ namespace Entity.Repositories.Classes
                 ds.SpecilityID = temp;
                 d.DoctorSpecialities.Add(ds);
             }
-
+            var r = this.cc.Doctors.Add(d);
             //var res = from t in this.cc.Doctors
             //          join t1
             //         in this.cc.Areas on t.AreaID equals t1.AreaID
@@ -53,17 +53,16 @@ namespace Entity.Repositories.Classes
             //         t5 in this.cc.DoctorClinicSessions on t4.OpdSessionID equals t5.OpdSessionID
             //          select new DrClSessionVM
             //          {
-            //              StartTime=t5.StartTime,
-            //              EndTime=t5.EndTime,
-            //              TimeInterval=t5.TimeInterval,
-            //              OpdSessionID=t4.OpdSessionID,
-            //              SessionName=t4.SessionName,
-            //              DoctorID=t.DoctorID,
-            //              ClinicID=t5.ClinicID
+            //              StartTime = t5.StartTime,
+            //              EndTime = t5.EndTime,
+            //              TimeInterval = t5.TimeInterval,
+            //              OpdSessionID = t4.OpdSessionID,
+            //              SessionName = t4.SessionName,
+            //              DoctorID = t.DoctorID,
+            //              ClinicID = t5.ClinicID
             //          };
-          
-            this.cc.Doctors.Add(d);
-            this.cc.SaveChanges();
+
+            this.cc.SaveChanges(); ;
         }
 
         public void DeleteDoc(long id)
