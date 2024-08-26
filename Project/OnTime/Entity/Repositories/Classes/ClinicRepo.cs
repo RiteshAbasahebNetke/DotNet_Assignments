@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -51,6 +52,11 @@ namespace Entity.Repositories.Classes
         {
             var area=this.cc.Areas.Include(p=>p.CityID).FirstOrDefault(p=>p.AreaID==aid);
             return this.cc.Clinics.FirstOrDefault(p=>p.CityID==area.CityID);
+        }
+
+        public Clinic GetClinicForRate(long cid)
+        {
+            return this.cc.Clinics.Where(p => p.ClinicID == cid).FirstOrDefault();
         }
 
         public LoginResultVM SignIn(LoginVM rec)

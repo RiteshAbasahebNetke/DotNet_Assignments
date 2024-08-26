@@ -1,4 +1,5 @@
 ﻿using Core;
+using Entity.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,8 @@ namespace Entity.Repositories.Interfaces
 {
     public interface IClinicRatingRepo : IGenericRepo<ClinicRating> 
     {
-        IEnumerable<ClinicRating> GetRatingsByClinicID(Int64 id);
+        void Add(ClinicRatingVM rec);
+        List<ClinicRatingVM> GetRatingsByClinicID(Int64 id);
     }
     
 }

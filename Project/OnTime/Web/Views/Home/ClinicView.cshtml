@@ -21,19 +21,19 @@
                         <div class="auth-form-light text-left p-5">
                            <div class="card">
                                 <form asp-action="ClinicView" post="get">
-                                    <input type="hidden" asp-for="ClinicID" />
+                                    <input type="hidden" value="@ViewBag.cid" asp-for="ClinicID" />
                                     <div class="card-body">
                                      <div class="form-group">
                                         <h2> Clinic Details </h2>
-                                        Clinic Name:@Model.ClinicName <br />
-                                        Address:@Model.Address <br />
-                                        EmailID:@Model.EmailID <br />
-                                        Mobile No:@Model.MobileNo <br />
-                                        LandLine No:@Model.LandLineNo <br />
-                                        Website Url:@Model.WebsiteUrl <br />
-                                        Contact PersonName:@Model.ContactPersonName <br />
-                                        Clinic Facilities:@Model.ClinicFacilities <br />
-                                       <a asp-action="AddClinicRating" asp-controller="Home"> AddClinicRating </a>
+                                            Clinic Name:@Model.ClinicName <br /> <br />
+                                            Address:@Model.Address <br /> <br />
+                                            EmailID:@Model.EmailID <br /> <br />
+                                            Mobile No:@Model.MobileNo <br /> <br />
+                                            LandLine No:@Model.LandLineNo <br /> <br />
+                                            Website Url:@Model.WebsiteUrl <br /> <br />
+                                            Contact PersonName:@Model.ContactPersonName <br /> <br />
+                                        @*Clinic Facilities:@Model.ClinicFacilities <br />*@
+                                       <a asp-action="AddClinicRating" asp-route-cid=@ViewBag.ClinicID asp-controller="Home"> AddClinicRating </a>
                                      </div>
                                   </div>
                               </form>

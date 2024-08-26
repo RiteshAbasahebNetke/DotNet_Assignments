@@ -11,7 +11,6 @@ namespace Entity.ViewModels
 {
     public class ClinicVM
     {
-        
         public Int64 ClinicID { get; set; }
         [Required]
         public string ClinicName { get; set; }
@@ -35,14 +34,11 @@ namespace Entity.ViewModels
         public string Password { get; set; }
         public Int64 CityID { get; set; }
         public string CityName { get; set; }
+        public Int64 ClinicFacilityID { get; set; }
         public List<ClinicFacility> ClinicFacilities { get; set; }
-        //public List<string> DoctorString { get; set; }
         public Clinic Clinic { get; set; }
         public IEnumerable<ClinicRating> Ratings { get; set; }
-        public ClinicRating Rating { get; set; }
-        public Int64 UserID { get; set; }
-        public string Review { get; set; }
-        public string FullName { get; set; }
         public List<Clinic> Clinics { get; set; }
+        public Int64 UserID { get; set; }
     }
 }

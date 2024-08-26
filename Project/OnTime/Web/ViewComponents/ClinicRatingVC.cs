@@ -1,23 +1,28 @@
 ﻿using Entity.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Web.ViewComponents
 {
     public class ClinicRatingVC:ViewComponent
     {
-        IClinicRatingRepo crrepo;
         IClinicRepo crepo;
+        IClinicRatingRepo clrepo;
         IUserRepo urepo;
 
-        public ClinicRatingVC(IClinicRatingRepo crrepo, IClinicRepo crepo, IUserRepo urepo)
+        public ClinicRatingVC(IClinicRepo crepo, IClinicRatingRepo clrepo, IUserRepo urepo)
         {
-            this.crrepo = crrepo;
             this.crepo = crepo;
+            this.clrepo = clrepo;
             this.urepo = urepo;
         }
+
         public IViewComponentResult Invoke(Int64 cid, Int64 uid)
         {
-            return View();
+            ViewBag.ClinicID = new SelectList(this.crepo.GetAll(), "ClinicID", "FullName");
+            ViewBag.ClinicID = cid;
+            var ratings = this.clrepo.GetRatingsByClinicID(uid).ToList();
+            return View(ratings);
         }
     }
 }

@@ -22,8 +22,9 @@ namespace Web.Controllers
         IClinicRepo crrepo;
         IClinicRatingRepo clrepo;
         IUserRepo urepo;
+        IClinicFacilityRepo cfrepo;
         public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, IDoctorRepo drepo, 
-            IDoctorRatingRepo drrepo,IClinicRepo crrepo,IClinicRatingRepo clrepo,IUserRepo urepo)
+            IDoctorRatingRepo drrepo,IClinicRepo crrepo,IClinicRatingRepo clrepo,IUserRepo urepo,IClinicFacilityRepo cfrepo)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
@@ -34,6 +35,7 @@ namespace Web.Controllers
             this.crrepo = crrepo;
             this.clrepo = clrepo;
             this.urepo = urepo;
+            this.cfrepo = cfrepo;
         }
 
         public IActionResult Index(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
@@ -83,33 +85,32 @@ namespace Web.Controllers
         [HttpGet]
         public IActionResult ClinicView(Int64 cid)
         {
+            ViewBag.cid = cid;
+            ViewBag.uid = Convert.ToInt64(HttpContext.Session.GetString("UserID"));
             var rec=this.crrepo.ClinicDetails(cid);
             return View(rec);
         }
 
         [UserAuth]
         [HttpGet]
-        public IActionResult AddClinicRating(Int64 cid)
+        public IActionResult AddClinicRating(Int64 cid, Int64 uid)
         {
-            var crvm = new ClinicRatingVM
-            {
-                ClinicID = cid,
-                Ratings = this.clrepo.GetRatingsByClinicID(cid),
-                FullName = HttpContext.Session.GetString("FirstName")
-            };
-
-            if (HttpContext.Session.GetString("UserID") == null)
-            {
-                return RedirectToAction("Login", "ManageUser");
-            }
-            return View(crvm);
+            ViewBag.cid = cid;
+            ViewBag.uid = Convert.ToInt64(HttpContext.Session.GetString("UserID"));
+            return View();
         }
 
         [HttpPost]
-        public IActionResult AddClinicRating(ClinicRatingVM rec)
+        public IActionResult AddClinicRating(ClinicRating rec)
         {
-            //this.clrepo.Add(rec);
-            return View();
+            ViewBag.cid = rec.ClinicID;
+            ViewBag.uid = rec.UserID;
+            if (ModelState.IsValid)
+            {
+                clrepo.Add(rec);
+                return RedirectToAction("AddClinicRating");
+            }
+            return View(rec);
         }
 
         [HttpGet]

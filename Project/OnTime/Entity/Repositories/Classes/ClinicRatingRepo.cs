@@ -1,5 +1,6 @@
 ﻿using Core;
 using Entity.Repositories.Interfaces;
+using Entity.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,16 +17,32 @@ namespace Entity.Repositories.Classes
         {
             this.cc = cc;
         }
-        //public void AddClinicRating(ClinicRating rating)
-        //{
-        //    this.cc.ClinicRatings.Add(rating);
-        //    this.cc.SaveChanges();
-        //}
 
-        public IEnumerable<ClinicRating> GetRatingsByClinicID(long id)
+        public void Add(ClinicRatingVM rec)
         {
-            return this.cc.ClinicRatings.Where(p => p.ClinicID == id)
-               .Include(p => p.User).ToList();
+            ClinicRating cr = new ClinicRating();
+            cr.Rating = rec.Rating;
+            cr.Review = rec.Review;
+            cr.UserID = rec.UserID;
+            cr.ClinicID = rec.ClinicID;
+
+            this.cc.ClinicRatings.Add(cr);
+            this.cc.SaveChanges();
+        }
+
+        public List<ClinicRatingVM> GetRatingsByClinicID(long id)
+        {
+            var rec = from t in this.cc.ClinicRatings
+                      where t.UserID == id
+                      select new ClinicRatingVM
+                      {
+                          ClinicID = t.ClinicID,
+                          UserID = t.UserID,
+                          Rating = t.Rating,
+                          Review = t.Review,
+                          FirstName = t.User.FirstName
+                      };
+            return rec.ToList();
         }
     }
 }

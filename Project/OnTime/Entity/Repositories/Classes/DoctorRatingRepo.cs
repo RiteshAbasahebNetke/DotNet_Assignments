@@ -32,12 +32,6 @@ namespace Entity.Repositories.Classes
 
         public List<DoctorRatingVM> GetRatingsByDoctorID(long id)
         {
-            //var rec = this.cc.DoctorRatings.Where(p => p.UserID == id).ToList();
-
-            ////return this.cc.DoctorRatings.Where(p => p.UserID == id).ToList();
-            //return rec;
-
-
             var rec = from t in this.cc.DoctorRatings
                       where t.UserID == id
                       select new DoctorRatingVM

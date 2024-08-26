@@ -15,5 +15,6 @@ namespace Entity.Repositories.Interfaces
         List<Clinic> GetAll();
         ClinicVM ClinicDetails(Int64 cid);
         Clinic GetClinic(Int64 aid);
+        Clinic GetClinicForRate(Int64 cid);
     }
 }

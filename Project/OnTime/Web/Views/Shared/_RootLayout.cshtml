@@ -88,8 +88,18 @@
                                                 <li> <a asp-action="SignUp" asp-controller="ManageClinic"> SignUp </a></li>
                                             </ul>
                                         </li>
-                                       
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li> <a> Contact </a> </li>
+                                        <li>
+                                            <div class="cssmenu">
+                                                <ul>
+
+                                                    @if (Context.Session.GetString("UserID") != null)
+                                                    {
+                                                        <li class="active"><a style="font-size:16px;font-weight:800;">Hi @Context.Session.GetString("FirstName")</a></li>
+                                                    }
+                                                </ul>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
