@@ -13,5 +13,4 @@ namespace Entity.Repositories.Interfaces
         void Add(ClinicRatingVM rec);
         List<ClinicRatingVM> GetRatingsByClinicID(Int64 id);
     }
-    
 }

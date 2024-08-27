@@ -33,7 +33,7 @@
                                             Website Url:@Model.WebsiteUrl <br /> <br />
                                             Contact PersonName:@Model.ContactPersonName <br /> <br />
                                         @*Clinic Facilities:@Model.ClinicFacilities <br />*@
-                                       <a asp-action="AddClinicRating" asp-route-cid=@ViewBag.ClinicID asp-controller="Home"> AddClinicRating </a>
+                                       <a asp-action="AddClinicRating" asp-route-cid=@Model.ClinicID asp-controller="Home"> AddClinicRating </a>
                                      </div>
                                   </div>
                               </form>

@@ -21,7 +21,7 @@ namespace Web.ViewComponents
         {
             ViewBag.ClinicID = new SelectList(this.crepo.GetAll(), "ClinicID", "FullName");
             ViewBag.ClinicID = cid;
-            var ratings = this.clrepo.GetRatingsByClinicID(uid).ToList();
+            var ratings = this.clrepo.GetRatingsByClinicID(cid).ToList();
             return View(ratings);
         }
     }

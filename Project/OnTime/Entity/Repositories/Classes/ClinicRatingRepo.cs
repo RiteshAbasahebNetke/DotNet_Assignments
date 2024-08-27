@@ -33,7 +33,7 @@ namespace Entity.Repositories.Classes
         public List<ClinicRatingVM> GetRatingsByClinicID(long id)
         {
             var rec = from t in this.cc.ClinicRatings
-                      where t.UserID == id
+                      where t.ClinicID == id
                       select new ClinicRatingVM
                       {
                           ClinicID = t.ClinicID,
