@@ -13,8 +13,8 @@ namespace Entity.Repositories.Interfaces
         Doctor GetClinicByDoctor(Int64 id);
         Doctor GetDoctorForRate(Int64 did);
         List<Doctor> GetByDID(Int64 id);
-        void Add(DocSpecilityVM rec);
-        List<DocSpecilityVM> GetAllDoc();
+        void Add(DocSpecilityVM rec, Int64 id);
+        List<DocSpecilityVM> GetAllDoc(); 
         DocSpecilityVM GetByDocID(Int64 id);
         void EditDoc(DocSpecilityVM rec);
         void DeleteDoc(Int64 id);

@@ -39,6 +39,8 @@ namespace Web.Areas.ClinicArea.Controllers
         [HttpPost]
         public IActionResult Create(DocSpecilityVM rec)
         {
+            var id = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            rec.ClinicID = id;
             ViewBag.AreaID = new SelectList(this.arepo.GetAll(), "AreaID", "AreaName");
             if (ModelState.IsValid)
             {
@@ -57,7 +59,7 @@ namespace Web.Areas.ClinicArea.Controllers
                     }
                 }
 
-                this.drepo.Add(rec);
+                this.drepo.Add(rec,id);
                 return RedirectToAction("Index");
 
             }

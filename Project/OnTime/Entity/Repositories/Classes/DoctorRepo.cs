@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,52 +19,45 @@ namespace Entity.Repositories.Classes
         {
             this.cc = cc;
         }
-        public void Add(DocSpecilityVM rec)
+        public void Add(DocSpecilityVM rec,Int64 id)
         {
-            Doctor d = new Doctor();
-            d.FirstName = rec.FirstName;
-            d.LastName = rec.LastName;
-            d.MobileNo = rec.MobileNo;
-            d.IsAvailable = rec.IsAvailable;
-            d.Address = rec.Address;
-            d.DoctorExperience = rec.DoctorExperience;
-            d.AreaID = rec.AreaID;
-            d.PhotoPath = rec.PhotoPath;
-            d.DoctorPhoto= rec.DoctorPhoto;
-            d.DoctorQualification = rec.DoctorQualification;
-            d.Password = rec.Password;
+           
+                Doctor d = new Doctor();
+                d.FirstName = rec.FirstName;
+                d.LastName = rec.LastName;
+                d.MobileNo = rec.MobileNo;
+                d.IsAvailable = rec.IsAvailable;
+                d.Address = rec.Address;
+                d.DoctorExperience = rec.DoctorExperience;
+                d.AreaID = rec.AreaID;
+                d.PhotoPath = rec.PhotoPath;
+                d.DoctorPhoto = rec.DoctorPhoto;
+                d.DoctorQualification = rec.DoctorQualification;
+                d.Password = rec.Password;
 
-            foreach (var temp in rec.Specilities)
-            {
-                DoctorSpeciality ds = new DoctorSpeciality();
-                ds.SpecilityID = temp;
-                d.DoctorSpecialities.Add(ds);
-            }
-            var r = this.cc.Doctors.Add(d);
+                foreach (var temp in rec.Specilities)
+                {
+                    DoctorSpeciality ds = new DoctorSpeciality();
+                    ds.SpecilityID = temp;
+                    d.DoctorSpecialities.Add(ds);
+                }
+                var r = this.cc.Doctors.Add(d);
 
-            var res = from t in this.cc.Doctors
-                      join t1
-                     in this.cc.Areas on t.AreaID equals t1.AreaID
-                      join
-                     t2 in this.cc.Cities on t1.CityID equals t2.CityID
-                      join
-                     t3 in this.cc.Clinics on t2.CityID equals t3.CityID
-                      join
-                     t4 in this.cc.OPDSessions on t3.ClinicID equals t4.ClinicID
-                      join
-                     t5 in this.cc.DoctorClinicSessions on t4.OpdSessionID equals t5.OpdSessionID
-                      select new 
-                      {
-                          StartTime = t5.StartTime,
-                          EndTime = t5.EndTime,
-                          TimeInterval = t5.TimeInterval,
-                          OpdSessionID = t4.OpdSessionID,
-                          SessionName = t4.SessionName,
-                          DoctorID = t.DoctorID,
-                          ClinicID = t5.ClinicID
-                      };
-            this.cc.DoctorClinicSessions.Add(res);
-            this.cc.SaveChanges(); 
+
+            //List<DoctorClinicSession> dsc = List<DoctorClinicSession>(d.DoctorClinicSessions);
+            //foreach (var s in dsc)
+            //{
+            //    DoctorClinicSession res = new DoctorClinicSession();
+            //    res.ClinicID = s.ClinicID;
+            //    res.StartTime = s.StartTime;
+            //    res.EndTime = s.EndTime;
+            //    res.TimeInterval = s.TimeInterval;
+            //    res.OpdSessionID = s.OpdSessionID;
+            //}
+            //d.DoctorClinicSessions.Add(res);
+
+            this.cc.SaveChanges();
+
         }
 
         public void DeleteDoc(long id)
@@ -101,15 +95,7 @@ namespace Entity.Repositories.Classes
                     };
             this.cc.Doctors.Where(p => p.DoctorID == id);
             this.cc.SaveChanges();
-            //var docsp = this.cc.DoctorSpecialities.Where(p => p.DoctorID == id);
-            //foreach (var temp in docsp)
-            //{
-            //    this.cc.DoctorSpecialities.Remove(temp);
-            //}
-
-            //var doc = this.cc.Doctors.Find(id);
-            //this.cc.Doctors.Remove(doc);
-            //this.cc.SaveChanges();
+            
         }
 
         public void EditDoc(DocSpecilityVM rec)
