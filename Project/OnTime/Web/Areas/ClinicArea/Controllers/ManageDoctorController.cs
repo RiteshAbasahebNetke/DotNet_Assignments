@@ -31,6 +31,8 @@ namespace Web.Areas.ClinicArea.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            Int64 id = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            ViewBag.ClinicID = id;
             ViewBag.AreaID = new SelectList(this.arepo.GetAll(), "AreaID", "AreaName");
             ViewBag.OpdSessionID = new SelectList(this.orepo.GetAll(), "OpdSessionID", "SessionName");
             return View();
@@ -69,6 +71,8 @@ namespace Web.Areas.ClinicArea.Controllers
         [HttpGet]
         public IActionResult Edit(Int64 id)
         {
+            Int64 eid = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
+            ViewBag.ClinicID = eid;
             var rec = this.drepo.GetByDocID(id);
             ViewBag.AreaID = new SelectList(this.arepo.GetAll(), "AreaID", "AreaName");
             return View(rec);

@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace Entity.Repositories.Classes
 {
-    public class UserRepo : IUserRepo
+    public class UserRepo : GenericRepo<User> ,IUserRepo
     {
         CompanyContext cc;
-        public UserRepo(CompanyContext cc)
+        public UserRepo(CompanyContext cc):base(cc)
         {
             this.cc = cc;
         }

@@ -313,6 +313,9 @@ namespace Entity.Migrations
                     b.Property<string>("DoctorQualification")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("EmailID")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 

@@ -20,6 +20,8 @@ namespace Entity.Repositories.Interfaces
         void DeleteDoc(Int64 id);
         //void DetailsDoc(Int64 id);
         IEnumerable<GetDoctorsVM> GetDoctors(Int64? CountryID, Int64? StateID, Int64? CityID, Int64? SpecialityID);
+        LoginResultVM Signin(LoginVM rec);
+        ResultVM ChangePassword(ChangePasswordVM rec, Int64 doctorid);
     }
        
 }

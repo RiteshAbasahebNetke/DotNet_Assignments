@@ -32,6 +32,9 @@ namespace Entity.ViewModels
         [Required(ErrorMessage = "Password Required")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+        [Required(ErrorMessage ="EmailID Required")]
+        [EmailAddress(ErrorMessage ="Please enter valid EmailID")]
+        public string EmailID { get; set; }
         public Int64 SpecilityID { get; set; }
         public Int64 AreaID { get; set; }
         public string AreaName { get; set; }

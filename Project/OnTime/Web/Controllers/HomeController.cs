@@ -23,8 +23,10 @@ namespace Web.Controllers
         IClinicRatingRepo clrepo;
         IUserRepo urepo;
         IClinicFacilityRepo cfrepo;
-        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, IDoctorRepo drepo, 
-            IDoctorRatingRepo drrepo,IClinicRepo crrepo,IClinicRatingRepo clrepo,IUserRepo urepo,IClinicFacilityRepo cfrepo)
+        IOPDSessionRepo orepo;
+        IPatientRepo prepo;
+        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, IDoctorRepo drepo, IDoctorRatingRepo drrepo,
+            IClinicRepo crrepo, IClinicRatingRepo clrepo, IUserRepo urepo, IClinicFacilityRepo cfrepo, IOPDSessionRepo orepo, IPatientRepo prepo)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
@@ -36,6 +38,8 @@ namespace Web.Controllers
             this.clrepo = clrepo;
             this.urepo = urepo;
             this.cfrepo = cfrepo;
+            this.orepo = orepo;
+            this.prepo = prepo;
         }
 
         public IActionResult Index(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
@@ -113,13 +117,39 @@ namespace Web.Controllers
             return View(rec);
         }
 
+        [UserAuth]
         [HttpGet]
         public IActionResult BookAppointment()
         {
+            ViewBag.OpdSessionID = new SelectList(this.orepo.GetAll(), "OpdSessionID", "SessionName");
             return View();
         }
 
-    }
+        [HttpGet]
+        public IActionResult PatientList()
+        {
+            return View(this.prepo.GetAll());
+        }
 
+        [HttpGet]
+        public IActionResult AddPatient()
+        {
+            //ViewBag.UserID = new SelectList(this.urepo.GetAll(), "UserID", "UserName");
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddPatient(PatientVM rec)
+        {
+
+            if (ModelState.IsValid)
+            {
+                this.prepo.Add(rec);
+                return RedirectToAction("PatientList");
+            }
+            return View(rec);
+        }
+
+    }
 }
 

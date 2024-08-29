@@ -60,6 +60,33 @@ namespace Entity.Repositories.Classes
 
         }
 
+        public ResultVM ChangePassword(ChangePasswordVM rec, long doctorid)
+        {
+            ResultVM res = new ResultVM();
+            var arec = this.cc.Doctors.Find(doctorid);
+            if (arec != null)
+            {
+                if (arec.Password == rec.OldPassword)
+                {
+                    arec.Password = rec.NewPassword;
+                    this.cc.SaveChanges();
+                    res.IsSuccess = true;
+                    res.Message = "Password Changed Successfully..!";
+                }
+                else
+                {
+                    res.IsSuccess = false;
+                    res.Message = "Invalid Old Password";
+                }
+            }
+            else
+            {
+                res.IsSuccess = false;
+                res.Message = "Invalid User!";
+            }
+            return res;
+        }
+
         public void DeleteDoc(long id)
         {
             var docsp = this.cc.DoctorSpecialities.Where(p => p.DoctorID == id);
@@ -212,7 +239,25 @@ namespace Entity.Repositories.Classes
                     };
 
             return v.ToList();
-        }          
+        }
+
+        public LoginResultVM Signin(LoginVM rec)
+        {
+            LoginResultVM re = new LoginResultVM();
+            var arec = this.cc.Doctors.SingleOrDefault(p => p.EmailID == rec.EmailID && p.Password == rec.Password);
+
+            if (arec != null)
+            {
+                re.IsLoggedIn = true;
+                re.LoggedInID = arec.DoctorID;
+                re.LoggedInName = arec.FullName;
+            }
+            else
+            {
+                re.IsLoggedIn = false;
+            }
+            return re;
+        }
 
         List<Doctor> IDoctorRepo.GetByDID(long id)
         {

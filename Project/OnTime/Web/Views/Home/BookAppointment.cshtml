@@ -1,15 +1,17 @@
-﻿
+﻿@model OPDSession
+
 <form id="test-form" class="white-popup-block" style="z-index:5;">
-    <div class="popup_box ">
+    <div class="popup_box">
             <h3>Book Appointment</h3>
             <div class="row">
                 <div>
-                    <select class="form-select wide" id="default-select" style="display: none;">
-                        <option data-display="Select Session">Session</option>
-                        <option value="1"> Morning Session </option>
-                        <option value="2"> Evening Session </option>
+                    <select class="form-select wide" asp-for="OpdSessionID" asp-items="@ViewBag.OpdSessionID" style="display: none;">
+                        <option> Select Session</option> 
                     </select>  
                 </div>
             </div>
+        <div class="mt-3">
+        <button class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" type="submit">Ok</button>
+        </div>
     </div>
 </form>

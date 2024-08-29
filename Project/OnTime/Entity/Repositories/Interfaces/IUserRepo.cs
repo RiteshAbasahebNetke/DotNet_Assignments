@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Repositories.Interfaces
 {
-    public interface IUserRepo
+    public interface IUserRepo:IGenericRepo<User>
     {
         LoginResultVM Signin(LoginVM rec);
         ResultVM Signup(UserVM rec);

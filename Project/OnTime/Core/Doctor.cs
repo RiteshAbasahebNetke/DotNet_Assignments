@@ -32,6 +32,7 @@ namespace Core
             public IFormFile DoctorPhoto { get; set; }
             public string PhotoPath { get; set; }
             public string DoctorQualification { get; set; }
+            public string EmailID { get; set; }
             public string Password { get; set; }
 
             [ForeignKey("Area")]

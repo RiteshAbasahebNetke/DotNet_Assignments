@@ -73,7 +73,13 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a asp-action="Index" asp-controller="Home"> Home </a></li>
-                                        <li> <a> About </a> </li>
+                                        <li> 
+                                            <a href="#">Doctor <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a asp-action="SignIn" asp-controller="ManageDoctor"> SignIn</a></li>
+                                                <li><a asp-action="SignUp" asp-controller="ManageDoctor">SignUp</a></li>
+                                            </ul>
+                                        </li>
                                         <li>
                                             <a href="#">User <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">

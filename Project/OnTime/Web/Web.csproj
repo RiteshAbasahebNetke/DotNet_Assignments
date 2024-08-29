@@ -16,6 +16,8 @@
     <Folder Include="Areas\AdminArea\Models\" />
     <Folder Include="Areas\ClinicArea\Data\" />
     <Folder Include="Areas\ClinicArea\Models\" />
+    <Folder Include="Areas\DoctorArea\Data\" />
+    <Folder Include="Areas\DoctorArea\Models\" />
     <Folder Include="Areas\UserArea\Data\" />
     <Folder Include="Areas\UserArea\Models\" />
     <Folder Include="wwwroot\DoctorPhotos\" />
