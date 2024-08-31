@@ -477,6 +477,9 @@ namespace Entity.Migrations
                     b.Property<string>("MobileNo")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("PhotoPath")
                         .HasColumnType("nvarchar(max)");
 

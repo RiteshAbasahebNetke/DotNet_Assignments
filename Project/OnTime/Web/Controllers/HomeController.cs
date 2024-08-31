@@ -122,6 +122,15 @@ namespace Web.Controllers
         public IActionResult BookAppointment()
         {
             ViewBag.OpdSessionID = new SelectList(this.orepo.GetAll(), "OpdSessionID", "SessionName");
+            ViewBag.ID = 0;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult BookAppointment(Int64 OpdSessionID)
+        {
+            ViewBag.OpdSessionID = new SelectList(this.orepo.GetAll(), "OpdSessionID", "SessionName");
+            ViewBag.ID = Convert.ToInt32(OpdSessionID);
             return View();
         }
 

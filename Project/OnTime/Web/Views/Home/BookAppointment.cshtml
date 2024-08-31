@@ -1,17 +1,11 @@
-﻿@model OPDSession
-
-<form id="test-form" class="white-popup-block" style="z-index:5;">
-    <div class="popup_box">
-            <h3>Book Appointment</h3>
-            <div class="row">
-                <div>
-                    <select class="form-select wide" asp-for="OpdSessionID" asp-items="@ViewBag.OpdSessionID" style="display: none;">
-                        <option> Select Session</option> 
-                    </select>  
-                </div>
-            </div>
-        <div class="mt-3">
-        <button class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" type="submit">Ok</button>
-        </div>
-    </div>
-</form>
+﻿<html>
+    <head>
+        <title> Appointment </title>
+    </head>
+    <body>
+    
+                        @await Component.InvokeAsync("AppointmentVC");
+            
+    @await Component.InvokeAsync("SessionListVC", new {ID=ViewBag.ID});
+    </body>
+</html>

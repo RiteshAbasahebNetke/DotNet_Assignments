@@ -44,6 +44,7 @@ namespace Web.Areas.ClinicArea.Controllers
             var id = Convert.ToInt64(HttpContext.Session.GetString("ClinicID"));
             rec.ClinicID = id;
             ViewBag.AreaID = new SelectList(this.arepo.GetAll(), "AreaID", "AreaName");
+            ViewBag.OpdSessionID = new SelectList(this.orepo.GetAll(), "OpdSessionID", "SessionName");
             if (ModelState.IsValid)
             {
                 if (rec.DoctorPhoto != null)
@@ -55,15 +56,11 @@ namespace Web.Areas.ClinicArea.Controllers
                         string actualfilepath = Path.Combine(folderpath, filename);
                         FileStream fs = new FileStream(actualfilepath, FileMode.Create);
                         rec.DoctorPhoto.CopyTo(fs);
-
                         rec.PhotoPath = Path.Combine("\\DoctorPhotos", filename);
-
                     }
                 }
-
                 this.drepo.Add(rec,id);
                 return RedirectToAction("Index");
-
             }
             return View(rec);
         }

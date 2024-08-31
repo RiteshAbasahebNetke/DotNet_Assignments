@@ -24,5 +24,6 @@ namespace Core
         public Int64 PatientID { get; set; }
         public virtual Patient Patient { get; set; }
         public virtual List<BookedAppPayment> BookedAppPayment { get; set; }
+        public virtual List<AppointmentPrescription> AppointmentPrescription { get; set; }
     }
 }

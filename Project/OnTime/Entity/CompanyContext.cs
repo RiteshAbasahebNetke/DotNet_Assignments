@@ -38,5 +38,8 @@ namespace Entity
         public DbSet<DoctorClinicSession> DoctorClinicSessions { get; set; }
         public DbSet<BookedAppointments> BookedAppointments { get; set; }
         public DbSet<BookedAppPayment> BookedAppPayments { get; set; }
+        public DbSet<AppointmentPrescription> AppointmentPrescription { get; set; }
+        public DbSet<AppointmentPrescriptionDetails> AppointmentPrescriptionDetails { get; set; }
+        public DbSet<Medicine> Medicines { get; set; }
     }
 }

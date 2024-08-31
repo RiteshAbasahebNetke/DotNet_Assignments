@@ -3,6 +3,7 @@ using Entity.Repositories.Interfaces;
 using Entity.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
@@ -21,7 +22,6 @@ namespace Entity.Repositories.Classes
         }
         public void Add(DocSpecilityVM rec,Int64 id)
         {
-           
                 Doctor d = new Doctor();
                 d.FirstName = rec.FirstName;
                 d.LastName = rec.LastName;
@@ -41,23 +41,34 @@ namespace Entity.Repositories.Classes
                     ds.SpecilityID = temp;
                     d.DoctorSpecialities.Add(ds);
                 }
+
                 var r = this.cc.Doctors.Add(d);
+                this.cc.SaveChanges();
 
 
-            //List<DoctorClinicSession> dsc = List<DoctorClinicSession>(d.DoctorClinicSessions);
-            //foreach (var s in dsc)
-            //{
-            //    DoctorClinicSession res = new DoctorClinicSession();
-            //    res.ClinicID = s.ClinicID;
-            //    res.StartTime = s.StartTime;
-            //    res.EndTime = s.EndTime;
-            //    res.TimeInterval = s.TimeInterval;
-            //    res.OpdSessionID = s.OpdSessionID;
-            //}
-            //d.DoctorClinicSessions.Add(res);
+            foreach(var DocClinic in rec.DoctorClinicSessions)
+            {
+                var startTime=DateTime.Parse(DocClinic.StartTime);
+                var endTime=DateTime.Parse(DocClinic.EndTime);
+                var timeInterval=DocClinic.TimeInterval;
+
+                while (startTime < endTime)
+                {
+                    var dsc = new DoctorClinicSession
+                    {   
+                        DoctorID=d.DoctorID,
+                        ClinicID = rec.ClinicID,
+                        StartTime = startTime.ToString("HH:mm"),
+                        EndTime = startTime.AddMinutes(timeInterval).ToString("HH:mm"),
+                        TimeInterval = DocClinic.TimeInterval,
+                        OpdSessionID = DocClinic.OpdSessionID
+                    };
+                    startTime = startTime.AddMinutes(timeInterval);
+                    this.cc.DoctorClinicSessions.Add(dsc);                   
+                }
+            }
 
             this.cc.SaveChanges();
-
         }
 
         public ResultVM ChangePassword(ChangePasswordVM rec, long doctorid)

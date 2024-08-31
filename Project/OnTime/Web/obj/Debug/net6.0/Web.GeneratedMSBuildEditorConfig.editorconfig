@@ -267,6 +267,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlVXNlclxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Ritesh/source/Project/OnTime/Web/Views/Shared/Components/AppointmentVC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXBwb2ludG1lbnRWQ1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ritesh/source/Project/OnTime/Web/Views/Shared/Components/ClinicRatingVC/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2xpbmljUmF0aW5nVkNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -277,6 +281,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Ritesh/source/Project/OnTime/Web/Views/Shared/Components/DrClinicSessionVC/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRHJDbGluaWNTZXNzaW9uVkNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Views/Shared/Components/SessionListVC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2Vzc2lvbkxpc3RWQ1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ritesh/source/Project/OnTime/Web/Views/Shared/Components/SpecilityCheckBoxListVC/Default.cshtml]
