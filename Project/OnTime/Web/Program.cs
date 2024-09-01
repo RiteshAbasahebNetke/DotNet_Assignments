@@ -30,6 +30,7 @@ builder.Services.AddScoped<IDoctorRatingRepo, DoctorRatingRepo>();
 builder.Services.AddScoped<IClinicRatingRepo, ClinicRatingRepo>();
 builder.Services.AddScoped<IDoctorClinicSessionRepo, DoctorClinicSessionRepo>();
 builder.Services.AddScoped<IPatientRepo, PatientRepo>();
+builder.Services.AddScoped<IBookedAppointmentsRepo, BookedAppointmentsRepo>();
 
 var app = builder.Build();
 app.UseSession();

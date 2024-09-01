@@ -60,6 +60,59 @@ namespace Entity.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Core.AppointmentPrescription", b =>
+                {
+                    b.Property<long>("AppointmentPrescriptionID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("AppointmentPrescriptionID"));
+
+                    b.Property<long>("BookedAppointmentsID")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("DoctorID")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime>("Prescription")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("AppointmentPrescriptionID");
+
+                    b.HasIndex("BookedAppointmentsID");
+
+                    b.HasIndex("DoctorID");
+
+                    b.ToTable("AppointmentPrescription");
+                });
+
+            modelBuilder.Entity("Core.AppointmentPrescriptionDetails", b =>
+                {
+                    b.Property<long>("AppointmentPrescriptionDetailsID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("AppointmentPrescriptionDetailsID"));
+
+                    b.Property<string>("Dosage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("FrequencyEnum")
+                        .HasColumnType("int");
+
+                    b.Property<long>("MedidcineID")
+                        .HasColumnType("bigint");
+
+                    b.Property<int>("UnitEnum")
+                        .HasColumnType("int");
+
+                    b.HasKey("AppointmentPrescriptionDetailsID");
+
+                    b.HasIndex("MedidcineID");
+
+                    b.ToTable("AppointmentPrescriptionDetailsTbl");
+                });
+
             modelBuilder.Entity("Core.Area", b =>
                 {
                     b.Property<long>("AreaID")
@@ -430,6 +483,28 @@ namespace Entity.Migrations
                     b.ToTable("DoctorSpecialityTbl");
                 });
 
+            modelBuilder.Entity("Core.Medicine", b =>
+                {
+                    b.Property<long>("MedicineID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("MedicineID"));
+
+                    b.Property<string>("GenericName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MedicineName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MfgName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MedicineID");
+
+                    b.ToTable("MedicineTbl");
+                });
+
             modelBuilder.Entity("Core.OPDSession", b =>
                 {
                     b.Property<long>("OpdSessionID")
@@ -564,6 +639,36 @@ namespace Entity.Migrations
                     b.HasIndex("CountryID");
 
                     b.ToTable("UserTbl");
+                });
+
+            modelBuilder.Entity("Core.AppointmentPrescription", b =>
+                {
+                    b.HasOne("Core.BookedAppointments", "BookedAppointments")
+                        .WithMany("AppointmentPrescription")
+                        .HasForeignKey("BookedAppointmentsID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Core.Doctor", "Doctor")
+                        .WithMany("AppointmentPrescription")
+                        .HasForeignKey("DoctorID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("BookedAppointments");
+
+                    b.Navigation("Doctor");
+                });
+
+            modelBuilder.Entity("Core.AppointmentPrescriptionDetails", b =>
+                {
+                    b.HasOne("Core.Medicine", "Medicines")
+                        .WithMany("AppointmentPrescriptionDetails")
+                        .HasForeignKey("MedidcineID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Medicines");
                 });
 
             modelBuilder.Entity("Core.Area", b =>
@@ -797,6 +902,8 @@ namespace Entity.Migrations
 
             modelBuilder.Entity("Core.BookedAppointments", b =>
                 {
+                    b.Navigation("AppointmentPrescription");
+
                     b.Navigation("BookedAppPayment");
                 });
 
@@ -829,6 +936,8 @@ namespace Entity.Migrations
 
             modelBuilder.Entity("Core.Doctor", b =>
                 {
+                    b.Navigation("AppointmentPrescription");
+
                     b.Navigation("DoctorClinicSessions");
 
                     b.Navigation("DoctorRatings");
@@ -839,6 +948,11 @@ namespace Entity.Migrations
             modelBuilder.Entity("Core.DoctorClinicSession", b =>
                 {
                     b.Navigation("BookedAppointments");
+                });
+
+            modelBuilder.Entity("Core.Medicine", b =>
+                {
+                    b.Navigation("AppointmentPrescriptionDetails");
                 });
 
             modelBuilder.Entity("Core.OPDSession", b =>

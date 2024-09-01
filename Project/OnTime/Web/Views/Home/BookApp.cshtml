@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Patient>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="title">Patient List</h2>
+                    <a asp-action="AddPatient" method="post" class="btn btn-primary"> Create New </a>
+                    <hr />
+
+                    <table class="table">
+                        <thead>
+                            <tr align="center">
+                                <th> Sr.No </th>
+                                <th> First Name </th>
+                                <th> Last Name </th>
+                                <th> Mobile No </th>
+                                <th> EmailID </th>
+                                <th> Address </th>
+                                <th> Actions </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int srno = 1;
+                            }
+                            @foreach (var temp in Model)
+                            {
+                                <tr>
+                                    <td align="center"> @srno </td>
+                                    <td align="center"> @temp.FirstName</td>
+                                    <td align="center"> @temp.LastName</td>
+                                    <td align="center"> @temp.MobileNo</td>
+                                    <td align="center"> @temp.EmailID</td>
+                                    <td align="center"> @temp.Address</td>
+                                    <td align="center">
+                                        <a asp-action="Select" asp-route-id="PatientID" class="btn btn-info"> Select </a>
+                                    </td>
+                                </tr>
+                                srno++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

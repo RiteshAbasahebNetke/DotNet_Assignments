@@ -25,8 +25,9 @@ namespace Web.Controllers
         IClinicFacilityRepo cfrepo;
         IOPDSessionRepo orepo;
         IPatientRepo prepo;
+        IWebHostEnvironment env;
         public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, IDoctorRepo drepo, IDoctorRatingRepo drrepo,
-            IClinicRepo crrepo, IClinicRatingRepo clrepo, IUserRepo urepo, IClinicFacilityRepo cfrepo, IOPDSessionRepo orepo, IPatientRepo prepo)
+            IClinicRepo crrepo, IClinicRatingRepo clrepo, IUserRepo urepo, IClinicFacilityRepo cfrepo, IOPDSessionRepo orepo, IPatientRepo prepo, IWebHostEnvironment env)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
@@ -40,6 +41,7 @@ namespace Web.Controllers
             this.cfrepo = cfrepo;
             this.orepo = orepo;
             this.prepo = prepo;
+            this.env = env;
         }
 
         public IActionResult Index(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
@@ -135,30 +137,49 @@ namespace Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult PatientList()
+        public IActionResult BookApp()
         {
+            
+            ViewBag.UserID = new SelectList(this.prepo.GetAll(), "FirstName", "UserID");
             return View(this.prepo.GetAll());
         }
 
         [HttpGet]
         public IActionResult AddPatient()
         {
-            //ViewBag.UserID = new SelectList(this.urepo.GetAll(), "UserID", "UserName");
+            ViewBag.UserID = new SelectList(this.urepo.GetAll(), "UserID","FirstName");
             return View();
         }
 
         [HttpPost]
         public IActionResult AddPatient(PatientVM rec)
         {
-
+            ViewBag.UserID = new SelectList(this.urepo.GetAll(), "UserID", "FirstName");
             if (ModelState.IsValid)
             {
+                if (rec.PatientPhoto != null)
+                {
+                    if (rec.PatientPhoto.Length > 0)
+                    {
+                        string filename = rec.PatientPhoto.FileName;
+                        string folderpath = Path.Combine(env.WebRootPath, "DoctorPhotos");
+                        string actualfilepath = Path.Combine(folderpath, filename);
+                        FileStream fs = new FileStream(actualfilepath, FileMode.Create);
+                        rec.PatientPhoto.CopyTo(fs);
+                        rec.PhotoPath = Path.Combine("\\DoctorPhotos", filename);
+                    }
+                }
                 this.prepo.Add(rec);
-                return RedirectToAction("PatientList");
+                return RedirectToAction("BookApp");
             }
             return View(rec);
         }
 
+        [HttpGet]
+        public IActionResult Select()
+        {
+            return View();
+        }
     }
 }
 
