@@ -27,7 +27,6 @@ namespace Web.ViewComponents
                 var res = (this.dcrepo.GetAll().Where(p=>p.OpdSessionID== ID));
                 return View(res);
             }
-            return View();
         }
     }
 }

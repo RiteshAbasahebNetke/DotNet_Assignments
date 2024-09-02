@@ -11,5 +11,6 @@ namespace Entity.Repositories.Interfaces
     public interface IPatientRepo: IGenericRepo<Patient>
     {
         void Add(PatientVM rec);
+        
     }
 }

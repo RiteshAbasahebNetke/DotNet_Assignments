@@ -82,7 +82,7 @@
         </div>
 
         <h4> Doctor Clinic Session </h4>
-        @*Doctor Clinic Session Start*@
+
         @for(int i=0; i<2; i++)
         {
         <div class="form-group">
@@ -109,34 +109,11 @@
         </div>
         }
   
-        @*Doctor Clinic Session End*@
         <div class="text-center">
             <button type="submit" class="btn btn-gradient-primary me-2"> Save </button>
         </div>
     </form> 
 </div><br />
 
-@*<div class="form-group">
-            <ul class="nav">
-                <li>
-                    <label asp-for="OpdSessionID"> Session Name </label>
-                    <select class="form-select" asp-for="OpdSessionID" asp-items="@ViewBag.OpdSessionID">
-                        <option> Evening Session </option>
-                    </select>
-                </li>
-                <li>
-                    <label asp-for="StartTime"> StartTime </label>
-                    <input type="datetime-local" class="form-control" asp-for="StartTime">
-                </li>
-                <li>
-                    <label asp-for="EndTime"> EndTime </label>
-                    <input type="datetime-local" class="form-control" asp-for="EndTime">
-                </li>
-                <li>
-                    <label asp-for="TimeInterval"> TimeInterval </label>
-                    <input type="text" class="form-control" asp-for="TimeInterval">
-                </li>
-            </ul>
-        </div>*@
 @*@await Component.InvokeAsync("DrClinicSessionVC")*@
 

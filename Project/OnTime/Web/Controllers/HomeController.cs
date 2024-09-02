@@ -26,8 +26,12 @@ namespace Web.Controllers
         IOPDSessionRepo orepo;
         IPatientRepo prepo;
         IWebHostEnvironment env;
-        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, IDoctorRepo drepo, IDoctorRatingRepo drrepo,
-            IClinicRepo crrepo, IClinicRatingRepo clrepo, IUserRepo urepo, IClinicFacilityRepo cfrepo, IOPDSessionRepo orepo, IPatientRepo prepo, IWebHostEnvironment env)
+        IBookedAppointmentsRepo barepo;
+        IDoctorClinicSessionRepo dcrepo;
+        public HomeController(ICountryRepo crepo, ISpecilityRepo sprepo,IStateRepo srepo, ICityRepo ctrepo, 
+            IDoctorRepo drepo, IDoctorRatingRepo drrepo,IClinicRepo crrepo, IClinicRatingRepo clrepo, IUserRepo urepo, 
+            IClinicFacilityRepo cfrepo, IOPDSessionRepo orepo, IPatientRepo prepo, 
+            IWebHostEnvironment env,IBookedAppointmentsRepo barepo,IDoctorClinicSessionRepo dcrepo)
         {
             this.crepo = crepo;
             this.sprepo = sprepo;
@@ -42,6 +46,8 @@ namespace Web.Controllers
             this.orepo = orepo;
             this.prepo = prepo;
             this.env = env;
+            this.barepo= barepo;
+            this.dcrepo = dcrepo;
         }
 
         public IActionResult Index(Doctor rec, Int64 CountryID = 0, Int64 StateID = 0, Int64 CityID = 0, Int64 SpecilityID = 0)
@@ -139,7 +145,6 @@ namespace Web.Controllers
         [HttpGet]
         public IActionResult BookApp()
         {
-            
             ViewBag.UserID = new SelectList(this.prepo.GetAll(), "FirstName", "UserID");
             return View(this.prepo.GetAll());
         }
@@ -170,14 +175,22 @@ namespace Web.Controllers
                     }
                 }
                 this.prepo.Add(rec);
-                return RedirectToAction("BookApp");
+                return RedirectToAction("BookApp",new {ViewBag.PatientID});
             }
             return View(rec);
         }
 
         [HttpGet]
-        public IActionResult Select()
+        public IActionResult Select(Int64 id)
         {
+            ViewBag.DoctorClinicSessionID = new SelectList(this.dcrepo.GetAll(), "DoctorClinicSessionID","StartTime");
+            var rec=this.prepo.GetByID(id);
+            return View(rec);
+        }
+
+        public IActionResult Select(BookAppVM rec)
+        {
+            this.barepo.Add(rec);
             return View();
         }
     }

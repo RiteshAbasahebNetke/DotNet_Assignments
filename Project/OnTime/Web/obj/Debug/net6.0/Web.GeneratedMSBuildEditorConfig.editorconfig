@@ -227,6 +227,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Ritesh/source/Project/OnTime/Web/Views/Home/Select.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxlY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ritesh/source/Project/OnTime/Web/Views/ManageAdmin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -257,6 +261,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Ritesh/source/Project/OnTime/Web/Views/ManageDoctor/Signin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlRG9jdG9yXFNpZ25pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ritesh/source/Project/OnTime/Web/Views/ManageUser/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ritesh/source/Project/OnTime/Web/Views/ManageUser/Logout.cshtml]

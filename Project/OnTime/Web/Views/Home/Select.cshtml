@@ -1,0 +1,63 @@
+﻿@model BookedAppointments
+
+<h3> Add Appointment Info </h3>
+
+<div class="card">
+    <form asp-action="Select" method="post">
+        <div class="card-body">
+            <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+            <div class="form-group">
+                <label asp-for="AppointmentDate"> AppointmentDate  </label>
+                <input type="date" class="form-control" asp-for="AppointmentDate">
+                <span asp-validation-for="AppointmentDate" class="form-check-input"></span>
+            </div>
+
+            @*<div class="form-group">
+                <label asp-for="StartTime"> StartTime  </label>
+                <input type="datetime" class="form-check-input" asp-for="StartTime">
+                <span asp-validation-for="StartTime" class="form-check-input"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EndTime"> EndTime  </label>
+                <input type="datetime" class="form-check-input" asp-for="EndTime">
+                <span asp-validation-for="EndTime" class="form-check-input"></span>
+            </div>*@
+
+            <div class="form-group">
+                <label asp-for="DoctorClinicSession.StartTime"> Session   </label>
+                <select class="form-select" asp-for="DoctorClinicSession.StartTime" asp-items="@ViewBag.DoctorClinicSessionID">
+                    <option> Select DoctorClinicSession </option>
+                </select>
+                <span asp-validation-for="DoctorClinicSessionID" class="form-check-input"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DoctorClinicSession.EndTime"> Session   </label>
+                <select class="form-select" asp-for="DoctorClinicSession.EndTime" asp-items="@ViewBag.DoctorClinicSessionID">
+                    <option> Select DoctorClinicSession </option>
+                </select>
+                <span asp-validation-for="DoctorClinicSessionID" class="form-check-input"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="IsPaid"> Is Paid  </label>
+                <input type="checkbox" class="form-check-input" asp-for="IsPaid">
+                <span asp-validation-for="IsPaid" class="form-check-input"></span>
+            </div> *@
+
+            <div class="form-group">
+                <label asp-for="PatientID"> Name </label>
+                <select class="form-select" asp-for="PatientID" asp-items="@ViewBag.PatientID">
+                    <option> Select Patient </option>
+                </select>
+                <span asp-validation-for="PatientID"></span>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-gradient-primary me-2"> Save </button>
+        </div>
+    </form>
+</div>
+<br />

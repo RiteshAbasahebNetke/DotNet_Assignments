@@ -71,5 +71,30 @@ namespace Web.Controllers
             HttpContext.Session.Clear();
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(LoginVM rec)
+        {
+            if (ModelState.IsValid)
+            {
+                var res = this.urepo.Signin(rec);
+                if (res.IsLoggedIn)
+                {
+                    HttpContext.Session.SetString("UserID", res.LoggedInID.ToString());
+                    HttpContext.Session.SetString("FirstName", res.LoggedInName);
+
+                    return RedirectToAction("Index", "UserHome", new { area = "UserArea" });
+                }
+
+                ModelState.AddModelError("", "Invalid Email Id or Password");
+            }
+            return View(rec);
+        }
     }
 }
