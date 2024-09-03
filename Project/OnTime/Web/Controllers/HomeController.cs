@@ -143,8 +143,9 @@ namespace Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult BookApp()
+        public IActionResult BookApp(Int64 dcid)
         {
+            ViewBag.DoctorClinicSessionID = dcid;
             ViewBag.UserID = new SelectList(this.prepo.GetAll(), "FirstName", "UserID");
             return View(this.prepo.GetAll());
         }

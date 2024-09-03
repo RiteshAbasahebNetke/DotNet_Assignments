@@ -105,7 +105,11 @@ namespace Entity.Repositories.Classes
             {
                 this.cc.DoctorSpecialities.Remove(temp);
             }
-
+            var dsc=this.cc.DoctorClinicSessions.Where(p => p.DoctorID == id);
+            foreach (var temp in dsc)
+            {
+                this.cc.DoctorClinicSessions.Remove(temp);
+            }
             var doc = this.cc.Doctors.Find(id);
             this.cc.Doctors.Remove(doc);
             this.cc.SaveChanges();
