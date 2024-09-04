@@ -1,0 +1,28 @@
+﻿@model Model_BindingEX.Models.Customer
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <h2> Form </h2>
+    <div> 
+        @using (Html.BeginForm())
+            {
+                @:Name:@Html.EditorFor(p=>p.CustomerName)<br /> <br />
+                @:EmailID:@Html.EditorFor(p=>p.EmailID) <br /><br />
+                @:Address:@Html.EditorFor(p=>p.Address) <br /><br />
+                @:MobileNo:@Html.EditorFor(p=>p.MobileNo) <br /><br />
+                @:CreditLimit:@Html.EditorFor(p=>p.CreditLimit) <br /><br />
+
+                <input type="submit" value="Save" />
+            }
+    </div>
+</body>
+</html>
