@@ -1,0 +1,45 @@
+﻿@model CheckBox_MVC_Ex.Models.ProductTbl
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm())
+            {
+                <div>
+                    @Html.LabelFor(p=>p.ProductName)
+                    <div>
+                        @Html.EditorFor(p=>p.ProductName)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.MfgName)
+                    <div>
+                        @Html.EditorFor(p=>p.MfgName)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.Price)
+                    <div>
+                        @Html.EditorFor(p=>p.Price)
+                    </div>
+                </div>
+                <div>
+                    @Html.Label("Select Color:")
+                    <div>
+                        @Html.Action("GetCheckBoxes")
+                    </div>
+                </div>
+                <input type="submit" value="Create" />
+            }
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿@model IEnumerable<CheckBox_MVC_Ex.Models.CheckBoxVM>
+
+@{
+    Layout = null;
+}
+
+<div style="height:100px;background-color:darkgray;width:300px;overflow:auto;">
+    @foreach (var temp in Model)
+    {
+        if (temp.ISelected)
+        {
+            <input name="ck" type="checkbox" checked="checked" value="@temp.Value" /> @temp.Text <br />
+        }
+        else
+        {
+            <input type="ck" typeof="checkbox" value="@temp.Value" /> @temp.Text <br />
+        }
+    }
+</div>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CheckBox_MVCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ColorTbl">
+    <Key>
+      <PropertyRef Name="ColorID" />
+    </Key>
+    <Property Name="ColorID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ColorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ProductColorTbls" Relationship="Self.FK_ProductColorTbl_ColorTbl" FromRole="ColorTbl" ToRole="ProductColorTbl" />
+    <NavigationProperty Name="ProductTbls" Relationship="CheckBox_MVCModel.FK_ProductTbl_ColorTbl" FromRole="ColorTbl" ToRole="ProductTbl" />
+  </EntityType>
+  <EntityType Name="ProductColorTbl">
+    <Key>
+      <PropertyRef Name="ProductColorID" />
+    </Key>
+    <Property Name="ProductColorID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductID" Type="Int64" Nullable="false" />
+    <Property Name="ColorID" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="ColorTbl" Relationship="Self.FK_ProductColorTbl_ColorTbl" FromRole="ProductColorTbl" ToRole="ColorTbl" />
+    <NavigationProperty Name="ProductTbl" Relationship="Self.FK_ProductColorTbl_ProductTbl" FromRole="ProductColorTbl" ToRole="ProductTbl" />
+  </EntityType>
+  <EntityType Name="ProductTbl">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MfgName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <NavigationProperty Name="ProductColorTbls" Relationship="Self.FK_ProductColorTbl_ProductTbl" FromRole="ProductTbl" ToRole="ProductColorTbl" />
+    <Property Name="ColorID" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="ColorTbl" Relationship="CheckBox_MVCModel.FK_ProductTbl_ColorTbl" FromRole="ProductTbl" ToRole="ColorTbl" />
+  </EntityType>
+  <Association Name="FK_ProductColorTbl_ColorTbl">
+    <End Role="ColorTbl" Type="Self.ColorTbl" Multiplicity="1" />
+    <End Role="ProductColorTbl" Type="Self.ProductColorTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ColorTbl">
+        <PropertyRef Name="ColorID" />
+      </Principal>
+      <Dependent Role="ProductColorTbl">
+        <PropertyRef Name="ColorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductColorTbl_ProductTbl">
+    <End Role="ProductTbl" Type="Self.ProductTbl" Multiplicity="1" />
+    <End Role="ProductColorTbl" Type="Self.ProductColorTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductTbl">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="ProductColorTbl">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CheckBox_MVCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ColorTbls" EntityType="Self.ColorTbl" />
+    <EntitySet Name="ProductColorTbls" EntityType="Self.ProductColorTbl" />
+    <EntitySet Name="ProductTbls" EntityType="Self.ProductTbl" />
+    <AssociationSet Name="FK_ProductColorTbl_ColorTbl" Association="Self.FK_ProductColorTbl_ColorTbl">
+      <End Role="ColorTbl" EntitySet="ColorTbls" />
+      <End Role="ProductColorTbl" EntitySet="ProductColorTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductColorTbl_ProductTbl" Association="Self.FK_ProductColorTbl_ProductTbl">
+      <End Role="ProductTbl" EntitySet="ProductTbls" />
+      <End Role="ProductColorTbl" EntitySet="ProductColorTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductTbl_ColorTbl" Association="CheckBox_MVCModel.FK_ProductTbl_ColorTbl">
+      <End Role="ColorTbl" EntitySet="ColorTbls" />
+      <End Role="ProductTbl" EntitySet="ProductTbls" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_ProductTbl_ColorTbl">
+    <End Type="CheckBox_MVCModel.ColorTbl" Role="ColorTbl" Multiplicity="1" />
+    <End Type="CheckBox_MVCModel.ProductTbl" Role="ProductTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ColorTbl">
+        <PropertyRef Name="ColorID" />
+      </Principal>
+      <Dependent Role="ProductTbl">
+        <PropertyRef Name="ColorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

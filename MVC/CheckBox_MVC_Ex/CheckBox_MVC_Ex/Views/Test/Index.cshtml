@@ -1,0 +1,32 @@
+﻿@model IEnumerable<CheckBox_MVC_Ex.Models.CountVM>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th> @Html.DisplayNameFor(p=>p.ProductID) </th>
+                <th> @Html.DisplayNameFor(p=>p.ProductName) </th>
+                <th> @Html.DisplayNameFor(p=>p.ColorCount) </th>
+            </tr>
+        </thead>
+        @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p=>temp.ProductID) </td>
+                    <td> @Html.DisplayFor(p=>temp.ProductName) </td>
+                    <td> @Html.DisplayFor(p=>temp.ColorCount) </td>
+                </tr>
+            }
+    </table>
+</body>
+</html>
