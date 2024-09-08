@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h1> Index Action Of Test Controller </h1>
+
+        <h1> Call </h1>
+        @Html.Action("SayHello","Test")
+        <hr />
+
+        <h1> Call </h1>
+        @Html.Action("SayBye","Test")
+        <hr />
+
+        <h1> Call Sample </h1>
+        @Html.Action("GetSample")
+
+        <h1> Call GetDemo </h1>
+        @Html.Action("GetDemo")
+    </div>
+</body>
+</html>
