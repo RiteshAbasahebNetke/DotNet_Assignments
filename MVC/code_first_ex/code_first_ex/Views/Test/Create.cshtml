@@ -1,0 +1,52 @@
+﻿@model Code_First_ex.Models.Product
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <h2> Add New Product </h2>
+    <div> 
+        @using (Html.BeginForm())
+            {
+                <div>
+                    @Html.LabelFor(p =>p.ProductName)
+                    <div>
+                        @Html.EditorFor(p=>p.ProductName)
+                        @Html.ValidationMessageFor(p=>p.ProductName)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.MfgName)
+                    <div>
+                        @Html.EditorFor(p=>p.MfgName)
+                        @Html.ValidationMessageFor(p=>p.MfgName)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.Price)
+                    <div>
+                        @Html.EditorFor(p=>p.Price)
+                        @Html.ValidationMessageFor(p=>p.Price)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.Category.CategoryName)
+                    <div>
+                        @Html.DropDownList("CategoryID","Select Category")
+                        @Html.ValidationMessageFor(p=>p.CategoryID)
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Save" />
+                </div>
+            }
+    </div>
+</body>
+</html>

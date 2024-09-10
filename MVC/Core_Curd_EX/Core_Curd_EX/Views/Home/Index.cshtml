@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Customer>
+<html>
+    <head>
+        <title> Home-Index </title>
+    </head>
+    <body>
+        <div>
+            <h2> Customer List </h2>
+            <a asp-action="Create"> Add New </a>
+        <table>
+            <thead>
+                <tr>
+                    <th> CustomerID </th>
+                    <th> Customer Name </th>
+                    <th> Email ID </th>
+                    <th> Area Name </th>
+                    <th> Credit Limit </th>
+                    <th> Actions </th>
+                </tr>
+            </thead>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @temp.CustomerID </td>
+                    <td> @temp.CustomerName </td>
+                    <td> @temp.EmailID </td>
+                    <td> @temp.Area.AreaName </td>
+                    <td> @temp.CreditLimit </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@temp.CustomerID">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@temp.CustomerID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    </body>
+</html>
