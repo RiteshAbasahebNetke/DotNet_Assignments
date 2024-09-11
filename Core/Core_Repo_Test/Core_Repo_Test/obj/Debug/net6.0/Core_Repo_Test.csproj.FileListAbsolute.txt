@@ -1,0 +1,251 @@
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\appsettings.Development.json
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\appsettings.json
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.exe
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.deps.json
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.runtimeconfig.json
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.pdb
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Azure.Core.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Azure.Identity.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Castle.Core.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Humanizer.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.CodeDom.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Memory.Data.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Text.Json.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.csproj.AssemblyReference.cache
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.AssemblyInfoInputs.cache
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.AssemblyInfo.cs
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.csproj.CoreCompileInputs.cache
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.MvcApplicationPartsAssemblyInfo.cache
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets.build.json
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets.development.json
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets\msbuild.Core_Repo_Test.Microsoft.AspNetCore.StaticWebAssets.props
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets\msbuild.build.Core_Repo_Test.props
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Core_Repo_Test.props
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Core_Repo_Test.props
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets.pack.json
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\scopedcss\bundle\Core_Repo_Test.styles.css
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.csproj.CopyComplete
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\refint\Core_Repo_Test.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.pdb
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.genruntimeconfig.cache
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\ref\Core_Repo_Test.dll
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.RazorAssemblyInfo.cache
+C:\RItesh\Core Exam\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.RazorAssemblyInfo.cs
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.csproj.AssemblyReference.cache
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.AssemblyInfoInputs.cache
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.AssemblyInfo.cs
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.csproj.CoreCompileInputs.cache
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.MvcApplicationPartsAssemblyInfo.cache
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.RazorAssemblyInfo.cache
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.RazorAssemblyInfo.cs
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.dll
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\refint\Core_Repo_Test.dll
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.pdb
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\appsettings.Development.json
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\appsettings.json
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.exe
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.deps.json
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.runtimeconfig.json
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.pdb
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Azure.Core.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Azure.Identity.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Castle.Core.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Humanizer.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.CodeDom.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Text.Json.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets.build.json
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets.development.json
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\scopedcss\bundle\Core_Repo_Test.styles.css
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.csproj.CopyComplete
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.genruntimeconfig.cache
+D:\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\ref\Core_Repo_Test.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\appsettings.json
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.exe
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.deps.json
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.runtimeconfig.json
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Core_Repo_Test.pdb
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.AssemblyInfoInputs.cache
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.AssemblyInfo.cs
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.RazorAssemblyInfo.cache
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.RazorAssemblyInfo.cs
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\scopedcss\bundle\Core_Repo_Test.styles.css
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.csproj.CopyComplete
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\refint\Core_Repo_Test.dll
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.pdb
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\Core_Repo_Test.genruntimeconfig.cache
+C:\Users\Ritesh\source\Practice WA\Core_Repo_Test\Core_Repo_Test\obj\Debug\net6.0\ref\Core_Repo_Test.dll

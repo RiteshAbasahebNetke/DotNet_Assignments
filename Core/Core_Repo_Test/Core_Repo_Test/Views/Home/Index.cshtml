@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Flights>
+<html>
+    <head>
+        <title> Home-Index </title>
+    </head>
+    <body>
+        <div>
+            <h2> Flights List </h2>
+            <div>
+                <a asp-action="Create" method="post"> Create New </a>
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Sr.No </th>
+                            <th> FlightNo </th>
+                            <th> SourceCityID </th>
+                            <th> DestinationCityID </th>
+                            <th> Fair </th>
+                            <th> TravelTime </th>
+                            <th> IsDirect </th>
+                        </tr>
+                    </thead>
+                @foreach(var temp in Model)
+                {
+                    <tr>
+                        <td> @temp.FlightID </td>
+                        <td> @temp.FlightNo </td>
+                        <td> @temp.SourceCityID. </td>
+                        <td> @temp.DestinationCityID </td>
+                        <td> @temp.Fair </td>
+                        <td> @temp.TravelTime </td>
+                        <td> @temp.IsDirect </td>
+                    </tr>
+                }
+            </table>
+            </div>
+        </div>
+    </body>
+</html>
