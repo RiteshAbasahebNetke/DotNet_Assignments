@@ -1,0 +1,45 @@
+﻿@model Bus
+<html>
+<head>
+    <title> Home-Create </title>
+</head>
+<body>
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="BusID" />
+        <div>
+            <label asp-for="BusName"></label>
+            <div>
+                <input asp-for="BusName" />
+                <span asp-validation-for="BusName"></span>
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="BusNo"></label>
+            <div>
+                <input asp-for="BusNo" />
+                <span asp-validation-for=BusNo></span>
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="Fare"></label>
+            <div>
+                <input asp-for="Fare" />
+                <span asp-validation-for="Fare"></span>
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="City.CityName"></label>
+            <select asp-for="CityID" asp-items="@ViewBag.City">
+                <option> Select City </option>
+            </select>
+            <span asp-validation-for="City.CityName"></span>
+        </div>
+        <div>
+            <input type="submit" value="Save" />
+        </div>
+    </form>
+</body>
+</html>
