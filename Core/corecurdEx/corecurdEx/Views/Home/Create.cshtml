@@ -1,0 +1,57 @@
+﻿@model Customer
+<html>
+    <head>
+        <title> Home-Create </title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/bootstrap/js/bootstrap.bundle.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        <h2> Add Customer Details </h2>
+            <div class="col-md-12">
+                <form asp-action="Create" method="post">
+                    <div>
+                        <label asp-for="CustomerName"></label>
+                        <div>
+                            <input asp-for="CustomerName"/>
+                            <span asp-validation-for="CustomerName"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <label asp-for="EmailID"></label>
+                        <div>
+                            <input asp-for="EmailID"/>
+                            <span asp-validation-for="EmailID"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <label asp-for="MobileNo"></label>
+                        <div>
+                            <input asp-for="MobileNo"/>
+                        <span asp-validation-for="MobileNo"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <label asp-for="CreditLimit"></label>
+                        <div>
+                            <input asp-for="CreditLimit" />
+                        <span asp-validation-for="CreditLimit"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <label asp-for="Area.AreaName"></label>
+                        <div>
+                            <select asp-for="AreaID" asp-items="ViewBag.AreaID">
+                                <option> Select AreaName </option>
+                            </select>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <input type="submit" value="Save" class="btn btn-info"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
