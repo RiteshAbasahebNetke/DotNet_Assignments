@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Course>
+<html>
+    <head>
+        <title> Home-Index </title>
+    </head>
+    <body>
+        <h2> Course List </h2>
+        <a asp-action="Create"> Create New </a>
+        <form asp-action="SearchByCat" method="post">
+            <table>
+                <tr>
+                    <td>Select Category</td>
+                    <td>
+                    <select name="CatID" asp-items="ViewBag.CourseCategoryID">
+                            <option value="0">All</option>
+                        </select>
+                    </td>
+                    <td>
+                    <input type="submit" value="Search" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <table border="1">
+                <thead>
+                    <tr>
+                        <th align="center"> CourseID </th>
+                        <th align="center"> CourseName </th>
+                        <th align="center"> CourseDesc </th>
+                        <th align="center"> DurationInMonths </th>
+                        <th align="center"> Course Category Name </th>
+                        <th align="center"> Action </th>
+                    </tr>
+                </thead>
+                @foreach(var temp in Model)
+                {
+                    <tr>
+                        <td align="center"> @temp.CourseID </td>
+                        <td align="center"> @temp.CourseName </td>
+                        <td align ="center"> @temp.CourseDes </td>
+                        <td align="center"> @temp.DurationInMonths </td>
+                        <td align="center"> @temp.CourseCategory.CourseCategoryName </td>
+                        <td align="center">
+                            <a asp-action="Edit" asp-route-id=@temp.CourseID>Edit</a>
+                            <a asp-action=Delete asp-route-id=@temp.CourseID>Delete</a>
+                        </td>
+                    </tr>
+                }
+        </table>
+    </body>
+</html>

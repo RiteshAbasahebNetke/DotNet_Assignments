@@ -1,0 +1,47 @@
+﻿@model Course
+
+<html>
+    <head>
+        <title> Home-Create </title>
+    </head>
+    <body>
+        <div>
+            <h2> Update Course Details </h2>
+        </div>
+            <form asp-action="Edit" method="post">
+                <input type="hidden" asp-for="CourseID" />
+            <div>
+                <label asp-for="CourseName"></label>
+                <div>
+                    <input asp-for="CourseName" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="CourseDes"></label>
+                <div>
+                    <input asp-for="CourseDes" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="DurationInMonths"></label>
+                <div>
+                    <input asp-for="DurationInMonths" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="CourseCategory.CourseCategoryName"></label>
+                <div>
+                    <select asp-for="CourseCategoryID" asp-items="@ViewBag.CourseCategories">
+                        <option> Select Option </option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Update" />
+            </div>
+            </form>
+    </body>
+</html>

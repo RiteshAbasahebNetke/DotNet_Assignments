@@ -1,0 +1,139 @@
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\appsettings.json
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.exe
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.deps.json
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.runtimeconfig.json
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.runtimeconfig.dev.json
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.pdb
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.Views.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.Views.pdb
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.AssemblyInfoInputs.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.AssemblyInfo.cs
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorAssemblyInfo.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorAssemblyInfo.cs
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\scopedcss\bundle\CurdRepo.styles.css
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\staticwebassets\CurdRepo.StaticWebAssets.Manifest.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.TagHelpers.input.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.TagHelpers.output.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorCoreGenerate.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorTargetAssemblyInfo.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorTargetAssemblyInfo.cs
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.Views.pdb
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\refint\CurdRepo.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.pdb
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.genruntimeconfig.cache
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\ref\CurdRepo.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.csproj.CopyComplete
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ritesh\source\Core\CurdRepo\CurdRepo\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\appsettings.json
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.exe
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.deps.json
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.runtimeconfig.json
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.runtimeconfig.dev.json
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.pdb
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.Views.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\CurdRepo.Views.pdb
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.AssemblyInfoInputs.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.AssemblyInfo.cs
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorAssemblyInfo.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorAssemblyInfo.cs
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\scopedcss\bundle\CurdRepo.styles.css
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\staticwebassets\CurdRepo.StaticWebAssets.Manifest.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.TagHelpers.input.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.TagHelpers.output.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorCoreGenerate.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\Razor\Views\Home\Edit.cshtml.g.cs
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorTargetAssemblyInfo.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.RazorTargetAssemblyInfo.cs
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.Views.pdb
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.csproj.CopyComplete
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\refint\CurdRepo.dll
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.pdb
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\CurdRepo.genruntimeconfig.cache
+C:\Users\Ritesh\source\Practice WA\CurdRepo\CurdRepo\obj\Debug\net5.0\ref\CurdRepo.dll
