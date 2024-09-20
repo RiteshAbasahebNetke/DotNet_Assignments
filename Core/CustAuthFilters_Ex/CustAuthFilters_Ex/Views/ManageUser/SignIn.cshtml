@@ -1,0 +1,43 @@
+﻿@model CustAuthFilters_Ex.Models.LoginVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SignIn</title>
+</head>
+<body>
+    <div> 
+        <h1> Sign In</h1>
+
+        @using (Html.BeginForm())
+            {
+            <div>
+                @Html.ValidationSummary(true)
+            </div>
+                <div>
+                    @Html.LabelFor(p=>p.EmailID)
+                    <div>
+                        @Html.EditorFor(p=>p.EmailID)
+                        @Html.ValidationMessageFor(p=>p.EmailID)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.Password)
+                    <div>
+                        @Html.EditorFor(p=>p.Password)
+                        @Html.ValidationMessageFor(p=>p.Password)
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Save" />
+                    @Html.ActionLink("Click here to SignUp","SignUp","ManageUser")
+                </div>
+            }
+    </div>
+</body>
+</html>
