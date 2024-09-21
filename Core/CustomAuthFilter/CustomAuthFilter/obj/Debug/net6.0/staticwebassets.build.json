@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iyQyxw6u5e3zFait5l8MMovWB++iPoqkJdhnIvoiuH4=",
+  "Source": "CustomAuthFilter",
+  "BasePath": "_content/CustomAuthFilter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

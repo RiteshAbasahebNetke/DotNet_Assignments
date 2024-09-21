@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Product>
+<html>
+    <head>
+        <title> Product-Index </title>
+    </head>
+    <body>
+        <div>
+            <h2> Product List </h2>
+            <hr />
+            Welcome @Context.Session.GetString("UserName") <a asp-action="Logout" asp-controller="ManageUsers"> LogOut </a>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th> ProductID </th>
+                            <th> ProductName </th>
+                            <th> MfgName </th>
+                            <th> Price </th>
+                        </tr>
+                    </thead>
+                    @foreach(var temp in Model)
+                    {
+                        <tr>
+                            <td> @temp.ProductID </td>
+                            <td> @temp.ProductName </td>
+                            <td> @temp.MfgName </td>
+                            <td> @temp.Price </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
