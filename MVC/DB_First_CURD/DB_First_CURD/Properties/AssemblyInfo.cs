@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DB_First_CURD")]
+[assembly: AssemblyTitle("db_first_curd")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DB_First_CURD")]
+[assembly: AssemblyProduct("db_first_curd")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9f216e2d-5fd6-4b4a-a824-26bc5c8f1fbc")]
+[assembly: Guid("efd527bc-af45-4317-a375-6938f745b550")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Db_First_ex.Models.EmpTbl>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2> EMP List </h2>
+    @Html.ActionLink("Add New","Create","Test")
+    <div> 
+        <table border="1">
+             <thead>
+                 <tr>
+                     <td colspan="2">
+                         @using (Html.BeginForm("SearchByName", "Test", FormMethod.Post))
+                         {
+                             <span> Enter Name </span>
+                             <input type="text" name="EName" />
+                             <input type="submit" value="Search" />
+                         }
+                     </td>
+                     <td colspan="3">
+                         @using (Html.BeginForm("SearchByDept", "Test", FormMethod.Post))
+                          {
+                             @:Select Dept:@Html.DropDownList("DName")
+                             <input type="submit" value="Search" />
+                          }
+                     </td>
+                     </tr>
+                 <tr>
+                     <th> @Html.DisplayNameFor(p => p.EmpId) </th>
+                     <th> @Html.DisplayNameFor(p => p.EmpName) </th>
+                     <th> @Html.DisplayNameFor(p => p.EmailId) </th>
+                     <th> @Html.DisplayNameFor(p => p.Salary) </th>
+                     <th> @Html.DisplayNameFor(p => p.DeptTbl.DeptId) </th>
+                 </tr>
+             </thead>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p=>temp.EmpId) </td>
+                    <td> @Html.DisplayFor(p=>temp.EmpName) </td>
+                    <td> @Html.DisplayFor(p=>temp.EmailId) </td>
+                    <td> @Html.DisplayFor(p=>temp.Salary) </td>
+                    <td> @Html.DisplayFor(p=>temp.DeptTbl.DeptId) </td>
+                 
+                    <td> @Html.ActionLink("Edit", "Edit", new {id=temp.EmpId}) </td>
+                    <td> @Html.ActionLink("Delete","Delete", new {id=temp.EmpId})</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

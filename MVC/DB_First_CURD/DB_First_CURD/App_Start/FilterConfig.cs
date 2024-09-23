@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace DB_First_CURD
+namespace db_first_curd
 {
     public class FilterConfig
     {

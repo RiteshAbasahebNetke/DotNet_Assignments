@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace DB_First_CURD.Controllers
+namespace db_first_curd.Controllers
 {
     public class HomeController : Controller
     {

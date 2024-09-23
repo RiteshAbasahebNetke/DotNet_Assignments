@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DB_First_CURD.Models
+namespace db_first_curd.Models
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CommonEntities : DbContext
+    public partial class AEDEntities : DbContext
     {
-        public CommonEntities()
-            : base("name=CommonEntities")
+        public AEDEntities()
+            : base("name=AEDEntities")
         {
         }
     

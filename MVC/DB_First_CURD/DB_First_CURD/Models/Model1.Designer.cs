@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Ritesh\source\MVC\DB_First_CURD\DB_First_CURD\Models\Model1.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Ritesh\source\Practice WA\db_first_curd\db_first_curd\Models\Model1.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

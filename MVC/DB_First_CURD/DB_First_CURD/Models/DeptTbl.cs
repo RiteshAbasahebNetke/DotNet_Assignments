@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DB_First_CURD.Models
+namespace db_first_curd.Models
 {
     using System;
     using System.Collections.Generic;
@@ -17,16 +17,14 @@ namespace DB_First_CURD.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public DeptTbl()
         {
-            this.AreaTbls = new HashSet<AreaTbl>();
             this.EmpTbls = new HashSet<EmpTbl>();
         }
     
         public long DeptId { get; set; }
         public string DeptName { get; set; }
-        public long EmpId { get; set; }
+        public long AreaId { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<AreaTbl> AreaTbls { get; set; }
+        public virtual AreaTbl AreaTbl { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<EmpTbl> EmpTbls { get; set; }
     }

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace DB_First_CURD
+namespace db_first_curd
 {
     public class RouteConfig
     {

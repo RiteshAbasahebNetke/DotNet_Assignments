@@ -1,4 +1,4 @@
-﻿@model DB_First_CURD.Models.EmpTbl
+﻿@model db_first_curd.Models.EmpTbl
 @{
     Layout = null;
 }
@@ -11,42 +11,42 @@
     <title>Create</title>
 </head>
 <body>
-    <h2> New EMP </h2>
+    <h2> Add New Emp Details </h2>
     <div> 
         @using (Html.BeginForm())
-         {
-            <div>
-                @Html.LabelFor(p=>p.EmpId)
+            {
                 <div>
-                    @Html.EditorFor(p=>p.EmpId)
+                    @Html.LabelFor(p=>p.EmpId)
+                    <div>
+                        @Html.EditorFor(p=>p.EmpId)
+                    </div>
                 </div>
-            </div>
-            <div>
-                @Html.LabelFor(p=>p.EmpName)
                 <div>
-                    @Html.EditorFor(p=>p.EmpName)
+                    @Html.LabelFor(p=>p.EmpName)
+                    <div>
+                        @Html.EditorFor(p=>p.EmpName)
+                    </div>
                 </div>
-            </div>
-            <div>
-                @Html.LabelFor(p =>p.EmailId)
                 <div>
-                    @Html.EditorFor(p=>p.EmailId)
+                    @Html.LabelFor(p=>p.EmailId)
+                    <div>
+                        @Html.EditorFor(p=>p.EmailId)
+                    </div>
                 </div>
-            </div>
-            <div>
-                @Html.LabelFor(p=>p.Salary)
                 <div>
-                    @Html.EditorFor(p=>p.Salary)
+                    @Html.LabelFor(p=>p.Salary)
+                    <div>
+                        @Html.EditorFor(p=>p.Salary)
+                    </div>
                 </div>
-            </div>
-            <div>
-                @Html.LabelFor(p=>p.DeptId)
                 <div>
-                    @Html.EditorFor(p=>p.DeptId)
+                    @Html.Label("Select Dept")
+                    <div>
+                        @Html.DropDownList("DeptId")
+                    </div>
                 </div>
-            </div>
-            <input type="submit" value="Save" />
-         }
+                <input type="submit" value="Save" />
+            }
     </div>
 </body>
 </html>

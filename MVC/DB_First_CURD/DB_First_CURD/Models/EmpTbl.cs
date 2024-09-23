@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DB_First_CURD.Models
+namespace db_first_curd.Models
 {
     using System;
     using System.Collections.Generic;
@@ -17,8 +17,8 @@ namespace DB_First_CURD.Models
         public long EmpId { get; set; }
         public string EmpName { get; set; }
         public string EmailId { get; set; }
-        public Nullable<decimal> Salary { get; set; }
-        public Nullable<long> DeptId { get; set; }
+        public decimal Salary { get; set; }
+        public long DeptId { get; set; }
     
         public virtual DeptTbl DeptTbl { get; set; }
     }

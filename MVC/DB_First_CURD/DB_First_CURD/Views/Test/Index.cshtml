@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DB_First_CURD.Models.EmpTbl>
+﻿@model IEnumerable<db_first_curd.Models.EmpTbl>
 @{
     Layout = null;
 }
@@ -11,52 +11,48 @@
     <title>Index</title>
 </head>
 <body>
-    <h2> EMP List </h2>
+    <h2> Employee List </h2>
     <div> 
-        @Html.ActionLink("Create New","Create")
+        @Html.ActionLink("Add New","Create") <br />
         <table border="1">
             <thead>
                 <tr>
-                    <td>
-                        @using (Html.BeginForm("SearchByName", "Test"))
+                    <th colspan="2">
+                        @using (Html.BeginForm("SearchByName", "test", FormMethod.Post))
                         {
                             <span> Enter Name: </span>
                             <input type="text" name="EName" />
                             <input type="submit" value="Search" />
                         }
-                    </td>
-                    <td colspan="4">
-                        @using (Html.BeginForm("SearchByDept", "Test"))
+                    </th>
+                    <th colspan="2">
+                        @using (Html.BeginForm("SearchByDept", "test", FormMethod.Post))
                         {
                             @:Select Dept:@Html.DropDownList("DName")
                             <input type="submit" value="Search" />
                         }
-                    </td>
+                    </th>
                 </tr>
                 <tr>
-                    <th> @Html.DisplayNameFor(p=>p.EmpId)</th>
-                    <th> @Html.DisplayNameFor(p=>p.EmpName)</th>
-                    <th> @Html.DisplayNameFor(p=>p.EmailId)</th>
-                    <th> @Html.DisplayNameFor(p=>p.DeptTbl.DeptName)</th>
-                    <th> @Html.DisplayNameFor(p=>p.Salary)</th>
+                    <th> @Html.DisplayNameFor(p=>p.EmpId) </th>
+                    <th> @Html.DisplayNameFor(p=>p.EmpName) </th>
+                    <th> @Html.DisplayNameFor(p=>p.EmailId) </th>
+                    <th> @Html.DisplayNameFor(p=>p.Salary) </th>
+                    <th> @Html.DisplayNameFor(p=>p.DeptId) </th>
                 </tr>
             </thead>
-            <tbody>
-                @foreach(var temp in Model)
-                 {
-                    <tr>
-                    <td> @Html.DisplayFor(p=>temp.EmpId)</td>
-                    <td> @Html.DisplayFor(p=>temp.EmpName)</td>
-                    <td> @Html.DisplayFor(p=>temp.EmailId)</td>
-                    <td> @Html.DisplayFor(p=>temp.DeptTbl.DeptName)</td>
-                    <td> @Html.DisplayFor(p=>temp.Salary)</td>
-                    <td>
-                        @Html.ActionLink("Edit","Edit",new {id=temp.EmpId})
-                        @Html.ActionLink("Delete", "Delete", new {id=temp.EmpId})
-                    </td>
-                    </tr>
-                 }
-            </tbody>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p=>temp.EmpId) </td>
+                    <td> @Html.DisplayFor(p=>temp.EmpName) </td>
+                    <td> @Html.DisplayFor(p=>temp.EmailId) </td>
+                    <td> @Html.DisplayFor(p=>temp.Salary) </td>
+                    <td> @Html.DisplayFor(p=>temp.DeptId) </td>
+                    <td> @Html.ActionLink("Edit","Edit",new {id=temp.EmpId})</td>
+                    <td> @Html.ActionLink("Delete","Delete",new {id=temp.EmpId}) </td>
+                </tr>
+            }
         </table>
     </div>
 </body>

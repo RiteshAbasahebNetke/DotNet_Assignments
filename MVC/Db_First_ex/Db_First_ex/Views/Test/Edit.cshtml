@@ -1,0 +1,53 @@
+﻿@model Db_First_ex.Models.EmpTbl
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <h2> Edit Emp Details </h2>
+    <div> 
+        @using (Html.BeginForm())
+         {
+            <div>
+                @Html.LabelFor(p=>p.EmpId)
+                <div>
+                    @Html.EditorFor(p=>p.EmpId)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.EmpName)
+                <div>
+                    @Html.EditorFor(p=>p.EmpName)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.EmailId)
+                <div>
+                    @Html.EditorFor(p=>p.EmailId)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.Salary)
+                <div>
+                    @Html.EditorFor(p=>p.Salary)
+                </div>
+            </div>
+            <div>
+                @Html.Label("Select Dept")
+                <div>
+                    @Html.DropDownList("DeptId")
+                </div>
+            </div>
+            <input type="submit" value="Update" />
+         }
+    </div>
+</body>
+</html>

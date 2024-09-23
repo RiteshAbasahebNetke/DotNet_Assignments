@@ -7,18 +7,23 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DB_First_CURD.Models
+namespace db_first_curd.Models
 {
     using System;
     using System.Collections.Generic;
     
     public partial class AreaTbl
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public AreaTbl()
+        {
+            this.DeptTbls = new HashSet<DeptTbl>();
+        }
+    
         public long AreaId { get; set; }
         public string AreaName { get; set; }
-        public string CityName { get; set; }
-        public long DeptId { get; set; }
     
-        public virtual DeptTbl DeptTbl { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<DeptTbl> DeptTbls { get; set; }
     }
 }
