@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AEDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AreaTbl">
+    <Key>
+      <PropertyRef Name="AreaId" />
+    </Key>
+    <Property Name="AreaId" Type="bigint" Nullable="false" />
+    <Property Name="AreaName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DeptTbl">
+    <Key>
+      <PropertyRef Name="DeptId" />
+    </Key>
+    <Property Name="DeptId" Type="bigint" Nullable="false" />
+    <Property Name="DeptName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="AreaId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmpTbl">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="bigint" Nullable="false" />
+    <Property Name="EmpName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmailId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Salary" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="DeptId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_DeptTbl_AreaTbl">
+    <End Role="AreaTbl" Type="Self.AreaTbl" Multiplicity="1" />
+    <End Role="DeptTbl" Type="Self.DeptTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AreaTbl">
+        <PropertyRef Name="AreaId" />
+      </Principal>
+      <Dependent Role="DeptTbl">
+        <PropertyRef Name="AreaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpTbl_DeptTbl">
+    <End Role="DeptTbl" Type="Self.DeptTbl" Multiplicity="1" />
+    <End Role="EmpTbl" Type="Self.EmpTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DeptTbl">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="EmpTbl">
+        <PropertyRef Name="DeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AEDModelStoreContainer">
+    <EntitySet Name="AreaTbl" EntityType="Self.AreaTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DeptTbl" EntityType="Self.DeptTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmpTbl" EntityType="Self.EmpTbl" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_DeptTbl_AreaTbl" Association="Self.FK_DeptTbl_AreaTbl">
+      <End Role="AreaTbl" EntitySet="AreaTbl" />
+      <End Role="DeptTbl" EntitySet="DeptTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpTbl_DeptTbl" Association="Self.FK_EmpTbl_DeptTbl">
+      <End Role="DeptTbl" EntitySet="DeptTbl" />
+      <End Role="EmpTbl" EntitySet="EmpTbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

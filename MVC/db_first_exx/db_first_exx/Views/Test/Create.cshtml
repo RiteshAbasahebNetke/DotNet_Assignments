@@ -1,0 +1,55 @@
+﻿@model db_first_exx.Models.EmpTbl
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <div> 
+        <h2> Add New Emp Details </h2>
+
+        @using (Html.BeginForm())
+            {
+                <div>
+                    @Html.LabelFor(p=>p.EmpId)
+                    <div>
+                        @Html.EditorFor(p=>p.EmpId)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.EmpName)
+                    <div>
+                        @Html.EditorFor(p=>p.EmpName)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.EmailId)
+                    <div>
+                        @Html.EditorFor(p=>p.EmailId)
+                    </div>
+                </div>
+                <div>
+                    @Html.Label("Select Dept")
+                    <div>
+                        @Html.DropDownList("DeptId","Select Dept")
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.Salary)
+                    <div>
+                        @Html.EditorFor(p=>p.Salary)
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Save" />
+                </div>
+            }
+    </div>
+</body>
+</html>

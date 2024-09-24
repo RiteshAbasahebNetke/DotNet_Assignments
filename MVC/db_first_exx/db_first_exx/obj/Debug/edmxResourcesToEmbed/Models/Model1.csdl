@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AEDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AreaTbl">
+    <Key>
+      <PropertyRef Name="AreaId" />
+    </Key>
+    <Property Name="AreaId" Type="Int64" Nullable="false" />
+    <Property Name="AreaName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="DeptTbls" Relationship="Self.FK_DeptTbl_AreaTbl" FromRole="AreaTbl" ToRole="DeptTbl" />
+  </EntityType>
+  <EntityType Name="DeptTbl">
+    <Key>
+      <PropertyRef Name="DeptId" />
+    </Key>
+    <Property Name="DeptId" Type="Int64" Nullable="false" />
+    <Property Name="DeptName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AreaId" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="AreaTbl" Relationship="Self.FK_DeptTbl_AreaTbl" FromRole="DeptTbl" ToRole="AreaTbl" />
+    <NavigationProperty Name="EmpTbls" Relationship="Self.FK_EmpTbl_DeptTbl" FromRole="DeptTbl" ToRole="EmpTbl" />
+  </EntityType>
+  <EntityType Name="EmpTbl">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="Int64" Nullable="false" />
+    <Property Name="EmpName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmailId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Salary" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="DeptId" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="DeptTbl" Relationship="Self.FK_EmpTbl_DeptTbl" FromRole="EmpTbl" ToRole="DeptTbl" />
+  </EntityType>
+  <Association Name="FK_DeptTbl_AreaTbl">
+    <End Role="AreaTbl" Type="Self.AreaTbl" Multiplicity="1" />
+    <End Role="DeptTbl" Type="Self.DeptTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AreaTbl">
+        <PropertyRef Name="AreaId" />
+      </Principal>
+      <Dependent Role="DeptTbl">
+        <PropertyRef Name="AreaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpTbl_DeptTbl">
+    <End Role="DeptTbl" Type="Self.DeptTbl" Multiplicity="1" />
+    <End Role="EmpTbl" Type="Self.EmpTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DeptTbl">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="EmpTbl">
+        <PropertyRef Name="DeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AEDEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AreaTbls" EntityType="Self.AreaTbl" />
+    <EntitySet Name="DeptTbls" EntityType="Self.DeptTbl" />
+    <EntitySet Name="EmpTbls" EntityType="Self.EmpTbl" />
+    <AssociationSet Name="FK_DeptTbl_AreaTbl" Association="Self.FK_DeptTbl_AreaTbl">
+      <End Role="AreaTbl" EntitySet="AreaTbls" />
+      <End Role="DeptTbl" EntitySet="DeptTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpTbl_DeptTbl" Association="Self.FK_EmpTbl_DeptTbl">
+      <End Role="DeptTbl" EntitySet="DeptTbls" />
+      <End Role="EmpTbl" EntitySet="EmpTbls" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

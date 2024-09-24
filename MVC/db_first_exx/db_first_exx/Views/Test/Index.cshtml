@@ -1,0 +1,46 @@
+﻿@model IEnumerable<db_first_exx.Models.EmpTbl>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2> Emp Information </h2>
+    <div>
+        @Html.ActionLink("Add new Emp","Create")
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> @Html.DisplayNameFor(p => p.EmpId) </th>
+                    <th> @Html.DisplayNameFor(p => p.EmpName) </th>
+                    <th> @Html.DisplayNameFor(p => p.EmailId) </th>
+                    <th> @Html.DisplayNameFor(p => p.DeptTbl.DeptName) </th>
+                    <th> @Html.DisplayNameFor(p=>p.Salary)</th>
+                    <th> Action Links </th>
+                </tr>
+            </thead>
+            @foreach (var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p => temp.EmpId) </td>
+                    <td> @Html.DisplayFor(p => temp.EmpName) </td>
+                    <td> @Html.DisplayFor(p => temp.EmailId) </td>
+                    <td> @Html.DisplayFor(p => temp.DeptTbl.DeptName) </td>
+                    <td> @Html.DisplayFor(p=>temp.Salary) </td>
+                    <td>
+                        @Html.ActionLink("Edit","Edit",new {id=temp.EmpId})
+                        @Html.ActionLink("Details", "Details", new {id=temp.EmpId})
+                        @Html.ActionLink("Delete", "Delete", new {id=temp.EmpId})
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
