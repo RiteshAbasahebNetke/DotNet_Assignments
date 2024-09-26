@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DBFIRST.Models.EmpSummary>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetSummary</title>
+</head>
+<body>
+    <h2> Summary </h2>
+    <div> 
+        <table border="1">
+            <tr>
+                <td> @Html.DisplayNameFor(p=>p.DeptName) </td>
+                <td> @Html.DisplayNameFor(p=>p.TotalSal) </td>
+                <td> @Html.DisplayNameFor(p=>p.MinSal) </td>
+                <td> @Html.DisplayNameFor(p=>p.MaxSal) </td>
+                <td> @Html.DisplayNameFor(p=>p.AvgSal) </td>
+                <td> @Html.DisplayNameFor(p=>p.CountOfEmps) </td>
+            </tr>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p=>temp.DeptName) </td>
+                    <td> @Html.DisplayFor(p=>temp.TotalSal) </td>
+                    <td> @Html.DisplayFor(p=>temp.MinSal) </td>
+                    <td> @Html.DisplayFor(p=>temp.MaxSal) </td>
+                    <td> @Html.DisplayFor(p=>temp.AvgSal) </td>
+                    <td> @Html.DisplayFor(p=>temp.CountOfEmps) </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿
+@model IEnumerable<DBFIRST.Models.EmpVM>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2> EMP List </h2>
+    <div> 
+        <table border="1">
+            <tr>
+                <td> @Html.DisplayNameFor(p=>p.EmpId) </td>
+                <td> @Html.DisplayNameFor(p=>p.EmpName) </td>
+                <td> @Html.DisplayNameFor(p=>p.EmailId) </td>
+                <td> @Html.DisplayNameFor(p=>p.DeptId) </td>
+                <td> @Html.DisplayNameFor(p=>p.Salary) </td>
+                <td> @Html.DisplayNameFor(p=>p.AreaId) </td>
+            </tr>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p=>temp.EmpId) </td>
+                    <td> @Html.DisplayFor(p=>temp.EmpName)</td>
+                    <td> @Html.DisplayFor(p=>temp.EmailId) </td>
+                    <td> @Html.DisplayFor(p=>temp.DeptId) </td>
+                    <td> @Html.DisplayFor(p=>temp.Salary) </td>
+                    <td> @Html.DisplayFor(p=>temp.AreaId) </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

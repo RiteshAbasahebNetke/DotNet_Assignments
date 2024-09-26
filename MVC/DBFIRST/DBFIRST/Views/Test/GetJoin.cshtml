@@ -1,0 +1,35 @@
+﻿@model IEnumerable<DBFIRST.Models.AEDVM>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetJoin</title>
+</head>
+<body>
+    <h2> AED VM </h2>
+    <div> 
+        <table border="1">
+            <tr>
+                <td> @Html.DisplayNameFor(p=>p.EmpId) </td>
+                <td> @Html.DisplayNameFor(p=>p.EmpName) </td>
+                <td> @Html.DisplayNameFor(p=>p.DeptId) </td>
+                <td> @Html.DisplayNameFor(p=>p.DeptName) </td>
+            </tr>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p=>temp.EmpId) </td>
+                    <td> @Html.DisplayFor(p=>temp.EmpName) </td>
+                    <td> @Html.DisplayFor(p=>temp.DeptId) </td>
+                    <td> @Html.DisplayFor(p=>temp.DeptName) </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
