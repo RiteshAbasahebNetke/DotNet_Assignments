@@ -1,0 +1,54 @@
+﻿@model DBFirst_Curd.Models.EmpTbl
+@{
+    Layout = null;
+
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <h2> Updatation of Emp Details</h2>
+    <div>
+        @using (Html.BeginForm())
+         {
+            <div>
+                @Html.LabelFor(p=>p.EmpId)
+                <div>
+                    @Html.EditorFor(p=>p.EmpName)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.EmpName)
+                <div>
+                    @Html.EditorFor(p=>p.EmpName)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.EmailId)
+                <div>
+                    @Html.EditorFor(p=>p.EmailId)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.Salary)
+                <div>
+                    @Html.EditorFor(p=>p.Salary)
+                </div>
+            </div>
+            <div>
+                @Html.LabelFor(p=>p.DeptTbl.DeptName)
+                <div>
+                    @Html.EditorFor(p=>p.DeptTbl.DeptName)
+                </div>
+            </div>
+            <input type="submit" value="Save" />
+         }
+    </div>
+</body>
+</html>

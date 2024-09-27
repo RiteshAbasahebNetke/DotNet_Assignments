@@ -1,0 +1,62 @@
+﻿@model IEnumerable<DBFirst_Curd.Models.EmpTbl>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2> EMP Details </h2>
+    <div> 
+        @Html.ActionLink("Add New","Create")
+        <table border="1">
+               <thead>
+                   <tr>
+                       <td colspan="3">
+                       @using (Html.BeginForm("SearchByName","Test"))
+                        {
+                           <span> Enter Name </span>
+                           <input type="text" name="EName" />
+                           <input type="submit" value="Search" />
+                        }
+                        </td>
+                       <td colspan="3">
+                           @using (Html.BeginForm("SearchDept", "Test"))
+                            {
+                               @:Select Dept @Html.DropDownList("DName")
+                               <input type="submit" value="Search" />
+                            }
+                       </td>
+                   </tr>
+                   <tr>
+                       <th> @Html.DisplayNameFor(p=>p.EmpId) </th>
+                       <th> @Html.DisplayNameFor(p=>p.EmpName) </th>
+                       <th> @Html.DisplayNameFor(p=>p.EmailId) </th>
+                       <th> @Html.DisplayNameFor(p=>p.Salary) </th>
+                       <th> @Html.DisplayNameFor(p=>p.DeptTbl.DeptName) </th>
+                   </tr>
+               </thead>
+            <tbody>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @Html.DisplayFor(p=>temp.EmpId) </td>
+                    <td> @Html.DisplayFor(p=>temp.EmpName) </td>
+                    <td> @Html.DisplayFor(p=>temp.EmailId) </td>
+                    <td> @Html.DisplayFor(p=>temp.Salary) </td>
+                    <td> @Html.DisplayFor(p=>temp.DeptTbl.DeptName) </td>
+                    <td>
+                    @Html.ActionLink("Edit","Edit", new {id=temp.EmpId})
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
