@@ -1,0 +1,32 @@
+﻿@model IEnumerable<EFCore_EX.Models.Emp>
+<html>
+    <head>
+        <title> Home Index </title>
+    </head>
+    <body>
+        <div>
+            <h2> EMP Table </h2>
+        </div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> EmpID </th>
+                    <th> EmpName </th>
+                    <th> EmailID </th>
+                    <th> Department Name</th>
+                    <th> Salary </th>
+                </tr>
+            </thead>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td> @temp.EmpID </td>
+                    <td> @temp.EmpName </td>
+                    <td> @temp.EmailId </td>
+                    <td> @temp.Department.DeptName </td>
+                    <td> @temp.Salary </td>
+                </tr>
+            }
+        </table>
+    </body>
+</html>
