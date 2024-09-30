@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DommMani2</title>
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            $("#btn1").click(function () {
+                //var v = $("div").text()
+                //alert(v);
+
+                //var v = $("div").html()
+                //alert(v);
+
+                //var v = $("div").val()
+                //alert(v);
+            });
+
+            $("#btn2").click(function () {
+                //$("div").text("Write new text content..!")
+
+                //$("div").html("<font color='red' size='40'> Welcome to font </font>");
+
+                $("#txt").val("Value from JQuery...!");
+            });
+        });
+    </script>
+</head>
+<body>
+    Enter Name:<input type="text" id="txt" />
+    <div> 
+        This Div is used for demo..!;
+        <b> This is bold </b>
+        <p> This is para </p>
+    </div>
+    <input type="button" value="Read" id="btn1" />
+    <input type="button" value="Write" id="btn2" />
+</body>
+</html>

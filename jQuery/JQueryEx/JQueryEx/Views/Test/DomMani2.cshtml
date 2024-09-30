@@ -11,37 +11,28 @@
     <title>DomMani2</title>
     <script src="~/Scripts/jquery-3.7.1.js"></script>
     <script type="text/javascript">
+
         $(function () {
 
             $("#btn1").click(function () {
-
                 //var v = $("div").text();
                 //alert(v);
 
-                //var s = $("div").html();
+                //var v = $("div").html();
                 //alert(v);
 
-                //var v = $("div").val();
-                //alert(v);
-            });
-
-            $("#btn2").click(function () {
-
-                //$("div").text("Write New Text Content..!");
-                //$("div").html("<font color='red' size='40'> Welcome to font </font>");
-
-                $("#txt").val("Value from JQuery...");
+                var v = $("div").val();
+                alert(v);
             });
         });
-
     </script>
 </head>
 <body>
-    Enter Name:<input type="text" id="txt" /> <br />
-    <div>
-        Welcome to div used to demo text method!;
-        <b> this is bold tag </b>
-        <i> this is italic tag</i>
+    Enter Name:<input type="text" iid="txt" />
+    <div> 
+        Welcome to div used to demo texted method..!
+        <b> This is bold tag </b>
+        <i> This is istalic tag </i>
     </div>
     <input type="button" value="Read" id="btn1" />
     <input type="button" value="Write" id="btn2" />

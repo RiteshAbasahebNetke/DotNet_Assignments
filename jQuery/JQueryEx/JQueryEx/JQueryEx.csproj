@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B9833FA6-67E6-4213-B654-D19E5FF85BD0}</ProjectGuid>
+    <ProjectGuid>{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JQueryEx</RootNamespace>
-    <AssemblyName>JQueryEx</AssemblyName>
+    <RootNamespace>JQueryEX</RootNamespace>
+    <AssemblyName>JQueryEX</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -170,12 +170,10 @@
     <Content Include="Views\Test\FewMoreSelectors.cshtml" />
     <Content Include="Views\Test\DomTraversal.cshtml" />
     <Content Include="Views\Test\DomTraversal1.cshtml" />
-    <Content Include="Views\Test\Events.cshtml" />
-    <Content Include="Views\Test\DomMani.cshtml" />
+    <Content Include="Views\Test\Event.cshtml" />
+    <Content Include="Views\Test\DomManip.cshtml" />
     <Content Include="Views\Test\DomMani1.cshtml" />
     <Content Include="Views\Test\DomMani2.cshtml" />
-    <Content Include="Views\Test\CssManip.cshtml" />
-    <Content Include="Views\Test\Effects.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -208,9 +206,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53598</DevelopmentServerPort>
+          <DevelopmentServerPort>50273</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:53598/</IISUrl>
+          <IISUrl>http://localhost:50273/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

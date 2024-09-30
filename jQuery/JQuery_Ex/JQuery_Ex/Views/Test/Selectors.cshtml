@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Selectors</title>
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //$("h1").css("background-color", "skyblue")
+            //$("p").css("background-color","yellow")
+            //$("h2").css("background-color", "orange")
+            //$(".head").css("background-color", "gray")
+            //$(".content").css("background-color","lime")
+            //$(".man,.head").css("background-color", "tomato")
+            //$("#thead").css("background-color","wheat")
+            //$("h1:first").css("background-color", "gold")
+            //$("h1:last").css("background-color","yellow")
+            $("h1:odd").css("background-color", "lime")
+            $("h1:even").css("background-color","gray")
+
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <h1 class="head"> First Heading </h1>
+        <p> This content of first heading </p>
+
+        <h1 id="thead"> Second Heading </h1>
+        <p> This is content of second heading </p>
+
+        <h2> Third Heading </h2>
+        <p> This is content of third heading </p>
+
+        <h1> Fourth Heading </h1>
+        <p> This is content of fourth heading </p>
+
+        <h2 class="content"> Fifth Heading </h2>
+        <p class="man"> This is content of fifth heading </p>
+
+        <h1> Sixth Heading </h1>
+        <p> This is content of sixth heading </p>
+    </div>
+</body>
+</html>

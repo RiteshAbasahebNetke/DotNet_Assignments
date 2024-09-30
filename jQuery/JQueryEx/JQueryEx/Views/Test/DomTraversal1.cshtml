@@ -9,16 +9,15 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>DomTraversal1</title>
-    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
     <script type="text/javascript">
-
         $(function () {
-            //$("#head").next().css("background-color", "orange");
-            //$("#head").nextAll().css("background-color", "orange");
-            //$("#head").nextUntil().css("background-color", "orange");
-            //$("#head").prev().css("background-color", "tomato");
-            //$("#head").prevAll().css("background-color", "skyblue");
-            $("#head").prevUntil().css("background-color","blue")
+
+            /*$("#head").next().css("background-color", "orange");*/
+            /*$("#head").nextAll().css("background-color", "skyblue");*/
+            /*$("#head").nextUntil("span").css("background-color", "wheat");*/
+            /*$("#head").prev().css("background-color", "tomato");*/
+            $("#head").prevAll().css("background-color", "lime");
         });
     </script>
 </head>
@@ -26,14 +25,14 @@
     <div> 
         <h1> First Heading </h1>
         <p> Content of first heading </p>
-        <span> This is span </span>
         <h1> Second Heading </h1>
-        <p> Content of second heading </p>
+        <p> Content of Second heading </p>
         <h1 id="head"> Third Heading </h1>
         <p> Content of third heading </p>
         <h1> Fourth Heading </h1>
-        <p> Content of Fourth heading </p>
+        <p> Content of fourth heading </p>
         <h1> Fifth Heading </h1>
+        <span> This is span after fifth heading </span>
         <p> Content of fifth heading </p>
     </div>
 </body>

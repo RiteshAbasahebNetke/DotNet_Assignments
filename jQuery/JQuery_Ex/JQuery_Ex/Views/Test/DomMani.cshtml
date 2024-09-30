@@ -1,0 +1,56 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DomMani</title>
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#btn1").click(function () {
+                var str = "<div> Welcome to Div </div>";
+                //$("#dv").after(str);
+                $("#dv").before(str);
+
+                //var l = "<li> New Option </li>";
+                ////$("ul").append(l);
+                //$("ul").prepend(l);
+
+                //$("#dv").remove();
+                //$("li").eq(2).remove();
+                //var s = "<span> This is span </span>"; <br>
+                //$(s).replaceAll("p");
+                //$("span").wrap("<p></p>");
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div id="dv" style="background-color:skyblue; color:white;"> 
+        This  is DIV
+    </div>
+    <ul>
+        <li> First </li>
+        <li> Second </li>
+        <li> Third </li>
+        <li> Fourth </li>
+        <li> Fifth </li>
+    </ul>
+    <p> First para used to demo </p>
+    <p> Second para used to demo </p>
+    <p> Third para used to demo </p>
+    <p> Fourth para used to demo </p>
+
+    <span> First span </span>
+    <span> Second span </span>
+    <span> Third span </span> <br />
+
+    <input type="button" value="Click" id="btn1" /> 
+</body>
+</html>

@@ -9,41 +9,41 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>DomTraversal</title>
-    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
     <script type="text/javascript">
         $(function () {
-            //$("i").parent().css("background-color", "yellow");
-            //$("i").parents().css("background-color", "tomato");
-            //$("i").parentsUntil("div").css("background-color","cyan");
-            //$("i").parents("p").css("background-color", "orange");
-            //$("p").find("span").css("background-color", "skyblue");
-            $("p").children("span.first").css("background-color", "skyblue");
+
+            /* $("i").parent().css("background-color", "yellow");*/
+            /*$("i").parents().css("background-color", "yellow");*/
+            /*$("i").parentsUntil("div").css("background-color", "orange");*/
+            /*$("i").parents("p").css("background-color", "orange");*/
+            /*$("p").children("span.first").css("background-color","wheat");*/
+            $("p").find("span").css("background-color", "tomato");
         });
     </script>
 </head>
 <body>
-    <div>
+    <div> 
         First Div
         <h1> First Heading </h1>
         <div>
             Second Div
             <p>
-                this is para used to demo.
+                This para is used for demo
                 <b>
                     bold
                     <i>
                         italic
-                        <span> span inside italic</span>
+                        <span> Span is inside the italic </span>
                     </i>
                 </b> <br />
-                <span class="first"> this is span </span>
+                <span class="first"> This is span </span>
                 <br />
                 <b> Second Bold </b>
                 <br />
-                <span> Second Span</span>
+                <span> Second Span </span>
             </p>
         </div>
-
     </div>
 </body>
 </html>

@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DomManip</title>
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+           /* var str = "<div> Welcome to New Div </div>";*/
+            /*$("#dv").after(str);*/
+            /*$("#dv").before(str);*/
+
+            //var l = "<li> New Option </li>";
+            ///*$("ul").append(l);*/
+            //$("ul").prepend(l);
+
+            var s = "<span> Welcome </span>";
+            $(s).replaceAll('p');
+        });
+
+    </script>
+</head>
+<body>
+    <div id="dv" style="background-color:deeppink;color:white;">
+        This DIV is used...!
+    </div>
+    <ul>
+        <li> First </li>
+        <li> Second </li>
+        <li> Third </li>
+        <li> Fourth </li>
+        <li> Fifth </li>
+        <li> Sixth </li>
+    </ul>
+
+    <p> This is 1st para </p> <br />
+    <p> This is second para </p> <br /> 
+    <p> This is third para </p> <br /> 
+    <p> This is fourth para </p> <br /> 
+    <input type="button" value="Click" id="btn1" />
+</body>
+</html>

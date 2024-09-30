@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQueryEx", "JQueryEx\JQueryEx.csproj", "{B9833FA6-67E6-4213-B654-D19E5FF85BD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQueryEX", "JQueryEX\JQueryEX.csproj", "{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9833FA6-67E6-4213-B654-D19E5FF85BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9833FA6-67E6-4213-B654-D19E5FF85BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9833FA6-67E6-4213-B654-D19E5FF85BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9833FA6-67E6-4213-B654-D19E5FF85BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9DB3AD92-3054-4C7F-84F6-A0050A631B8C}
+		SolutionGuid = {2F4337EF-9E93-4636-A4AC-8108967F54E2}
 	EndGlobalSection
 EndGlobal

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace JQueryEx.Controllers
+namespace JQueryEX.Controllers
 {
     public class TestController : Controller
     {
@@ -29,27 +29,19 @@ namespace JQueryEx.Controllers
         {
             return View();
         }
-        public ActionResult Events()
+        public ActionResult Event()
         {
             return View();
         }
-        public ActionResult DomMani()
+        public ActionResult DomManip()
         {
-            return View();
+            return View(); 
         }
         public ActionResult DomMani1()
         {
             return View();
         }
         public ActionResult DomMani2()
-        {
-            return View();
-        }
-        public ActionResult CssManip()
-        {
-            return View();
-        }
-        public ActionResult Effects()
         {
             return View();
         }

@@ -9,33 +9,37 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Selectors</title>
-    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
     <script type="text/javascript">
         $(function () {
-           // $("h1").css("background-color", "orange")
-           // $("p").css("background-color","tomato")
-           // $("h1,h2").css("background-color","yellow")
-           // $(".head").css("background-color", "skyblue")
-           // $(".content").css("background-color","blue")
-           // $("#mhead,#span").css("background-color","red")
-            $("h1.head").css("background-color","lime")
+            //$("h1").css("background-color", "orange");
+            //$("h2").css("background-color", "tomato");
+            /*$("h1,span").css("background-color", "lime");*/
+            /*$(".head").css("background-color", "yellow");*/
+            /*$(".head").css("background-color", "skyblue");*/
+            //$("#fcontent").css("background-color", "orange");
+            //$("#fhead").css("background-color", "gold");
+           /* $("h1,.content").css("background-color", "wheat");*/
+            /*$("h2,#fhead").css("background-color", "gray");*/
+            $("h1:first").css("background-color", "tomato");
+            $("h2:last").css("baackground-color", "gold");
+
         });
     </script>
 </head>
 <body>
     <div> 
         <h1 class="head"> First Heading </h1>
-        <p id="mhead"> This is content for first heading </p>
-        <h2> Second Heading </h2>
-        <p> This is content for second heading </p>
-        <h1 class="content"> Third Heading </h1>
-        <p> This is content for third heading </p>
-        <h1> Fourth Heading </h1>
-        <p> This is content for fourth heading </p>
-        <h2 id="mhead"> Fifth Heading </h2>
-        <p> This is conntent for fifth heading </p>
-        <h2 class="head"> Sixth Heading </h2>
-        <span id="mhead"> This is content for sixth heading </span>
+        <p> Content of First Heading </p>
+        <h1 class="content"> Second Heading </h1>
+        <p> Content of second heading </p>
+        <h2 id="fcontent"> Third Heading </h2>
+        <p id="fhead"> Content of third heading </p>
+        <h1 class="head"> Fourth Heading </h1>
+        <p> Content of fourth heading </p>
+        <h2> Fifth Heading </h2>
+        <p id="fhead"> Content of fifth heading </p>
+        <span class="head"> Content without any tag </span>
     </div>
 </body>
 </html>
