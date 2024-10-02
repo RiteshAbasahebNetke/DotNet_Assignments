@@ -1,0 +1,57 @@
+﻿@model Emp
+<html>
+    <head>
+        <title> Home-Edit </title>
+    </head>
+    <body>
+        <div>
+            <h2> Update Emp Details </h2>
+        </div>
+        <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="EmpID" />
+            <div>
+                <label asp-for="EmpName"></label>
+                <div>
+                    <input asp-for="EmpName" />
+                    <span asp-validation-for="EmpName"></span>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="EmailID"></label>
+                <div>
+                    <input asp-for="EmailID" />
+                    <span asp-validation-for="EmailID"></span>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Address"></label>
+                <div>
+                    <input asp-for="Address" />
+                    <span asp-validation-for="Address"></span>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Salary"></label>
+                <div>
+                    <input asp-for="Salary" />
+                    <span asp-validation-for="Salary"></span>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Department.DeptName"></label>
+                <div>
+                     <select asp-for="DeptID" asp-items="@ViewBag.Departments">
+                    <option> Select Dept </option>
+                     </select>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Update" />
+            </div>
+        </form>
+    </body>
+</html>
