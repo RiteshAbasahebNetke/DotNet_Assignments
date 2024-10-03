@@ -1,0 +1,50 @@
+﻿@model Emp
+<html>
+    <head>
+        <title> Home-Edit </title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/bootstrap/js/bootstrap.bundle.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h2> Update Emp Details </h2>
+                <form asp-action="Edit" method="post" class="border border-3 col-auto">
+                    <input type="hidden" asp-for="EmpID" />
+                    <div>
+                        <label asp-for="EmpName" class="form-label"></label>
+                        <div>
+                            <input asp-for="EmpName" />
+                        </div>
+                    </div>
+
+                    <div>
+                    <label asp-for="EmailID" class="form-label"></label>
+                        <div>
+                            <input asp-for="EmailID" />
+                        </div>
+                    </div>
+
+                    <div>
+                    <label asp-for="Salary" class="form-label"></label>
+                        <div>
+                            <input asp-for="Salary"/>
+                        </div>
+                    </div>
+
+                    <div>
+                    <label asp-for="Department.DeptName" class="form-label"></label>
+                        <div>
+                            <select asp-for="DeptID" asp-items="@ViewBag.Department">
+                                <option> Select Dept </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="submit" value="Update" class="btn btn-warning"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

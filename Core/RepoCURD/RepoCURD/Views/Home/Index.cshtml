@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Emp>
+<html>
+    <head>
+        <title> Home-Index </title>
+    </head>
+<link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<script src="~/bootstrap/js/bootstrap.bundle.js"></script>
+    <body>
+    <div class="container">
+            <h2> Emp List </h2>
+            <div class="row">
+                <a asp-action="Create"class="btn btn-info w-auto"> Create New </a>
+            <form asp-action=SearchByDept  method="post">
+                    <table>
+                        <tr>
+                            <td>Select DeptName </td>
+                            <td>
+                            <select name="DeptID" asp-items="@ViewBag.DeptID">
+                                    <option value="0" >All</option>
+                                </select>
+                            </td>
+                            <td>
+                            <input type="submit" value="Search" class="btn btn-outline-info" />
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+                <table class="border-black border-5">
+                    <thead>
+                    <tr align="center">
+                            <th > EmpID </th>
+                        <th > EmpName </th>
+                        <th> EmailID </th>
+                        <th > DeptName </th>
+                        <th > Salary </th>
+                        <th > Actions </th>
+                        </tr>
+                    </thead>
+                    @foreach(var temp in Model)
+                    {
+                        <tr>
+                            <td align="center"> @temp.EmpID </td>
+                        <td align="center"> @temp.EmpName </td>
+                        <td align="center"> @temp.EmailID </td>
+                        <td align="center"> @temp.Department.DeptName </td>
+                        <td align="center"> @temp.Salary </td>
+                        <td align="center">
+                            <a asp-action="Edit" asp-route-id="@temp.EmpID" class="btn btn-outline-primary"> Edit </a>
+                            <a asp-action="Delete" asp-route-id="@temp.EmpID" class="btn btn-outline-secondary"> Delete </a>
+                        </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
