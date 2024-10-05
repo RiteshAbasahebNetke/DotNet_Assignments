@@ -1,0 +1,36 @@
+<html>
+<head>
+      <title> Assignment </title>
+</head>
+<body>
+      <div>
+      <div id="dv1" style="height:30px;width:50px; border:2px solid black; position:absolute; top:9; left:50"> </div>
+      <div id="dv2" style="height:30px;width:50px; border:2px solid black; position:absolute; top:9; left:60"> </div>
+      <div id="dv3" style="height:30px;width:50px; border:2px solid black; position:absolute; top:9; left:112; background-color:skyBlue"> </div>
+      <div id="dv4" style="height:30px;width:50px; border:2px solid black; position:absolute; top:9; left:163"> </div>
+      <div id="dv5" style="height:30px;width:50px; border:2px solid black; position:absolute; top:9; left:214"> </div>
+      </div> <br> <br>
+
+      <input type="radio" id="r1" name="rd" /> Right
+      <input type="radio" id="r2" name="rd" /> Left <br>
+
+      <input type="button" value="Move" onclick="change()" />
+      <script type="text/javascript">
+        function change()
+        {
+           var v=document.getElementById("dv3").style.backgroundColor;
+           document.getElementById("dv3").style.backgroundColor=document.getElementById("dv4").style.backgroundColor;
+           document.getElementById("dv4").style.backgroundColor=document.getElementById("dv5").style.backgroundColor;
+           document.getElementById("dv5").style.backgroundColor=v;
+        }
+
+        function change()
+        {
+           var v=document.getElementById("dv3").style.backgroundColor;
+           document.getElementById("dv3").style.backgroundColor=document.getElementById("dv2").style.backgroundColor;
+           document.getElementById("dv2").style.backgroundColor=document.getElementById("dv1").style.backgroundColor;
+           document.getElementById("dv1").style.backgroundColor=v;
+        }
+      </script>
+</body>
+</html>

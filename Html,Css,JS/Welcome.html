@@ -1,0 +1,48 @@
+<html>
+<head>
+       <title> CSS style color </title>
+</head>
+<body>
+    <div id="dv"> Welcome </div>
+
+Color:<select id="c">
+      <option> red </option>
+      <option> yellow </option>
+      <option> orange </option>
+      <option> green </option>
+      </select> <br>
+<input type="radio" name="rd1" value=1/> forground
+<input type="radio" name="rd2" value=2/> background <br>
+
+Enter No:<input type="text" id="no"/> <br>
+<input type="radio" name="whr" id="rd3" value=1/> width
+<input type="radio" name="whr" id="rd3" value=2/> height <br>
+
+<input type="button" value="OK" onclick="change()" />
+
+<script type="text/javascript">
+         function change()
+         {
+             var v=document.getElementById("dv");
+             if(document.getElementById("rd1").checked)
+             {
+                 v.style.color=document.getElementById("c").value;
+             }
+             else if(document.getElementById("rd2").checked)
+             {
+                 v.style.backgroundColor=document.getElementById("c").value;
+             }
+
+             var v1=document.getElementById("dv");
+             if(document.getElementById("rd3").checked)
+                {
+                  v.style.fontSize=document.getElementById("no").value;
+                }
+             else if(document.getElementById("rd4").checked)
+                {
+                  v.style.fontSize=document.getElementById("no").value;
+                }
+         }
+</script>
+</body>
+</html>
