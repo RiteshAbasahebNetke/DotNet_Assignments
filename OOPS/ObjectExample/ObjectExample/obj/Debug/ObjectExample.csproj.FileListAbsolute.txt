@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\OOPS\ObjectExample\ObjectExample\bin\Debug\ObjectExample.exe.config
+C:\Users\Ritesh\source\OOPS\ObjectExample\ObjectExample\bin\Debug\ObjectExample.exe
+C:\Users\Ritesh\source\OOPS\ObjectExample\ObjectExample\bin\Debug\ObjectExample.pdb
+C:\Users\Ritesh\source\OOPS\ObjectExample\ObjectExample\obj\Debug\ObjectExample.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\OOPS\ObjectExample\ObjectExample\obj\Debug\ObjectExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\OOPS\ObjectExample\ObjectExample\obj\Debug\ObjectExample.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\OOPS\ObjectExample\ObjectExample\obj\Debug\ObjectExample.exe
+C:\Users\Ritesh\source\OOPS\ObjectExample\ObjectExample\obj\Debug\ObjectExample.pdb
