@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\OOPS\BookObjectEx\BookObjectEx\obj\Debug\BookObjectEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\OOPS\BookObjectEx\BookObjectEx\obj\Debug\BookObjectEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\OOPS\BookObjectEx\BookObjectEx\obj\Debug\BookObjectEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\OOPS\BookObjectEx\BookObjectEx\bin\Debug\BookObjectEx.exe.config
+C:\Users\Ritesh\source\OOPS\BookObjectEx\BookObjectEx\bin\Debug\BookObjectEx.exe
+C:\Users\Ritesh\source\OOPS\BookObjectEx\BookObjectEx\bin\Debug\BookObjectEx.pdb
+C:\Users\Ritesh\source\OOPS\BookObjectEx\BookObjectEx\obj\Debug\BookObjectEx.exe
+C:\Users\Ritesh\source\OOPS\BookObjectEx\BookObjectEx\obj\Debug\BookObjectEx.pdb
