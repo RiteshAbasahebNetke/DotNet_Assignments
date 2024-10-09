@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\OOPS\BillInheritanceExample\BillInheritanceExample\bin\Debug\BillInheritanceExample.exe.config
+C:\Users\Ritesh\source\OOPS\BillInheritanceExample\BillInheritanceExample\bin\Debug\BillInheritanceExample.exe
+C:\Users\Ritesh\source\OOPS\BillInheritanceExample\BillInheritanceExample\bin\Debug\BillInheritanceExample.pdb
+C:\Users\Ritesh\source\OOPS\BillInheritanceExample\BillInheritanceExample\obj\Debug\BillInheritanceExample.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\OOPS\BillInheritanceExample\BillInheritanceExample\obj\Debug\BillInheritanceExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\OOPS\BillInheritanceExample\BillInheritanceExample\obj\Debug\BillInheritanceExample.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\OOPS\BillInheritanceExample\BillInheritanceExample\obj\Debug\BillInheritanceExample.exe
+C:\Users\Ritesh\source\OOPS\BillInheritanceExample\BillInheritanceExample\obj\Debug\BillInheritanceExample.pdb
