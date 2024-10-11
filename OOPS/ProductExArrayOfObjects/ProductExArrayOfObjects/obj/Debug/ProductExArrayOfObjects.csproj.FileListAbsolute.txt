@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\OOPS\ProductExArrayOfObjects\ProductExArrayOfObjects\bin\Debug\ProductExArrayOfObjects.exe.config
+C:\Users\Ritesh\source\OOPS\ProductExArrayOfObjects\ProductExArrayOfObjects\bin\Debug\ProductExArrayOfObjects.exe
+C:\Users\Ritesh\source\OOPS\ProductExArrayOfObjects\ProductExArrayOfObjects\bin\Debug\ProductExArrayOfObjects.pdb
+C:\Users\Ritesh\source\OOPS\ProductExArrayOfObjects\ProductExArrayOfObjects\obj\Debug\ProductExArrayOfObjects.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\OOPS\ProductExArrayOfObjects\ProductExArrayOfObjects\obj\Debug\ProductExArrayOfObjects.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\OOPS\ProductExArrayOfObjects\ProductExArrayOfObjects\obj\Debug\ProductExArrayOfObjects.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\OOPS\ProductExArrayOfObjects\ProductExArrayOfObjects\obj\Debug\ProductExArrayOfObjects.exe
+C:\Users\Ritesh\source\OOPS\ProductExArrayOfObjects\ProductExArrayOfObjects\obj\Debug\ProductExArrayOfObjects.pdb
