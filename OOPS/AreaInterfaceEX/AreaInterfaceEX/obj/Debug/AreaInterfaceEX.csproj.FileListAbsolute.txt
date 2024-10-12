@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\OOPS\AreaInterfaceEX\AreaInterfaceEX\bin\Debug\AreaInterfaceEX.exe.config
+C:\Users\Ritesh\source\OOPS\AreaInterfaceEX\AreaInterfaceEX\bin\Debug\AreaInterfaceEX.exe
+C:\Users\Ritesh\source\OOPS\AreaInterfaceEX\AreaInterfaceEX\bin\Debug\AreaInterfaceEX.pdb
+C:\Users\Ritesh\source\OOPS\AreaInterfaceEX\AreaInterfaceEX\obj\Debug\AreaInterfaceEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\OOPS\AreaInterfaceEX\AreaInterfaceEX\obj\Debug\AreaInterfaceEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\OOPS\AreaInterfaceEX\AreaInterfaceEX\obj\Debug\AreaInterfaceEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\OOPS\AreaInterfaceEX\AreaInterfaceEX\obj\Debug\AreaInterfaceEX.exe
+C:\Users\Ritesh\source\OOPS\AreaInterfaceEX\AreaInterfaceEX\obj\Debug\AreaInterfaceEX.pdb

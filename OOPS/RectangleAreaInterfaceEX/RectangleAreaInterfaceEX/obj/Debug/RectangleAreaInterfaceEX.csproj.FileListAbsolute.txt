@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\OOPS\RectangleAreaInterfaceEX\RectangleAreaInterfaceEX\bin\Debug\RectangleAreaInterfaceEX.exe.config
+C:\Users\Ritesh\source\OOPS\RectangleAreaInterfaceEX\RectangleAreaInterfaceEX\bin\Debug\RectangleAreaInterfaceEX.exe
+C:\Users\Ritesh\source\OOPS\RectangleAreaInterfaceEX\RectangleAreaInterfaceEX\bin\Debug\RectangleAreaInterfaceEX.pdb
+C:\Users\Ritesh\source\OOPS\RectangleAreaInterfaceEX\RectangleAreaInterfaceEX\obj\Debug\RectangleAreaInterfaceEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\OOPS\RectangleAreaInterfaceEX\RectangleAreaInterfaceEX\obj\Debug\RectangleAreaInterfaceEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\OOPS\RectangleAreaInterfaceEX\RectangleAreaInterfaceEX\obj\Debug\RectangleAreaInterfaceEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\OOPS\RectangleAreaInterfaceEX\RectangleAreaInterfaceEX\obj\Debug\RectangleAreaInterfaceEX.exe
+C:\Users\Ritesh\source\OOPS\RectangleAreaInterfaceEX\RectangleAreaInterfaceEX\obj\Debug\RectangleAreaInterfaceEX.pdb
