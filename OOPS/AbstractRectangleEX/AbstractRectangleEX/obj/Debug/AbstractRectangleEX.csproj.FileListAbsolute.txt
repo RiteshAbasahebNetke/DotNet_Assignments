@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\OOPS\AbstractRectangleEX\AbstractRectangleEX\bin\Debug\AbstractRectangleEX.exe.config
+C:\Users\Ritesh\source\OOPS\AbstractRectangleEX\AbstractRectangleEX\bin\Debug\AbstractRectangleEX.exe
+C:\Users\Ritesh\source\OOPS\AbstractRectangleEX\AbstractRectangleEX\bin\Debug\AbstractRectangleEX.pdb
+C:\Users\Ritesh\source\OOPS\AbstractRectangleEX\AbstractRectangleEX\obj\Debug\AbstractRectangleEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\OOPS\AbstractRectangleEX\AbstractRectangleEX\obj\Debug\AbstractRectangleEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\OOPS\AbstractRectangleEX\AbstractRectangleEX\obj\Debug\AbstractRectangleEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\OOPS\AbstractRectangleEX\AbstractRectangleEX\obj\Debug\AbstractRectangleEX.exe
+C:\Users\Ritesh\source\OOPS\AbstractRectangleEX\AbstractRectangleEX\obj\Debug\AbstractRectangleEX.pdb
