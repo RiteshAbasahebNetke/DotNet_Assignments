@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\OOPS\GetSetProductEX\GetSetProductEX\bin\Debug\GetSetProductEX.exe.config
+C:\Users\Ritesh\source\OOPS\GetSetProductEX\GetSetProductEX\bin\Debug\GetSetProductEX.exe
+C:\Users\Ritesh\source\OOPS\GetSetProductEX\GetSetProductEX\bin\Debug\GetSetProductEX.pdb
+C:\Users\Ritesh\source\OOPS\GetSetProductEX\GetSetProductEX\obj\Debug\GetSetProductEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\OOPS\GetSetProductEX\GetSetProductEX\obj\Debug\GetSetProductEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\OOPS\GetSetProductEX\GetSetProductEX\obj\Debug\GetSetProductEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\OOPS\GetSetProductEX\GetSetProductEX\obj\Debug\GetSetProductEX.exe
+C:\Users\Ritesh\source\OOPS\GetSetProductEX\GetSetProductEX\obj\Debug\GetSetProductEX.pdb
