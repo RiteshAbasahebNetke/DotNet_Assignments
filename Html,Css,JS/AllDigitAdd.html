@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title> Add of All Digits from given Number</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var dig,num,sum=0;
+            num=parseInt(prompt("Enter Number:"));
+            while(num>0)
+        {
+            dig=num%10;
+            sum=sum+dig;
+            num=parseInt(num/10);
+        }
+        alert("Sum is:" + sum);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> Switch Case</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var cityName,amount,discount;
+            cityName=prompt("Enter cityName:");
+            amount=prompt("Enter Amount:");
+            switch(cityName)
+            {
+                case("Pune"):
+                discount=amount*0.1;
+                break;
+                case("Mumbai"):
+                discount=amount*0.2;
+                case("Delhi"):
+                discount=amount*0.3;
+                break;
+                default:
+                    discount=amount*0.05;
+                    break;
+            }
+            alert("Discount is:"+ discount);
+        </script>
+    </body>
+</html>
