@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\AdditionOFNumbersEX\AdditionOFNumbersEX\bin\Debug\AdditionOFNumbersEX.exe.config
+C:\Users\Ritesh\source\Practice\AdditionOFNumbersEX\AdditionOFNumbersEX\bin\Debug\AdditionOFNumbersEX.exe
+C:\Users\Ritesh\source\Practice\AdditionOFNumbersEX\AdditionOFNumbersEX\bin\Debug\AdditionOFNumbersEX.pdb
+C:\Users\Ritesh\source\Practice\AdditionOFNumbersEX\AdditionOFNumbersEX\obj\Debug\AdditionOFNumbersEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\AdditionOFNumbersEX\AdditionOFNumbersEX\obj\Debug\AdditionOFNumbersEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\AdditionOFNumbersEX\AdditionOFNumbersEX\obj\Debug\AdditionOFNumbersEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\AdditionOFNumbersEX\AdditionOFNumbersEX\obj\Debug\AdditionOFNumbersEX.exe
+C:\Users\Ritesh\source\Practice\AdditionOFNumbersEX\AdditionOFNumbersEX\obj\Debug\AdditionOFNumbersEX.pdb
