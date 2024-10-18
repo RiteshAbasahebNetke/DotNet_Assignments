@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\DelegateEXX\DelegateEXX\bin\Debug\DelegateEXX.exe.config
+C:\Users\Ritesh\source\Practice\DelegateEXX\DelegateEXX\bin\Debug\DelegateEXX.exe
+C:\Users\Ritesh\source\Practice\DelegateEXX\DelegateEXX\bin\Debug\DelegateEXX.pdb
+C:\Users\Ritesh\source\Practice\DelegateEXX\DelegateEXX\obj\Debug\DelegateEXX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\DelegateEXX\DelegateEXX\obj\Debug\DelegateEXX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\DelegateEXX\DelegateEXX\obj\Debug\DelegateEXX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\DelegateEXX\DelegateEXX\obj\Debug\DelegateEXX.exe
+C:\Users\Ritesh\source\Practice\DelegateEXX\DelegateEXX\obj\Debug\DelegateEXX.pdb
