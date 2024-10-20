@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\MinArrayNo\MinArrayNo\bin\Debug\MinArrayNo.exe.config
+C:\Users\Ritesh\source\Practice\MinArrayNo\MinArrayNo\bin\Debug\MinArrayNo.exe
+C:\Users\Ritesh\source\Practice\MinArrayNo\MinArrayNo\bin\Debug\MinArrayNo.pdb
+C:\Users\Ritesh\source\Practice\MinArrayNo\MinArrayNo\obj\Debug\MinArrayNo.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\MinArrayNo\MinArrayNo\obj\Debug\MinArrayNo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\MinArrayNo\MinArrayNo\obj\Debug\MinArrayNo.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\MinArrayNo\MinArrayNo\obj\Debug\MinArrayNo.exe
+C:\Users\Ritesh\source\Practice\MinArrayNo\MinArrayNo\obj\Debug\MinArrayNo.pdb
