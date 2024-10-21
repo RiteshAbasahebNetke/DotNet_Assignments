@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\StarpatEX\StarpatEX\bin\Debug\StarpatEX.exe.config
+C:\Users\Ritesh\source\Practice\StarpatEX\StarpatEX\bin\Debug\StarpatEX.exe
+C:\Users\Ritesh\source\Practice\StarpatEX\StarpatEX\bin\Debug\StarpatEX.pdb
+C:\Users\Ritesh\source\Practice\StarpatEX\StarpatEX\obj\Debug\StarpatEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\StarpatEX\StarpatEX\obj\Debug\StarpatEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\StarpatEX\StarpatEX\obj\Debug\StarpatEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\StarpatEX\StarpatEX\obj\Debug\StarpatEX.exe
+C:\Users\Ritesh\source\Practice\StarpatEX\StarpatEX\obj\Debug\StarpatEX.pdb

@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\StarPatEx2\StarPatEx2\bin\Debug\StarPatEx2.exe.config
+C:\Users\Ritesh\source\Practice\StarPatEx2\StarPatEx2\bin\Debug\StarPatEx2.exe
+C:\Users\Ritesh\source\Practice\StarPatEx2\StarPatEx2\bin\Debug\StarPatEx2.pdb
+C:\Users\Ritesh\source\Practice\StarPatEx2\StarPatEx2\obj\Debug\StarPatEx2.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\StarPatEx2\StarPatEx2\obj\Debug\StarPatEx2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\StarPatEx2\StarPatEx2\obj\Debug\StarPatEx2.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\StarPatEx2\StarPatEx2\obj\Debug\StarPatEx2.exe
+C:\Users\Ritesh\source\Practice\StarPatEx2\StarPatEx2\obj\Debug\StarPatEx2.pdb
