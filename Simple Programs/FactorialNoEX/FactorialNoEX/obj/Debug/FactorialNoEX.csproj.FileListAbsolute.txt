@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\FactorialNoEX\FactorialNoEX\bin\Debug\FactorialNoEX.exe.config
+C:\Users\Ritesh\source\Practice\FactorialNoEX\FactorialNoEX\bin\Debug\FactorialNoEX.exe
+C:\Users\Ritesh\source\Practice\FactorialNoEX\FactorialNoEX\bin\Debug\FactorialNoEX.pdb
+C:\Users\Ritesh\source\Practice\FactorialNoEX\FactorialNoEX\obj\Debug\FactorialNoEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\FactorialNoEX\FactorialNoEX\obj\Debug\FactorialNoEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\FactorialNoEX\FactorialNoEX\obj\Debug\FactorialNoEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\FactorialNoEX\FactorialNoEX\obj\Debug\FactorialNoEX.exe
+C:\Users\Ritesh\source\Practice\FactorialNoEX\FactorialNoEX\obj\Debug\FactorialNoEX.pdb
