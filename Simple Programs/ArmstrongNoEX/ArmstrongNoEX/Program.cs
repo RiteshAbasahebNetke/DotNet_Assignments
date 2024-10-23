@@ -18,6 +18,7 @@ namespace ArmstrongNoEX
 
             sum = 0;
             i = num;
+
             while(num>0)
             {
                 dig = num % 10;
