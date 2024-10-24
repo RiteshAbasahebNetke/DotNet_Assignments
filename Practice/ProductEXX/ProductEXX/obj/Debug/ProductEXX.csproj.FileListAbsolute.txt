@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\ProductEXX\ProductEXX\bin\Debug\ProductEXX.exe.config
+C:\Users\Ritesh\source\Practice\ProductEXX\ProductEXX\bin\Debug\ProductEXX.exe
+C:\Users\Ritesh\source\Practice\ProductEXX\ProductEXX\bin\Debug\ProductEXX.pdb
+C:\Users\Ritesh\source\Practice\ProductEXX\ProductEXX\obj\Debug\ProductEXX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\ProductEXX\ProductEXX\obj\Debug\ProductEXX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\ProductEXX\ProductEXX\obj\Debug\ProductEXX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\ProductEXX\ProductEXX\obj\Debug\ProductEXX.exe
+C:\Users\Ritesh\source\Practice\ProductEXX\ProductEXX\obj\Debug\ProductEXX.pdb

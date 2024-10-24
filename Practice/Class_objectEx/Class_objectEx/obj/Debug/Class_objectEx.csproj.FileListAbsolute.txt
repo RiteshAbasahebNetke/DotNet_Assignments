@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Class_objectEx\Class_objectEx\bin\Debug\Class_objectEx.exe.config
+C:\Users\Ritesh\source\Practice\Class_objectEx\Class_objectEx\bin\Debug\Class_objectEx.exe
+C:\Users\Ritesh\source\Practice\Class_objectEx\Class_objectEx\bin\Debug\Class_objectEx.pdb
+C:\Users\Ritesh\source\Practice\Class_objectEx\Class_objectEx\obj\Debug\Class_objectEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Class_objectEx\Class_objectEx\obj\Debug\Class_objectEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Class_objectEx\Class_objectEx\obj\Debug\Class_objectEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Class_objectEx\Class_objectEx\obj\Debug\Class_objectEx.exe
+C:\Users\Ritesh\source\Practice\Class_objectEx\Class_objectEx\obj\Debug\Class_objectEx.pdb
