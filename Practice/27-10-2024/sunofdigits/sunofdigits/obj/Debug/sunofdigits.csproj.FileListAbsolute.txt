@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\sunofdigits\sunofdigits\bin\Debug\sunofdigits.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\sunofdigits\sunofdigits\bin\Debug\sunofdigits.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\sunofdigits\sunofdigits\bin\Debug\sunofdigits.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\sunofdigits\sunofdigits\obj\Debug\sunofdigits.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\sunofdigits\sunofdigits\obj\Debug\sunofdigits.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\sunofdigits\sunofdigits\obj\Debug\sunofdigits.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\sunofdigits\sunofdigits\obj\Debug\sunofdigits.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\sunofdigits\sunofdigits\obj\Debug\sunofdigits.pdb

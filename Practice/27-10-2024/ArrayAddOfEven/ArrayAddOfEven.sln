@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAddOfEven", "ArrayAddOfEven\ArrayAddOfEven.csproj", "{D5A7E78B-3072-46D1-A7DA-2BABC2744A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5A7E78B-3072-46D1-A7DA-2BABC2744A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A7E78B-3072-46D1-A7DA-2BABC2744A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A7E78B-3072-46D1-A7DA-2BABC2744A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A7E78B-3072-46D1-A7DA-2BABC2744A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49301AC5-F6FB-4C53-8328-A53B5E22BD5E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\ageANDGenderex\ageANDGenderex\obj\Debug\ageANDGenderex.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\ageANDGenderex\ageANDGenderex\obj\Debug\ageANDGenderex.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\ageANDGenderex\ageANDGenderex\obj\Debug\ageANDGenderex.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\ageANDGenderex\ageANDGenderex\bin\Debug\ageANDGenderex.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\ageANDGenderex\ageANDGenderex\bin\Debug\ageANDGenderex.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\ageANDGenderex\ageANDGenderex\bin\Debug\ageANDGenderex.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\ageANDGenderex\ageANDGenderex\obj\Debug\ageANDGenderex.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\ageANDGenderex\ageANDGenderex\obj\Debug\ageANDGenderex.pdb

@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\MaxNoinArrayex\MaxNoinArrayex\bin\Debug\MaxNoinArrayex.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\MaxNoinArrayex\MaxNoinArrayex\bin\Debug\MaxNoinArrayex.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\MaxNoinArrayex\MaxNoinArrayex\bin\Debug\MaxNoinArrayex.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\MaxNoinArrayex\MaxNoinArrayex\obj\Debug\MaxNoinArrayex.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\MaxNoinArrayex\MaxNoinArrayex\obj\Debug\MaxNoinArrayex.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\MaxNoinArrayex\MaxNoinArrayex\obj\Debug\MaxNoinArrayex.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\MaxNoinArrayex\MaxNoinArrayex\obj\Debug\MaxNoinArrayex.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\MaxNoinArrayex\MaxNoinArrayex\obj\Debug\MaxNoinArrayex.pdb

@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\SumOfOdd\SumOfOdd\bin\Debug\SumOfOdd.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\SumOfOdd\SumOfOdd\bin\Debug\SumOfOdd.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\SumOfOdd\SumOfOdd\bin\Debug\SumOfOdd.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\SumOfOdd\SumOfOdd\obj\Debug\SumOfOdd.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\SumOfOdd\SumOfOdd\obj\Debug\SumOfOdd.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\SumOfOdd\SumOfOdd\obj\Debug\SumOfOdd.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\SumOfOdd\SumOfOdd\obj\Debug\SumOfOdd.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\SumOfOdd\SumOfOdd\obj\Debug\SumOfOdd.pdb

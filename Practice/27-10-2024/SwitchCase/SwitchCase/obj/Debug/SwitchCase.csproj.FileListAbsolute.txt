@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\SwitchCase\SwitchCase\bin\Debug\SwitchCase.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\SwitchCase\SwitchCase\bin\Debug\SwitchCase.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\SwitchCase\SwitchCase\bin\Debug\SwitchCase.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\SwitchCase\SwitchCase\obj\Debug\SwitchCase.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\SwitchCase\SwitchCase\obj\Debug\SwitchCase.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\SwitchCase\SwitchCase\obj\Debug\SwitchCase.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\SwitchCase\SwitchCase\obj\Debug\SwitchCase.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\SwitchCase\SwitchCase\obj\Debug\SwitchCase.pdb

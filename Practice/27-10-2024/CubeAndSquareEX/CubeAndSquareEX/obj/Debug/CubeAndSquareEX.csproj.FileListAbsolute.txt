@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\CubeAndSquareEX\CubeAndSquareEX\bin\Debug\CubeAndSquareEX.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\CubeAndSquareEX\CubeAndSquareEX\bin\Debug\CubeAndSquareEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\CubeAndSquareEX\CubeAndSquareEX\bin\Debug\CubeAndSquareEX.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\CubeAndSquareEX\CubeAndSquareEX\obj\Debug\CubeAndSquareEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\CubeAndSquareEX\CubeAndSquareEX\obj\Debug\CubeAndSquareEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\CubeAndSquareEX\CubeAndSquareEX\obj\Debug\CubeAndSquareEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\CubeAndSquareEX\CubeAndSquareEX\obj\Debug\CubeAndSquareEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\CubeAndSquareEX\CubeAndSquareEX\obj\Debug\CubeAndSquareEX.pdb

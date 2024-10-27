@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\ReverseNoEX\ReverseNoEX\bin\Debug\ReverseNoEX.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\ReverseNoEX\ReverseNoEX\bin\Debug\ReverseNoEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\ReverseNoEX\ReverseNoEX\bin\Debug\ReverseNoEX.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\ReverseNoEX\ReverseNoEX\obj\Debug\ReverseNoEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\ReverseNoEX\ReverseNoEX\obj\Debug\ReverseNoEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\ReverseNoEX\ReverseNoEX\obj\Debug\ReverseNoEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\ReverseNoEX\ReverseNoEX\obj\Debug\ReverseNoEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\ReverseNoEX\ReverseNoEX\obj\Debug\ReverseNoEX.pdb

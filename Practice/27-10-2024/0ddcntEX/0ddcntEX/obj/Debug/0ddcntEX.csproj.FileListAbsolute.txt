@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\0ddcntEX\0ddcntEX\bin\Debug\0ddcntEX.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\0ddcntEX\0ddcntEX\bin\Debug\0ddcntEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\0ddcntEX\0ddcntEX\bin\Debug\0ddcntEX.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\0ddcntEX\0ddcntEX\obj\Debug\0ddcntEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\0ddcntEX\0ddcntEX\obj\Debug\0ddcntEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\0ddcntEX\0ddcntEX\obj\Debug\0ddcntEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\0ddcntEX\0ddcntEX\obj\Debug\0ddcntEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\0ddcntEX\0ddcntEX\obj\Debug\0ddcntEX.pdb

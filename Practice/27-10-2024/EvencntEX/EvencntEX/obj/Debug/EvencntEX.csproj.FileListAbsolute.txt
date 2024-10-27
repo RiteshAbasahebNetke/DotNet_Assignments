@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\EvencntEX\EvencntEX\bin\Debug\EvencntEX.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\EvencntEX\EvencntEX\bin\Debug\EvencntEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\EvencntEX\EvencntEX\bin\Debug\EvencntEX.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\EvencntEX\EvencntEX\obj\Debug\EvencntEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\EvencntEX\EvencntEX\obj\Debug\EvencntEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\EvencntEX\EvencntEX\obj\Debug\EvencntEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\EvencntEX\EvencntEX\obj\Debug\EvencntEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\EvencntEX\EvencntEX\obj\Debug\EvencntEX.pdb

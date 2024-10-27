@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\ArrayOfObjectBookEX\ArrayOfObjectBookEX\bin\Debug\ArrayOfObjectBookEX.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\ArrayOfObjectBookEX\ArrayOfObjectBookEX\bin\Debug\ArrayOfObjectBookEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\ArrayOfObjectBookEX\ArrayOfObjectBookEX\bin\Debug\ArrayOfObjectBookEX.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\ArrayOfObjectBookEX\ArrayOfObjectBookEX\obj\Debug\ArrayOfObjectBookEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\ArrayOfObjectBookEX\ArrayOfObjectBookEX\obj\Debug\ArrayOfObjectBookEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\ArrayOfObjectBookEX\ArrayOfObjectBookEX\obj\Debug\ArrayOfObjectBookEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\ArrayOfObjectBookEX\ArrayOfObjectBookEX\obj\Debug\ArrayOfObjectBookEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\ArrayOfObjectBookEX\ArrayOfObjectBookEX\obj\Debug\ArrayOfObjectBookEX.pdb
