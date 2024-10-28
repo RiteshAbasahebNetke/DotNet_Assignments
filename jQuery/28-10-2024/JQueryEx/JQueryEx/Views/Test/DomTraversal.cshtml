@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DomTraversal</title>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //$("i").parent().css("background-color", "orange")
+            //$("i").parents().css("background-color","tomato")
+            //$("i").parentsUntil("div").css("background-color","skyblue")
+            //$("i").parents("p").css("background-color","red")
+            $("p").find("span").css("background-color","tomato")
+        });
+    </script>
+</head>
+<body>
+    <div> 
+        First Div
+        <h1> First Heading </h1>
+        <div>
+            Second Div
+            <p>
+                This is used for demo
+                <b>
+                    bold
+                    <i>
+                        Italic
+                        <span> Span Inside Italic </span>
+                    </i>
+                </b> <br />
+                <span> This is span </span>
+                <br />
+                <b> Second Bold </b>
+                <br />
+                <span> Second Span </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

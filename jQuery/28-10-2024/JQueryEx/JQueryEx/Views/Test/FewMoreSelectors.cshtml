@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FewMoreSelectors</title>
+    <script type="text/javascript">
+        $(function () {
+            $("[href]").css("backgroun-color", "skyblue")
+            $("a[target='_blank']").css("background-color", "yellow")
+            $(":button").css("background-color","red")
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <button> Click </button>
+        <input type="button" value="click" />
+        <br />
+        <ul>
+            <li> First </li>
+            <li> Second </li>
+            <li> Third </li>
+            <li> Fourth </li>
+            <li> Fifth </li>
+        </ul>
+        <br />
+        <a target="_self">First Link</a>
+        <a target="_parent">Second Link</a>
+        <a href="#">Third Link</a>
+        <a taget="_blank">Fourth Link</a>
+    </div>
+</body>
+</html>
