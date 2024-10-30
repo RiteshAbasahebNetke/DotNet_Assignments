@@ -6,3 +6,11 @@ C:\Users\Ritesh\source\repos\Ritesh Program\Exception_HandlIng_Emp\obj\Debug\Exc
 C:\Users\Ritesh\source\repos\Ritesh Program\Exception_HandlIng_Emp\obj\Debug\Exception_HandlIng_Emp.csproj.CoreCompileInputs.cache
 C:\Users\Ritesh\source\repos\Ritesh Program\Exception_HandlIng_Emp\obj\Debug\Exception_HandlIng_Emp.exe
 C:\Users\Ritesh\source\repos\Ritesh Program\Exception_HandlIng_Emp\obj\Debug\Exception_HandlIng_Emp.pdb
+C:\Users\Ritesh\Assignments\Practice\Exception_HandlIng_Emp\bin\Debug\Exception_HandlIng_Emp.exe.config
+C:\Users\Ritesh\Assignments\Practice\Exception_HandlIng_Emp\bin\Debug\Exception_HandlIng_Emp.exe
+C:\Users\Ritesh\Assignments\Practice\Exception_HandlIng_Emp\bin\Debug\Exception_HandlIng_Emp.pdb
+C:\Users\Ritesh\Assignments\Practice\Exception_HandlIng_Emp\obj\Debug\Exception_HandlIng_Emp.csproj.AssemblyReference.cache
+C:\Users\Ritesh\Assignments\Practice\Exception_HandlIng_Emp\obj\Debug\Exception_HandlIng_Emp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\Assignments\Practice\Exception_HandlIng_Emp\obj\Debug\Exception_HandlIng_Emp.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\Assignments\Practice\Exception_HandlIng_Emp\obj\Debug\Exception_HandlIng_Emp.exe
+C:\Users\Ritesh\Assignments\Practice\Exception_HandlIng_Emp\obj\Debug\Exception_HandlIng_Emp.pdb

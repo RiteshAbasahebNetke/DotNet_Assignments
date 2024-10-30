@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\AbstractShapeEX\AbstractShapeEX\bin\Debug\AbstractShapeEX.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\AbstractShapeEX\AbstractShapeEX\bin\Debug\AbstractShapeEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\AbstractShapeEX\AbstractShapeEX\bin\Debug\AbstractShapeEX.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\AbstractShapeEX\AbstractShapeEX\obj\Debug\AbstractShapeEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\AbstractShapeEX\AbstractShapeEX\obj\Debug\AbstractShapeEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\AbstractShapeEX\AbstractShapeEX\obj\Debug\AbstractShapeEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\AbstractShapeEX\AbstractShapeEX\obj\Debug\AbstractShapeEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\AbstractShapeEX\AbstractShapeEX\obj\Debug\AbstractShapeEX.pdb

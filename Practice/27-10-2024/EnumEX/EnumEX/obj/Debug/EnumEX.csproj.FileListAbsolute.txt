@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\EnumEX\EnumEX\bin\Debug\EnumEX.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\EnumEX\EnumEX\bin\Debug\EnumEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\EnumEX\EnumEX\bin\Debug\EnumEX.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\EnumEX\EnumEX\obj\Debug\EnumEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\EnumEX\EnumEX\obj\Debug\EnumEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\EnumEX\EnumEX\obj\Debug\EnumEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\EnumEX\EnumEX\obj\Debug\EnumEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\EnumEX\EnumEX\obj\Debug\EnumEX.pdb

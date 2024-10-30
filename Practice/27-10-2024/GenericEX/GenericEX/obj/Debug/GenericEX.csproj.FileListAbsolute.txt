@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\GenericEX\GenericEX\bin\Debug\GenericEX.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\GenericEX\GenericEX\bin\Debug\GenericEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\GenericEX\GenericEX\bin\Debug\GenericEX.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\GenericEX\GenericEX\obj\Debug\GenericEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\GenericEX\GenericEX\obj\Debug\GenericEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\GenericEX\GenericEX\obj\Debug\GenericEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\GenericEX\GenericEX\obj\Debug\GenericEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\GenericEX\GenericEX\obj\Debug\GenericEX.pdb
