@@ -17,6 +17,7 @@ namespace CurdOperationEx.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.CategoryID = new SelectList(this.crepo.GetAll(), "CategoryID", "CategoryName");
             return View(this.prepo.GetAll());
         }
 
@@ -57,6 +58,16 @@ namespace CurdOperationEx.Controllers
                 return RedirectToAction("Index");
             }
             return View(rec);
+        }
+        [HttpGet]
+        public IActionResult Delete(Int64 id)
+        {
+            if (ModelState.IsValid)
+            {
+                this.prepo.Delete(id);
+                return RedirectToAction("Index");
+            }
+            return View();
         }
     }
 }

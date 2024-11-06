@@ -57,3 +57,5 @@ C:\Users\Ritesh\source\Core\CurdOperationEx\CurdOperationEx\obj\Debug\net6.0\ref
 C:\Users\Ritesh\source\Core\CurdOperationEx\CurdOperationEx\obj\Debug\net6.0\CurdOperationEx.pdb
 C:\Users\Ritesh\source\Core\CurdOperationEx\CurdOperationEx\obj\Debug\net6.0\CurdOperationEx.genruntimeconfig.cache
 C:\Users\Ritesh\source\Core\CurdOperationEx\CurdOperationEx\obj\Debug\net6.0\ref\CurdOperationEx.dll
+C:\Users\Ritesh\source\Core\CurdOperationEx\CurdOperationEx\bin\Debug\net6.0\libman.json
+C:\Users\Ritesh\source\Core\CurdOperationEx\CurdOperationEx\bin\Debug\net6.0\CurdOperationEx.staticwebassets.runtime.json

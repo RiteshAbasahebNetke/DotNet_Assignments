@@ -9,8 +9,12 @@ namespace CurdOperationEx.Models
     {
         [Key]
         public Int64 ProductID { get; set; }
+        [Required(ErrorMessage ="Please enter Product Name")]
         public string ProductName { get; set; }
+        [Required(ErrorMessage ="Please enter Mfg Name")]
         public string MfgName { get; set; }
+        [Required(ErrorMessage ="Please enter Price")]
+        [Range(300,30000)]
         public double Price { get; set; }
 
         [ForeignKey("Category")]

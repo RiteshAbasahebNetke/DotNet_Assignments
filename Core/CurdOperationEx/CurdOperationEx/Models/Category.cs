@@ -8,6 +8,7 @@ namespace CurdOperationEx.Models
     {
         [Key]
         public Int64 CategoryID { get; set; }
+        [Required(ErrorMessage ="Please enter Category")]
         public string CategoryName { get; set; }    
         public virtual List<Product> Products { get; set; }
     }
