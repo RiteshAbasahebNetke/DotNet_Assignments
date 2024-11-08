@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\MsebBillInheritanceEX\MsebBillInheritanceEX\bin\Debug\MsebBillInheritanceEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\MsebBillInheritanceEX\MsebBillInheritanceEX\bin\Debug\MsebBillInheritanceEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\MsebBillInheritanceEX\MsebBillInheritanceEX\bin\Debug\MsebBillInheritanceEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\MsebBillInheritanceEX\MsebBillInheritanceEX\obj\Debug\MsebBillInheritanceEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\MsebBillInheritanceEX\MsebBillInheritanceEX\obj\Debug\MsebBillInheritanceEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\MsebBillInheritanceEX\MsebBillInheritanceEX\obj\Debug\MsebBillInheritanceEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\MsebBillInheritanceEX\MsebBillInheritanceEX\obj\Debug\MsebBillInheritanceEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\MsebBillInheritanceEX\MsebBillInheritanceEX\obj\Debug\MsebBillInheritanceEX.pdb

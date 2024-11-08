@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\ShapeOverloadingEX\ShapeOverloadingEX\bin\Debug\ShapeOverloadingEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\ShapeOverloadingEX\ShapeOverloadingEX\bin\Debug\ShapeOverloadingEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\ShapeOverloadingEX\ShapeOverloadingEX\bin\Debug\ShapeOverloadingEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\ShapeOverloadingEX\ShapeOverloadingEX\obj\Debug\ShapeOverloadingEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\ShapeOverloadingEX\ShapeOverloadingEX\obj\Debug\ShapeOverloadingEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\ShapeOverloadingEX\ShapeOverloadingEX\obj\Debug\ShapeOverloadingEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\ShapeOverloadingEX\ShapeOverloadingEX\obj\Debug\ShapeOverloadingEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\ShapeOverloadingEX\ShapeOverloadingEX\obj\Debug\ShapeOverloadingEX.pdb

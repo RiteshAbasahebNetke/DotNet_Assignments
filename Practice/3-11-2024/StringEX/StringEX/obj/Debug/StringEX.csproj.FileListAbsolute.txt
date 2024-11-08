@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\StringEX\StringEX\bin\Debug\StringEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\StringEX\StringEX\bin\Debug\StringEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\StringEX\StringEX\bin\Debug\StringEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\StringEX\StringEX\obj\Debug\StringEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\StringEX\StringEX\obj\Debug\StringEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\StringEX\StringEX\obj\Debug\StringEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\StringEX\StringEX\obj\Debug\StringEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\StringEX\StringEX\obj\Debug\StringEX.pdb
