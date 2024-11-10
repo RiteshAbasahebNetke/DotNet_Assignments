@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\AttributeEX\AttributeEX\bin\Debug\AttributeEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\AttributeEX\AttributeEX\bin\Debug\AttributeEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\AttributeEX\AttributeEX\bin\Debug\AttributeEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\AttributeEX\AttributeEX\obj\Debug\AttributeEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\AttributeEX\AttributeEX\obj\Debug\AttributeEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\AttributeEX\AttributeEX\obj\Debug\AttributeEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\AttributeEX\AttributeEX\obj\Debug\AttributeEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\AttributeEX\AttributeEX\obj\Debug\AttributeEX.pdb

@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\DateTimeEX\DateTimeEX\bin\Debug\DateTimeEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\DateTimeEX\DateTimeEX\bin\Debug\DateTimeEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\DateTimeEX\DateTimeEX\bin\Debug\DateTimeEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\DateTimeEX\DateTimeEX\obj\Debug\DateTimeEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\DateTimeEX\DateTimeEX\obj\Debug\DateTimeEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\DateTimeEX\DateTimeEX\obj\Debug\DateTimeEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\DateTimeEX\DateTimeEX\obj\Debug\DateTimeEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\DateTimeEX\DateTimeEX\obj\Debug\DateTimeEX.pdb
