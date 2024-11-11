@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Emp>
+<html>
+    <head>
+        <title> Home-Index </title>
+    </head>
+    <body>
+        <h2> Employee List </h2>
+        <hr />
+        <a asp-action="Create" method="post"> Add New Emp </a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th align="center"> EmpID </th>
+                <th align="center"> EmpName </th>
+                <th align="center"> Mobile No </th>
+                <th align="center"> Address </th>
+                <th align="center"> DeptName </th>
+                <th align="center"> Salary </th>
+                <th align="center"> Actions </th>
+                </tr>
+            </thead>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                <td align="center"> @temp.EmpID </td>
+                <td align="center"> @temp.EmpName </td>
+                <td align="center"> @temp.MobileNo </td>
+                <td align="center"> @temp.Address </td>
+                <td align="center"> @temp.Dept.DeptName </td>
+                <td align="center"> @temp.Salary </td>
+                <td align="center">
+                        <a asp-action="Edit" asp-route-id="@temp.EmpID"> Edit </a>
+                        <a asp-action="Delete" asp-route-id="@temp.EmpID"> Delete </a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </body>
+</html>
