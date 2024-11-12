@@ -1,0 +1,57 @@
+﻿@model codefirstcurdex.Models.Product
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h2> Update Product Details </h2>
+            <div>
+                @using (Html.BeginForm())
+                {
+                    @Html.HiddenFor(p=>p.ProductID)
+                    <div>
+                        @Html.LabelFor(p => p.ProductName)
+                        <div>
+                            @Html.EditorFor(p => p.ProductName)
+                        </div>
+                    </div>
+
+                    <div>
+                        @Html.LabelFor(p => p.MfgName)
+                        <div>
+                            @Html.EditorFor(p => p.MfgName)
+                        </div>
+                    </div>
+
+                    <div>
+                        @Html.LabelFor(p => p.Price)
+                        <div>
+                            @Html.EditorFor(p => p.Price)
+                        </div>
+                    </div>
+
+                    <div>
+                        @Html.LabelFor(p => p.Category.CategoryName)
+                        <div>
+                            @Html.DropDownList("CategoryID", "Select Dept")
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Update" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>
