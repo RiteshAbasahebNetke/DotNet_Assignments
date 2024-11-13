@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\ForLoopAddEX\ForLoopAddEX\bin\Debug\ForLoopAddEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\ForLoopAddEX\ForLoopAddEX\bin\Debug\ForLoopAddEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\ForLoopAddEX\ForLoopAddEX\bin\Debug\ForLoopAddEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\ForLoopAddEX\ForLoopAddEX\obj\Debug\ForLoopAddEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\ForLoopAddEX\ForLoopAddEX\obj\Debug\ForLoopAddEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\ForLoopAddEX\ForLoopAddEX\obj\Debug\ForLoopAddEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\ForLoopAddEX\ForLoopAddEX\obj\Debug\ForLoopAddEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\ForLoopAddEX\ForLoopAddEX\obj\Debug\ForLoopAddEX.pdb

@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\ArmstrongNoEX\ArmstrongNoEX\bin\Debug\ArmstrongNoEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\ArmstrongNoEX\ArmstrongNoEX\bin\Debug\ArmstrongNoEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\ArmstrongNoEX\ArmstrongNoEX\bin\Debug\ArmstrongNoEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\ArmstrongNoEX\ArmstrongNoEX\obj\Debug\ArmstrongNoEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\ArmstrongNoEX\ArmstrongNoEX\obj\Debug\ArmstrongNoEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\ArmstrongNoEX\ArmstrongNoEX\obj\Debug\ArmstrongNoEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\ArmstrongNoEX\ArmstrongNoEX\obj\Debug\ArmstrongNoEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\ArmstrongNoEX\ArmstrongNoEX\obj\Debug\ArmstrongNoEX.pdb
