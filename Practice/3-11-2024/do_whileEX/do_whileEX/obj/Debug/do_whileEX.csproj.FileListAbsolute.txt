@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\do_whileEX\do_whileEX\bin\Debug\do_whileEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\do_whileEX\do_whileEX\bin\Debug\do_whileEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\do_whileEX\do_whileEX\bin\Debug\do_whileEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\do_whileEX\do_whileEX\obj\Debug\do_whileEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\do_whileEX\do_whileEX\obj\Debug\do_whileEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\do_whileEX\do_whileEX\obj\Debug\do_whileEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\do_whileEX\do_whileEX\obj\Debug\do_whileEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\do_whileEX\do_whileEX\obj\Debug\do_whileEX.pdb

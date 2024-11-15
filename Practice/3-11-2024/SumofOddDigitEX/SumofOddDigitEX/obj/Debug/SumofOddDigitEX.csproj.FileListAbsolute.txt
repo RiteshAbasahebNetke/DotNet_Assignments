@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\SumofOddDigitEX\SumofOddDigitEX\bin\Debug\SumofOddDigitEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\SumofOddDigitEX\SumofOddDigitEX\bin\Debug\SumofOddDigitEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\SumofOddDigitEX\SumofOddDigitEX\bin\Debug\SumofOddDigitEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\SumofOddDigitEX\SumofOddDigitEX\obj\Debug\SumofOddDigitEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\SumofOddDigitEX\SumofOddDigitEX\obj\Debug\SumofOddDigitEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\SumofOddDigitEX\SumofOddDigitEX\obj\Debug\SumofOddDigitEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\SumofOddDigitEX\SumofOddDigitEX\obj\Debug\SumofOddDigitEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\SumofOddDigitEX\SumofOddDigitEX\obj\Debug\SumofOddDigitEX.pdb

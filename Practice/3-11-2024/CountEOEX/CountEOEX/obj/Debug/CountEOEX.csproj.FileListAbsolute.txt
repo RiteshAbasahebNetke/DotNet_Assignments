@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\CountEOEX\CountEOEX\bin\Debug\CountEOEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\CountEOEX\CountEOEX\bin\Debug\CountEOEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\CountEOEX\CountEOEX\bin\Debug\CountEOEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\CountEOEX\CountEOEX\obj\Debug\CountEOEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\CountEOEX\CountEOEX\obj\Debug\CountEOEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\CountEOEX\CountEOEX\obj\Debug\CountEOEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\CountEOEX\CountEOEX\obj\Debug\CountEOEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\CountEOEX\CountEOEX\obj\Debug\CountEOEX.pdb

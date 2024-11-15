@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\GreaterNoEX\GreaterNoEX\bin\Debug\GreaterNoEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\GreaterNoEX\GreaterNoEX\bin\Debug\GreaterNoEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\GreaterNoEX\GreaterNoEX\bin\Debug\GreaterNoEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\GreaterNoEX\GreaterNoEX\obj\Debug\GreaterNoEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\GreaterNoEX\GreaterNoEX\obj\Debug\GreaterNoEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\GreaterNoEX\GreaterNoEX\obj\Debug\GreaterNoEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\GreaterNoEX\GreaterNoEX\obj\Debug\GreaterNoEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\GreaterNoEX\GreaterNoEX\obj\Debug\GreaterNoEX.pdb
