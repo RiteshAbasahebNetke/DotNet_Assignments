@@ -1,0 +1,49 @@
+﻿@model IEnumerable<DbFirstExample.Models.ProductTbl>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div> 
+        <h2> Product List </h2>
+        <div>
+            @Html.ActionLink("Create", "Create")
+            <hr />
+            <table class="table-bordered">
+                <thead>
+                    <tr>
+                        <th class="glyphicon-align-center"> @Html.DisplayNameFor(p=>p.ProductID) </th>
+                        <th class="glyphicon-align-center"> @Html.DisplayNameFor(p=>p.ProductName) </th>
+                        <th class="glyphicon-align-center"> @Html.DisplayNameFor(p=>p.MfgName) </th>
+                        <th class="glyphicon-align-center"> @Html.DisplayNameFor(p=>p.CategoryTbl.CategoryName) </th>
+                        <th class="glyphicon-align-center"> @Html.DisplayNameFor(p=>p.Price) </th>
+                        <th class="glyphicon-align-center">  Actions </th>
+                    </tr>
+                </thead>
+                @foreach(var temp in Model)
+            {
+                <tr>
+                    <td align="center"> @Html.DisplayFor(p=>temp.ProductID) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.ProductName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.MfgName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.CategoryTbl.CategoryName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.Price) </td>
+                    <td align="center">
+                        @Html.ActionLink("Edit", "Edit", new {id=temp.ProductID},new {@class="btn btn-success"})
+                        @Html.ActionLink("Delete", "Delete", new {id=temp.ProductID},new {@class="btn btn-danger"})
+                    </td>
+                </tr>
+            }
+            </table>
+        </div>
+    </div>
+</body>
+</html>

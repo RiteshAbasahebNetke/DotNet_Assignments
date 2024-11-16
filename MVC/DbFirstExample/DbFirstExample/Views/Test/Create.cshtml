@@ -1,0 +1,52 @@
+﻿@model DbFirstExample.Models.ProductTbl
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar-form"> 
+        <h2> Add Product Details </h2>
+        <div>
+            @using(Html.BeginForm())
+            {
+                <div>
+                    @Html.LabelFor(p=>p.ProductName)
+                    <div>
+                        @Html.EditorFor(p=>p.ProductName)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.MfgName)
+                    <div>
+                        @Html.EditorFor(p=>p.MfgName)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.Price)
+                    <div>
+                        @Html.EditorFor(p=>p.Price)
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(p=>p.CategoryTbl.CategoryName)
+                    <div>
+                        @Html.DropDownList("CategoryID","Select Category")
+                    </div>
+                </div>
+                <br />
+                <div>
+                    <input type="submit" value="Save" class="btn btn-primary"/>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>
