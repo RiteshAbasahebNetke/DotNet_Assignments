@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\Starpattern2EX\Starpattern2EX\bin\Debug\Starpattern2EX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\Starpattern2EX\Starpattern2EX\bin\Debug\Starpattern2EX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\Starpattern2EX\Starpattern2EX\bin\Debug\Starpattern2EX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\Starpattern2EX\Starpattern2EX\obj\Debug\Starpattern2EX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\Starpattern2EX\Starpattern2EX\obj\Debug\Starpattern2EX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\Starpattern2EX\Starpattern2EX\obj\Debug\Starpattern2EX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\Starpattern2EX\Starpattern2EX\obj\Debug\Starpattern2EX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\Starpattern2EX\Starpattern2EX\obj\Debug\Starpattern2EX.pdb
