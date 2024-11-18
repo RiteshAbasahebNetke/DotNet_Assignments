@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProCatModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CategoryTbl">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ProductTbl">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductName" Type="nvarchar(max)" />
+    <Property Name="MfgName" Type="nvarchar(max)" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="CategoryId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId">
+    <End Role="CategoryTbl" Type="Self.CategoryTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ProductTbl" Type="Self.ProductTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoryTbl">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="ProductTbl">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProCatModelStoreContainer">
+    <EntitySet Name="CategoryTbl" EntityType="Self.CategoryTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductTbl" EntityType="Self.ProductTbl" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId" Association="Self.FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId">
+      <End Role="CategoryTbl" EntitySet="CategoryTbl" />
+      <End Role="ProductTbl" EntitySet="ProductTbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

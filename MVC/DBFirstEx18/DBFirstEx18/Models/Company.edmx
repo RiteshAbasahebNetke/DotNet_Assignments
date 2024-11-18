@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ProCatModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CategoryTbl">
+          <Key>
+            <PropertyRef Name="CategoryId" />
+          </Key>
+          <Property Name="CategoryId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CategoryName" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ProductTbl">
+          <Key>
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="ProductId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductName" Type="nvarchar(max)" />
+          <Property Name="MfgName" Type="nvarchar(max)" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CategoryId" Type="bigint" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId">
+          <End Role="CategoryTbl" Type="Self.CategoryTbl" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductTbl" Type="Self.ProductTbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CategoryTbl">
+              <PropertyRef Name="CategoryId" />
+            </Principal>
+            <Dependent Role="ProductTbl">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProCatModelStoreContainer">
+          <EntitySet Name="CategoryTbl" EntityType="Self.CategoryTbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductTbl" EntityType="Self.ProductTbl" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId" Association="Self.FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId">
+            <End Role="CategoryTbl" EntitySet="CategoryTbl" />
+            <End Role="ProductTbl" EntitySet="ProductTbl" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProCatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CategoryTbl">
+          <Key>
+            <PropertyRef Name="CategoryId" />
+          </Key>
+          <Property Name="CategoryId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ProductTbls" Relationship="Self.FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId" FromRole="CategoryTbl" ToRole="ProductTbl" />
+        </EntityType>
+        <EntityType Name="ProductTbl">
+          <Key>
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="ProductId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MfgName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CategoryId" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="CategoryTbl" Relationship="Self.FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId" FromRole="ProductTbl" ToRole="CategoryTbl" />
+        </EntityType>
+        <Association Name="FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId">
+          <End Role="CategoryTbl" Type="Self.CategoryTbl" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductTbl" Type="Self.ProductTbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CategoryTbl">
+              <PropertyRef Name="CategoryId" />
+            </Principal>
+            <Dependent Role="ProductTbl">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProCatEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CategoryTbls" EntityType="Self.CategoryTbl" />
+          <EntitySet Name="ProductTbls" EntityType="Self.ProductTbl" />
+          <AssociationSet Name="FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId" Association="Self.FK_dbo_ProductTbl_dbo_CategoryTbl_CategoryId">
+            <End Role="CategoryTbl" EntitySet="CategoryTbls" />
+            <End Role="ProductTbl" EntitySet="ProductTbls" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProCatModelStoreContainer" CdmEntityContainer="ProCatEntities">
+          <EntitySetMapping Name="CategoryTbls">
+            <EntityTypeMapping TypeName="ProCatModel.CategoryTbl">
+              <MappingFragment StoreEntitySet="CategoryTbl">
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductTbls">
+            <EntityTypeMapping TypeName="ProCatModel.ProductTbl">
+              <MappingFragment StoreEntitySet="ProductTbl">
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="MfgName" ColumnName="MfgName" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

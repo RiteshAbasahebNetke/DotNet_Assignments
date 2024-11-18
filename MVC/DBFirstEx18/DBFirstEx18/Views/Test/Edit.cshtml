@@ -1,0 +1,55 @@
+﻿@model DBFirstEx18.Models.ProductTbl
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div>
+        <h2> Update Product </h2>
+        <div>
+            @using (Html.BeginForm())
+            {
+                @Html.HiddenFor(p=>p.ProductId)
+                <div>
+                    @Html.LabelFor(p => p.ProductName)
+                    <div>
+                        @Html.EditorFor(p => p.ProductName)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.LabelFor(p => p.MfgName)
+                    <div>
+                        @Html.EditorFor(p => p.MfgName)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.LabelFor(p => p.Price)
+                    <div>
+                        @Html.EditorFor(p => p.Price)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.LabelFor(p => p.CategoryTbl.CategoryName)
+                    <div>
+                        @Html.DropDownList("CategoryId", "Select Category")
+                    </div>
+                </div>
+
+                <div>
+                    <input type="submit" value="Update" />
+                </div>
+            }
+            </div>
+        </div>
+</body>
+</html>
