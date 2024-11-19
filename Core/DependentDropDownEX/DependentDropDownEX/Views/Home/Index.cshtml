@@ -1,0 +1,91 @@
+﻿<html>
+    <head>
+        <title> Cascading DropDown </title>
+    <script src="~/jquery/jquery/jquery.js"></script>
+
+    <script type="text/javascript">
+
+        $(function(){
+            $("#countryid").change(function(){
+                var val = $("#countryid").val();
+                alert(val);
+                if(val>0)
+                {
+                    $.ajax({
+                        url:"/Home/GetStates"+ val,
+                        type:"Get",
+                        contentType:"application/json",
+                        success:function(result){
+                            var str="";
+                            for(var i=0;i<result.length;i++)
+                            {
+                                str="<option value=" + result[i].stateID + ">" + result[i].stateName + "</option>";
+                                $("#stateid").append(str);
+                            }
+                        },
+                        error:function(err){
+                            alert(JSON.stringify(err));
+                        }
+                    });
+                }
+            });
+
+            $("#stateid").change(function () {
+
+                var val = $("#stateid").val();
+                alert(val);
+                if (val > 0) {
+                    $.ajax({
+                        url: "/Home/GetCities/" + val,
+                        type: "Get",
+                        contentType: "application/json",
+                        success: function (result) {
+                            alert(JSON.stringify(result));
+
+                            $("#cityid").empty();
+                            var str = "";
+                            for (var i = 0; i < result.length; i++) {
+                                str = "<option value=" + result[i].cityID + ">" + result[i].cityName + "</option>";
+                                $("#cityid").append(str);
+                            }
+                        },
+                        error: function (err) {
+                            alert(JSON.stringify(err));
+                        }
+                    });
+                }
+            });
+        });
+
+        
+    </script>
+    </head>
+    <body>
+        <h2> Dependent DropDown </h2>
+        <hr />
+        <table>
+            <tr>
+                <td> Country </td>
+                <td> State </td>
+                <td> City </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="countryid" asp-items="@ViewBag.CountryID">
+                        <option value="0"> Select Country </option>
+                    </select>
+                </td>
+                <td>
+                    <select id="stateid" asp-items="@ViewBag.StateID">
+                        <option value="0"> Select State </option>
+                    </select>
+                </td>
+                <td>
+                    <select id="cityid" asp-items="@ViewBag.CityID">
+                        <option value="0"> Select City </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
