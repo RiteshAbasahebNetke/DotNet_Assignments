@@ -1,0 +1,62 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            $("#btn").click(function () {
+
+                $.ajax({
+                    url: "/test/getemp",
+                    type: "Get",
+                    contentType: "application/json",
+                    success: function (result) {
+                        alert("Success..!");
+                        alert(JSON.stringify(result));
+                        var str = " ";
+                        $("#tb").empty();
+                        for (var i = 0; i < length.length; i++) {
+                            str = "<tr><td>" + result[i].EmpId + "</td>";
+                            str = "<td>" + result[i].EmpName + "</td>";
+                            str = "<td>" + result[i].EmailId + "</td>";
+                            str = "<td>" + result[i].Salary + "</td></tr>";
+                            $("#tb").append(str);
+                        }
+                    },
+                    error: function (err) {
+                        alert("Error..!");
+                        alert(JSON.stringify(err));
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div> 
+        <h2> Emp List </h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> EmpID </th>
+                    <th> Emp Name </th>
+                    <th> EmailID </th>
+                    <th> Salary </th>
+                </tr>
+            </thead>
+            <tbody id="tb">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
