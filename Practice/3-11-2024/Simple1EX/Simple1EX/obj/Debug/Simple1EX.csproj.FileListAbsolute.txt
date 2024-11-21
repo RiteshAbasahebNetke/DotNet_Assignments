@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\Simple1EX\Simple1EX\bin\Debug\Simple1EX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\Simple1EX\Simple1EX\bin\Debug\Simple1EX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\Simple1EX\Simple1EX\bin\Debug\Simple1EX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\Simple1EX\Simple1EX\obj\Debug\Simple1EX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\Simple1EX\Simple1EX\obj\Debug\Simple1EX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\Simple1EX\Simple1EX\obj\Debug\Simple1EX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\Simple1EX\Simple1EX\obj\Debug\Simple1EX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\Simple1EX\Simple1EX\obj\Debug\Simple1EX.pdb

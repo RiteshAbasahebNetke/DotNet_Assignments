@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\SimpleEX\SimpleEX\bin\Debug\SimpleEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\SimpleEX\SimpleEX\bin\Debug\SimpleEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\SimpleEX\SimpleEX\bin\Debug\SimpleEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\SimpleEX\SimpleEX\obj\Debug\SimpleEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\SimpleEX\SimpleEX\obj\Debug\SimpleEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\SimpleEX\SimpleEX\obj\Debug\SimpleEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\SimpleEX\SimpleEX\obj\Debug\SimpleEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\SimpleEX\SimpleEX\obj\Debug\SimpleEX.pdb
