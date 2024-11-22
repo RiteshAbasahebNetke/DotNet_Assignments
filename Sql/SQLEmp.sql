@@ -1,0 +1,1 @@
+create table Emptbl(EmpID bigint,EmpName varchar(20),address varchar(20),DeptName varchar(20),Salary decimal (20))
