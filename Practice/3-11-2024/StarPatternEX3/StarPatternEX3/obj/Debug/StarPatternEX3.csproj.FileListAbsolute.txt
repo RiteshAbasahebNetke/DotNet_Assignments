@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\StarPatternEX3\StarPatternEX3\bin\Debug\StarPatternEX3.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\StarPatternEX3\StarPatternEX3\bin\Debug\StarPatternEX3.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\StarPatternEX3\StarPatternEX3\bin\Debug\StarPatternEX3.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\StarPatternEX3\StarPatternEX3\obj\Debug\StarPatternEX3.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\StarPatternEX3\StarPatternEX3\obj\Debug\StarPatternEX3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\StarPatternEX3\StarPatternEX3\obj\Debug\StarPatternEX3.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\StarPatternEX3\StarPatternEX3\obj\Debug\StarPatternEX3.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\StarPatternEX3\StarPatternEX3\obj\Debug\StarPatternEX3.pdb
