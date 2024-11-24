@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\InheritanceEX\InheritanceEX\bin\Debug\InheritanceEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\InheritanceEX\InheritanceEX\bin\Debug\InheritanceEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\InheritanceEX\InheritanceEX\bin\Debug\InheritanceEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\InheritanceEX\InheritanceEX\obj\Debug\InheritanceEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\InheritanceEX\InheritanceEX\obj\Debug\InheritanceEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\InheritanceEX\InheritanceEX\obj\Debug\InheritanceEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\InheritanceEX\InheritanceEX\obj\Debug\InheritanceEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\InheritanceEX\InheritanceEX\obj\Debug\InheritanceEX.pdb
