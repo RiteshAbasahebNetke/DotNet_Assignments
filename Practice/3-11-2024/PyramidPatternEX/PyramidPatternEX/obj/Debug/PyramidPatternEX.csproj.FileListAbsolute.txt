@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\PyramidPatternEX\PyramidPatternEX\bin\Debug\PyramidPatternEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\PyramidPatternEX\PyramidPatternEX\bin\Debug\PyramidPatternEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\PyramidPatternEX\PyramidPatternEX\bin\Debug\PyramidPatternEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\PyramidPatternEX\PyramidPatternEX\obj\Debug\PyramidPatternEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\PyramidPatternEX\PyramidPatternEX\obj\Debug\PyramidPatternEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\PyramidPatternEX\PyramidPatternEX\obj\Debug\PyramidPatternEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\PyramidPatternEX\PyramidPatternEX\obj\Debug\PyramidPatternEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\PyramidPatternEX\PyramidPatternEX\obj\Debug\PyramidPatternEX.pdb

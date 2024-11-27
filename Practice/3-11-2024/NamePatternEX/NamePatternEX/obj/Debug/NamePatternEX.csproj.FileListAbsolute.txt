@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\NamePatternEX\NamePatternEX\bin\Debug\NamePatternEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\NamePatternEX\NamePatternEX\bin\Debug\NamePatternEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\NamePatternEX\NamePatternEX\bin\Debug\NamePatternEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\NamePatternEX\NamePatternEX\obj\Debug\NamePatternEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\NamePatternEX\NamePatternEX\obj\Debug\NamePatternEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\NamePatternEX\NamePatternEX\obj\Debug\NamePatternEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\NamePatternEX\NamePatternEX\obj\Debug\NamePatternEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\NamePatternEX\NamePatternEX\obj\Debug\NamePatternEX.pdb
