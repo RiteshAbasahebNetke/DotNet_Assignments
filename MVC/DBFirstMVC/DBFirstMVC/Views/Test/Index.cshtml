@@ -1,0 +1,61 @@
+﻿@model IEnumerable<DBFirstMVC.Models.ProductTbl>
+@{
+    Layout = null;
+    int SrNo = 1;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <div>
+            <h2> Product List </h2>
+        </div>
+        <hr />
+        <div>
+            @Html.ActionLink("Create New","Create")
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td colspan="3">
+                            @using(Html.BeginForm("SearchByName","Test",FormMethod.Post))
+            {
+                <span> Enter Name:</span>
+                <input type="text" name="PName" />
+                <input type="submit" value="Search" />
+            }
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="center"> Sr.No </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.ProductName)</th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.MfgName) </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.CategoryTbl.CategoryName) </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.Price) </th>
+                        <th align="center"> Actions </th>
+                    </tr>
+                </thead>
+                @foreach(var temp in Model)
+            {
+                <tr>
+                    <td align="center"> @(SrNo++) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.ProductName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.MfgName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.CategoryTbl.CategoryName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.Price) </td>
+                    <td align="center">
+                        @Html.ActionLink("Edit", "Edit", new {id=temp.ProductID})
+                        @Html.ActionLink("Delete", "Delete", new {id=temp.ProductID})
+                    </td>
+                </tr>
+            }
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CodeFirstCurd.Models.Product>
+@{
+    Layout = null;
+    int SrNo = 1;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <div>
+            <h2> Product List </h2>
+        </div>
+        <hr />
+        <div>
+            @Html.ActionLink("Create New","Create")
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td align="center"> Sr.No </td>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.ProductName) </td>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.MfgName) </td>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.Category.CategoryName) </td>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.Price) </td>
+                        <td align="center"> Actions </td>
+                    </tr>
+                </thead>
+                @foreach(var temp in Model)
+            {
+                <tr>
+                    <td align="center"> @(SrNo++) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.ProductName)</td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.MfgName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.Category.CategoryName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.Price) </td>
+                    <td align="center">
+                        @Html.ActionLink("Edit","Edit",new {id=temp.ProductID})
+                        @Html.ActionLink("Delete", "Delete", new {id=temp.ProductID})
+                    </td>
+                </tr>
+            }
+            </table>
+        </div>
+    </div>
+</body>
+</html>
