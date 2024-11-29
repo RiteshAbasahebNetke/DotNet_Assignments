@@ -1,0 +1,48 @@
+﻿@model Product
+
+<html>
+    <head>
+        <title> Home-Create </title>
+    </head>
+    <div>
+        <div>
+            <h2> Add Product Details </h2>
+        </div>
+        <hr />
+        <form asp-action="Create" method="post">
+        <div>
+            <label asp-for="ProductName"></label>
+            <div>
+                <input asp-for="ProductName"/>
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="MfgName"></label>
+            <div>
+                <input asp-for="MfgName"/>
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="Price"></label>
+            <div>
+                <input asp-for="Price"/>
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="Category.CategoryName"></label>
+            <div>
+                <select asp-for="CategoryID" asp-items="@ViewBag.CategoryID">
+                <option> Select Category </option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <input type="submit" value="Save" />
+        </div>
+    </form>
+    </div>
+</html>
