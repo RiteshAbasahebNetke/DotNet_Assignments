@@ -1,0 +1,105 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            $("#countryid").change(function () {
+
+                var val = $("#countryid").val();
+                alert(val);
+
+                if (val > 0) {
+                    $.ajax({
+                        url: "/Test/GetStates/" + val,
+                        type: "Get",
+                        contentType: "application/json",
+                        success: function (result) {
+                            alert(JSON.stringify(result));
+
+                            $("#stateid").empty();
+                            var str = "";
+                            for (var i = 0; i < result.length; i++) {
+                                str = "<option value=" + result[i].stateID + ">" + result[i].stateName + "</option>";
+                                $("#stateid").append(str);
+                            }
+                        },
+                        error: function (err) {
+                            alert(JSON.stringify(err));
+                        }
+                    });
+                }
+            });
+
+            $("#stateid").change(function () {
+
+                var val = $("#stateid").val();
+                alert(val);
+
+                if (val > 0) {
+                    $ajax({
+                        url: "/Test/GetCities" + val,
+                        type: "Get",
+                        contentType: "application/json",
+                        success: function (result) {
+                            alert(JSON.stringify(result));
+
+                            $("#cityid").empty();
+                            var str = "";
+                            for (var i = 0; i < result.length; i++) {
+                                str = "<option value=" + result[i].cityID + ">" + result[i].cityName + "</option>";
+                                $("#cityid").append(str);
+                            }
+                        },
+                        error: function (err) {
+                            alert(JSON.stringify(err));
+                        }
+                    });
+                }
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div> 
+        <h2> Cascading DropDown </h2>
+        <hr />
+        <table border="1">
+            <tr>
+                <td> Country </td>
+                <td> State </td>
+                <td> City </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="countryid" hidden="@ViewBag.CountryID">
+                        <option value="0"> Select Country </option>
+                    </select>
+                </td>
+
+                <td>
+                    <select id="stateid" hidden="@ViewBag.StateID">
+                        <option value="0"> Select State </option>
+                    </select>
+                </td>
+
+                <td>
+                    <select id="cityid" hidden="@ViewBag.CityID">
+                        <option value="0"> Select City </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
