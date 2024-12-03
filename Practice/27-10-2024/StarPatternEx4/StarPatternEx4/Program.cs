@@ -46,7 +46,7 @@ namespace StarPatternEx4
                 }
                 for(int k=1; k<=i; k++)
                 {
-                    Console.Write(k + " ");
+                    Console.Write(i + " ");
                 }
                 Console.WriteLine();
             }
