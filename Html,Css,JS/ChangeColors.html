@@ -1,0 +1,25 @@
+<html>
+	<head>
+	<title> Change Color </title>
+	<h2> Change Background Color </h2>
+	<script type="text/javascript">
+		function changecolor()
+		{
+		var c=document.frm.color.value;
+		document.bgColor=c;
+		}
+	</script>
+	</head>
+	<body style="text-align:center">
+	<form name="frm">
+	Select Color:
+		<select name="color">
+		<option value="red"> Red </option>
+		<option value="green"> Green </option>
+		<option value="blue"> Blue </option>
+		<option value="gold"> Gold </option>
+		</select> <br>
+		<input type="button" value="Change Color" onclick="changecolor()">
+	</form>
+	</body>
+</html>

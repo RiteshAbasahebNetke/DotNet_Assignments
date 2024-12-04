@@ -1,0 +1,46 @@
+<html>
+	<head>
+	<title> Select Ex </title>
+	<h2> Arithmetic Operations </h2>
+	<script type="text/javascript">
+
+	function ops()
+	{
+	var v=document.frm.ops.value;
+	var a,b,c;
+	 a=parseInt(document.frm.fn.value);
+	 b=parseInt(document.frm.sn.value);
+		switch(v)
+		{
+			case"+":
+			 c=a+b;
+			 break;
+			case"-":
+			 c=a-b;
+			 break;
+			case"*":
+			 c=a*b;
+			 break;
+			case"/":
+			 c=a/b;
+			 break;
+		}
+		document.frm.res.value=c;
+	}
+	</script>
+	</head>
+	<body style="text-align:center">
+		<form name="frm">
+		First Number:<input type=text name="fn"> <br> <br>
+		Second Number:<input type=text name="sn"> <br> <br>
+		Select Operator:
+		<select name="op">
+			<option value="+"> + </option>
+			<option value="-"> - </option>
+			<option value="*"> * </option>
+			<option value="/"> / </option>
+		</select> <br>
+		<input type="text" name="res"> <br> <br>
+		<input type="button" value="click" onclick="ops()"> <br>
+	</body>
+</html>

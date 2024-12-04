@@ -1,0 +1,24 @@
+<html>
+	<head>
+	<title> Factorial of Numbers </title>
+	<h2> Factorial of a Number </h2>
+	<script type="text/javascript">
+		function GetFact()
+		{
+		var fnum=parseInt(document.factfrm.number.value);
+		var fact=1;
+			for(var cnt=1; cnt<fnum; cnt++)
+			{
+			fact=fact*cnt;
+			}
+			alert("Factorial is:" + fact);
+		}
+	</script>
+	</head>
+	<body style="text-align:center">
+		<form name="factfrm">
+		Enter Number:<input type=text name="number"> <br> <br>
+		<input type=button onclick="GetFact()" value="Factorial">
+		</form>
+	</body>
+</html>
