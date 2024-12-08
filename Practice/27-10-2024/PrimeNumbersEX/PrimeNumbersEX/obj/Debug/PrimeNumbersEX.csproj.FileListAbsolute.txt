@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\27-10-2024\PrimeNumbersEX\PrimeNumbersEX\bin\Debug\PrimeNumbersEX.exe.config
+C:\Users\Ritesh\source\Practice\27-10-2024\PrimeNumbersEX\PrimeNumbersEX\bin\Debug\PrimeNumbersEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\PrimeNumbersEX\PrimeNumbersEX\bin\Debug\PrimeNumbersEX.pdb
+C:\Users\Ritesh\source\Practice\27-10-2024\PrimeNumbersEX\PrimeNumbersEX\obj\Debug\PrimeNumbersEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\PrimeNumbersEX\PrimeNumbersEX\obj\Debug\PrimeNumbersEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\PrimeNumbersEX\PrimeNumbersEX\obj\Debug\PrimeNumbersEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\27-10-2024\PrimeNumbersEX\PrimeNumbersEX\obj\Debug\PrimeNumbersEX.exe
+C:\Users\Ritesh\source\Practice\27-10-2024\PrimeNumbersEX\PrimeNumbersEX\obj\Debug\PrimeNumbersEX.pdb
