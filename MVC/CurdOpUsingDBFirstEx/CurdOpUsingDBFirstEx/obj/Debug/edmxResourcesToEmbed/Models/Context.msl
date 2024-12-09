@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CurdOp9ModelStoreContainer" CdmEntityContainer="CurdOp9Entities">
+    <EntitySetMapping Name="AreaTbls">
+      <EntityTypeMapping TypeName="CurdOp9Model.AreaTbl">
+        <MappingFragment StoreEntitySet="AreaTbl">
+          <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+          <ScalarProperty Name="AreaName" ColumnName="AreaName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerTbls">
+      <EntityTypeMapping TypeName="CurdOp9Model.CustomerTbl">
+        <MappingFragment StoreEntitySet="CustomerTbl">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="CreditLimit" ColumnName="CreditLimit" />
+          <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

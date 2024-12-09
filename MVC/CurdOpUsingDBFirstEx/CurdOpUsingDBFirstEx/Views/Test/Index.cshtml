@@ -1,0 +1,48 @@
+﻿@model IEnumerable<CurdOpUsingDBFirstEx.Models.CustomerTbl>
+@{
+    Layout = null;
+    int SrNo = 1;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h2> Customer List </h2>
+        <hr />
+        <div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th align="center"> Sr No </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.CustomerName) </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.EmailID) </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.AreaTbl.AreaName) </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.CreditLimit) </th>
+                        <th align="center"> Actions </th>
+                    </tr>
+                </thead>
+                @foreach(var temp in Model)
+            {
+                <tr>
+                    <td align="center"> @(SrNo++) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.CustomerName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.EmailID) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.AreaTbl.AreaName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.CreditLimit) </td>
+                    <td align="center">
+                        @Html.ActionLink("Edit", "Edit", new {id=temp.CustomerID})
+                        @Html.ActionLink("Delete", "Delete", new {id=temp.CustomerID})
+                    </td>
+                </tr>
+            }
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿@model CurdOpUsingCodeFirstEx.Models.Customer
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div>
+        <h2> Update Customer Details </h2>
+        <hr />
+        <div>
+            @using (Html.BeginForm())
+            {
+                @Html.HiddenFor(p=>p.CustomerID)
+                <div>
+                    @Html.DisplayNameFor(p => p.CustomerName)
+                    <div>
+                        @Html.EditorFor(p => p.CustomerName)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.DisplayNameFor(p => p.EmailID)
+                    <div>
+                        @Html.EditorFor(p => p.EmailID)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.DisplayNameFor(p => p.CreditLimit)
+                    <div>
+                        @Html.EditorFor(p => p.CreditLimit)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.DisplayNameFor(p => p.Area.AreaName)
+                    <div>
+                        @Html.DropDownList("AreaID", "Select Area")
+                    </div>
+                </div>
+
+                <div>
+                    <input type="submit" value="Update" />
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

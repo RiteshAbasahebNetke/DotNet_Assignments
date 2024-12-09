@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CurdOp9Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AreaTbl">
+          <Key>
+            <PropertyRef Name="AreaID" />
+          </Key>
+          <Property Name="AreaID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AreaName" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="CustomerTbl">
+          <Key>
+            <PropertyRef Name="CustomerID" />
+          </Key>
+          <Property Name="CustomerID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustomerName" Type="nvarchar(max)" />
+          <Property Name="EmailID" Type="nvarchar(max)" />
+          <Property Name="CreditLimit" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="AreaID" Type="bigint" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_dbo_CustomerTbl_dbo_AreaTbl_AreaID">
+          <End Role="AreaTbl" Type="Self.AreaTbl" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="CustomerTbl" Type="Self.CustomerTbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AreaTbl">
+              <PropertyRef Name="AreaID" />
+            </Principal>
+            <Dependent Role="CustomerTbl">
+              <PropertyRef Name="AreaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CurdOp9ModelStoreContainer">
+          <EntitySet Name="AreaTbl" EntityType="Self.AreaTbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CustomerTbl" EntityType="Self.CustomerTbl" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_dbo_CustomerTbl_dbo_AreaTbl_AreaID" Association="Self.FK_dbo_CustomerTbl_dbo_AreaTbl_AreaID">
+            <End Role="AreaTbl" EntitySet="AreaTbl" />
+            <End Role="CustomerTbl" EntitySet="CustomerTbl" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CurdOp9Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AreaTbl">
+          <Key>
+            <PropertyRef Name="AreaID" />
+          </Key>
+          <Property Name="AreaID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AreaName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="CustomerTbls" Relationship="Self.FK_dbo_CustomerTbl_dbo_AreaTbl_AreaID" FromRole="AreaTbl" ToRole="CustomerTbl" />
+        </EntityType>
+        <EntityType Name="CustomerTbl">
+          <Key>
+            <PropertyRef Name="CustomerID" />
+          </Key>
+          <Property Name="CustomerID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="EmailID" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreditLimit" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="AreaID" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="AreaTbl" Relationship="Self.FK_dbo_CustomerTbl_dbo_AreaTbl_AreaID" FromRole="CustomerTbl" ToRole="AreaTbl" />
+        </EntityType>
+        <Association Name="FK_dbo_CustomerTbl_dbo_AreaTbl_AreaID">
+          <End Role="AreaTbl" Type="Self.AreaTbl" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="CustomerTbl" Type="Self.CustomerTbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AreaTbl">
+              <PropertyRef Name="AreaID" />
+            </Principal>
+            <Dependent Role="CustomerTbl">
+              <PropertyRef Name="AreaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CurdOp9Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AreaTbls" EntityType="Self.AreaTbl" />
+          <EntitySet Name="CustomerTbls" EntityType="Self.CustomerTbl" />
+          <AssociationSet Name="FK_dbo_CustomerTbl_dbo_AreaTbl_AreaID" Association="Self.FK_dbo_CustomerTbl_dbo_AreaTbl_AreaID">
+            <End Role="AreaTbl" EntitySet="AreaTbls" />
+            <End Role="CustomerTbl" EntitySet="CustomerTbls" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CurdOp9ModelStoreContainer" CdmEntityContainer="CurdOp9Entities">
+          <EntitySetMapping Name="AreaTbls">
+            <EntityTypeMapping TypeName="CurdOp9Model.AreaTbl">
+              <MappingFragment StoreEntitySet="AreaTbl">
+                <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+                <ScalarProperty Name="AreaName" ColumnName="AreaName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CustomerTbls">
+            <EntityTypeMapping TypeName="CurdOp9Model.CustomerTbl">
+              <MappingFragment StoreEntitySet="CustomerTbl">
+                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+                <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+                <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+                <ScalarProperty Name="CreditLimit" ColumnName="CreditLimit" />
+                <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

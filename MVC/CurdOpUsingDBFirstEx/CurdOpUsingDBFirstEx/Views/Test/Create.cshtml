@@ -1,0 +1,55 @@
+﻿@model CurdOpUsingDBFirstEx.Models.CustomerTbl
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <div> 
+        <h2> Add Customer Details </h2>
+        <hr />
+        <div>
+            @using(Html.BeginForm())
+            {
+                <div>
+                    @Html.DisplayNameFor(p=>p.CustomerName)
+                    <div>
+                        @Html.EditorFor(p=>p.CustomerName)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.DisplayNameFor(p=>p.EmailID)
+                    <div>
+                        @Html.EditorFor(p=>p.EmailID) 
+                    </div>
+                </div>
+
+                <div>
+                    @Html.DisplayNameFor(p=>p.CreditLimit)
+                    <div>
+                        @Html.EditorFor(p=>p.CreditLimit)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.DisplayNameFor(p=>p.AreaTbl.AreaName)
+                    <div>
+                        @Html.DropDownList("AreaID","Select Area")
+                    </div>
+                </div>
+
+                <div>
+                    <input type="submit" value="Save" />
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>
