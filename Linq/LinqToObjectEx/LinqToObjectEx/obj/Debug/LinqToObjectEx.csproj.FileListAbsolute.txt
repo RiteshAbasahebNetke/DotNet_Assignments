@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\LINQ\31-10-2024\LinqToObjectEx\LinqToObjectEx\bin\Debug\LinqToObjectEx.exe.config
+C:\Users\Ritesh\source\LINQ\31-10-2024\LinqToObjectEx\LinqToObjectEx\bin\Debug\LinqToObjectEx.exe
+C:\Users\Ritesh\source\LINQ\31-10-2024\LinqToObjectEx\LinqToObjectEx\bin\Debug\LinqToObjectEx.pdb
+C:\Users\Ritesh\source\LINQ\31-10-2024\LinqToObjectEx\LinqToObjectEx\obj\Debug\LinqToObjectEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\LINQ\31-10-2024\LinqToObjectEx\LinqToObjectEx\obj\Debug\LinqToObjectEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\LINQ\31-10-2024\LinqToObjectEx\LinqToObjectEx\obj\Debug\LinqToObjectEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\LINQ\31-10-2024\LinqToObjectEx\LinqToObjectEx\obj\Debug\LinqToObjectEx.exe
+C:\Users\Ritesh\source\LINQ\31-10-2024\LinqToObjectEx\LinqToObjectEx\obj\Debug\LinqToObjectEx.pdb
