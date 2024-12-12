@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\StudentEx\StudentEx\bin\Debug\StudentEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\StudentEx\StudentEx\bin\Debug\StudentEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\StudentEx\StudentEx\bin\Debug\StudentEx.pdb
+C:\Users\Ritesh\source\Practice\Practice3\StudentEx\StudentEx\obj\Debug\StudentEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\StudentEx\StudentEx\obj\Debug\StudentEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\StudentEx\StudentEx\obj\Debug\StudentEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\StudentEx\StudentEx\obj\Debug\StudentEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\StudentEx\StudentEx\obj\Debug\StudentEx.pdb

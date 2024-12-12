@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\EmpEX\EmpEX\bin\Debug\EmpEX.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\EmpEX\EmpEX\bin\Debug\EmpEX.exe
+C:\Users\Ritesh\source\Practice\Practice3\EmpEX\EmpEX\bin\Debug\EmpEX.pdb
+C:\Users\Ritesh\source\Practice\Practice3\EmpEX\EmpEX\obj\Debug\EmpEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\EmpEX\EmpEX\obj\Debug\EmpEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\EmpEX\EmpEX\obj\Debug\EmpEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\EmpEX\EmpEX\obj\Debug\EmpEX.exe
+C:\Users\Ritesh\source\Practice\Practice3\EmpEX\EmpEX\obj\Debug\EmpEX.pdb

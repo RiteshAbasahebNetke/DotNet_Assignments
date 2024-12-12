@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\ProductEX\ProductEX\bin\Debug\ProductEX.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\ProductEX\ProductEX\bin\Debug\ProductEX.exe
+C:\Users\Ritesh\source\Practice\Practice3\ProductEX\ProductEX\bin\Debug\ProductEX.pdb
+C:\Users\Ritesh\source\Practice\Practice3\ProductEX\ProductEX\obj\Debug\ProductEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\ProductEX\ProductEX\obj\Debug\ProductEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\ProductEX\ProductEX\obj\Debug\ProductEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\ProductEX\ProductEX\obj\Debug\ProductEX.exe
+C:\Users\Ritesh\source\Practice\Practice3\ProductEX\ProductEX\obj\Debug\ProductEX.pdb
