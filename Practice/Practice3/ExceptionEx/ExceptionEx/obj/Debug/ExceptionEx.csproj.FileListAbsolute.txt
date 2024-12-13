@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\ExceptionEx\ExceptionEx\bin\Debug\ExceptionEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\ExceptionEx\ExceptionEx\bin\Debug\ExceptionEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\ExceptionEx\ExceptionEx\bin\Debug\ExceptionEx.pdb
+C:\Users\Ritesh\source\Practice\Practice3\ExceptionEx\ExceptionEx\obj\Debug\ExceptionEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\ExceptionEx\ExceptionEx\obj\Debug\ExceptionEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\ExceptionEx\ExceptionEx\obj\Debug\ExceptionEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\ExceptionEx\ExceptionEx\obj\Debug\ExceptionEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\ExceptionEx\ExceptionEx\obj\Debug\ExceptionEx.pdb

@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\DelegateEx\DelegateEx\bin\Debug\DelegateEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\DelegateEx\DelegateEx\bin\Debug\DelegateEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\DelegateEx\DelegateEx\bin\Debug\DelegateEx.pdb
+C:\Users\Ritesh\source\Practice\Practice3\DelegateEx\DelegateEx\obj\Debug\DelegateEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\DelegateEx\DelegateEx\obj\Debug\DelegateEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\DelegateEx\DelegateEx\obj\Debug\DelegateEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\DelegateEx\DelegateEx\obj\Debug\DelegateEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\DelegateEx\DelegateEx\obj\Debug\DelegateEx.pdb

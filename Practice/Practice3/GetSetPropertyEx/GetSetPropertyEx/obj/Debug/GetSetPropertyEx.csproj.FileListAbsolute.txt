@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\GetSetPropertyEx\GetSetPropertyEx\bin\Debug\GetSetPropertyEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\GetSetPropertyEx\GetSetPropertyEx\bin\Debug\GetSetPropertyEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\GetSetPropertyEx\GetSetPropertyEx\bin\Debug\GetSetPropertyEx.pdb
+C:\Users\Ritesh\source\Practice\Practice3\GetSetPropertyEx\GetSetPropertyEx\obj\Debug\GetSetPropertyEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\GetSetPropertyEx\GetSetPropertyEx\obj\Debug\GetSetPropertyEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\GetSetPropertyEx\GetSetPropertyEx\obj\Debug\GetSetPropertyEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\GetSetPropertyEx\GetSetPropertyEx\obj\Debug\GetSetPropertyEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\GetSetPropertyEx\GetSetPropertyEx\obj\Debug\GetSetPropertyEx.pdb
