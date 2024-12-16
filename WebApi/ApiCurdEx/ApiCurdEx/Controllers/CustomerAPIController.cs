@@ -55,7 +55,7 @@ namespace ApiCurdEx.Controllers
             return Ok("Record Updated");
         }
 
-        [HttpDelete("id")]
+        /*[HttpDelete("id")]
         public IActionResult Delete(Int64 id)
         {
             if (id == 0)
@@ -65,6 +65,6 @@ namespace ApiCurdEx.Controllers
             this.c.Customers.Remove(rec);
             this.c.SaveChanges();
             return Ok("Record Deleted");
-        }
+        }*/
     }
 }

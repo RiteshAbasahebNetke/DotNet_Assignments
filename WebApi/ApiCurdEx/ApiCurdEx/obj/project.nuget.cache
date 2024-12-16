@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ucYD1fVNqKCYPvHvbCmeoxV0PdVv9upAUKV9l3Rc+CRJ4NCQ3uTi+GBeqA74IN0kz9zs0I3HE3TuVtYoSmH4Nw==",
+  "dgSpecHash": "Tu8TEIwN2ILV1XStQ23JZoyPWX/GGT/fovqtusfftHbrKsqr5qvEd8LaT3lnOxLc8gwvcAuYXhIhGrdicviJ8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ritesh\\source\\Web API\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj",
+  "projectFilePath": "C:\\Users\\Ritesh\\Assignments\\WebApi\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ritesh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ritesh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

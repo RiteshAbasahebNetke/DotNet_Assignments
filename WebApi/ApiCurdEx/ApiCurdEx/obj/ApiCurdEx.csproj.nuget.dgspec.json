@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ritesh\\source\\Web API\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj": {}
+    "C:\\Users\\Ritesh\\Assignments\\WebApi\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ritesh\\source\\Web API\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj": {
+    "C:\\Users\\Ritesh\\Assignments\\WebApi\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ritesh\\source\\Web API\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj",
+        "projectUniqueName": "C:\\Users\\Ritesh\\Assignments\\WebApi\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj",
         "projectName": "ApiCurdEx",
-        "projectPath": "C:\\Users\\Ritesh\\source\\Web API\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj",
+        "projectPath": "C:\\Users\\Ritesh\\Assignments\\WebApi\\ApiCurdEx\\ApiCurdEx\\ApiCurdEx.csproj",
         "packagesPath": "C:\\Users\\Ritesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ritesh\\source\\Web API\\ApiCurdEx\\ApiCurdEx\\obj\\",
+        "outputPath": "C:\\Users\\Ritesh\\Assignments\\WebApi\\ApiCurdEx\\ApiCurdEx\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ritesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
