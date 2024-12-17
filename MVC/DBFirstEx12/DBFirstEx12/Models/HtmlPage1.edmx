@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="codefirst12Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CatTbl">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CategoryName" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ProdTbl">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductName" Type="nvarchar(max)" />
+          <Property Name="MfgName" Type="nvarchar(max)" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CategoryID" Type="bigint" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_dbo_ProdTbl_dbo_CatTbl_CategoryID">
+          <End Role="CatTbl" Type="Self.CatTbl" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProdTbl" Type="Self.ProdTbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CatTbl">
+              <PropertyRef Name="CategoryID" />
+            </Principal>
+            <Dependent Role="ProdTbl">
+              <PropertyRef Name="CategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="codefirst12ModelStoreContainer">
+          <EntitySet Name="CatTbl" EntityType="Self.CatTbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProdTbl" EntityType="Self.ProdTbl" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_dbo_ProdTbl_dbo_CatTbl_CategoryID" Association="Self.FK_dbo_ProdTbl_dbo_CatTbl_CategoryID">
+            <End Role="CatTbl" EntitySet="CatTbl" />
+            <End Role="ProdTbl" EntitySet="ProdTbl" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="codefirst12Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CatTbl">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ProdTbls" Relationship="Self.FK_dbo_ProdTbl_dbo_CatTbl_CategoryID" FromRole="CatTbl" ToRole="ProdTbl" />
+        </EntityType>
+        <EntityType Name="ProdTbl">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MfgName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CategoryID" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="CatTbl" Relationship="Self.FK_dbo_ProdTbl_dbo_CatTbl_CategoryID" FromRole="ProdTbl" ToRole="CatTbl" />
+        </EntityType>
+        <Association Name="FK_dbo_ProdTbl_dbo_CatTbl_CategoryID">
+          <End Role="CatTbl" Type="Self.CatTbl" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProdTbl" Type="Self.ProdTbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CatTbl">
+              <PropertyRef Name="CategoryID" />
+            </Principal>
+            <Dependent Role="ProdTbl">
+              <PropertyRef Name="CategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="codefirst12Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CatTbls" EntityType="Self.CatTbl" />
+          <EntitySet Name="ProdTbls" EntityType="Self.ProdTbl" />
+          <AssociationSet Name="FK_dbo_ProdTbl_dbo_CatTbl_CategoryID" Association="Self.FK_dbo_ProdTbl_dbo_CatTbl_CategoryID">
+            <End Role="CatTbl" EntitySet="CatTbls" />
+            <End Role="ProdTbl" EntitySet="ProdTbls" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="codefirst12ModelStoreContainer" CdmEntityContainer="codefirst12Entities">
+          <EntitySetMapping Name="CatTbls">
+            <EntityTypeMapping TypeName="codefirst12Model.CatTbl">
+              <MappingFragment StoreEntitySet="CatTbl">
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProdTbls">
+            <EntityTypeMapping TypeName="codefirst12Model.ProdTbl">
+              <MappingFragment StoreEntitySet="ProdTbl">
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="MfgName" ColumnName="MfgName" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
