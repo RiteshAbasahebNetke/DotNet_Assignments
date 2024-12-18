@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\StarEx3\StarEx3\bin\Debug\StarEx3.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\StarEx3\StarEx3\bin\Debug\StarEx3.exe
+C:\Users\Ritesh\source\Practice\Practice3\StarEx3\StarEx3\bin\Debug\StarEx3.pdb
+C:\Users\Ritesh\source\Practice\Practice3\StarEx3\StarEx3\obj\Debug\StarEx3.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\StarEx3\StarEx3\obj\Debug\StarEx3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\StarEx3\StarEx3\obj\Debug\StarEx3.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\StarEx3\StarEx3\obj\Debug\StarEx3.exe
+C:\Users\Ritesh\source\Practice\Practice3\StarEx3\StarEx3\obj\Debug\StarEx3.pdb

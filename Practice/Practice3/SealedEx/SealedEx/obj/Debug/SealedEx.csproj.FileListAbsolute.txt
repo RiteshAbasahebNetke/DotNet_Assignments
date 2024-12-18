@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\SealedEx\SealedEx\bin\Debug\SealedEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\SealedEx\SealedEx\bin\Debug\SealedEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\SealedEx\SealedEx\bin\Debug\SealedEx.pdb
+C:\Users\Ritesh\source\Practice\Practice3\SealedEx\SealedEx\obj\Debug\SealedEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\SealedEx\SealedEx\obj\Debug\SealedEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\SealedEx\SealedEx\obj\Debug\SealedEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\SealedEx\SealedEx\obj\Debug\SealedEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\SealedEx\SealedEx\obj\Debug\SealedEx.pdb
