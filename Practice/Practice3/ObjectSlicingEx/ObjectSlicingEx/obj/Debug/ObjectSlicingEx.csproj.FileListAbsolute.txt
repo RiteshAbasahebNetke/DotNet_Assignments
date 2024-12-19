@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\ObjectSlicingEx\ObjectSlicingEx\bin\Debug\ObjectSlicingEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\ObjectSlicingEx\ObjectSlicingEx\bin\Debug\ObjectSlicingEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\ObjectSlicingEx\ObjectSlicingEx\bin\Debug\ObjectSlicingEx.pdb
+C:\Users\Ritesh\source\Practice\Practice3\ObjectSlicingEx\ObjectSlicingEx\obj\Debug\ObjectSlicingEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\ObjectSlicingEx\ObjectSlicingEx\obj\Debug\ObjectSlicingEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\ObjectSlicingEx\ObjectSlicingEx\obj\Debug\ObjectSlicingEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\ObjectSlicingEx\ObjectSlicingEx\obj\Debug\ObjectSlicingEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\ObjectSlicingEx\ObjectSlicingEx\obj\Debug\ObjectSlicingEx.pdb
