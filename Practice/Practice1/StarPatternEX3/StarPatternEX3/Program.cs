@@ -20,11 +20,20 @@ namespace StarPatternEX3
                 Console.WriteLine();
             }*/
 
-            for(int i=1;i<=5;i++)
+            /*for(int i=1;i<=5;i++)
             {
                 for(int j=5;j>=i;j--)
                 {
                     Console.Write(i);
+                }
+                Console.WriteLine();
+            }*/
+
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int j = 5; j >= i; j--)
+                {
+                    Console.Write(j);
                 }
                 Console.WriteLine();
             }
