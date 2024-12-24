@@ -1,0 +1,16 @@
+D:\2024\6.15 to 7.30 PM\LINQ\ExtensionMethodEx\ExtensionMethodEx\bin\Debug\ExtensionMethodEx.exe.config
+D:\2024\6.15 to 7.30 PM\LINQ\ExtensionMethodEx\ExtensionMethodEx\bin\Debug\ExtensionMethodEx.exe
+D:\2024\6.15 to 7.30 PM\LINQ\ExtensionMethodEx\ExtensionMethodEx\bin\Debug\ExtensionMethodEx.pdb
+D:\2024\6.15 to 7.30 PM\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.csproj.AssemblyReference.cache
+D:\2024\6.15 to 7.30 PM\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.csproj.SuggestedBindingRedirects.cache
+D:\2024\6.15 to 7.30 PM\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.csproj.CoreCompileInputs.cache
+D:\2024\6.15 to 7.30 PM\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.exe
+D:\2024\6.15 to 7.30 PM\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.pdb
+C:\Users\Ritesh\Documents\LINQ\ExtensionMethodEx\ExtensionMethodEx\bin\Debug\ExtensionMethodEx.exe.config
+C:\Users\Ritesh\Documents\LINQ\ExtensionMethodEx\ExtensionMethodEx\bin\Debug\ExtensionMethodEx.exe
+C:\Users\Ritesh\Documents\LINQ\ExtensionMethodEx\ExtensionMethodEx\bin\Debug\ExtensionMethodEx.pdb
+C:\Users\Ritesh\Documents\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\Documents\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\Documents\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\Documents\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.exe
+C:\Users\Ritesh\Documents\LINQ\ExtensionMethodEx\ExtensionMethodEx\obj\Debug\ExtensionMethodEx.pdb
