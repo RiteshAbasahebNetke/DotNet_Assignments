@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Collection\Generic_CollectionEX\Generic_CollectionEX\bin\Debug\Generic_CollectionEX.exe.config
+C:\Users\Ritesh\source\Collection\Generic_CollectionEX\Generic_CollectionEX\bin\Debug\Generic_CollectionEX.exe
+C:\Users\Ritesh\source\Collection\Generic_CollectionEX\Generic_CollectionEX\bin\Debug\Generic_CollectionEX.pdb
+C:\Users\Ritesh\source\Collection\Generic_CollectionEX\Generic_CollectionEX\obj\Debug\Generic_CollectionEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Collection\Generic_CollectionEX\Generic_CollectionEX\obj\Debug\Generic_CollectionEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Collection\Generic_CollectionEX\Generic_CollectionEX\obj\Debug\Generic_CollectionEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Collection\Generic_CollectionEX\Generic_CollectionEX\obj\Debug\Generic_CollectionEX.exe
+C:\Users\Ritesh\source\Collection\Generic_CollectionEX\Generic_CollectionEX\obj\Debug\Generic_CollectionEX.pdb
