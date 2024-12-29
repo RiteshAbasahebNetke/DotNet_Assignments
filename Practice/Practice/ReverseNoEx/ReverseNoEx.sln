@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNoEx", "ReverseNoEx\ReverseNoEx.csproj", "{A172114F-8EE5-4F86-B698-EBB9051646CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A172114F-8EE5-4F86-B698-EBB9051646CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A172114F-8EE5-4F86-B698-EBB9051646CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A172114F-8EE5-4F86-B698-EBB9051646CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A172114F-8EE5-4F86-B698-EBB9051646CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E9CED0D-484C-4FA4-A143-7025570D9E34}
+	EndGlobalSection
+EndGlobal
