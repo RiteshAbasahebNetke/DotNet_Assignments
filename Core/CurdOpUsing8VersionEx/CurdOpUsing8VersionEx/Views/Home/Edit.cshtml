@@ -1,0 +1,46 @@
+﻿@model Product
+
+<html>
+<head>
+    <title> Home-Edit </title>
+</head>
+<body>
+    <div>
+        <h2> Update Product Details </h2>
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="ProductID"/>
+            <div>
+                <label asp-for="ProductName"></label>
+                <div>
+                    <input asp-for="ProductName" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="MfgName"></label>
+                <div>
+                    <input asp-for="MfgName" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Price"></label>
+                <div>
+                    <input asp-for="Price" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Category.CategoryName"></label>
+                <select asp-for="CategoryID" asp-items="@ViewBag.CategoryID">
+                    <option> Select Category </option>
+                </select>
+            </div>
+
+            <div>
+                <input type="submit" value="Update" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>
