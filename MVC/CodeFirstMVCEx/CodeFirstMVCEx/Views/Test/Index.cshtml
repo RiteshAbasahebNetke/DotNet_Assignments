@@ -1,0 +1,49 @@
+﻿@model IEnumerable<CodeFirstMVCEx.Models.Emp>
+@{
+    Layout = null;
+    //int SrNo = 1;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h2> Employee List </h2>
+        <div>
+            @Html.ActionLink("Create New","Create")
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.EmpID) </td>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.EmpName) </td>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.EmailID) </td>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.MobileNo) </td>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.Dept.DeptName) </td>
+                        <td align="center"> @Html.DisplayNameFor(p=>p.Salary) </td>
+                        <td> Actions </td>
+                    </tr>
+                </thead>
+                @foreach(var temp in Model)
+            {
+                <tr>
+                    <td align="center"> @Html.DisplayFor(p=>temp.EmpName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.EmailID) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.MobileNo) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.Dept.DeptName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.Salary) </td>
+                    <td align="center">
+                        @Html.ActionLink("Edit", "Edit", new { id = temp.EmpID })
+                        @Html.ActionLink("Delete", "Delete", new { id = temp.EmpID })
+                    </td>
+                </tr>
+            }
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿@model CodeFirstMVCEx.Models.Emp
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <div> 
+        <h2> Add Emp Details </h2>
+        <div>
+            @using(Html.BeginForm())
+            {
+                <div>
+                    @Html.LabelFor(p=>p.EmpName)
+                    <div>
+                        @Html.EditorFor(p => p.EmpName)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.LabelFor(p=>p.EmailID)
+                    <div>
+                        @Html.EditorFor(p => p.EmailID)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.LabelFor(p=>p.MobileNo)
+                    <div>
+                        @Html.EditorFor(p => p.MobileNo)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.LabelFor(p=>p.Salary)
+                    <div>
+                        @Html.EditorFor(p => p.Salary)
+                    </div>
+                </div>
+
+                <div>
+                    @Html.LabelFor(p=>p.Dept.DeptName)
+                    <div>
+                        @Html.DropDownList("DeptID", "Select Dept")
+                    </div>
+                </div>
+
+                <div>
+                    <input type="submit" value="Save"/>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

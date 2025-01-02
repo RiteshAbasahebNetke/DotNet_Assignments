@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DDE9E5-3776-49C4-BB4B-CAEEEEA2EC47}|CodeFirstMVCEx\\CodeFirstMVCEx.csproj|c:\\users\\ritesh\\source\\mvc\\codefirstmvcex\\codefirstmvcex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DDE9E5-3776-49C4-BB4B-CAEEEEA2EC47}|CodeFirstMVCEx\\CodeFirstMVCEx.csproj|solutionrelative:codefirstmvcex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DDE9E5-3776-49C4-BB4B-CAEEEEA2EC47}|CodeFirstMVCEx\\CodeFirstMVCEx.csproj|C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\codefirstmvcex\\views\\test\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DDE9E5-3776-49C4-BB4B-CAEEEEA2EC47}|CodeFirstMVCEx\\CodeFirstMVCEx.csproj|solutionrelative:codefirstmvcex\\views\\test\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DDE9E5-3776-49C4-BB4B-CAEEEEA2EC47}|CodeFirstMVCEx\\CodeFirstMVCEx.csproj|C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\codefirstmvcex\\views\\test\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DDE9E5-3776-49C4-BB4B-CAEEEEA2EC47}|CodeFirstMVCEx\\CodeFirstMVCEx.csproj|solutionrelative:codefirstmvcex\\views\\test\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DDE9E5-3776-49C4-BB4B-CAEEEEA2EC47}|CodeFirstMVCEx\\CodeFirstMVCEx.csproj|C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\codefirstmvcex\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DDE9E5-3776-49C4-BB4B-CAEEEEA2EC47}|CodeFirstMVCEx\\CodeFirstMVCEx.csproj|solutionrelative:codefirstmvcex\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\CodeFirstMVCEx\\Views\\Test\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CodeFirstMVCEx\\Views\\Test\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\CodeFirstMVCEx\\Views\\Test\\Edit.cshtml",
+              "RelativeToolTip": "CodeFirstMVCEx\\Views\\Test\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T09:10:00.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\CodeFirstMVCEx\\Views\\Test\\Create.cshtml",
+              "RelativeDocumentMoniker": "CodeFirstMVCEx\\Views\\Test\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\CodeFirstMVCEx\\Views\\Test\\Create.cshtml",
+              "RelativeToolTip": "CodeFirstMVCEx\\Views\\Test\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T08:48:22.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\CodeFirstMVCEx\\Views\\Test\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodeFirstMVCEx\\Views\\Test\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\CodeFirstMVCEx\\Views\\Test\\Index.cshtml",
+              "RelativeToolTip": "CodeFirstMVCEx\\Views\\Test\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T07:14:07.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\CodeFirstMVCEx\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "CodeFirstMVCEx\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\MVC\\CodeFirstMVCEx\\CodeFirstMVCEx\\Controllers\\TestController.cs",
+              "RelativeToolTip": "CodeFirstMVCEx\\Controllers\\TestController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:12:43.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
