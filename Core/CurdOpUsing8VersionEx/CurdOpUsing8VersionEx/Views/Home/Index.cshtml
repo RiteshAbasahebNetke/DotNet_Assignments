@@ -28,8 +28,8 @@
                 <td align="center"> @temp.Category.CategoryName </td>
                 <td align="center"> @temp.Price </td>
                 <td align="center">
-                    <a asp-action="Edit" asp-route-id="ProductID"> Edit </a>
-                    <a asp-action="Delete" asp-route-id="ProductID"> Delete </a>
+                    <a asp-action="Edit" asp-route-id="@temp.ProductID"> Edit </a>
+                            <a asp-action="Delete" asp-route-id="@temp.ProductID"> Delete </a>
                 </td>
             </tr>
             </tbody>
