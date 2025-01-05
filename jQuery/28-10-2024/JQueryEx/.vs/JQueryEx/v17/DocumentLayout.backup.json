@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JQueryEx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6874688-DDE2-4849-B602-B6694307EB83}|JQueryEx\\JQueryEx.csproj|c:\\users\\ritesh\\assignments\\jquery\\28-10-2024\\jqueryex\\jqueryex\\views\\test\\domtraversal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6874688-DDE2-4849-B602-B6694307EB83}|JQueryEx\\JQueryEx.csproj|solutionrelative:jqueryex\\views\\test\\domtraversal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6874688-DDE2-4849-B602-B6694307EB83}|JQueryEx\\JQueryEx.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JQueryEx\\jqueryex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6874688-DDE2-4849-B602-B6694307EB83}|JQueryEx\\JQueryEx.csproj|solutionrelative:jqueryex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6874688-DDE2-4849-B602-B6694307EB83}|JQueryEx\\JQueryEx.csproj|c:\\users\\ritesh\\assignments\\jquery\\28-10-2024\\jqueryex\\jqueryex\\views\\test\\selectors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6874688-DDE2-4849-B602-B6694307EB83}|JQueryEx\\JQueryEx.csproj|solutionrelative:jqueryex\\views\\test\\selectors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DomTraversal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JQueryEx\\JQueryEx\\Views\\Test\\DomTraversal.cshtml",
+              "RelativeDocumentMoniker": "JQueryEx\\Views\\Test\\DomTraversal.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JQueryEx\\JQueryEx\\Views\\Test\\DomTraversal.cshtml",
+              "RelativeToolTip": "JQueryEx\\Views\\Test\\DomTraversal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T12:23:42.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Selectors.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JQueryEx\\JQueryEx\\Views\\Test\\Selectors.cshtml",
+              "RelativeDocumentMoniker": "JQueryEx\\Views\\Test\\Selectors.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JQueryEx\\JQueryEx\\Views\\Test\\Selectors.cshtml",
+              "RelativeToolTip": "JQueryEx\\Views\\Test\\Selectors.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T12:22:56.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JQueryEx\\JQueryEx\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "JQueryEx\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JQueryEx\\JQueryEx\\Controllers\\TestController.cs",
+              "RelativeToolTip": "JQueryEx\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T12:21:51.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
