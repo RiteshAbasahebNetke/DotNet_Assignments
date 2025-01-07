@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Armstrong_No\Armstrong_No\bin\Debug\Armstrong_No.exe.config
+C:\Users\Ritesh\source\Practice\Armstrong_No\Armstrong_No\bin\Debug\Armstrong_No.exe
+C:\Users\Ritesh\source\Practice\Armstrong_No\Armstrong_No\bin\Debug\Armstrong_No.pdb
+C:\Users\Ritesh\source\Practice\Armstrong_No\Armstrong_No\obj\Debug\Armstrong_No.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Armstrong_No\Armstrong_No\obj\Debug\Armstrong_No.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Armstrong_No\Armstrong_No\obj\Debug\Armstrong_No.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Armstrong_No\Armstrong_No\obj\Debug\Armstrong_No.exe
+C:\Users\Ritesh\source\Practice\Armstrong_No\Armstrong_No\obj\Debug\Armstrong_No.pdb
