@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\EnumCategoryEX\EnumCategoryEX\bin\Debug\EnumCategoryEX.exe.config
+C:\Users\Ritesh\source\Practice\EnumCategoryEX\EnumCategoryEX\bin\Debug\EnumCategoryEX.exe
+C:\Users\Ritesh\source\Practice\EnumCategoryEX\EnumCategoryEX\bin\Debug\EnumCategoryEX.pdb
+C:\Users\Ritesh\source\Practice\EnumCategoryEX\EnumCategoryEX\obj\Debug\EnumCategoryEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\EnumCategoryEX\EnumCategoryEX\obj\Debug\EnumCategoryEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\EnumCategoryEX\EnumCategoryEX\obj\Debug\EnumCategoryEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\EnumCategoryEX\EnumCategoryEX\obj\Debug\EnumCategoryEX.exe
+C:\Users\Ritesh\source\Practice\EnumCategoryEX\EnumCategoryEX\obj\Debug\EnumCategoryEX.pdb
