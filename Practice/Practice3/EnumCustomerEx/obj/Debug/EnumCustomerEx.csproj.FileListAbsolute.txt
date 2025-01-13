@@ -6,3 +6,10 @@ C:\Users\Ritesh\source\repos\Ritesh Program\EnumCustomerEx\bin\Debug\EnumCustome
 C:\Users\Ritesh\source\repos\Ritesh Program\EnumCustomerEx\bin\Debug\EnumCustomerEx.pdb
 C:\Users\Ritesh\source\repos\Ritesh Program\EnumCustomerEx\obj\Debug\EnumCustomerEx.exe
 C:\Users\Ritesh\source\repos\Ritesh Program\EnumCustomerEx\obj\Debug\EnumCustomerEx.pdb
+C:\Users\Ritesh\Assignments\Practice\Practice3\EnumCustomerEx\bin\Debug\EnumCustomerEx.exe.config
+C:\Users\Ritesh\Assignments\Practice\Practice3\EnumCustomerEx\bin\Debug\EnumCustomerEx.exe
+C:\Users\Ritesh\Assignments\Practice\Practice3\EnumCustomerEx\bin\Debug\EnumCustomerEx.pdb
+C:\Users\Ritesh\Assignments\Practice\Practice3\EnumCustomerEx\obj\Debug\EnumCustomerEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\Assignments\Practice\Practice3\EnumCustomerEx\obj\Debug\EnumCustomerEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\Assignments\Practice\Practice3\EnumCustomerEx\obj\Debug\EnumCustomerEx.exe
+C:\Users\Ritesh\Assignments\Practice\Practice3\EnumCustomerEx\obj\Debug\EnumCustomerEx.pdb
