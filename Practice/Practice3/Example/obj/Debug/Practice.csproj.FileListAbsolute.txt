@@ -1,0 +1,16 @@
+C:\Users\Ritesh\source\repos\Ritesh Program\Practice\bin\Debug\Practice.exe.config
+C:\Users\Ritesh\source\repos\Ritesh Program\Practice\bin\Debug\Practice.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Practice\bin\Debug\Practice.pdb
+C:\Users\Ritesh\source\repos\Ritesh Program\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Practice\obj\Debug\Practice.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\repos\Ritesh Program\Practice\obj\Debug\Practice.exe
+C:\Users\Ritesh\source\repos\Ritesh Program\Practice\obj\Debug\Practice.pdb
+C:\Users\Ritesh\source\Practice\bin\Debug\Practice.exe.config
+C:\Users\Ritesh\source\Practice\bin\Debug\Practice.exe
+C:\Users\Ritesh\source\Practice\bin\Debug\Practice.pdb
+C:\Users\Ritesh\source\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\obj\Debug\Practice.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\obj\Debug\Practice.exe
+C:\Users\Ritesh\source\Practice\obj\Debug\Practice.pdb
