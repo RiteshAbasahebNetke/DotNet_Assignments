@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\source\\MVC\\DBFirstCustomerEX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EE3EC-5001-4B5B-B540-DCD6EFA50113}|DBFirstCustomerEX\\DBFirstCustomerEX.csproj|c:\\users\\ritesh\\source\\mvc\\dbfirstcustomerex\\dbfirstcustomerex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1EE3EC-5001-4B5B-B540-DCD6EFA50113}|DBFirstCustomerEX\\DBFirstCustomerEX.csproj|solutionrelative:dbfirstcustomerex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EE3EC-5001-4B5B-B540-DCD6EFA50113}|DBFirstCustomerEX\\DBFirstCustomerEX.csproj|c:\\users\\ritesh\\source\\mvc\\dbfirstcustomerex\\dbfirstcustomerex\\views\\test\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C1EE3EC-5001-4B5B-B540-DCD6EFA50113}|DBFirstCustomerEX\\DBFirstCustomerEX.csproj|solutionrelative:dbfirstcustomerex\\views\\test\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EE3EC-5001-4B5B-B540-DCD6EFA50113}|DBFirstCustomerEX\\DBFirstCustomerEX.csproj|c:\\users\\ritesh\\source\\mvc\\dbfirstcustomerex\\dbfirstcustomerex\\views\\test\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C1EE3EC-5001-4B5B-B540-DCD6EFA50113}|DBFirstCustomerEX\\DBFirstCustomerEX.csproj|solutionrelative:dbfirstcustomerex\\views\\test\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EE3EC-5001-4B5B-B540-DCD6EFA50113}|DBFirstCustomerEX\\DBFirstCustomerEX.csproj|c:\\users\\ritesh\\source\\mvc\\dbfirstcustomerex\\dbfirstcustomerex\\models\\common.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{9C1EE3EC-5001-4B5B-B540-DCD6EFA50113}|DBFirstCustomerEX\\DBFirstCustomerEX.csproj|solutionrelative:dbfirstcustomerex\\models\\common.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\MVC\\DBFirstCustomerEX\\DBFirstCustomerEX\\Views\\Test\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DBFirstCustomerEX\\Views\\Test\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\MVC\\DBFirstCustomerEX\\DBFirstCustomerEX\\Views\\Test\\Edit.cshtml",
+              "RelativeToolTip": "DBFirstCustomerEX\\Views\\Test\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:32:13.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\MVC\\DBFirstCustomerEX\\DBFirstCustomerEX\\Views\\Test\\Create.cshtml",
+              "RelativeDocumentMoniker": "DBFirstCustomerEX\\Views\\Test\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\MVC\\DBFirstCustomerEX\\DBFirstCustomerEX\\Views\\Test\\Create.cshtml",
+              "RelativeToolTip": "DBFirstCustomerEX\\Views\\Test\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:30:42.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\MVC\\DBFirstCustomerEX\\DBFirstCustomerEX\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "DBFirstCustomerEX\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\MVC\\DBFirstCustomerEX\\DBFirstCustomerEX\\Controllers\\TestController.cs",
+              "RelativeToolTip": "DBFirstCustomerEX\\Controllers\\TestController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAnwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:38:23.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Common.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\MVC\\DBFirstCustomerEX\\DBFirstCustomerEX\\Models\\Common.edmx",
+              "RelativeDocumentMoniker": "DBFirstCustomerEX\\Models\\Common.edmx",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\MVC\\DBFirstCustomerEX\\DBFirstCustomerEX\\Models\\Common.edmx [Diagram1]",
+              "RelativeToolTip": "DBFirstCustomerEX\\Models\\Common.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-01-16T10:37:12.625Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

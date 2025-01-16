@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DBFirstCustomerEX.Models.CustomerTbl>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script type="text/javascript">
+        alert("Welcome to the Customer List");
+    </script>
+</head>
+<body>
+    <div> 
+        <h2> Customer Table </h2>
+        <div>
+            @Html.ActionLink("Create New","Create")
+            <hr />
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.CustomerID) </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.CustomerName) </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.EmailID) </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.AreaTbl.AreaName) </th>
+                        <th align="center"> @Html.DisplayNameFor(p=>p.CreditLimit) </th>
+                        <th align="center"> Actions </th>
+                    </tr>
+                </thead>
+                @foreach(var temp in Model)
+            {
+                <tbody>
+                    <tr>
+                        <td align="center"> @Html.DisplayFor(p=>temp.CustomerID) </td>
+                        <td align="center"> @Html.DisplayFor(p=>temp.CustomerName) </td>
+                        <td align="center"> @Html.DisplayFor(p=>temp.EmailID) </td>
+                        <td align="center"> @Html.DisplayFor(p=>temp.AreaTbl.AreaName) </td>
+                        <td align="center"> @Html.DisplayFor(p=>temp.CreditLimit) </td>
+                        <td align="center">
+                            @Html.ActionLink("Edit", "Edit", new { id = temp.CustomerID })
+                            @Html.ActionLink("Delete", "Delete", new { id = temp.CustomerID })
+                        </td>
+                    </tr>
+                </tbody>
+            }
+            </table>
+        </div>
+    </div>
+</body>
+</html>

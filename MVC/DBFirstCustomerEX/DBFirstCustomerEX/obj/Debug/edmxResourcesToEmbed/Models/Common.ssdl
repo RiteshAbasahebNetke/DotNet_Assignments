@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CurdOfCoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AreaTbl">
+    <Key>
+      <PropertyRef Name="AreaID" />
+    </Key>
+    <Property Name="AreaID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AreaName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="CustomerTbl">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmailID" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreditLimit" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="AreaID" Type="bigint" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_CustomerTbl_AreaTbl_AreaID">
+    <End Role="AreaTbl" Type="Self.AreaTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CustomerTbl" Type="Self.CustomerTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AreaTbl">
+        <PropertyRef Name="AreaID" />
+      </Principal>
+      <Dependent Role="CustomerTbl">
+        <PropertyRef Name="AreaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CurdOfCoreModelStoreContainer">
+    <EntitySet Name="AreaTbl" EntityType="Self.AreaTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerTbl" EntityType="Self.CustomerTbl" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CustomerTbl_AreaTbl_AreaID" Association="Self.FK_CustomerTbl_AreaTbl_AreaID">
+      <End Role="AreaTbl" EntitySet="AreaTbl" />
+      <End Role="CustomerTbl" EntitySet="CustomerTbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

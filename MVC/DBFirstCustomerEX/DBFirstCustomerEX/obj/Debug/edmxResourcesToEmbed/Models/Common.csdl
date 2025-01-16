@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CurdOfCoreModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AreaTbl">
+    <Key>
+      <PropertyRef Name="AreaID" />
+    </Key>
+    <Property Name="AreaID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AreaName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CustomerTbls" Relationship="Self.FK_CustomerTbl_AreaTbl_AreaID" FromRole="AreaTbl" ToRole="CustomerTbl" />
+  </EntityType>
+  <EntityType Name="CustomerTbl">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EmailID" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreditLimit" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="AreaID" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="AreaTbl" Relationship="Self.FK_CustomerTbl_AreaTbl_AreaID" FromRole="CustomerTbl" ToRole="AreaTbl" />
+  </EntityType>
+  <Association Name="FK_CustomerTbl_AreaTbl_AreaID">
+    <End Role="AreaTbl" Type="Self.AreaTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CustomerTbl" Type="Self.CustomerTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AreaTbl">
+        <PropertyRef Name="AreaID" />
+      </Principal>
+      <Dependent Role="CustomerTbl">
+        <PropertyRef Name="AreaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CurdOfCoreEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AreaTbls" EntityType="Self.AreaTbl" />
+    <EntitySet Name="CustomerTbls" EntityType="Self.CustomerTbl" />
+    <AssociationSet Name="FK_CustomerTbl_AreaTbl_AreaID" Association="Self.FK_CustomerTbl_AreaTbl_AreaID">
+      <End Role="AreaTbl" EntitySet="AreaTbls" />
+      <End Role="CustomerTbl" EntitySet="CustomerTbls" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
