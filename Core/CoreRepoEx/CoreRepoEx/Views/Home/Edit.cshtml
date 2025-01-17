@@ -1,0 +1,64 @@
+﻿@model Customer
+
+<html>
+<head>
+    <title> Home-Edit </title>
+</head>
+<body>
+    <div>
+        <h2> Update Customer Details</h2>
+    </div>
+    <div>
+        <form asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly">
+            <input type="hidden" asp-for="CustomerID" />
+            <div>
+                <label asp-for="CustomerName"></label>
+                <div>
+                    <input type="text" asp-for="CustomerName" />
+                    <span asp-validation-for="CustomerName"></span>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="EmailID"></label>
+                <div>
+                    <input type="text" asp-for="EmailID" />
+                    <span asp-validation-for="EmailID"></span>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="MobileNo"></label>
+                <div>
+                    <input type="text" asp-for="MobileNo" />
+                    <span asp-validation-for="MobileNo"></span>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="CreditLimit"></label>
+                <div>
+                    <input type="text" asp-for="CreditLimit" />
+                    <span asp-validation-for="CreditLimit"></span>
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Area.AreaName"></label>
+                <div>
+                    <select asp-for="AreaID" asp-items="@ViewBag.AreaID">
+                        <option> Select Area </option>
+                    </select>
+                    <span asp-validation-for="Area.AreaName"></span>
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="Update" />
+            </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
