@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ritesh\\source\\Core\\CoreRepoEx\\CoreRepoEx\\CoreRepoEx.csproj": {}
+    "C:\\Users\\Ritesh\\Assignments\\Core\\CoreRepoEx\\CoreRepoEx\\CoreRepoEx.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ritesh\\source\\Core\\CoreRepoEx\\CoreRepoEx\\CoreRepoEx.csproj": {
+    "C:\\Users\\Ritesh\\Assignments\\Core\\CoreRepoEx\\CoreRepoEx\\CoreRepoEx.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ritesh\\source\\Core\\CoreRepoEx\\CoreRepoEx\\CoreRepoEx.csproj",
+        "projectUniqueName": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreRepoEx\\CoreRepoEx\\CoreRepoEx.csproj",
         "projectName": "CoreRepoEx",
-        "projectPath": "C:\\Users\\Ritesh\\source\\Core\\CoreRepoEx\\CoreRepoEx\\CoreRepoEx.csproj",
+        "projectPath": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreRepoEx\\CoreRepoEx\\CoreRepoEx.csproj",
         "packagesPath": "C:\\Users\\Ritesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ritesh\\source\\Core\\CoreRepoEx\\CoreRepoEx\\obj\\",
+        "outputPath": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreRepoEx\\CoreRepoEx\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
