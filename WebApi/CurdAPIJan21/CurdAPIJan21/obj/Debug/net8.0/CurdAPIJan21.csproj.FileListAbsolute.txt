@@ -133,3 +133,13 @@ C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\obj\Debug\net8.0\refint
 C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\obj\Debug\net8.0\CurdAPIJan21.pdb
 C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\obj\Debug\net8.0\CurdAPIJan21.genruntimeconfig.cache
 C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\obj\Debug\net8.0\ref\CurdAPIJan21.dll
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\obj\Debug\net8.0\CurdAPIJan21.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\bin\Debug\net8.0\libman.json
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Ritesh\source\Web API\CurdAPIJan21\CurdAPIJan21\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

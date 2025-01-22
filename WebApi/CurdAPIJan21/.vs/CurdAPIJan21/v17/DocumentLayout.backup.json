@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1FD0A41D-90DA-4AE7-86A6-5F1996C0CCEF}|CurdAPIJan21\\CurdAPIJan21.csproj|c:\\users\\ritesh\\source\\web api\\curdapijan21\\curdapijan21\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FD0A41D-90DA-4AE7-86A6-5F1996C0CCEF}|CurdAPIJan21\\CurdAPIJan21.csproj|solutionrelative:curdapijan21\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FD0A41D-90DA-4AE7-86A6-5F1996C0CCEF}|CurdAPIJan21\\CurdAPIJan21.csproj|c:\\users\\ritesh\\source\\web api\\curdapijan21\\curdapijan21\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1FD0A41D-90DA-4AE7-86A6-5F1996C0CCEF}|CurdAPIJan21\\CurdAPIJan21.csproj|solutionrelative:curdapijan21\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,22 +32,9 @@
               "RelativeDocumentMoniker": "CurdAPIJan21\\Program.cs",
               "ToolTip": "C:\\Users\\Ritesh\\source\\Web API\\CurdAPIJan21\\CurdAPIJan21\\Program.cs",
               "RelativeToolTip": "CurdAPIJan21\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T10:18:49.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Web API\\CurdAPIJan21\\CurdAPIJan21\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CurdAPIJan21\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Ritesh\\source\\Web API\\CurdAPIJan21\\CurdAPIJan21\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CurdAPIJan21\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-21T10:14:49.225Z",
+              "WhenOpened": "2025-01-22T04:53:40.03Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +45,7 @@
               "RelativeDocumentMoniker": "CurdAPIJan21\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Ritesh\\source\\Web API\\CurdAPIJan21\\CurdAPIJan21\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CurdAPIJan21\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T08:21:22.728Z",
               "EditorCaption": ""
