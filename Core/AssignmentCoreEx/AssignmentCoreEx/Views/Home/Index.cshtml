@@ -1,26 +1,42 @@
-﻿
+﻿@model IEnumerable<Product>
 <html>
-    <head>
-        <title> Home-Index </title>
-    </head>
-    <body>
-        <div>
-            <h2> Product List </h2>
-        </div>
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th> ProductID </th>
-                        <th> Product Name </th>
-                        <th> Product Description </th>
-                        <th> Product Category </th>
-                        <th> Mfg Name </th>
-                        <th> Color </th>
-                        <th> Price </th>
-                    </tr>
-                </thead>
-            </table>
-        </div>
+<head>
+    <title> Home-Index </title>
+</head>
+<body>
+    <div>
+        <h2> Product List </h2>
+    </div>
+    <hr />
+    <a asp-action="Create"> Create New </a> <br /> <br />
+    <table border="1">
+        <thead>
+            <tr>
+                <th align="center"> SrNo </th>
+                <th align="center"> Product Name </th>
+                <th align="center"> Product Description </th>
+                <th align="center"> Product Category </th>
+                <th align="center"> Mfg Name </th>
+                <th align="center"> Color Name </th>
+                <th align="center"> Price </th>
+            </tr>
+        </thead>
+        @{
+            int SrNo = 1;
+        }
+        @foreach (var temp in Model)
+        {
+            <tr>
+                <td align="center"> @SrNo </td>
+                <td align="center"> @temp.ProductName </td>
+                <td align="center"> @temp.ProductDesc </td>
+                <td align="center"> @temp.ProductCategory.CategoryName </td>
+                <td align="center"> @temp.Mfg.MfgName </td>
+                <td align="center"> @temp.Color.ColorName </td>
+                <td align="center"> @temp.Price </td>
+            </tr>
+            SrNo++;
+        }
+    </table>
     </body>
 </html>
