@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\GreaterNoEx\GreaterNoEx\bin\Debug\GreaterNoEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\GreaterNoEx\GreaterNoEx\bin\Debug\GreaterNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\GreaterNoEx\GreaterNoEx\bin\Debug\GreaterNoEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\GreaterNoEx\GreaterNoEx\obj\Debug\GreaterNoEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\GreaterNoEx\GreaterNoEx\obj\Debug\GreaterNoEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\GreaterNoEx\GreaterNoEx\obj\Debug\GreaterNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\GreaterNoEx\GreaterNoEx\obj\Debug\GreaterNoEx.pdb

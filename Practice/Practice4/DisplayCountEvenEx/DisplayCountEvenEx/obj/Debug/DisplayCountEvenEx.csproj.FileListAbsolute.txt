@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\DisplayCountEvenEx\DisplayCountEvenEx\bin\Debug\DisplayCountEvenEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\DisplayCountEvenEx\DisplayCountEvenEx\bin\Debug\DisplayCountEvenEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\DisplayCountEvenEx\DisplayCountEvenEx\bin\Debug\DisplayCountEvenEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\DisplayCountEvenEx\DisplayCountEvenEx\obj\Debug\DisplayCountEvenEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\DisplayCountEvenEx\DisplayCountEvenEx\obj\Debug\DisplayCountEvenEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\DisplayCountEvenEx\DisplayCountEvenEx\obj\Debug\DisplayCountEvenEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\DisplayCountEvenEx\DisplayCountEvenEx\obj\Debug\DisplayCountEvenEx.pdb

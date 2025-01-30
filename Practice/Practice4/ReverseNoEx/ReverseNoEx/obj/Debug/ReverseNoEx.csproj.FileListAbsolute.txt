@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\ReverseNoEx\ReverseNoEx\bin\Debug\ReverseNoEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\ReverseNoEx\ReverseNoEx\bin\Debug\ReverseNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ReverseNoEx\ReverseNoEx\bin\Debug\ReverseNoEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\ReverseNoEx\ReverseNoEx\obj\Debug\ReverseNoEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\ReverseNoEx\ReverseNoEx\obj\Debug\ReverseNoEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\ReverseNoEx\ReverseNoEx\obj\Debug\ReverseNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ReverseNoEx\ReverseNoEx\obj\Debug\ReverseNoEx.pdb

@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfTenNoUsingForLoopEx\AddnOfTenNoUsingForLoopEx\bin\Debug\AddnOfTenNoUsingForLoopEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfTenNoUsingForLoopEx\AddnOfTenNoUsingForLoopEx\bin\Debug\AddnOfTenNoUsingForLoopEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfTenNoUsingForLoopEx\AddnOfTenNoUsingForLoopEx\bin\Debug\AddnOfTenNoUsingForLoopEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfTenNoUsingForLoopEx\AddnOfTenNoUsingForLoopEx\obj\Debug\AddnOfTenNoUsingForLoopEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfTenNoUsingForLoopEx\AddnOfTenNoUsingForLoopEx\obj\Debug\AddnOfTenNoUsingForLoopEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfTenNoUsingForLoopEx\AddnOfTenNoUsingForLoopEx\obj\Debug\AddnOfTenNoUsingForLoopEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfTenNoUsingForLoopEx\AddnOfTenNoUsingForLoopEx\obj\Debug\AddnOfTenNoUsingForLoopEx.pdb

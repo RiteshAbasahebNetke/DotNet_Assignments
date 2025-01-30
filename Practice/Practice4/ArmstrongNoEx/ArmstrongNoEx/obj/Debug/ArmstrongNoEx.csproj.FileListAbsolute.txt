@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\ArmstrongNoEx\ArmstrongNoEx\bin\Debug\ArmstrongNoEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\ArmstrongNoEx\ArmstrongNoEx\bin\Debug\ArmstrongNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ArmstrongNoEx\ArmstrongNoEx\bin\Debug\ArmstrongNoEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\ArmstrongNoEx\ArmstrongNoEx\obj\Debug\ArmstrongNoEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\ArmstrongNoEx\ArmstrongNoEx\obj\Debug\ArmstrongNoEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\ArmstrongNoEx\ArmstrongNoEx\obj\Debug\ArmstrongNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ArmstrongNoEx\ArmstrongNoEx\obj\Debug\ArmstrongNoEx.pdb

@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\EvenOrOddNoEx\EvenOrOddNoEx\bin\Debug\EvenOrOddNoEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\EvenOrOddNoEx\EvenOrOddNoEx\bin\Debug\EvenOrOddNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\EvenOrOddNoEx\EvenOrOddNoEx\bin\Debug\EvenOrOddNoEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\EvenOrOddNoEx\EvenOrOddNoEx\obj\Debug\EvenOrOddNoEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\EvenOrOddNoEx\EvenOrOddNoEx\obj\Debug\EvenOrOddNoEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\EvenOrOddNoEx\EvenOrOddNoEx\obj\Debug\EvenOrOddNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\EvenOrOddNoEx\EvenOrOddNoEx\obj\Debug\EvenOrOddNoEx.pdb

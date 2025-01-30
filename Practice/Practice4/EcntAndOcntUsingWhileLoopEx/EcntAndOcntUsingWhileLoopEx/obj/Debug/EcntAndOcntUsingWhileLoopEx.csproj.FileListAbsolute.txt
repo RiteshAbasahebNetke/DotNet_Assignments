@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\EcntAndOcntUsingWhileLoopEx\EcntAndOcntUsingWhileLoopEx\bin\Debug\EcntAndOcntUsingWhileLoopEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\EcntAndOcntUsingWhileLoopEx\EcntAndOcntUsingWhileLoopEx\bin\Debug\EcntAndOcntUsingWhileLoopEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\EcntAndOcntUsingWhileLoopEx\EcntAndOcntUsingWhileLoopEx\bin\Debug\EcntAndOcntUsingWhileLoopEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\EcntAndOcntUsingWhileLoopEx\EcntAndOcntUsingWhileLoopEx\obj\Debug\EcntAndOcntUsingWhileLoopEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\EcntAndOcntUsingWhileLoopEx\EcntAndOcntUsingWhileLoopEx\obj\Debug\EcntAndOcntUsingWhileLoopEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\EcntAndOcntUsingWhileLoopEx\EcntAndOcntUsingWhileLoopEx\obj\Debug\EcntAndOcntUsingWhileLoopEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\EcntAndOcntUsingWhileLoopEx\EcntAndOcntUsingWhileLoopEx\obj\Debug\EcntAndOcntUsingWhileLoopEx.pdb

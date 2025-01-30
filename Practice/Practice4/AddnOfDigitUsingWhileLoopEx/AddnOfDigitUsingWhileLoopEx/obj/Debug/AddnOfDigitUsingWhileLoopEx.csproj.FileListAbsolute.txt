@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfDigitUsingWhileLoopEx\AddnOfDigitUsingWhileLoopEx\bin\Debug\AddnOfDigitUsingWhileLoopEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfDigitUsingWhileLoopEx\AddnOfDigitUsingWhileLoopEx\bin\Debug\AddnOfDigitUsingWhileLoopEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfDigitUsingWhileLoopEx\AddnOfDigitUsingWhileLoopEx\bin\Debug\AddnOfDigitUsingWhileLoopEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfDigitUsingWhileLoopEx\AddnOfDigitUsingWhileLoopEx\obj\Debug\AddnOfDigitUsingWhileLoopEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfDigitUsingWhileLoopEx\AddnOfDigitUsingWhileLoopEx\obj\Debug\AddnOfDigitUsingWhileLoopEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfDigitUsingWhileLoopEx\AddnOfDigitUsingWhileLoopEx\obj\Debug\AddnOfDigitUsingWhileLoopEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\AddnOfDigitUsingWhileLoopEx\AddnOfDigitUsingWhileLoopEx\obj\Debug\AddnOfDigitUsingWhileLoopEx.pdb

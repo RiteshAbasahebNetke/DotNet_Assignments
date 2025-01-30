@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\SquareOfGivenNoEx\SquareOfGivenNoEx\bin\Debug\SquareOfGivenNoEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\SquareOfGivenNoEx\SquareOfGivenNoEx\bin\Debug\SquareOfGivenNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\SquareOfGivenNoEx\SquareOfGivenNoEx\bin\Debug\SquareOfGivenNoEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\SquareOfGivenNoEx\SquareOfGivenNoEx\obj\Debug\SquareOfGivenNoEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\SquareOfGivenNoEx\SquareOfGivenNoEx\obj\Debug\SquareOfGivenNoEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\SquareOfGivenNoEx\SquareOfGivenNoEx\obj\Debug\SquareOfGivenNoEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\SquareOfGivenNoEx\SquareOfGivenNoEx\obj\Debug\SquareOfGivenNoEx.pdb

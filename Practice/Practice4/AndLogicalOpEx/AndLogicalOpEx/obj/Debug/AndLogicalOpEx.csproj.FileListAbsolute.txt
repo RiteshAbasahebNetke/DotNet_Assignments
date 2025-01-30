@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\AndLogicalOpEx\AndLogicalOpEx\bin\Debug\AndLogicalOpEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\AndLogicalOpEx\AndLogicalOpEx\bin\Debug\AndLogicalOpEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\AndLogicalOpEx\AndLogicalOpEx\bin\Debug\AndLogicalOpEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\AndLogicalOpEx\AndLogicalOpEx\obj\Debug\AndLogicalOpEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\AndLogicalOpEx\AndLogicalOpEx\obj\Debug\AndLogicalOpEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\AndLogicalOpEx\AndLogicalOpEx\obj\Debug\AndLogicalOpEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\AndLogicalOpEx\AndLogicalOpEx\obj\Debug\AndLogicalOpEx.pdb
