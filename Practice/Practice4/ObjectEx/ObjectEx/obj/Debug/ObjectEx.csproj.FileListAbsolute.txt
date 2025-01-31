@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEx\ObjectEx\bin\Debug\ObjectEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEx\ObjectEx\bin\Debug\ObjectEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEx\ObjectEx\bin\Debug\ObjectEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEx\ObjectEx\obj\Debug\ObjectEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEx\ObjectEx\obj\Debug\ObjectEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEx\ObjectEx\obj\Debug\ObjectEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEx\ObjectEx\obj\Debug\ObjectEx.pdb

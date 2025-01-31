@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEmpEx\ObjectEmpEx\bin\Debug\ObjectEmpEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEmpEx\ObjectEmpEx\bin\Debug\ObjectEmpEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEmpEx\ObjectEmpEx\bin\Debug\ObjectEmpEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEmpEx\ObjectEmpEx\obj\Debug\ObjectEmpEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEmpEx\ObjectEmpEx\obj\Debug\ObjectEmpEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEmpEx\ObjectEmpEx\obj\Debug\ObjectEmpEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ObjectEmpEx\ObjectEmpEx\obj\Debug\ObjectEmpEx.pdb
