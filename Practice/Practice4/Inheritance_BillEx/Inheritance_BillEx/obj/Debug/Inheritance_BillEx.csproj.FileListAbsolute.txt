@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\Inheritance_BillEx\Inheritance_BillEx\bin\Debug\Inheritance_BillEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\Inheritance_BillEx\Inheritance_BillEx\bin\Debug\Inheritance_BillEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\Inheritance_BillEx\Inheritance_BillEx\bin\Debug\Inheritance_BillEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\Inheritance_BillEx\Inheritance_BillEx\obj\Debug\Inheritance_BillEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\Inheritance_BillEx\Inheritance_BillEx\obj\Debug\Inheritance_BillEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\Inheritance_BillEx\Inheritance_BillEx\obj\Debug\Inheritance_BillEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\Inheritance_BillEx\Inheritance_BillEx\obj\Debug\Inheritance_BillEx.pdb

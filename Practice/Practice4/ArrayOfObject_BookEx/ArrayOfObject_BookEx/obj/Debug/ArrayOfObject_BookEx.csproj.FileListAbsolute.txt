@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObject_BookEx\ArrayOfObject_BookEx\bin\Debug\ArrayOfObject_BookEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObject_BookEx\ArrayOfObject_BookEx\bin\Debug\ArrayOfObject_BookEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObject_BookEx\ArrayOfObject_BookEx\bin\Debug\ArrayOfObject_BookEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObject_BookEx\ArrayOfObject_BookEx\obj\Debug\ArrayOfObject_BookEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObject_BookEx\ArrayOfObject_BookEx\obj\Debug\ArrayOfObject_BookEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObject_BookEx\ArrayOfObject_BookEx\obj\Debug\ArrayOfObject_BookEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObject_BookEx\ArrayOfObject_BookEx\obj\Debug\ArrayOfObject_BookEx.pdb

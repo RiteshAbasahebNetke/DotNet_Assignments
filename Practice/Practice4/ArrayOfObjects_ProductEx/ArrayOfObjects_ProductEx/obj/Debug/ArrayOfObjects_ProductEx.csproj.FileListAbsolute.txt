@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObjects_ProductEx\ArrayOfObjects_ProductEx\bin\Debug\ArrayOfObjects_ProductEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObjects_ProductEx\ArrayOfObjects_ProductEx\bin\Debug\ArrayOfObjects_ProductEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObjects_ProductEx\ArrayOfObjects_ProductEx\bin\Debug\ArrayOfObjects_ProductEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObjects_ProductEx\ArrayOfObjects_ProductEx\obj\Debug\ArrayOfObjects_ProductEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObjects_ProductEx\ArrayOfObjects_ProductEx\obj\Debug\ArrayOfObjects_ProductEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObjects_ProductEx\ArrayOfObjects_ProductEx\obj\Debug\ArrayOfObjects_ProductEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\ArrayOfObjects_ProductEx\ArrayOfObjects_ProductEx\obj\Debug\ArrayOfObjects_ProductEx.pdb

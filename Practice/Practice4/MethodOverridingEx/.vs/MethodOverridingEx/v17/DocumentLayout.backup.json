@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\source\\Practice\\Practice4\\MethodOverridingEx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A70400F7-011F-451F-B71D-B9714DC76E64}|MethodOverridingEx\\MethodOverridingEx.csproj|c:\\users\\ritesh\\source\\practice\\practice4\\methodoverridingex\\methodoverridingex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A70400F7-011F-451F-B71D-B9714DC76E64}|MethodOverridingEx\\MethodOverridingEx.csproj|solutionrelative:methodoverridingex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Practice\\Practice4\\MethodOverridingEx\\MethodOverridingEx\\Program.cs",
+              "RelativeDocumentMoniker": "MethodOverridingEx\\Program.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\Practice\\Practice4\\MethodOverridingEx\\MethodOverridingEx\\Program.cs",
+              "RelativeToolTip": "MethodOverridingEx\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T10:43:42.148Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
