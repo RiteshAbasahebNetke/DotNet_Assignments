@@ -35,6 +35,10 @@ namespace ObjectEx
             Student s=new Student();
             s.AddStudent(1, "Nikhil", "C#", "475922023");
             s.DispStudent();
+
+            Student s1 = new Student();
+            s1.AddStudent(2, "Rajesh", "VB", "465889299");
+            s1.DispStudent();
         }
     }
 }

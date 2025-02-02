@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ritesh\\source\\Practice\\Practice4\\ObjectEx\\",
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\Assignments\\Practice\\Practice4\\ObjectEx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{521A6707-8BE2-401E-A395-1C24A4337201}|ObjectEx\\ObjectEx.csproj|c:\\users\\ritesh\\source\\practice\\practice4\\objectex\\objectex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{521A6707-8BE2-401E-A395-1C24A4337201}|ObjectEx\\ObjectEx.csproj|c:\\users\\ritesh\\assignments\\practice\\practice4\\objectex\\objectex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{521A6707-8BE2-401E-A395-1C24A4337201}|ObjectEx\\ObjectEx.csproj|solutionrelative:objectex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Practice\\Practice4\\ObjectEx\\ObjectEx\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Practice\\Practice4\\ObjectEx\\ObjectEx\\Program.cs",
               "RelativeDocumentMoniker": "ObjectEx\\Program.cs",
-              "ToolTip": "C:\\Users\\Ritesh\\source\\Practice\\Practice4\\ObjectEx\\ObjectEx\\Program.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Practice\\Practice4\\ObjectEx\\ObjectEx\\Program.cs",
               "RelativeToolTip": "ObjectEx\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T11:11:23.052Z",
               "EditorCaption": ""
