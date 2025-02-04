@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\StarPatEx1\StarPatEx1\bin\Debug\StarPatEx1.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\StarPatEx1\StarPatEx1\bin\Debug\StarPatEx1.exe
+C:\Users\Ritesh\source\Practice\Practice4\StarPatEx1\StarPatEx1\bin\Debug\StarPatEx1.pdb
+C:\Users\Ritesh\source\Practice\Practice4\StarPatEx1\StarPatEx1\obj\Debug\StarPatEx1.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\StarPatEx1\StarPatEx1\obj\Debug\StarPatEx1.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\StarPatEx1\StarPatEx1\obj\Debug\StarPatEx1.exe
+C:\Users\Ritesh\source\Practice\Practice4\StarPatEx1\StarPatEx1\obj\Debug\StarPatEx1.pdb

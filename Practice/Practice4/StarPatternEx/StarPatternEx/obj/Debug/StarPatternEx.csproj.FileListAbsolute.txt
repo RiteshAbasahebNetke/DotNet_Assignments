@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\StarPatternEx\StarPatternEx\bin\Debug\StarPatternEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\StarPatternEx\StarPatternEx\bin\Debug\StarPatternEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\StarPatternEx\StarPatternEx\bin\Debug\StarPatternEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\StarPatternEx\StarPatternEx\obj\Debug\StarPatternEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\StarPatternEx\StarPatternEx\obj\Debug\StarPatternEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\StarPatternEx\StarPatternEx\obj\Debug\StarPatternEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\StarPatternEx\StarPatternEx\obj\Debug\StarPatternEx.pdb
