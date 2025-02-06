@@ -6,3 +6,10 @@ C:\Users\Ritesh\source\Practice\Practice3\StarEx2\StarEx2\obj\Debug\StarEx2.cspr
 C:\Users\Ritesh\source\Practice\Practice3\StarEx2\StarEx2\obj\Debug\StarEx2.csproj.CoreCompileInputs.cache
 C:\Users\Ritesh\source\Practice\Practice3\StarEx2\StarEx2\obj\Debug\StarEx2.exe
 C:\Users\Ritesh\source\Practice\Practice3\StarEx2\StarEx2\obj\Debug\StarEx2.pdb
+C:\Users\Ritesh\Assignments\Practice\Practice3\StarEx2\StarEx2\bin\Debug\StarEx2.exe.config
+C:\Users\Ritesh\Assignments\Practice\Practice3\StarEx2\StarEx2\bin\Debug\StarEx2.exe
+C:\Users\Ritesh\Assignments\Practice\Practice3\StarEx2\StarEx2\bin\Debug\StarEx2.pdb
+C:\Users\Ritesh\Assignments\Practice\Practice3\StarEx2\StarEx2\obj\Debug\StarEx2.csproj.AssemblyReference.cache
+C:\Users\Ritesh\Assignments\Practice\Practice3\StarEx2\StarEx2\obj\Debug\StarEx2.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\Assignments\Practice\Practice3\StarEx2\StarEx2\obj\Debug\StarEx2.exe
+C:\Users\Ritesh\Assignments\Practice\Practice3\StarEx2\StarEx2\obj\Debug\StarEx2.pdb

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\Assignments\\Practice\\Practice3\\StarEx2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10676CDD-9F99-4D72-A954-B62720CE07F6}|StarEx2\\StarEx2.csproj|c:\\users\\ritesh\\assignments\\practice\\practice3\\starex2\\starex2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10676CDD-9F99-4D72-A954-B62720CE07F6}|StarEx2\\StarEx2.csproj|solutionrelative:starex2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Practice\\Practice3\\StarEx2\\StarEx2\\Program.cs",
+              "RelativeDocumentMoniker": "StarEx2\\Program.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Practice\\Practice3\\StarEx2\\StarEx2\\Program.cs",
+              "RelativeToolTip": "StarEx2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:31:49.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
