@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\LINQ\LinqToObjectEx\LinqToObjectEx\bin\Debug\LinqToObjectEx.exe.config
+C:\Users\Ritesh\source\LINQ\LinqToObjectEx\LinqToObjectEx\bin\Debug\LinqToObjectEx.exe
+C:\Users\Ritesh\source\LINQ\LinqToObjectEx\LinqToObjectEx\bin\Debug\LinqToObjectEx.pdb
+C:\Users\Ritesh\source\LINQ\LinqToObjectEx\LinqToObjectEx\obj\Debug\LinqToObjectEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\LINQ\LinqToObjectEx\LinqToObjectEx\obj\Debug\LinqToObjectEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\LINQ\LinqToObjectEx\LinqToObjectEx\obj\Debug\LinqToObjectEx.exe
+C:\Users\Ritesh\source\LINQ\LinqToObjectEx\LinqToObjectEx\obj\Debug\LinqToObjectEx.pdb
