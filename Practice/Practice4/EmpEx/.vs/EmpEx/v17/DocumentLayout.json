@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\source\\Practice\\Practice1\\EmpEx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A22B1C8-FE10-4D93-A936-12DE5EB5149A}|EmpEx\\EmpEx.csproj|c:\\users\\ritesh\\source\\practice\\practice1\\empex\\empex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A22B1C8-FE10-4D93-A936-12DE5EB5149A}|EmpEx\\EmpEx.csproj|solutionrelative:empex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Practice\\Practice1\\EmpEx\\EmpEx\\Program.cs",
+              "RelativeDocumentMoniker": "EmpEx\\Program.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\Practice\\Practice1\\EmpEx\\EmpEx\\Program.cs",
+              "RelativeToolTip": "EmpEx\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:43:59.935Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
