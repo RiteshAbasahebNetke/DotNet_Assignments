@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Event</title>
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            /*$("#btn1").click(function () {
+                alert("Function Found...!");
+            })*/
+            $(":button").click(function () {
+                alert("Common button for all");
+            })
+
+            $("div").mouseout(function () {
+                $(this).css("background-color", "tomato");
+            })
+        });
+    </script>
+</head>
+<body>
+    <div> 
+        <div style="background-color:aqua; width:100px; height:100px;"></div> <br /> <br />
+        <input type="button" value="First" id="btn1" />
+        <input type="button" value="Second" id="btn2" />
+    </div>
+</body>
+</html>
