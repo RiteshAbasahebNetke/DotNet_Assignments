@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Core\CoreExample\CoreExample\obj\Debug\net8.0\CurdCoreExample.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Core\CoreExample\CoreExample\obj\Debug\net8.0\CurdCoreExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ritesh\source\Core\CoreExample\CoreExample\obj\Debug\net8.0\CurdCoreExample.AssemblyInfoInputs.cache
+C:\Users\Ritesh\source\Core\CoreExample\CoreExample\obj\Debug\net8.0\CurdCoreExample.AssemblyInfo.cs
+C:\Users\Ritesh\source\Core\CoreExample\CoreExample\obj\Debug\net8.0\CurdCoreExample.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Core\CoreExample\CoreExample\obj\Debug\net8.0\CurdCoreExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ritesh\source\Core\CoreExample\CoreExample\obj\Debug\net8.0\CurdCoreExample.RazorAssemblyInfo.cache
+C:\Users\Ritesh\source\Core\CoreExample\CoreExample\obj\Debug\net8.0\CurdCoreExample.RazorAssemblyInfo.cs

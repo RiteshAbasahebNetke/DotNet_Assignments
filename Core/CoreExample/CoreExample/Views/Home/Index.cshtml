@@ -1,0 +1,38 @@
+﻿@using CoreExample.Models
+@model IEnumerable<Product>
+<html>
+<head>
+    <title> Home-Index </title>
+</head>
+<body>
+    <h2> Product List </h2>
+    <div>
+        <a asp-action="Create"> Create New</a>
+        <table>
+            <thead>
+                <tr>
+                    <td align="center"> ProductID </td>
+                    <td align="center"> Product Name </td>
+                    <td align="center"> Mfg Name </td>
+                    <td align="center"> Category Name </td>
+                    <td align="center"> Price </td>
+                </tr>
+            </thead>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td align="center"> @temp.ProductID </td>
+                    <td align="center"> @temp.ProductName </td>
+                    <td align="center"> @temp.MfgName </td>
+                    <td align="center"> @temp.Category.CategoryName </td>
+                    <td align="center"> @temp.Price </td>
+                    <td align="center">
+                        <a asp-action="Edit" asp-route-id="@temp.ProductID"> Edit </a>
+                        <a asp-action="Delete" asp-route-id="@temp.ProductID"> Delete </a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
