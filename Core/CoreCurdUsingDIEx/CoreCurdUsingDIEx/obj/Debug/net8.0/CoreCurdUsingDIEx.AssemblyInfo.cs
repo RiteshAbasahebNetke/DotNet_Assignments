@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreCurdUsingDIEx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab4a266171b1518a22d2fd312f2d15d95e7ce283")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreCurdUsingDIEx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreCurdUsingDIEx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

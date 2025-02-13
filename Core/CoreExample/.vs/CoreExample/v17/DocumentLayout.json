@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\",
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\source\\core\\coreexample\\coreexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\assignments\\core\\coreexample\\coreexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|solutionrelative:coreexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\source\\core\\coreexample\\coreexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\assignments\\core\\coreexample\\coreexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|solutionrelative:coreexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\source\\core\\coreexample\\coreexample\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\assignments\\core\\coreexample\\coreexample\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|solutionrelative:coreexample\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\source\\core\\coreexample\\coreexample\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\assignments\\core\\coreexample\\coreexample\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|solutionrelative:coreexample\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\source\\core\\coreexample\\coreexample\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\assignments\\core\\coreexample\\coreexample\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|solutionrelative:coreexample\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\source\\core\\coreexample\\coreexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|c:\\users\\ritesh\\assignments\\core\\coreexample\\coreexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AAA2D31-E459-4745-8963-29D59D645C4B}|CoreExample\\CurdCoreExample.csproj|solutionrelative:coreexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Models\\Product.cs",
               "RelativeDocumentMoniker": "CoreExample\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Models\\Product.cs",
               "RelativeToolTip": "CoreExample\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Models\\Context.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Models\\Context.cs",
               "RelativeDocumentMoniker": "CoreExample\\Models\\Context.cs",
-              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Models\\Context.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Models\\Context.cs",
               "RelativeToolTip": "CoreExample\\Models\\Context.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAmwBAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Models\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Models\\Category.cs",
               "RelativeDocumentMoniker": "CoreExample\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Models\\Category.cs",
               "RelativeToolTip": "CoreExample\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,11 +80,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CoreExample\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "CoreExample\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-11T11:29:32.047Z",
               "EditorCaption": ""
@@ -93,22 +93,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CoreExample\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "CoreExample\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T10:47:20.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T10:47:20.075Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CoreExample\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreExample\\CoreExample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\CoreExample\\CoreExample\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CoreExample\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
