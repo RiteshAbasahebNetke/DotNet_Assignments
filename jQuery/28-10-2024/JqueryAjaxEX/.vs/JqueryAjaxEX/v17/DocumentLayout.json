@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JqueryAjaxEX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEA1956-F2B7-4686-AD5C-103325660091}|JqueryAjaxEX\\JqueryAjaxEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JqueryAjaxEX\\jqueryajaxex\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CEA1956-F2B7-4686-AD5C-103325660091}|JqueryAjaxEX\\JqueryAjaxEX.csproj|solutionrelative:jqueryajaxex\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEA1956-F2B7-4686-AD5C-103325660091}|JqueryAjaxEX\\JqueryAjaxEX.csproj|c:\\users\\ritesh\\assignments\\jquery\\28-10-2024\\jqueryajaxex\\jqueryajaxex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEA1956-F2B7-4686-AD5C-103325660091}|JqueryAjaxEX\\JqueryAjaxEX.csproj|solutionrelative:jqueryajaxex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEA1956-F2B7-4686-AD5C-103325660091}|JqueryAjaxEX\\JqueryAjaxEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JqueryAjaxEX\\jqueryajaxex\\models\\common.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}",
+      "RelativeMoniker": "D:0:0:{6CEA1956-F2B7-4686-AD5C-103325660091}|JqueryAjaxEX\\JqueryAjaxEX.csproj|solutionrelative:jqueryajaxex\\models\\common.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JqueryAjaxEX\\JqueryAjaxEX\\Views\\Test\\Index.cshtml",
+              "RelativeDocumentMoniker": "JqueryAjaxEX\\Views\\Test\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JqueryAjaxEX\\JqueryAjaxEX\\Views\\Test\\Index.cshtml",
+              "RelativeToolTip": "JqueryAjaxEX\\Views\\Test\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T17:03:15.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JqueryAjaxEX\\JqueryAjaxEX\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "JqueryAjaxEX\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JqueryAjaxEX\\JqueryAjaxEX\\Controllers\\TestController.cs",
+              "RelativeToolTip": "JqueryAjaxEX\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:03:15.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Common.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\28-10-2024\\JqueryAjaxEX\\JqueryAjaxEX\\Models\\Common.edmx",
+              "RelativeDocumentMoniker": "JqueryAjaxEX\\Models\\Common.edmx",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\JQuery\\28-10-2024\\JqueryAjaxEX\\JqueryAjaxEX\\Models\\Common.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\JQuery\\28-10-2024\\JqueryAjaxEX\\JqueryAjaxEX\\Models\\Common.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-14T17:03:15.481Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
