@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|c:\\users\\ritesh\\assignments\\core\\curdex\\curdex\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|solutionrelative:curdex\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|c:\\users\\ritesh\\assignments\\core\\curdex\\curdex\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|solutionrelative:curdex\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|c:\\users\\ritesh\\assignments\\core\\curdex\\curdex\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|solutionrelative:curdex\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|c:\\users\\ritesh\\assignments\\core\\curdex\\curdex\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|solutionrelative:curdex\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|c:\\users\\ritesh\\assignments\\core\\curdex\\curdex\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52AE3EBF-4361-4FA0-AB30-3FA4D3914040}|curdEX\\curdEX.csproj|solutionrelative:curdex\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "curdEX\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "curdEX\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T14:58:21.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "curdEX\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "curdEX\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T14:58:04.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "curdEX\\Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "curdEX\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T14:58:04.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "curdEX\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "curdEX\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T14:58:04.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "curdEX\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "curdEX\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAywEAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T14:58:04.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

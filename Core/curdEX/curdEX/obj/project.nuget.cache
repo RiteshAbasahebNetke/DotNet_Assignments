@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gBD8FC+dLYsK12JK/x62CpvpHELB41vovcN6lYJgvkDjpcKxJeJPgEYSWXU2ZUYZ/s83NyK36aZAn6Lf8YN0Ew==",
+  "dgSpecHash": "lRqJv2rfXi4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ritesh\\source\\Practice WA\\curdEX\\curdEX\\curdEX.csproj",
+  "projectFilePath": "C:\\Users\\Ritesh\\Assignments\\Core\\curdEX\\curdEX\\curdEX.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ritesh\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Ritesh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

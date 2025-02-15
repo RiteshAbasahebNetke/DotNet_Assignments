@@ -10,25 +10,25 @@
         <table border="1">
             <thead>
                 <tr>
-                <th> EmpID </th>
-                <th> Emp Name </th>
-                <th> DeptName</th>
-                <th> EmailID </th>
-                <th> Address </th>
-                <th> Salary </th>
-                <th> Actions </th>
+                <th align="center"> EmpID </th>
+                <th align="center"> Emp Name </th>
+                <th align="center"> DeptName</th>
+                <th align="center"> EmailID </th>
+                <th align="center"> Address </th>
+                <th align="center"> Salary </th>
+                <th align="center"> Actions </th>
             </tr>
             </thead>
             @foreach(var temp in Model)
             {
                 <tr>
-                <td> @temp.EmpID</td>
-                <td> @temp.EmpName</td>
-                <td> @temp.Department.DeptName</td>
-                <td> @temp.EmailID</td>
-                <td> @temp.Address</td>
-                <td> @temp.Salary</td>
-                <td>
+                <td align="center"> @temp.EmpID</td>
+                <td align="center"> @temp.EmpName</td>
+                <td align="center"> @temp.Department.DeptName</td>
+                <td align="center"> @temp.EmailID</td>
+                <td align="center"> @temp.Address</td>
+                <td align="center"> @temp.Salary</td>
+                <td align="center">
                     <a asp-action="Edit" asp-route-id="@temp.EmpID"> Edit </a>
                     <a asp-action="Delete" asp-route-id="@temp.EmpID"> Delete</a>
                 </td>
