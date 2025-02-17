@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQuery_Ex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB218AA-FD74-47AD-B5B5-F3D4BAD4E205}|JQuery_Ex\\JQuery_Ex.csproj|c:\\users\\ritesh\\assignments\\jquery\\jquery_ex\\jquery_ex\\views\\test\\dommmani2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FB218AA-FD74-47AD-B5B5-F3D4BAD4E205}|JQuery_Ex\\JQuery_Ex.csproj|solutionrelative:jquery_ex\\views\\test\\dommmani2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB218AA-FD74-47AD-B5B5-F3D4BAD4E205}|JQuery_Ex\\JQuery_Ex.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQuery_Ex\\jquery_ex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB218AA-FD74-47AD-B5B5-F3D4BAD4E205}|JQuery_Ex\\JQuery_Ex.csproj|solutionrelative:jquery_ex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DommMani2.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQuery_Ex\\JQuery_Ex\\Views\\Test\\DommMani2.cshtml",
+              "RelativeDocumentMoniker": "JQuery_Ex\\Views\\Test\\DommMani2.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQuery_Ex\\JQuery_Ex\\Views\\Test\\DommMani2.cshtml",
+              "RelativeToolTip": "JQuery_Ex\\Views\\Test\\DommMani2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T14:27:12.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQuery_Ex\\JQuery_Ex\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "JQuery_Ex\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQuery_Ex\\JQuery_Ex\\Controllers\\TestController.cs",
+              "RelativeToolTip": "JQuery_Ex\\Controllers\\TestController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAvwC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:27:12.82Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

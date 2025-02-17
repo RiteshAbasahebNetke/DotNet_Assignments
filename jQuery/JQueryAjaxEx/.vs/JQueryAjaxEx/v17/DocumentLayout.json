@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "JQueryAjaxEx\\Views\\Test\\Index.cshtml",
               "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryAjaxEx\\JQueryAjaxEx\\Views\\Test\\Index.cshtml",
               "RelativeToolTip": "JQueryAjaxEx\\Views\\Test\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-16T11:38:51.515Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "JQueryAjaxEx\\Controllers\\TestController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T11:38:51.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T11:38:51.947Z"
             }
           ]
         }

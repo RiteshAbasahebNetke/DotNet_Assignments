@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|c:\\users\\ritesh\\assignments\\jquery\\jqueryex\\jqueryex\\views\\test\\dommani2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\views\\test\\dommani2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\jqueryex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\jqueryex\\views\\test\\dommani1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\views\\test\\dommani1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\jqueryex\\views\\test\\dommanip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\views\\test\\dommanip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\jqueryex\\views\\test\\event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\views\\test\\event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\jqueryex\\views\\test\\domtraversal1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\views\\test\\domtraversal1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\jqueryex\\views\\test\\domtraversal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\views\\test\\domtraversal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\jqueryex\\views\\test\\fewmoreselectors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\views\\test\\fewmoreselectors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\jqueryex\\views\\test\\selectors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\views\\test\\selectors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\jqueryex\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5772ACB1-ABA0-467D-8CB5-F413CB0FE35B}|JQueryEX\\JQueryEX.csproj|solutionrelative:jqueryex\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DomMani2.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEx\\Views\\Test\\DomMani2.cshtml",
+              "RelativeDocumentMoniker": "JQueryEx\\Views\\Test\\DomMani2.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEx\\Views\\Test\\DomMani2.cshtml",
+              "RelativeToolTip": "JQueryEx\\Views\\Test\\DomMani2.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T14:26:28.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DomMani1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\DomMani1.cshtml",
+              "RelativeDocumentMoniker": "JQueryEX\\Views\\Test\\DomMani1.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\DomMani1.cshtml",
+              "RelativeToolTip": "JQueryEX\\Views\\Test\\DomMani1.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-02-17T14:26:29.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DomManip.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\DomManip.cshtml",
+              "RelativeDocumentMoniker": "JQueryEX\\Views\\Test\\DomManip.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\DomManip.cshtml",
+              "RelativeToolTip": "JQueryEX\\Views\\Test\\DomManip.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwC0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-02-17T14:26:29.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Event.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\Event.cshtml",
+              "RelativeDocumentMoniker": "JQueryEX\\Views\\Test\\Event.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\Event.cshtml",
+              "RelativeToolTip": "JQueryEX\\Views\\Test\\Event.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-02-17T14:26:29.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DomTraversal1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\DomTraversal1.cshtml",
+              "RelativeDocumentMoniker": "JQueryEX\\Views\\Test\\DomTraversal1.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\DomTraversal1.cshtml",
+              "RelativeToolTip": "JQueryEX\\Views\\Test\\DomTraversal1.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-02-17T14:26:29.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DomTraversal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\DomTraversal.cshtml",
+              "RelativeDocumentMoniker": "JQueryEX\\Views\\Test\\DomTraversal.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\DomTraversal.cshtml",
+              "RelativeToolTip": "JQueryEX\\Views\\Test\\DomTraversal.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-02-17T14:26:29.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FewMoreSelectors.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\FewMoreSelectors.cshtml",
+              "RelativeDocumentMoniker": "JQueryEX\\Views\\Test\\FewMoreSelectors.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\FewMoreSelectors.cshtml",
+              "RelativeToolTip": "JQueryEX\\Views\\Test\\FewMoreSelectors.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-02-17T14:26:29.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Selectors.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\Selectors.cshtml",
+              "RelativeDocumentMoniker": "JQueryEX\\Views\\Test\\Selectors.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\Selectors.cshtml",
+              "RelativeToolTip": "JQueryEX\\Views\\Test\\Selectors.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-02-17T14:26:29.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\Index.cshtml",
+              "RelativeDocumentMoniker": "JQueryEX\\Views\\Test\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Views\\Test\\Index.cshtml",
+              "RelativeToolTip": "JQueryEX\\Views\\Test\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-02-17T14:26:29.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "JQueryEX\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\Assignments\\jQuery\\JQueryEx\\JQueryEX\\Controllers\\TestController.cs",
+              "RelativeToolTip": "JQueryEX\\Controllers\\TestController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwCwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:26:29.325Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
