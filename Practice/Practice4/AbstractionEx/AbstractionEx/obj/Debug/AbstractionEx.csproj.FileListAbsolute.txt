@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\AbstractionEx\AbstractionEx\bin\Debug\AbstractionEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\AbstractionEx\AbstractionEx\bin\Debug\AbstractionEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\AbstractionEx\AbstractionEx\bin\Debug\AbstractionEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\AbstractionEx\AbstractionEx\obj\Debug\AbstractionEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\AbstractionEx\AbstractionEx\obj\Debug\AbstractionEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\AbstractionEx\AbstractionEx\obj\Debug\AbstractionEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\AbstractionEx\AbstractionEx\obj\Debug\AbstractionEx.pdb

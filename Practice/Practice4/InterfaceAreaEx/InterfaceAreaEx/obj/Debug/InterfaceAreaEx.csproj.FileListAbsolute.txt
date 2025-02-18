@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice4\InterfaceAreaEx\InterfaceAreaEx\bin\Debug\InterfaceAreaEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice4\InterfaceAreaEx\InterfaceAreaEx\bin\Debug\InterfaceAreaEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\InterfaceAreaEx\InterfaceAreaEx\bin\Debug\InterfaceAreaEx.pdb
+C:\Users\Ritesh\source\Practice\Practice4\InterfaceAreaEx\InterfaceAreaEx\obj\Debug\InterfaceAreaEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice4\InterfaceAreaEx\InterfaceAreaEx\obj\Debug\InterfaceAreaEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice4\InterfaceAreaEx\InterfaceAreaEx\obj\Debug\InterfaceAreaEx.exe
+C:\Users\Ritesh\source\Practice\Practice4\InterfaceAreaEx\InterfaceAreaEx\obj\Debug\InterfaceAreaEx.pdb
