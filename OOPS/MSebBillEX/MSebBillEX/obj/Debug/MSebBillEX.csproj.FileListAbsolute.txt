@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\Practice3\MSebBillEX\MSebBillEX\bin\Debug\MSebBillEX.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\MSebBillEX\MSebBillEX\bin\Debug\MSebBillEX.exe
+C:\Users\Ritesh\source\Practice\Practice3\MSebBillEX\MSebBillEX\bin\Debug\MSebBillEX.pdb
+C:\Users\Ritesh\source\Practice\Practice3\MSebBillEX\MSebBillEX\obj\Debug\MSebBillEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\MSebBillEX\MSebBillEX\obj\Debug\MSebBillEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\Practice3\MSebBillEX\MSebBillEX\obj\Debug\MSebBillEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\MSebBillEX\MSebBillEX\obj\Debug\MSebBillEX.exe
+C:\Users\Ritesh\source\Practice\Practice3\MSebBillEX\MSebBillEX\obj\Debug\MSebBillEX.pdb
