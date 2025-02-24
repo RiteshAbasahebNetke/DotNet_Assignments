@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\OOPS\BookExampleArrayOfObject\BookExampleArrayOfObject\bin\Debug\BookExampleArrayOfObject.exe.config
+C:\Users\Ritesh\source\OOPS\BookExampleArrayOfObject\BookExampleArrayOfObject\bin\Debug\BookExampleArrayOfObject.exe
+C:\Users\Ritesh\source\OOPS\BookExampleArrayOfObject\BookExampleArrayOfObject\bin\Debug\BookExampleArrayOfObject.pdb
+C:\Users\Ritesh\source\OOPS\BookExampleArrayOfObject\BookExampleArrayOfObject\obj\Debug\BookExampleArrayOfObject.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\OOPS\BookExampleArrayOfObject\BookExampleArrayOfObject\obj\Debug\BookExampleArrayOfObject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\OOPS\BookExampleArrayOfObject\BookExampleArrayOfObject\obj\Debug\BookExampleArrayOfObject.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\OOPS\BookExampleArrayOfObject\BookExampleArrayOfObject\obj\Debug\BookExampleArrayOfObject.exe
+C:\Users\Ritesh\source\OOPS\BookExampleArrayOfObject\BookExampleArrayOfObject\obj\Debug\BookExampleArrayOfObject.pdb
