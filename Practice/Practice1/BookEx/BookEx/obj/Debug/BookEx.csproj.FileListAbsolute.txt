@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\BookEx\BookEx\bin\Debug\BookEx.exe.config
+C:\Users\Ritesh\source\Practice\BookEx\BookEx\bin\Debug\BookEx.exe
+C:\Users\Ritesh\source\Practice\BookEx\BookEx\bin\Debug\BookEx.pdb
+C:\Users\Ritesh\source\Practice\BookEx\BookEx\obj\Debug\BookEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\BookEx\BookEx\obj\Debug\BookEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\BookEx\BookEx\obj\Debug\BookEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\BookEx\BookEx\obj\Debug\BookEx.exe
+C:\Users\Ritesh\source\Practice\BookEx\BookEx\obj\Debug\BookEx.pdb
