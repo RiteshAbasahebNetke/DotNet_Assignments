@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\AbstractEX\AbstractEX\bin\Debug\AbstractEX.exe.config
+C:\Users\Ritesh\source\Practice\AbstractEX\AbstractEX\bin\Debug\AbstractEX.exe
+C:\Users\Ritesh\source\Practice\AbstractEX\AbstractEX\bin\Debug\AbstractEX.pdb
+C:\Users\Ritesh\source\Practice\AbstractEX\AbstractEX\obj\Debug\AbstractEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\AbstractEX\AbstractEX\obj\Debug\AbstractEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\AbstractEX\AbstractEX\obj\Debug\AbstractEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\AbstractEX\AbstractEX\obj\Debug\AbstractEX.exe
+C:\Users\Ritesh\source\Practice\AbstractEX\AbstractEX\obj\Debug\AbstractEX.pdb
