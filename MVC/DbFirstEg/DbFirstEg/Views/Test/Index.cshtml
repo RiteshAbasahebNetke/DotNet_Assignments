@@ -1,0 +1,46 @@
+﻿@model IEnumerable<DbFirstEg.Models.ProductTbl>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h2> Product List </h2>
+        @Html.ActionLink("Create New","Create")
+        <hr />
+        <table border="1">
+            <thead>
+                <tr>
+                    <td align="center"> @Html.DisplayNameFor(p=>p.ProductID) </td>
+                    <td align="center"> @Html.DisplayNameFor(p=>p.ProductName) </td>
+                    <td align="center"> @Html.DisplayNameFor(p=>p.MfgName) </td>
+                    <td align="center"> @Html.DisplayNameFor(p=>p.CategoryTbl.CategoryName) </td>
+                    <td align="center"> @Html.DisplayNameFor(p=>p.Price) </td>
+                    <td align="center"> Actions</td>
+                </tr>
+            </thead>
+            @foreach(var temp in Model)
+            {
+                <tr>
+                    <td align="center"> @Html.DisplayFor(p=>@temp.ProductID) </td>
+                    <td align="center"> @Html.DisplayFor(p=>@temp.ProductName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.MfgName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.CategoryTbl.CategoryName) </td>
+                    <td align="center"> @Html.DisplayFor(p=>temp.Price) </td>
+                    <td align="center">
+                        @Html.ActionLink("Edit", "Edit", new { id=@temp.ProductID })
+                        @Html.ActionLink("Delete", "Delete", new { id=@temp.ProductID })
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
