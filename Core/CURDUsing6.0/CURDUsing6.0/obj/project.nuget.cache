@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LcudCaAMtygyKAu2m74+ns8tgoS8xchz/B70dNcQjC7K9hqdbJo3lxh3oJAHzzWUMQhCESXkN0/zXez9+2R9KA==",
+  "dgSpecHash": "b/DKN0dUIHo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ritesh\\source\\Practice WA\\CURDUsing6.0\\CURDUsing6.0\\CURDUsing6.0.csproj",
+  "projectFilePath": "C:\\Users\\Ritesh\\Assignments\\Core\\CURDUsing6.0\\CURDUsing6.0\\CURDUsing6.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ritesh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Ritesh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

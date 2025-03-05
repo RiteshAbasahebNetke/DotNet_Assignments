@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ritesh\\source\\Core\\CoreCurdEg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{817203D6-3199-4F8C-ACE2-F1D802945F58}|CoreCurdEg\\CoreCurdEg.csproj|c:\\users\\ritesh\\source\\core\\corecurdeg\\corecurdeg\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817203D6-3199-4F8C-ACE2-F1D802945F58}|CoreCurdEg\\CoreCurdEg.csproj|solutionrelative:corecurdeg\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817203D6-3199-4F8C-ACE2-F1D802945F58}|CoreCurdEg\\CoreCurdEg.csproj|c:\\users\\ritesh\\source\\core\\corecurdeg\\corecurdeg\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{817203D6-3199-4F8C-ACE2-F1D802945F58}|CoreCurdEg\\CoreCurdEg.csproj|solutionrelative:corecurdeg\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817203D6-3199-4F8C-ACE2-F1D802945F58}|CoreCurdEg\\CoreCurdEg.csproj|c:\\users\\ritesh\\source\\core\\corecurdeg\\corecurdeg\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{817203D6-3199-4F8C-ACE2-F1D802945F58}|CoreCurdEg\\CoreCurdEg.csproj|solutionrelative:corecurdeg\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817203D6-3199-4F8C-ACE2-F1D802945F58}|CoreCurdEg\\CoreCurdEg.csproj|c:\\users\\ritesh\\source\\core\\corecurdeg\\corecurdeg\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{817203D6-3199-4F8C-ACE2-F1D802945F58}|CoreCurdEg\\CoreCurdEg.csproj|solutionrelative:corecurdeg\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreCurdEg\\CoreCurdEg\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CoreCurdEg\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreCurdEg\\CoreCurdEg\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "CoreCurdEg\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T07:15:42.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreCurdEg\\CoreCurdEg\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "CoreCurdEg\\Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreCurdEg\\CoreCurdEg\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "CoreCurdEg\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwDYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T07:00:42.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreCurdEg\\CoreCurdEg\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoreCurdEg\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreCurdEg\\CoreCurdEg\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CoreCurdEg\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T06:08:38.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ritesh\\source\\Core\\CoreCurdEg\\CoreCurdEg\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CoreCurdEg\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ritesh\\source\\Core\\CoreCurdEg\\CoreCurdEg\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CoreCurdEg\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:08:30.073Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

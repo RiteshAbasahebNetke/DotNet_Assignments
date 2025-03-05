@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CURDUsing6.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5db8b3fed5ddeb89a9d1070608aef5b06a2ca89f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CURDUsing6.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CURDUsing6.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,55 @@
+﻿@model Customer
+
+<html>
+<head>
+    <title> Home-Edit </title>
+</head>
+<body>
+    <h2> Update Customer Details </h2>
+    <form asp-action="Edit" method="post">
+        <div>
+            <input type="hidden" asp-for="CustomerID"/>
+            <div>
+                <label asp-for="FirstName"></label>
+                <div>
+                    <input asp-for="FirstName" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="LastName"></label>
+                <div>
+                    <input asp-for="LastName" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="EmailID"></label>
+                <div>
+                    <input asp-for="EmailID" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="CreditLimit"></label>
+                <div>
+                    <input asp-for="CreditLimit" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Area.AreaName"></label>
+                <div>
+                    <select asp-for="AreaID" asp-items="@ViewBag.AreaID">
+                        <option> Select AreaName </option>
+                    </select>
+                </div>
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Update" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>

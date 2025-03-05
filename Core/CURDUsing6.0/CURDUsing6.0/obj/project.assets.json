@@ -3105,19 +3105,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ritesh\\.nuget\\packages\\": {}
+    "C:\\Users\\Ritesh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ritesh\\source\\Practice WA\\CURDUsing6.0\\CURDUsing6.0\\CURDUsing6.0.csproj",
+      "projectUniqueName": "C:\\Users\\Ritesh\\Assignments\\Core\\CURDUsing6.0\\CURDUsing6.0\\CURDUsing6.0.csproj",
       "projectName": "CURDUsing6.0",
-      "projectPath": "C:\\Users\\Ritesh\\source\\Practice WA\\CURDUsing6.0\\CURDUsing6.0\\CURDUsing6.0.csproj",
+      "projectPath": "C:\\Users\\Ritesh\\Assignments\\Core\\CURDUsing6.0\\CURDUsing6.0\\CURDUsing6.0.csproj",
       "packagesPath": "C:\\Users\\Ritesh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ritesh\\source\\Practice WA\\CURDUsing6.0\\CURDUsing6.0\\obj\\",
+      "outputPath": "C:\\Users\\Ritesh\\Assignments\\Core\\CURDUsing6.0\\CURDUsing6.0\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Ritesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3137,7 +3142,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net6.0": {
@@ -3185,7 +3196,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
