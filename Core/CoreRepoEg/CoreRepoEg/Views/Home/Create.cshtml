@@ -1,0 +1,54 @@
+﻿@model Customer
+
+<html>
+    <head>
+        <title> Home-Create </title>
+    </head>
+    <body>
+        <h2> Add Customer Info </h2>
+        <form asp-action="Create" method="post">
+
+            <div>
+                <label asp-for="CustomerName"></label>
+                <div>
+                    <input asp-for="CustomerName" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="EmailID"></label>
+                <div>
+                    <input asp-for="EmailID" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="MobileNo"></label>
+                <div>
+                    <input asp-for="MobileNo" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="CreditLimit"></label>
+                <div>
+                    <input asp-for="CreditLimit" />
+                </div>
+            </div>
+
+            <div>
+                <label> Area Name </label>
+                <div>
+                    <select asp-for="AreaID" asp-items="@ViewBag.AreaID">
+                        <option> Select AreaName </option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="Save" />
+            </div>
+
+        </form>
+    </body>
+</html>
