@@ -1,0 +1,34 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DomTraversal1</title>
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#head").next().css("background-color", "tomato")
+            $("#hod").nextAll().css("background-color", "skyblue")
+            $("#ho").prev().css("background-color", "orange")
+            $("#hi").nextUntil("h1").css("background-color","red")
+        })
+    </script>
+</head>
+<body>
+    <div> 
+        <h1 id="head"> First Heading </h1>
+        <p id="ho"> First heading content </p>
+        <h2 id="hi"> Second Heading </h2>
+        <p> Second heading content </p>
+        <h1> Third Heading </h1>
+        <p id="hod"> Third heading content </p>
+        <h2> Fourth Heading </h2>
+        <p> Fourth heading content </p>
+    </div>
+</body>
+</html>
