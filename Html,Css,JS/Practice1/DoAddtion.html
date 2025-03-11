@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<h2> Addition of Numbers </h2>
+	<title> Addition of Numbers </title>
+	<script type="text/javascript">
+		function DoAddition()
+		{
+		var fnum=parseInt(document.additionfrm.firstnumber.value);
+		var snum=parseInt(document.additionfrm.secondnumber.value);
+		var resnum=fnum+snum;
+		document.additionfrm.result.value=resnum;
+		alert(" Addition is:" + resnum);
+		}
+	</script>
+	</head>
+	<body style="text-align:center">
+		<form name="additionfrm">
+		First Number:<input type=text name="firstnumber"> <br> <br>
+		Second Number:<input type=text name="secondnumber"> <br> <br>
+		Result:<input type=text name="result"> <br> <br>
+		<input type=button onclick="DoAddition()" value="Addition">
+		</form>
+	</body>
+</html>
