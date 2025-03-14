@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\OperatorOverloadingEx\OperatorOverloadingEx\bin\Debug\OperatorOverloadingEx.exe.config
+C:\Users\Ritesh\source\Practice\OperatorOverloadingEx\OperatorOverloadingEx\bin\Debug\OperatorOverloadingEx.exe
+C:\Users\Ritesh\source\Practice\OperatorOverloadingEx\OperatorOverloadingEx\bin\Debug\OperatorOverloadingEx.pdb
+C:\Users\Ritesh\source\Practice\OperatorOverloadingEx\OperatorOverloadingEx\obj\Debug\OperatorOverloadingEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\OperatorOverloadingEx\OperatorOverloadingEx\obj\Debug\OperatorOverloadingEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\OperatorOverloadingEx\OperatorOverloadingEx\obj\Debug\OperatorOverloadingEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\OperatorOverloadingEx\OperatorOverloadingEx\obj\Debug\OperatorOverloadingEx.exe
+C:\Users\Ritesh\source\Practice\OperatorOverloadingEx\OperatorOverloadingEx\obj\Debug\OperatorOverloadingEx.pdb
