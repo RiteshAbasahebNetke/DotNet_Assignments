@@ -1,0 +1,8 @@
+C:\Users\Ritesh\source\Practice\3-11-2024\Get_Set_Prop_ProductEX\Get_Set_Prop_ProductEX\bin\Debug\Get_Set_Prop_ProductEX.exe.config
+C:\Users\Ritesh\source\Practice\3-11-2024\Get_Set_Prop_ProductEX\Get_Set_Prop_ProductEX\bin\Debug\Get_Set_Prop_ProductEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\Get_Set_Prop_ProductEX\Get_Set_Prop_ProductEX\bin\Debug\Get_Set_Prop_ProductEX.pdb
+C:\Users\Ritesh\source\Practice\3-11-2024\Get_Set_Prop_ProductEX\Get_Set_Prop_ProductEX\obj\Debug\Get_Set_Prop_ProductEX.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\Get_Set_Prop_ProductEX\Get_Set_Prop_ProductEX\obj\Debug\Get_Set_Prop_ProductEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\Get_Set_Prop_ProductEX\Get_Set_Prop_ProductEX\obj\Debug\Get_Set_Prop_ProductEX.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\3-11-2024\Get_Set_Prop_ProductEX\Get_Set_Prop_ProductEX\obj\Debug\Get_Set_Prop_ProductEX.exe
+C:\Users\Ritesh\source\Practice\3-11-2024\Get_Set_Prop_ProductEX\Get_Set_Prop_ProductEX\obj\Debug\Get_Set_Prop_ProductEX.pdb
