@@ -1,0 +1,60 @@
+﻿@model Customer
+
+<html>
+<head>
+    <title> Home-Edit </title>
+</head>
+<h2> Update Cusotmer Details </h2>
+<hr />
+<body>
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="CustomerID" />
+        <div>
+            <div>
+                <label asp-for="CustomerName"></label>
+                <div>
+                    <input asp-for="CustomerName" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Address"></label>
+                <div>
+                    <input asp-for="Address" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="EmailID"></label>
+                <div>
+                    <input asp-for="EmailID" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="CreditLimit"></label>
+                <div>
+                    <input asp-for="CreditLimit" />
+                </div>
+            </div>
+
+            <div>
+                <label asp-for="Area.AreaName"></label>
+                <div>
+                    <select asp-for="AreaID" asp-items="@ViewBag.AreaID">
+                        <option> Select Area </option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="Update" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}

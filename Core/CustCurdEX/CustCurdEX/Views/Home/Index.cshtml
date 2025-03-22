@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Customer>
+<html>
+<head>
+    <title> Home-Index </title>
+</head>
+<body>
+    <h2> Customer List </h2>
+    <hr />
+    <a asp-action="Create"> Create New </a>
+    <table border="1">
+        <tr>
+            <td>
+                <form asp-action="SearchByArea">
+                    Select Area:
+                    <select asp-for="AID" asp-items="@ViewBag.AreaID">
+                        <option value="0"> All </option>
+                    </select>
+                    <input type="submit" value="Search" />
+                </form>
+            </td>
+        </tr>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+                <td align="center"> Sr No </td>
+                <td align="center"> Customer Name </td>
+                <td align="center"> Address</td>
+                <td align="center"> Area </td>
+                <td align="center"> EmailID </td>
+                <td align="center"> Credit Limit </td>
+            </tr>
+        </thead>
+        <tbody>
+        @{
+            int SrNo = 1;
+        }
+        @foreach(var temp in Model)
+        {
+            <tr>
+                <td align="center"> @SrNo </td>
+                <td align="center"> @temp.CustomerName </td>
+                <td align="center"> @temp.Address </td>
+                <td align="center"> @temp.Area.AreaName </td>
+                <td align="center"> @temp.EmailID </td>
+                <td align="center"> @temp.CreditLimit </td>
+                <td align="center">
+                    <a asp-action="Edit" asp-route-id="@temp.CustomerID"> Edit </a>
+                    <a asp-action="Delete" asp-route-id="@temp.CustomerID"> Delete </a>
+                </td>   
+            </tr>  
+                SrNo++;
+        }
+        </tbody>
+        </table>
+    </body>
+</html>
