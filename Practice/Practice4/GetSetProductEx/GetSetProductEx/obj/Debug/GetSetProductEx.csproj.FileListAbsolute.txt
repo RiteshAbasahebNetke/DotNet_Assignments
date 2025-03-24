@@ -1,0 +1,7 @@
+C:\Users\Ritesh\source\Practice\Practice3\GetSetProductEx\GetSetProductEx\bin\Debug\GetSetProductEx.exe.config
+C:\Users\Ritesh\source\Practice\Practice3\GetSetProductEx\GetSetProductEx\bin\Debug\GetSetProductEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\GetSetProductEx\GetSetProductEx\bin\Debug\GetSetProductEx.pdb
+C:\Users\Ritesh\source\Practice\Practice3\GetSetProductEx\GetSetProductEx\obj\Debug\GetSetProductEx.csproj.AssemblyReference.cache
+C:\Users\Ritesh\source\Practice\Practice3\GetSetProductEx\GetSetProductEx\obj\Debug\GetSetProductEx.csproj.CoreCompileInputs.cache
+C:\Users\Ritesh\source\Practice\Practice3\GetSetProductEx\GetSetProductEx\obj\Debug\GetSetProductEx.exe
+C:\Users\Ritesh\source\Practice\Practice3\GetSetProductEx\GetSetProductEx\obj\Debug\GetSetProductEx.pdb
