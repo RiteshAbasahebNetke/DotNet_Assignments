@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ritesh\\source\\Core\\CustCurdEX\\CustCurdEX\\CustCurdEX.csproj": {}
+    "C:\\Users\\Ritesh\\Assignments\\Core\\CustCurdEX\\CustCurdEX\\CustCurdEX.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ritesh\\source\\Core\\CustCurdEX\\CustCurdEX\\CustCurdEX.csproj": {
+    "C:\\Users\\Ritesh\\Assignments\\Core\\CustCurdEX\\CustCurdEX\\CustCurdEX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ritesh\\source\\Core\\CustCurdEX\\CustCurdEX\\CustCurdEX.csproj",
+        "projectUniqueName": "C:\\Users\\Ritesh\\Assignments\\Core\\CustCurdEX\\CustCurdEX\\CustCurdEX.csproj",
         "projectName": "CustCurdEX",
-        "projectPath": "C:\\Users\\Ritesh\\source\\Core\\CustCurdEX\\CustCurdEX\\CustCurdEX.csproj",
+        "projectPath": "C:\\Users\\Ritesh\\Assignments\\Core\\CustCurdEX\\CustCurdEX\\CustCurdEX.csproj",
         "packagesPath": "C:\\Users\\Ritesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ritesh\\source\\Core\\CustCurdEX\\CustCurdEX\\obj\\",
+        "outputPath": "C:\\Users\\Ritesh\\Assignments\\Core\\CustCurdEX\\CustCurdEX\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

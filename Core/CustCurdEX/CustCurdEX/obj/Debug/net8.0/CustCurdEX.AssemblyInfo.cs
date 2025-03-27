@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustCurdEX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d59b931c2f4611e27a288fe35d2418a177f3c20")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustCurdEX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustCurdEX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
